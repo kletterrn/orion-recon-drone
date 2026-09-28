@@ -57,6 +57,8 @@ class ORD_AircraftComponent : ScriptComponent
  [RplProp()] protected float m_fObservedTime;
  int Classification() { return m_iClassification; }
  float ObservedTime() { return m_fObservedTime; }
+ [RplProp()] protected float m_fSensorSampleTime;
+ float SensorSampleTime() { return m_fSensorSampleTime; }
  // Presentation binding only: never used to accept targeting or flight commands.
  [RplProp()] protected RplId m_HUDTrackedId = RplId.Invalid();
  IEntity HUDTrackedEntity()
@@ -366,7 +368,7 @@ class ORD_AircraftComponent : ScriptComponent
   float length = direction.Length();
   if (!(length > 0.99 && length < 1.01)) return;
   direction = ORD_CameraMounts.Constrain(GetOwner(),direction);
-  m_vSensorDirection = direction;
+  m_vSensorDirection = direction; m_fSensorSampleTime=m_fClock;
   if (!designate) { Replication.BumpMe(); return; }
   TraceParam trace = new TraceParam();
   trace.Start = ORD_CameraMounts.SensorOrigin(GetOwner(),direction);
@@ -538,7 +540,7 @@ class ORD_AircraftComponent : ScriptComponent
   }
   else
   {
-   m_bTracking = false; m_bGroupTracking = false; m_aGroup.Clear(); m_iContactState = ORD_ContactState.LOST;
+   m_bTracking = false; m_iContactState = ORD_ContactState.LOST;
    Replication.BumpMe();
   }
  }

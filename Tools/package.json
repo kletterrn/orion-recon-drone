@@ -2,5 +2,10 @@
   "name": "orion-validation-tools",
   "private": true,
   "type": "module",
-  "dependencies": {"enfusion-mcp": "0.6.1"}
+  "dependencies": {
+    "enfusion-mcp": "0.6.1"
+  },
+  "overrides": {
+    "adm-zip": "0.6.1"
+  }
 }

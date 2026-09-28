@@ -14,6 +14,8 @@ class ORD_AircraftVisuals : ScriptGameComponent
  protected ref ORD_RC8Rig m_Rig;
  protected float m_fClock, m_fPropeller, m_fWheelNose, m_fWheelMain, m_fGear, m_fSmoothPower;
  protected bool m_bInitialized, m_bMoving;
+ protected float m_SensorStamp=-1, m_SensorAge, m_SensorInterval=0.1;
+ protected vector m_PreviousSensor, m_CurrentSensor;
  override void OnPostInit(IEntity owner) { super.OnPostInit(owner);SetEventMask(owner,EntityEvent.INIT | EntityEvent.FRAME); }
  override void EOnInit(IEntity owner)
  {
@@ -66,7 +68,21 @@ class ORD_AircraftVisuals : ScriptGameComponent
   vector direction="0 0 1";
   if(m_Aircraft.SensorMode())
   {
-   direction=LocalDirection(m_Aircraft.SensorDirection());
+   vector worldAim=m_Aircraft.SensorDirection();
+   if(!Replication.IsServer())
+   {
+    float stamp=m_Aircraft.SensorSampleTime();
+    if(stamp!=m_SensorStamp)
+    {
+     m_PreviousSensor=m_CurrentSensor; if(m_SensorStamp<0) m_PreviousSensor=worldAim;
+     m_CurrentSensor=worldAim; m_SensorInterval=Math.Clamp(stamp-m_SensorStamp,0.05,0.2);
+     m_SensorStamp=stamp; m_SensorAge=0;
+    }
+    m_SensorAge+=timeSlice;
+    worldAim=m_PreviousSensor+(m_CurrentSensor-m_PreviousSensor)*Math.Clamp(m_SensorAge/m_SensorInterval,0,1);
+    worldAim.Normalize();
+   }
+   direction=LocalDirection(worldAim);
   }
   AimLocal(direction);
   bool moving=m_fGear>0.0001 && m_fGear<0.9999;

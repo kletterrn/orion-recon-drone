@@ -1,6 +1,6 @@
 # Orion-E Reconnaissance Drone
 
-Arma Reforger 1.8.0.13 source project and **1.0.0-rc8 development candidate**. Publication is excluded. See [VALIDATION_RC8.md](VALIDATION_RC8.md) for observed results and acceptance gaps; a successful compile is not gameplay acceptance.
+Arma Reforger 1.8.0.13 source project and **1.0.0-rc9-dev development candidate**. Publication is excluded. See [Docs/ACCEPTANCE.md](Docs/ACCEPTANCE.md) for current results and blockers; historical RC8 evidence remains in VALIDATION_RC8.md. a successful compile is not gameplay acceptance.
 
 ## Installation
 
@@ -30,11 +30,11 @@ Extract the packed candidate into a separate addon folder outside this source wo
 
 Takeoff and landing remain manual. Switching to sensor mode enables hold when necessary; it does not take off automatically. Link loss or operator death safes weapons and retains return-home behavior.
 
-The sensor view uses a transparent, white Orion-inspired reconnaissance HUD with live flight and camera readings. This is a game interface, not an authenticated real-world replica. Visible people and vehicles receive corner brackets and stable local P-/V- identifiers; the actual selected vehicle/person gets stronger brackets. CONTACTS counts the currently presented contacts (up to eight). B toggles brackets. Occluded and dead contacts are excluded; coasting and lost tracks are explicitly labeled. Existing group tracking remains available, with individually visible members displayed rather than a guessed group perimeter.
+The sensor view uses a transparent, white Orion-inspired reconnaissance HUD with live flight and camera readings. This is a game interface, not an authenticated real-world replica. Qualifying observations receive stable local C- identifiers after two seconds. Vehicle/person classification requires four/six seconds and sufficient optical detail; the actual selected vehicle/person gets stronger brackets. CONTACTS counts the currently presented contacts (up to eight). B toggles brackets. Occluded and dead contacts are excluded; coasting and lost tracks are explicitly labeled. Existing group tracking remains available, with individually visible members displayed rather than a guessed group perimeter.
 
 GS is horizontal velocity; ASL is world height minus the engine's ocean reference; AGL is terrain clearance. Azimuth and heading use the native map's positive-Z north / positive-X east grid convention. SIM is elapsed world simulation time. OBS GRID and GEO RNG always describe the present camera-axis surface hit, including an intervening obstruction, and show -- for a sky/no-hit view. Coordinates use the native map converter at one-metre resolution; they are not latitude/longitude. The aircraft's scenario entity name is displayed where present. OVERWATCH labels the existing automatic orbit/hold mode; ROUTE, RETURN HOME and MANUAL remain separate.
 
-Point/vehicle tracking intentionally turns the camera to hold the target; manual aim releases tracking. Free aim consumes each mouse delta once. The pilot display, terrain map, controls and flight behavior are unchanged by this HUD update.
+Point/vehicle tracking intentionally turns the camera to hold the target; manual aim releases tracking. Free aim consumes each mouse delta once. Point-lock geometry resolves after physics; manual aim uses short damping and zoom-scaled sensitivity. The sensor distinguishes requested aim from its mechanical limits. See Docs/THERMAL.md for the thermal simulation profile.
 
 ## Mission map
 

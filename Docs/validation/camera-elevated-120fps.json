@@ -1,0 +1,16 @@
+{
+  "enteredGame": true,
+  "scriptErrors": [],
+  "observations": [
+    "20:52:36.076   SCRIPT       : ORD_TEST_PASS stationary_point_lock rms=4.47292e-05 peak=0.000163828 samples=1201 zoom=1",
+    "20:52:48.072   SCRIPT       : ORD_TEST_PASS stationary_point_lock rms=0.000236003 peak=0.00102392 samples=1202 zoom=5",
+    "20:53:00.071   SCRIPT       : ORD_TEST_PASS stationary_point_lock rms=0.000926782 peak=0.00327656 samples=1201 zoom=20",
+    "20:53:12.072   SCRIPT       : ORD_TEST_PASS stationary_point_lock rms=0.00187157 peak=0.00655312 samples=1201 zoom=40"
+  ],
+  "fpsLimit": 120,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "durationSeconds": 80
+}

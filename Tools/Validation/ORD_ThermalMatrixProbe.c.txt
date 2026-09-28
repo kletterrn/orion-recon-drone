@@ -1,0 +1,51 @@
+// Controlled rendered scene. Scripted fixture, not physical-input acceptance.
+modded class ORD_TerminalComponent
+{
+ protected int m_ThermalPhase;
+ protected int m_CaptureStep=-1;
+ override void EOnFrame(IEntity owner,float timeSlice)
+ {
+  super.EOnFrame(owner,timeSlice);
+  if(!m_bActive || !m_Drone || m_bPilot) return;
+  IEntity aircraft=m_Drone.GetOwner();
+  aircraft.SetOrigin("4770 240 11240"); aircraft.SetAngles(vector.Zero);
+  aircraft.GetPhysics().SetVelocity(vector.Zero); aircraft.GetPhysics().SetAngularVelocity(vector.Zero);
+  m_fYaw=0; m_fPitch=-20; m_fZoom=3;
+  if(m_ThermalPhase==0 && m_fFeedTime>5)
+  {
+   EntitySpawnParams spawn=new EntitySpawnParams(); spawn.TransformMode=ETransformMode.WORLD; Math3D.MatrixIdentity4(spawn.Transform);
+   spawn.Transform[3]=Vector(4770,owner.GetWorld().GetSurfaceY(4770,11840)+1,11840);
+   GetGame().SpawnEntityPrefab(Resource.Load("Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et"),owner.GetWorld(),spawn);
+   m_ThermalPhase++;
+  }
+  if(m_ThermalPhase<1 || m_fFeedTime<8) return;
+  int step=(m_fFeedTime-8)/4;
+  if(step==m_CaptureStep || step>27) return;
+  if(step==27)
+  {
+   System.MakeScreenshot("$profile:MATRIX_26"); Print("ORD_TEST_DONE thermal-matrix"); m_CaptureStep=step; return;
+  }
+  ChimeraWorld world=owner.GetWorld();
+  TimeAndWeatherManagerEntity weather=world.GetTimeAndWeatherManager();
+  if(!weather) { Print("ORD_TEST_FAIL weather-manager"); return; }
+  if(m_CaptureStep>=0)
+  {
+   string label=string.Format("$profile:MATRIX_%1",m_CaptureStep);
+   System.MakeScreenshot(label);
+   Print(string.Format("ORD_TEST_CAPTURE matrix=%1 sensor=%2 rain=%3 fog=%4 hour=%5",m_CaptureStep,m_iAppliedSensor,weather.GetRainIntensity(),weather.GetFogAmount(),weather.GetTimeOfTheDay()));
+  }
+  m_CaptureStep=step;
+  int scene=step/3, mode=step%3;
+  int sky=scene/3, timeOfDay=scene%3;
+  if(mode==0)
+  {
+   if(sky==1) weather.ForceWeatherTo(false,"Rainy"); else weather.ForceWeatherTo(false,"Clear");
+   float fog=0; if(sky==2) fog=0.8;
+   weather.SetFogAmountOverride(true,fog);
+   float hour=12; if(timeOfDay==0) { if(!weather.GetSunriseHour(hour)) hour=6; }
+   if(timeOfDay==2) hour=0;
+   weather.SetTimeOfTheDay(hour,true);
+  }
+  m_iSensor=mode;
+ }
+}

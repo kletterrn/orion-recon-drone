@@ -16,6 +16,8 @@ p.add_argument('--height', type=int, default=1080)
 a = p.parse_args()
 cfg = json.loads((root/'local.build.json').read_text())
 build = Path(a.build).resolve()
+if not (build/'packed/ReconDrones.gproj').is_file() or not (build/'packed/data.pak').is_file():
+    raise SystemExit('Build the packed addon successfully before running it')
 profile = build / f'game-{a.fps}-{a.width}x{a.height}'
 if profile.exists():
     raise SystemExit('Use a fresh build/profile for each evidence run')

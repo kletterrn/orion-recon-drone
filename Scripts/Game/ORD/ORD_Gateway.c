@@ -63,6 +63,27 @@ modded class SCR_PlayerController
   if (Replication.IsServer()) { ORD_AircraftComponent aircraft = ORD_Local(drone); if (aircraft) aircraft.Aim(GetPlayerId(), direction, designated); }
   else Rpc(ORD_AimRPC, ORD_Id(drone), direction, designated);
  }
+ void ORD_Optics(IEntity drone, vector direction, float zoom, float aspect, int channel, int sequence, bool designate = false)
+ {
+  if (this != SCR_PlayerController.Cast(GetGame().GetPlayerController())) return;
+  if (Replication.IsServer()) { ORD_AircraftComponent aircraft=ORD_Local(drone); if(aircraft) aircraft.Optics(GetPlayerId(),direction,zoom,aspect,channel,sequence,designate); }
+  else if(designate) Rpc(ORD_LockOpticsRPC,ORD_Id(drone),direction,zoom,aspect,channel,sequence);
+  else Rpc(ORD_OpticsRPC,ORD_Id(drone),direction,zoom,aspect,channel,sequence);
+ }
+ [RplRpc(RplChannel.Unreliable, RplRcver.Server)]
+ protected void ORD_OpticsRPC(RplId id, vector direction, float zoom, float aspect, int channel, int sequence)
+ {
+  ORD_AircraftComponent aircraft=ORD_Find(id); if(!aircraft)return;
+  float now=GetGame().GetWorld().GetWorldTime(); if(now-m_fORDLastAim<80)return; m_fORDLastAim=now;
+  aircraft.Optics(GetPlayerId(),direction,zoom,aspect,channel,sequence,false);
+ }
+ [RplRpc(RplChannel.Reliable, RplRcver.Server)]
+ protected void ORD_LockOpticsRPC(RplId id, vector direction, float zoom, float aspect, int channel, int sequence)
+ {
+  ORD_AircraftComponent aircraft=ORD_Find(id); if(!aircraft)return;
+  float now=GetGame().GetWorld().GetWorldTime(); if(now-m_fORDLastLock<80)return; m_fORDLastLock=now;
+  aircraft.Optics(GetPlayerId(),direction,zoom,aspect,channel,sequence,true);
+ }
  void ORD_LockPoint(IEntity drone, vector direction)
  {
   if (this != SCR_PlayerController.Cast(GetGame().GetPlayerController())) return;

@@ -1,7 +1,7 @@
 enum ORD_TargetMode { SENSOR_POINT, VEHICLE, MAP_POINT }
 // Server-owned aircraft and mission state. Client commands arrive via ORD_Gateway.
 enum ORD_Command { CLAIM, RELEASE, HEARTBEAT, SENSOR, PILOT, LOITER, PATROL, RETURN_HOME, HOLD, ENGINE, TRACK, CLEAR_TRACK, QUEUE_POINT, CLEAR_ROUTE, SERVICE, ALT_UP, ALT_DOWN, SPEED_UP, SPEED_DOWN, RADIUS_UP, RADIUS_DOWN, GROUP_TRACK, ARM, FIRE, RESUME_ROUTE }
-enum ORD_ContactState { NONE, POINT, ENTITY, TEMP_LOSS, LOST, GROUP }
+enum ORD_ContactState { NONE, POINT, ENTITY, TEMP_LOSS, LOST, GROUP, ACQUIRING }
 enum ORD_FireStatus { READY, SAFED, EMPTY, NO_SENSOR, GROUND, NO_TARGET, RANGE, COOLDOWN, RESOURCE, FIRED }
 
 class ORD_GroupMember
@@ -9,6 +9,7 @@ class ORD_GroupMember
  IEntity Entity;
  vector Observed;
  float LastSeen;
+ ref ORD_ObservationEvidence Evidence = new ORD_ObservationEvidence();
 }
 
 class ORD_AircraftComponentClass : ScriptComponentClass {}
@@ -48,6 +49,14 @@ class ORD_AircraftComponent : ScriptComponent
  [RplProp()] protected float m_fTargetRadius = 450;
  [RplProp()] protected int m_iRouteCount;
  protected IEntity m_Terminal, m_TrackedEntity;
+ protected ref ORD_ObservationEvidence m_TrackEvidence = new ORD_ObservationEvidence();
+ protected bool m_bTrackRequested;
+ protected float m_fSensorZoom = 1, m_fSensorAspect = 1.77778, m_fOpticsTime = -100, m_fObservationNext, m_fAcquireStart;
+ protected int m_iSensorChannel, m_iOpticsSequence = -1;
+ [RplProp()] protected int m_iClassification;
+ [RplProp()] protected float m_fObservedTime;
+ int Classification() { return m_iClassification; }
+ float ObservedTime() { return m_fObservedTime; }
  // Presentation binding only: never used to accept targeting or flight commands.
  [RplProp()] protected RplId m_HUDTrackedId = RplId.Invalid();
  IEntity HUDTrackedEntity()
@@ -272,7 +281,7 @@ class ORD_AircraftComponent : ScriptComponent
    if (m_iOperator != 0 || !terminal || !terminal.FindComponent(ORD_TerminalComponent)) return;
    m_iOperator = id; m_Terminal = terminal;
    if (!ValidLink(id)) { m_iOperator = 0; m_Terminal = null; return; }
-   m_fHeartbeat = m_fClock; m_fInputTime = m_fClock; Replication.BumpMe(); return;
+   m_iOpticsSequence=-1; m_fOpticsTime=-100; m_fHeartbeat = m_fClock; m_fInputTime = m_fClock; Replication.BumpMe(); return;
   }
   if (id != m_iOperator || id <= 0) return;
   if (command == ORD_Command.RELEASE) { LoseLink(); return; }
@@ -309,7 +318,7 @@ class ORD_AircraftComponent : ScriptComponent
    case ORD_Command.FIRE: FireBanderol(); break;
    case ORD_Command.TRACK:
     if (m_bSensorMode && m_TrackedEntity && m_bDesignated && m_iContactState == ORD_ContactState.POINT)
-    { m_bTracking = true; m_iContactState = ORD_ContactState.ENTITY; m_fLastObserved = m_fClock; }
+    { m_bTrackRequested=true; m_fAcquireStart=m_fClock; m_iContactState=ORD_ContactState.ACQUIRING; m_fLastObserved=m_fClock; }
     break;
    case ORD_Command.GROUP_TRACK: if (m_bSensorMode) StartGroupTrack(); break;
    case ORD_Command.CLEAR_TRACK: ClearContact(); break;
@@ -340,6 +349,14 @@ class ORD_AircraftComponent : ScriptComponent
   if (m_bAuto) { m_bAuto = false; m_bReturnHome = false; Replication.BumpMe(); }
   Pitch = pitch * 0.7; Roll = roll; Yaw = yaw; Throttle = throttle; Brake = brake;
   m_fInputTime = m_fClock;
+ }
+ void Optics(int id, vector direction, float zoom, float aspect, int channel, int sequence, bool designate)
+ {
+  if(!Replication.IsServer() || !ValidLink(id) || !m_bSensorMode || sequence<=m_iOpticsSequence)return;
+  if(!(zoom>=1 && zoom<=40 && aspect>=0.5 && aspect<=4 && channel>=0 && channel<=2))return;
+  float length=direction.Length(); if(!(length>0.99 && length<1.01))return;
+  m_iOpticsSequence=sequence; m_fOpticsTime=m_fClock; m_fSensorZoom=zoom; m_fSensorAspect=aspect; m_iSensorChannel=channel;
+  Aim(id,direction,designate);
  }
  void Aim(int id, vector direction, bool designate)
  {
@@ -432,7 +449,8 @@ class ORD_AircraftComponent : ScriptComponent
  }
  protected void ClearContact()
  {
-  m_bDesignated = false; m_bTracking = false; m_bGroupTracking = false; m_TrackedEntity = null; m_iContactState = ORD_ContactState.NONE;
+  m_bDesignated = false; m_bTracking = false; m_bTrackRequested=false; m_bGroupTracking = false; m_TrackedEntity = null; m_iContactState = ORD_ContactState.NONE;
+  m_TrackEvidence=new ORD_ObservationEvidence(); m_iClassification=0;
   m_HUDTrackedId = RplId.Invalid();
   m_aGroup.Clear(); m_aGroupCandidates.Clear(); m_fGroupSpan = 0;
  }
@@ -452,7 +470,7 @@ class ORD_AircraftComponent : ScriptComponent
  }
  protected void StartGroupTrack()
  {
-  if (!m_bDesignated || !m_TrackedEntity || !ChimeraCharacter.Cast(m_TrackedEntity)) return;
+  if (!m_bDesignated || !m_TrackedEntity || !ChimeraCharacter.Cast(m_TrackedEntity) || !m_TrackEvidence.Classified) return;
   vector start = ORD_CameraMounts.SensorOrigin(GetOwner(),m_vSensorDirection);
   m_aGroupCandidates.Clear();
   GetOwner().GetWorld().QueryEntitiesBySphere(m_TrackedEntity.GetOrigin(), 45, CollectGroupCandidate, null, EQueryEntitiesFlags.DYNAMIC);
@@ -472,7 +490,7 @@ class ORD_AircraftComponent : ScriptComponent
   center = center / m_aGroup.Count();
   m_fGroupSpan = 1;
   foreach (ORD_GroupMember member : m_aGroup) m_fGroupSpan = Math.Max(m_fGroupSpan, vector.Distance(center, member.Observed));
-  m_vTarget = center; m_bGroupTracking = true; m_bTracking = true; m_iContactState = ORD_ContactState.GROUP;
+  m_bGroupTracking = true; m_bTrackRequested=true; m_bTracking = false; m_iContactState = ORD_ContactState.ACQUIRING; m_fAcquireStart=m_fClock;
   m_fLastObserved = m_fClock; m_fNextGroupScan = m_fClock + 0.2;
  }
  protected void UpdateGroupTrack()
@@ -486,7 +504,10 @@ class ORD_AircraftComponent : ScriptComponent
   {
    if (!member || !ContactAlive(member.Entity)) continue;
    vector point = member.Entity.GetOrigin() + Vector(0, 0.9, 0);
-   if (vector.Distance(start, point) > m_fSensorRange || vector.Distance(point, m_vTarget) > 80 || !ObservationVisible(start, point, member.Entity)) continue;
+   bool classEligible;
+   bool visible=m_fClock-m_fOpticsTime<0.5 && m_bSensorMode && vector.Distance(point,m_vTarget)<=80 && ORD_ObservationPolicy.Observe(GetOwner(),member.Entity,m_vSensorDirection,m_fSensorZoom,m_fSensorAspect,m_iSensorChannel,m_fSensorRange,classEligible);
+   member.Evidence.Sample(m_fClock,visible,classEligible,true,ORD_ObservationPolicy.Quality(GetOwner().GetWorld(),m_iSensorChannel));
+   if(!visible || !member.Evidence.Acquired)continue;
    member.Observed = point; member.LastSeen = m_fClock;
    center += point; observedCount++;
   }
@@ -498,9 +519,10 @@ class ORD_AircraftComponent : ScriptComponent
    {
     if (member && m_fClock - member.LastSeen < 0.5) m_fGroupSpan = Math.Max(m_fGroupSpan, vector.Distance(center, member.Observed));
    }
-   m_vTarget = center; m_fLastObserved = m_fClock; m_bDesignated = true;
+   m_vTarget = center; m_fLastObserved = m_fClock; m_fObservedTime=m_fClock; m_bDesignated = true; m_bTracking=true;
    if (m_iContactState != ORD_ContactState.GROUP) { m_iContactState = ORD_ContactState.GROUP; Replication.BumpMe(); }
   }
+  else if(m_iContactState==ORD_ContactState.ACQUIRING && m_fClock-m_fAcquireStart<15) return;
   else if (m_fClock - m_fLastObserved < 2)
   {
    if (m_iContactState != ORD_ContactState.TEMP_LOSS) { m_iContactState = ORD_ContactState.TEMP_LOSS; Replication.BumpMe(); }
@@ -513,46 +535,34 @@ class ORD_AircraftComponent : ScriptComponent
  }
  protected bool ObservationVisible(vector start, vector goal, IEntity contact)
  {
-  TraceParam trace = new TraceParam();
-  trace.Start = start; trace.End = goal; trace.Flags = TraceFlags.WORLD | TraceFlags.ENTS; trace.Exclude = GetOwner();
-  float hit = GetOwner().GetWorld().TraceMove(trace, null);
-  if (hit >= 0.98) return true;
-  IEntity hitEntity = trace.TraceEnt;
-  for (int i = 0; i < 4 && hitEntity; i++)
-  {
-   if (hitEntity == contact) return true;
-   hitEntity = hitEntity.GetParent();
-  }
-  return false;
+  return ORD_ObservationPolicy.Visible(GetOwner(),start,goal,contact);
  }
  protected void UpdateTrack()
  {
-  if (!m_bTracking) return;
-  if (m_bGroupTracking) { UpdateGroupTrack(); return; }
-  vector start = ORD_CameraMounts.SensorOrigin(GetOwner(),m_vSensorDirection);
-  bool visible;
-  vector goal;
-  if (ContactAlive(m_TrackedEntity))
+  if(m_bGroupTracking) { UpdateGroupTrack(); return; }
+  if(!m_TrackedEntity || !m_bDesignated || m_fClock<m_fObservationNext)return;
+  m_fObservationNext=m_fClock+0.1;
+  bool classEligible;
+  bool visible=m_bSensorMode && m_fClock-m_fOpticsTime<0.5 && ORD_ObservationPolicy.Observe(GetOwner(),m_TrackedEntity,m_vSensorDirection,m_fSensorZoom,m_fSensorAspect,m_iSensorChannel,m_fSensorRange,classEligible);
+  m_TrackEvidence.Sample(m_fClock,visible,classEligible,ChimeraCharacter.Cast(m_TrackedEntity)!=null,ORD_ObservationPolicy.Quality(GetOwner().GetWorld(),m_iSensorChannel));
+  int kind=0;
+  if(m_TrackEvidence.Classified) { kind=2; if(ChimeraCharacter.Cast(m_TrackedEntity))kind=1; }
+  if(kind!=m_iClassification) { m_iClassification=kind; Replication.BumpMe(); }
+  if(!m_bTrackRequested)return;
+  if(visible && m_TrackEvidence.Acquired)
   {
-   goal = m_TrackedEntity.GetOrigin();
-   if (ChimeraCharacter.Cast(m_TrackedEntity)) goal[1] = goal[1] + 0.9;
-   visible = vector.Distance(start, goal) <= m_fSensorRange && ObservationVisible(start, goal, m_TrackedEntity);
+   m_vTarget=ORD_ObservationPolicy.Point(m_TrackedEntity); m_fLastObserved=m_fClock; m_fObservedTime=m_fClock;
+   m_bTracking=true; m_iContactState=ORD_ContactState.ENTITY; m_HUDTrackedId=SCR_PlayerController.ORD_Id(m_TrackedEntity);
+   Replication.BumpMe(); return;
   }
-  if (visible)
+  if(m_iContactState==ORD_ContactState.ACQUIRING)
   {
-   m_vTarget = goal; m_fLastObserved = m_fClock; m_bDesignated = true;
-   if (m_iContactState != ORD_ContactState.ENTITY) { m_iContactState = ORD_ContactState.ENTITY; Replication.BumpMe(); }
+   if(m_fClock-m_fAcquireStart>15)ClearContact();
+   return;
   }
-  else if (m_fClock - m_fLastObserved < 2)
-  {
-   if (m_iContactState != ORD_ContactState.TEMP_LOSS) { m_iContactState = ORD_ContactState.TEMP_LOSS; Replication.BumpMe(); }
-  }
-  else
-  {
-   m_bTracking = false; m_TrackedEntity = null; m_iContactState = ORD_ContactState.LOST;
-   m_HUDTrackedId = RplId.Invalid();
-   Replication.BumpMe();
-  }
+  m_iContactState=ORD_ContactState.TEMP_LOSS;
+  if(m_fClock-m_fLastObserved>=2) { m_bTracking=false; m_iContactState=ORD_ContactState.LOST; m_HUDTrackedId=RplId.Invalid(); }
+  Replication.BumpMe();
  }
  void Simulate(float dt)
  {

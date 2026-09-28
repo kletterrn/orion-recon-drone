@@ -45,7 +45,7 @@ def check():
     print(f'PASS: {len(paths)} nonempty runtime resources; LFS materialized; required scenario/audio/camera resources present')
 
 
-def build(output):
+def build(output, fixtures):
     out = Path(output).resolve()
     if out == ROOT or ROOT in out.parents or (out.exists() and any(out.iterdir())):
         raise SystemExit('Use a new empty build directory outside the addon tree')
@@ -60,6 +60,14 @@ def build(output):
         shutil.copy2(source, dest)
         manifest.append({'path': name.as_posix(), 'sha256': digest(source)})
     (out / 'manifest.json').write_text(json.dumps(manifest, indent=2))
+    for fixture in fixtures:
+        source = Path(fixture).resolve()
+        if not source.name.endswith('.c.txt'):
+            raise SystemExit('Fixture must be a source-only .c.txt file')
+        dest = stage / 'Scripts/Game/ORD' / source.name[:-4]
+        shutil.copy2(source, dest)
+    if fixtures:
+        (out / 'TEST_ONLY.txt').write_text('Contains test fixtures. Never distribute as the addon release.\n')
     command = [config['workbench'], '-gproj', (stage / 'ReconDrones.gproj').as_posix(),
                '-addonsDir', config['addons'], '-profile', (out / 'profile').as_posix(),
                '-wbModule=ResourceManager', '-packAddon', '-packAddonDir', (out / 'packed').as_posix()]
@@ -93,9 +101,10 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('action', choices=['check', 'build'])
     parser.add_argument('--output')
+    parser.add_argument('--fixture', action='append', default=[])
     args = parser.parse_args()
     check()
     if args.action == 'build':
         if not args.output:
             parser.error('build requires --output')
-        build(args.output)
+        build(args.output, args.fixture)

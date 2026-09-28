@@ -38,6 +38,10 @@ class ORD_TerminalComponent : ScriptComponent
  protected float m_fContactScan, m_fContactCos;
  protected vector m_vContactOrigin, m_vContactForward;
  protected ref array<IEntity> m_aContactCandidates = {};
+ protected ref array<float> m_ContactScores = {};
+ protected ref array<ref ORD_LocalObservation> m_Observations = {};
+ protected float m_ContactAspect = 1.77778;
+ protected int m_ContactCursor, m_OpticsSequence;
  protected ref array<Widget> m_aContactWidgets = {};
  protected ref array<Widget> m_aMapWidgets = {};
  protected ref array<vector> m_aMapPoints = {};
@@ -205,7 +209,7 @@ class ORD_TerminalComponent : ScriptComponent
   m_SensorHUD = null;
   foreach (Widget contactWidget : m_aContactWidgets) if (contactWidget) contactWidget.RemoveFromHierarchy();
   foreach (Widget mapWidget : m_aMapWidgets) if (mapWidget) mapWidget.RemoveFromHierarchy();
-  m_aContactWidgets.Clear(); m_aContactCandidates.Clear();
+  m_aContactWidgets.Clear(); m_aContactCandidates.Clear(); m_Observations.Clear(); m_ContactScores.Clear();
   m_aMapWidgets.Clear(); m_aMapPoints.Clear();
   m_Camera = null; m_HUD = null; m_Drone = null;
   m_TopLeft = null; m_HeadingTape = null; m_TopRight = null; m_PitchValue = null; m_ZoomReadout = null;
@@ -398,14 +402,14 @@ class ORD_TerminalComponent : ScriptComponent
   if (m_HUD) m_HUD.SetVisible(m_bPilot);
   if (m_SensorHUD) m_SensorHUD.SetVisible(!m_bPilot);
   m_fContactScan += timeSlice;
-  if (m_bPilot || m_bMap || !m_bBoxesEnabled) HideContacts();
+  if (m_bPilot || m_bMap) { HideContacts(); m_Observations.Clear(); }
   else if (m_fContactScan >= 0.1) { m_fContactScan = 0; UpdateContacts(horizontalFOV, aspect); }
 
   m_fSend += timeSlice;
   if (m_fSend >= 0.1)
   {
    m_fSend = 0;
-   if (!m_bPilot) player.ORD_Sensor(drone, m_Camera.GetTransformAxis(2), false);
+   if (!m_bPilot) player.ORD_Optics(drone,m_Camera.GetTransformAxis(2),m_fZoom,aspect,m_iSensor,++m_OpticsSequence);
    float pitchInput = input.GetActionValue("ORD_Pitch");
    float rollInput = input.GetActionValue("ORD_Roll");
    float yawInput = input.GetActionValue("ORD_Yaw");
@@ -513,26 +517,32 @@ class ORD_TerminalComponent : ScriptComponent
  }
  protected bool CollectContact(IEntity entity)
  {
-  if (!entity || entity == m_Drone.GetOwner()) return true;
-  if (!ChimeraCharacter.Cast(entity) && !Vehicle.Cast(entity)) return true;
-  if (ChimeraCharacter.Cast(entity))
-  {
-   IEntity parent = entity.GetParent();
-   for (int parentIndex = 0; parentIndex < 4 && parent; parentIndex++)
-   {
-    if (Vehicle.Cast(parent)) return true;
-    parent = parent.GetParent();
-   }
-  }
-  SCR_CharacterControllerComponent character = SCR_CharacterControllerComponent.Cast(entity.FindComponent(SCR_CharacterControllerComponent));
-  if (character && character.IsDead()) return true;
-  SCR_DamageManagerComponent damage = SCR_DamageManagerComponent.Cast(entity.FindComponent(SCR_DamageManagerComponent));
-  if (damage && damage.IsDestroyed()) return true;
-  vector offset = entity.GetOrigin() - m_vContactOrigin;
+  if (!ORD_ObservationPolicy.Alive(entity) || entity == m_Drone.GetOwner()) return true;
+  vector offset = ORD_ObservationPolicy.Point(entity) - m_vContactOrigin;
   float distance = offset.Length();
-  if (distance > 1 && distance <= m_Drone.SensorRange() && vector.Dot(offset / distance, m_vContactForward) >= m_fContactCos)
-   m_aContactCandidates.Insert(entity);
-  return m_aContactCandidates.Count() < 48;
+  if (distance <= 1 || distance > m_Drone.SensorRange()) return true;
+  float shortSide, longSide;
+  if (!ORD_ObservationPolicy.Measure(entity,m_vContactOrigin,m_vContactForward,m_fZoom,m_ContactAspect,m_iSensor,shortSide,longSide)) return true;
+  if (shortSide < 2 || longSide < 4) return true;
+  float score = (1-vector.Dot(offset/distance,m_vContactForward))*100 + distance/m_Drone.SensorRange();
+  if (entity == m_Drone.HUDTrackedEntity()) score = -1;
+  int index = 0;
+  while (index < m_ContactScores.Count() && m_ContactScores[index] <= score) index++;
+  if (index >= 96) return true;
+  m_ContactScores.InsertAt(score,index); m_aContactCandidates.InsertAt(entity,index);
+  if (m_aContactCandidates.Count() > 96) { m_aContactCandidates.Remove(96); m_ContactScores.Remove(96); }
+  return true;
+ }
+ protected ORD_LocalObservation LocalObservation(IEntity entity, float now)
+ {
+  for (int i=m_Observations.Count()-1;i>=0;i--)
+  {
+   if (!m_Observations[i].Entity || now-m_Observations[i].LastCandidate>30) { m_Observations.Remove(i); continue; }
+   if (m_Observations[i].Entity == entity) { m_Observations[i].LastCandidate=now; return m_Observations[i]; }
+  }
+  if (m_Observations.Count()>=128) m_Observations.Remove(0);
+  ORD_LocalObservation result=new ORD_LocalObservation(); result.Entity=entity; result.LastCandidate=now;
+  m_Observations.Insert(result); return result;
  }
  protected void HideContacts()
  {
@@ -541,18 +551,7 @@ class ORD_TerminalComponent : ScriptComponent
  }
  protected bool ContactVisible(vector point, IEntity entity)
  {
-  TraceParam trace = new TraceParam();
-  trace.Start = m_vContactOrigin; trace.End = point;
-  trace.Flags = TraceFlags.WORLD | TraceFlags.ENTS; trace.Exclude = m_Drone.GetOwner();
-  float hit = m_Drone.GetOwner().GetWorld().TraceMove(trace, null);
-  if (hit >= 0.98) return true;
-  IEntity hitEntity = trace.TraceEnt;
-  for (int i = 0; i < 4 && hitEntity; i++)
-  {
-   if (hitEntity == entity) return true;
-   hitEntity = hitEntity.GetParent();
-  }
-  return false;
+  return ORD_ObservationPolicy.Visible(m_Drone.GetOwner(),m_vContactOrigin,point,entity);
  }
  protected void ShowContact(int index, vector point, float halfWidth, float halfHeight, string label)
  {
@@ -570,26 +569,39 @@ class ORD_TerminalComponent : ScriptComponent
  }
  protected void UpdateContacts(float horizontalFOV, float aspect)
  {
-  HideContacts();
   if (!m_SensorHUD) return;
-  m_SensorHUD.BeginScan();
-  m_aContactCandidates.Clear();
-  m_vContactOrigin = m_Camera.GetOrigin();
-  m_vContactForward = m_Camera.GetTransformAxis(2);
-  m_fContactCos = Math.Cos(horizontalFOV * Math.DEG2RAD * 0.5);
-  BaseWorld world = m_Drone.GetOwner().GetWorld();
-  world.QueryEntitiesBySphere(m_vContactOrigin, m_Drone.SensorRange(), CollectContact, null, EQueryEntitiesFlags.DYNAMIC);
-  foreach (IEntity candidate : m_aContactCandidates)
+  m_SensorHUD.BeginScan(); m_aContactCandidates.Clear(); m_ContactScores.Clear();
+  m_vContactOrigin=m_Camera.GetOrigin(); m_vContactForward=m_Camera.GetTransformAxis(2); m_ContactAspect=aspect;
+  BaseWorld world=m_Drone.GetOwner().GetWorld();
+  float now=world.GetWorldTime()*0.001;
+  world.QueryEntitiesBySphere(m_vContactOrigin,m_Drone.SensorRange(),CollectContact,null,EQueryEntitiesFlags.DYNAMIC);
+  int count=m_aContactCandidates.Count();
+  int budget=Math.Min(count,48);
+  float quality=ORD_ObservationPolicy.Quality(world,m_iSensor);
+  for(int i=0;i<budget;i++)
   {
-   if (!candidate) continue;
-   vector point = candidate.GetOrigin();
-   if (ChimeraCharacter.Cast(candidate)) point[1] = point[1] + 0.9;
-   else point[1] = point[1] + 1.2;
-   if (!ContactVisible(point, candidate)) continue;
-   if (vector.Dot(point - m_vContactOrigin, m_vContactForward) <= 1) continue;
-   m_SensorHUD.AddContact(candidate);
+   int index=i;
+   if(i>=8 && count>48) index=8+((i-8+m_ContactCursor)%(count-8));
+   IEntity candidate=m_aContactCandidates[index];
+   ORD_LocalObservation observation=LocalObservation(candidate,now);
+   bool classified;
+   bool eligible=ORD_ObservationPolicy.Observe(m_Drone.GetOwner(),candidate,m_vContactForward,m_fZoom,aspect,m_iSensor,m_Drone.SensorRange(),classified);
+   observation.Evidence.Sample(now,eligible,classified,ChimeraCharacter.Cast(candidate)!=null,quality);
+  }
+  m_ContactCursor+=40;
+  foreach(ORD_LocalObservation item:m_Observations)
+  {
+   if(!m_aContactCandidates.Contains(item.Entity)) item.Evidence.Sample(now,false,false,false);
+  }
+  // Present in stable priority order, rather than discovery or registry order.
+  foreach(IEntity entity:m_aContactCandidates)
+  {
+   ORD_LocalObservation item=LocalObservation(entity,now);
+   if(item.Evidence.Visible && item.Evidence.Acquired && now-item.Evidence.LastEligible<=0.3)
+    m_SensorHUD.AddContact(entity,item.Evidence.Classified);
   }
  }
+
  protected void UpdateHUD(IEntity drone)
  {
   if (!m_bPilot)

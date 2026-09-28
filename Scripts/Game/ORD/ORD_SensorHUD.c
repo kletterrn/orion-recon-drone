@@ -14,6 +14,7 @@ class ORD_SensorHUD
  protected ref array<ref CanvasWidgetCommand> m_Draw = {};
  protected ref array<ref ORD_HUDContact> m_Registry = {};
  protected ref array<IEntity> m_Visible = {};
+ protected ref array<IEntity> m_Classified = {};
  protected int m_NextId, m_ContactCount;
  protected float m_Width, m_Height, m_Scale = 1;
  protected string m_Selected = "--";
@@ -41,8 +42,8 @@ class ORD_SensorHUD
  bool HasObservation() { return m_Observed; }
  vector Observation() { return m_Observation; }
  void ClearContacts() { m_Visible.Clear(); m_ContactCount = 0; }
- void BeginScan() { m_Visible.Clear(); }
- void AddContact(IEntity entity) { if (entity && m_Visible.Count() < 48) m_Visible.Insert(entity); }
+ void BeginScan() { m_Visible.Clear(); m_Classified.Clear(); }
+ void AddContact(IEntity entity, bool classified = false) { if (entity && m_Visible.Count() < 48) { m_Visible.Insert(entity); if(classified) m_Classified.Insert(entity); } }
 
  static float Bearing(vector direction)
  {
@@ -171,8 +172,7 @@ class ORD_SensorHUD
   }
   ORD_HUDContact contact = new ORD_HUDContact();
   contact.Entity = entity; contact.LastSeen = now; m_NextId++;
-  string prefix = "V-";
-  if (ChimeraCharacter.Cast(entity)) prefix = "P-";
+  string prefix = "C-";
   contact.Id = prefix + Pad(m_NextId); m_Registry.Insert(contact);
   return contact.Id;
  }
@@ -254,9 +254,10 @@ class ORD_SensorHUD
     if (m_ContactCount >= 8) break;
     vector low, high;
     if (!Bounds(entity, camera, low, high)) continue;
+    if (!ORD_ObservationPolicy.Alive(entity) || !ORD_ObservationPolicy.Visible(drone.GetOwner(),camera.GetOrigin(),ORD_ObservationPolicy.Point(entity),entity)) continue;
     bool confirmed = entity == selected && drone.ContactState() == ORD_ContactState.ENTITY;
     string label = ContactId(entity, drone.GetOwner().GetWorld().GetWorldTime() * 0.001, selected);
-    if (confirmed)
+    if (m_Classified.Contains(entity))
     {
      if (ChimeraCharacter.Cast(entity)) label += " PERSON";
      else label += " VEHICLE";
@@ -331,6 +332,7 @@ class ORD_SensorHUD
   switch (drone.ContactState())
   {
    case ORD_ContactState.POINT: track = "POINT LOCK"; break;
+   case ORD_ContactState.ACQUIRING: track = "ACQUIRING"; break;
    case ORD_ContactState.ENTITY: track = "ENTITY TRACK"; break;
    case ORD_ContactState.GROUP: track = "GROUP TRACK"; break;
    case ORD_ContactState.TEMP_LOSS: track = "COASTING"; break;

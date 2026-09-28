@@ -1,0 +1,40 @@
+// Isolated native-engine tests. Does not alter release scripts or simulate OS input.
+modded class ORD_TerminalComponent
+{
+ override void OnPostInit(IEntity owner)
+ {
+  super.OnPostInit(owner);
+  GetGame().GetCallqueue().CallLater(ObservationTests,3000,false);
+ }
+ protected void CheckObservation(string name,bool passed)
+ {
+  if(passed)Print("ORD_TEST_PASS "+name);
+  else Print("ORD_TEST_FAIL "+name);
+ }
+ protected void ObservationTests()
+ {
+  foreach(int fps:{30,60,120})
+  {
+   ORD_ObservationEvidence vehicle=new ORD_ObservationEvidence();
+   ORD_ObservationEvidence person=new ORD_ObservationEvidence();
+   for(int i=0;i<=fps*7;i++)
+   {
+    float now=i/(float)fps;
+    vehicle.Sample(now,true,true,false); person.Sample(now,true,true,true);
+    if(i==fps)CheckObservation("no-cue-before-2s-"+fps,!vehicle.Acquired && !person.Acquired);
+    if(i==fps*3)CheckObservation("cue-without-class-"+fps,vehicle.Acquired && person.Acquired && !vehicle.Classified && !person.Classified);
+    if(i==fps*5)CheckObservation("vehicle-class-person-unknown-"+fps,vehicle.Classified && !person.Classified);
+    if(i==fps*7)CheckObservation("person-class-"+fps,person.Classified);
+   }
+   person.Sample(7.1,false,false,true); person.Sample(7.4,false,false,true);
+   CheckObservation("occlusion-clears-evidence-"+fps,!person.Visible && !person.Acquired && !person.Classified);
+   person.Sample(7.5,true,true,true);
+   CheckObservation("no-instant-reacquisition-"+fps,!person.Acquired && !person.Classified);
+  }
+  ORD_ObservationEvidence zoom=new ORD_ObservationEvidence();
+  for(int j=0;j<=50;j++)zoom.Sample(j*0.1,true,false,false);
+  zoom.Sample(5.1,true,true,false);
+  CheckObservation("size-gate-cannot-inherit-classification",zoom.Acquired && !zoom.Classified);
+  Print("ORD_TEST_DONE observation-policy");
+ }
+}

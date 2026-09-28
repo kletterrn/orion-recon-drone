@@ -1,0 +1,15 @@
+{
+  "enteredGame": true,
+  "scriptErrors": [],
+  "observations": [
+    "20:50:20.343   SCRIPT       : ORD_TEST_PASS thermal_white_activation",
+    "20:50:25.339   SCRIPT       : ORD_TEST_PASS thermal_black_activation",
+    "20:50:30.343   SCRIPT       : ORD_TEST_PASS thermal_daylight_return"
+  ],
+  "fpsLimit": 60,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "durationSeconds": 55
+}

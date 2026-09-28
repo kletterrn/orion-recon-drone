@@ -479,8 +479,8 @@ class ORD_TerminalComponent : ScriptComponent
    }
    else m_ObservationStamp=-1;
    requested=ORD_CameraMounts.Forward(m_ResolvedYaw,m_ResolvedPitch);
-   // Articulating the gimbal moves the lens. Bounded correction uses that origin.
-   for(int iteration=0;iteration<2;iteration++)
+   // Articulating the gimbal moves the lens. Four bounded corrections also cover very close ground points.
+   for(int iteration=0;iteration<4;iteration++)
     requested=vector.Direction(ORD_CameraMounts.SensorOrigin(drone,ORD_CameraMounts.Constrain(drone,requested)),target).Normalized();
   }
   else

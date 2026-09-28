@@ -1,0 +1,69 @@
+MetaFileClass {
+ Name "{96E002018895950C}Assets/ORD/Models/RC8/ORD_Orion_RC8.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{E1DC9BDDE0084A57}" {
+     SourceMaterial "RC8_Assembly_Pylon"
+     AssignedMaterial "{A8C27CD5B4AA2E4D}Assets/ORD/Models/RC8/Data/RC8_Assembly_Pylon.emat"
+    }
+    MaterialAssignClass "{A79E4976ABDD8BDF}" {
+     SourceMaterial "RC8_Orion_Airframe"
+     AssignedMaterial "{EE54B99DF0026142}Assets/ORD/Models/RC8/Data/RC8_Orion_Airframe.emat"
+    }
+    MaterialAssignClass "{DC6B4536CDFDEAA6}" {
+     SourceMaterial "RC8_Orion_Bay_Skin"
+     AssignedMaterial "{FD1911AAC24C4610}Assets/ORD/Models/RC8/Data/RC8_Orion_Bay_Skin.emat"
+    }
+    MaterialAssignClass "{497144D22B24BD98}" {
+     SourceMaterial "RC8_Orion_Equipment"
+     AssignedMaterial "{EA78043754CA1EEC}Assets/ORD/Models/RC8/Data/RC8_Orion_Equipment.emat"
+    }
+    MaterialAssignClass "{655BA129DEAACCDD}" {
+     SourceMaterial "RC8_Orion_Gear_Bays"
+     AssignedMaterial "{6F298971E17EAAA1}Assets/ORD/Models/RC8/Data/RC8_Orion_Gear_Bays.emat"
+    }
+    MaterialAssignClass "{8A514C53EE6E6479}" {
+     SourceMaterial "RC8_Orion_Sensor"
+     AssignedMaterial "{E0F4B037959BBD06}Assets/ORD/Models/RC8/Data/RC8_Orion_Sensor.emat"
+    }
+    MaterialAssignClass "{337282C934A6BEA4}" {
+     SourceMaterial "RC8_Orion_Tail_Rear"
+     AssignedMaterial "{C9552AE77D26B6C7}Assets/ORD/Models/RC8/Data/RC8_Orion_Tail_Rear.emat"
+    }
+    MaterialAssignClass "{6CE060945368F116}" {
+     SourceMaterial "RC8_Orion_Wing_L"
+     AssignedMaterial "{3DFE29E27AADF631}Assets/ORD/Models/RC8/Data/RC8_Orion_Wing_L.emat"
+    }
+    MaterialAssignClass "{7FF18E178B4C2073}" {
+     SourceMaterial "RC8_Orion_Wing_R"
+     AssignedMaterial "{30451DC8D3C9D00E}Assets/ORD/Models/RC8/Data/RC8_Orion_Wing_R.emat"
+    }
+   }
+   GeometryParams {
+    GeometryParam "UBX_Fuselage" {
+     LayerPreset "Vehicle"
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Wing_L" {
+     LayerPreset "Vehicle"
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Wing_R" {
+     LayerPreset "Vehicle"
+     Mass 0
+     Margin 0
+    }
+   }
+  }
+  FBXResourceClass HEADLESS : PC {}
+  FBXResourceClass XBOX_ONE : PC {}
+  FBXResourceClass XBOX_SERIES : PC {}
+  FBXResourceClass PS4 : PC {}
+  FBXResourceClass PS5 : PC {}
+ }
+}

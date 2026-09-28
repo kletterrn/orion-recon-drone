@@ -1,0 +1,35 @@
+MetaFileClass {
+ Name "{CD62429F99F50B81}Assets/ORD/Models/RC8/ORD_Banderol_RC8.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{0D1E8554AA14C884}" {
+     SourceMaterial "RC8_BDL_VisualFit_Appendages"
+     AssignedMaterial "{60B0BF962AC8183F}Assets/ORD/Models/RC8/Data/RC8_BDL_VisualFit_Appendages.emat"
+    }
+    MaterialAssignClass "{0385ABA67746B950}" {
+     SourceMaterial "RC8_BDL_VisualFit_Body"
+     AssignedMaterial "{F6EF87B0992ADC5F}Assets/ORD/Models/RC8/Data/RC8_BDL_VisualFit_Body.emat"
+    }
+    MaterialAssignClass "{19EE29D57E1526BF}" {
+     SourceMaterial "RC8_Banderol_Details"
+     AssignedMaterial "{0355813955DBB47B}Assets/ORD/Models/RC8/Data/RC8_Banderol_Details.emat"
+    }
+   }
+   GeometryParams {
+    GeometryParam "UBX_Body" {
+     LayerPreset "Vehicle"
+     Mass 0
+     Margin 0
+    }
+   }
+  }
+  FBXResourceClass HEADLESS : PC {}
+  FBXResourceClass XBOX_ONE : PC {}
+  FBXResourceClass XBOX_SERIES : PC {}
+  FBXResourceClass PS4 : PC {}
+  FBXResourceClass PS5 : PC {}
+ }
+}

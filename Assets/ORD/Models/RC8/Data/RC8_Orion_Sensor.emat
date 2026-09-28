@@ -1,0 +1,8 @@
+MatPBRBasic {
+ SurfaceProperties "{5EAA7FB0A83F90CF}Common/Materials/Game/plastic.gamemat"
+ Color 1 1 1 1
+ MetalnessScale 1
+ RoughnessScale 1
+ BCRMap "{B517DC848C4D268F}Assets/ORD/Models/RC8/Textures/Orion_Sensor_BCR.edds"
+ NMOMap "{502A211A47B50E29}Assets/ORD/Models/RC8/Textures/Orion_Sensor_NMO.edds"
+}

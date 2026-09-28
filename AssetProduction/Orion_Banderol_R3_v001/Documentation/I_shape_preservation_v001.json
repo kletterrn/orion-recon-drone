@@ -1,0 +1,26 @@
+[
+  {
+    "file": "Orion/Orion_Master.blend",
+    "geometry_and_rest_transforms_preserved": true,
+    "changed_components": [],
+    "material_override": null
+  },
+  {
+    "file": "Banderol/S8000_Banderol_Master.blend",
+    "geometry_and_rest_transforms_preserved": true,
+    "changed_components": [],
+    "material_override": null
+  },
+  {
+    "file": "Banderol/S8000_Banderol_VisualFit_Master.blend",
+    "geometry_and_rest_transforms_preserved": true,
+    "changed_components": [],
+    "material_override": null
+  },
+  {
+    "file": "Assembly/Orion_Banderol_Preview.blend",
+    "geometry_and_rest_transforms_preserved": true,
+    "changed_components": [],
+    "material_override": null
+  }
+]

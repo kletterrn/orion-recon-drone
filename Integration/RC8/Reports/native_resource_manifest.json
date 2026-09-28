@@ -1,0 +1,108 @@
+[
+  {
+    "material": "RC8_Assembly_Pylon",
+    "emat": "{A8C27CD5B4AA2E4D}Assets/ORD/Models/RC8/Data/RC8_Assembly_Pylon.emat",
+    "textures": {
+      "BCR": "{F01B23749EBC4749}Assets/ORD/Models/RC8/Textures/Assembly_Pylon_BCR.edds",
+      "NMO": "{C6AC0EAF3014D395}Assets/ORD/Models/RC8/Textures/Assembly_Pylon_NMO.edds"
+    }
+  },
+  {
+    "material": "RC8_Orion_Airframe",
+    "emat": "{EE54B99DF0026142}Assets/ORD/Models/RC8/Data/RC8_Orion_Airframe.emat",
+    "textures": {
+      "BCR": "{4F59F93973970CE2}Assets/ORD/Models/RC8/Textures/Orion_Airframe_BCR.edds",
+      "NMO": "{9588B12904E6231E}Assets/ORD/Models/RC8/Textures/Orion_Airframe_NMO.edds"
+    }
+  },
+  {
+    "material": "RC8_Orion_Bay_Skin",
+    "emat": "{FD1911AAC24C4610}Assets/ORD/Models/RC8/Data/RC8_Orion_Bay_Skin.emat",
+    "textures": {
+      "BCR": "{90972ED6C7DDA147}Assets/ORD/Models/RC8/Textures/Orion_Bay_Skin_BCR.edds",
+      "NMO": "{AED18D2EBFE00AD2}Assets/ORD/Models/RC8/Textures/Orion_Bay_Skin_NMO.edds"
+    }
+  },
+  {
+    "material": "RC8_Orion_Equipment",
+    "emat": "{EA78043754CA1EEC}Assets/ORD/Models/RC8/Data/RC8_Orion_Equipment.emat",
+    "textures": {
+      "BCR": "{FA5DA3F5FA03FBDE}Assets/ORD/Models/RC8/Textures/Orion_Equipment_BCR.edds",
+      "NMO": "{6EB8D154CF758590}Assets/ORD/Models/RC8/Textures/Orion_Equipment_NMO.edds"
+    }
+  },
+  {
+    "material": "RC8_Orion_Gear_Bays",
+    "emat": "{6F298971E17EAAA1}Assets/ORD/Models/RC8/Data/RC8_Orion_Gear_Bays.emat",
+    "textures": {
+      "BCR": "{673CD76486826D2E}Assets/ORD/Models/RC8/Textures/Orion_Gear_Bays_BCR.edds",
+      "NMO": "{8B60A71C337CC46B}Assets/ORD/Models/RC8/Textures/Orion_Gear_Bays_NMO.edds"
+    }
+  },
+  {
+    "material": "RC8_Orion_Sensor",
+    "emat": "{E0F4B037959BBD06}Assets/ORD/Models/RC8/Data/RC8_Orion_Sensor.emat",
+    "textures": {
+      "BCR": "{B517DC848C4D268F}Assets/ORD/Models/RC8/Textures/Orion_Sensor_BCR.edds",
+      "NMO": "{502A211A47B50E29}Assets/ORD/Models/RC8/Textures/Orion_Sensor_NMO.edds"
+    }
+  },
+  {
+    "material": "RC8_Orion_Tail_Rear",
+    "emat": "{C9552AE77D26B6C7}Assets/ORD/Models/RC8/Data/RC8_Orion_Tail_Rear.emat",
+    "textures": {
+      "BCR": "{B94E7348221341D6}Assets/ORD/Models/RC8/Textures/Orion_Tail_Rear_BCR.edds",
+      "NMO": "{8A917916625A13B1}Assets/ORD/Models/RC8/Textures/Orion_Tail_Rear_NMO.edds"
+    }
+  },
+  {
+    "material": "RC8_Orion_Wing_L",
+    "emat": "{3DFE29E27AADF631}Assets/ORD/Models/RC8/Data/RC8_Orion_Wing_L.emat",
+    "textures": {
+      "BCR": "{FAB598A8412F0DCA}Assets/ORD/Models/RC8/Textures/Orion_Wing_L_BCR.edds",
+      "NMO": "{E4718ECFE56B8567}Assets/ORD/Models/RC8/Textures/Orion_Wing_L_NMO.edds"
+    }
+  },
+  {
+    "material": "RC8_Orion_Wing_R",
+    "emat": "{30451DC8D3C9D00E}Assets/ORD/Models/RC8/Data/RC8_Orion_Wing_R.emat",
+    "textures": {
+      "BCR": "{763577B965DDDA19}Assets/ORD/Models/RC8/Textures/Orion_Wing_R_BCR.edds",
+      "NMO": "{1F1CAF4989890BBA}Assets/ORD/Models/RC8/Textures/Orion_Wing_R_NMO.edds"
+    }
+  },
+  {
+    "asset": "Orion",
+    "model": "{96E002018895950C}Assets/ORD/Models/RC8/ORD_Orion_RC8.xob",
+    "source": "Assets/ORD/Models/RC8/ORD_Orion_RC8.fbx"
+  },
+  {
+    "material": "RC8_BDL_VisualFit_Appendages",
+    "emat": "{60B0BF962AC8183F}Assets/ORD/Models/RC8/Data/RC8_BDL_VisualFit_Appendages.emat",
+    "textures": {
+      "BCR": "{B842C294CE8044DE}Assets/ORD/Models/RC8/Textures/BDL_VisualFit_Appendages_BCR.edds",
+      "NMO": "{6BCC41191A404366}Assets/ORD/Models/RC8/Textures/BDL_VisualFit_Appendages_NMO.edds"
+    }
+  },
+  {
+    "material": "RC8_BDL_VisualFit_Body",
+    "emat": "{F6EF87B0992ADC5F}Assets/ORD/Models/RC8/Data/RC8_BDL_VisualFit_Body.emat",
+    "textures": {
+      "BCR": "{79B673ED026A8858}Assets/ORD/Models/RC8/Textures/BDL_VisualFit_Body_BCR.edds",
+      "NMO": "{74AFB4965936B1A6}Assets/ORD/Models/RC8/Textures/BDL_VisualFit_Body_NMO.edds"
+    }
+  },
+  {
+    "material": "RC8_Banderol_Details",
+    "emat": "{0355813955DBB47B}Assets/ORD/Models/RC8/Data/RC8_Banderol_Details.emat",
+    "textures": {
+      "BCR": "{19FC11BAB2D73062}Assets/ORD/Models/RC8/Textures/Banderol_Details_BCR.edds",
+      "NMO": "{27911AA8E71A2A12}Assets/ORD/Models/RC8/Textures/Banderol_Details_NMO.edds"
+    }
+  },
+  {
+    "asset": "Banderol",
+    "model": "{CD62429F99F50B81}Assets/ORD/Models/RC8/ORD_Banderol_RC8.xob",
+    "source": "Assets/ORD/Models/RC8/ORD_Banderol_RC8.fbx"
+  }
+]

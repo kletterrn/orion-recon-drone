@@ -1,0 +1,517 @@
+{
+  "fresh_numbered_checkpoint_open": true,
+  "non_sensor_source_vertices_unchanged": true,
+  "image_dependencies_found": true,
+  "all_160_gear_frames_sensor_contacts": [],
+  "complete_moving_sensor_pose_contacts": [
+    {
+      "frame": 1,
+      "yaw": -35,
+      "pitch": -10,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": -35,
+      "pitch": -10,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": -35,
+      "pitch": 0,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": -35,
+      "pitch": 0,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": -35,
+      "pitch": 10,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": -35,
+      "pitch": 10,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": 0,
+      "pitch": -10,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": 0,
+      "pitch": -10,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": 0,
+      "pitch": 0,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": 0,
+      "pitch": 0,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": 0,
+      "pitch": 10,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": 0,
+      "pitch": 10,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": 35,
+      "pitch": -10,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": 35,
+      "pitch": -10,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": 35,
+      "pitch": 0,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": 35,
+      "pitch": 0,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": 35,
+      "pitch": 10,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": 35,
+      "pitch": 10,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": -35,
+      "pitch": -10,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": -35,
+      "pitch": -10,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": -35,
+      "pitch": 0,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": -35,
+      "pitch": 0,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": -35,
+      "pitch": 10,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": -35,
+      "pitch": 10,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": 0,
+      "pitch": -10,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": 0,
+      "pitch": -10,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": 0,
+      "pitch": 0,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": 0,
+      "pitch": 0,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": 0,
+      "pitch": 10,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": 0,
+      "pitch": 10,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": 35,
+      "pitch": -10,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": 35,
+      "pitch": -10,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": 35,
+      "pitch": 0,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": 35,
+      "pitch": 0,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": 35,
+      "pitch": 10,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": 35,
+      "pitch": 10,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    }
+  ],
+  "intentional_attachment_interface_contacts": [
+    {
+      "frame": 1,
+      "yaw": -35,
+      "pitch": -10,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": -35,
+      "pitch": -10,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": -35,
+      "pitch": 0,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": -35,
+      "pitch": 0,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": -35,
+      "pitch": 10,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": -35,
+      "pitch": 10,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": 0,
+      "pitch": -10,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": 0,
+      "pitch": -10,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": 0,
+      "pitch": 0,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": 0,
+      "pitch": 0,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": 0,
+      "pitch": 10,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": 0,
+      "pitch": 10,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": 35,
+      "pitch": -10,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": 35,
+      "pitch": -10,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": 35,
+      "pitch": 0,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": 35,
+      "pitch": 0,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": 35,
+      "pitch": 10,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 1,
+      "yaw": 35,
+      "pitch": 10,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": -35,
+      "pitch": -10,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": -35,
+      "pitch": -10,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": -35,
+      "pitch": 0,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": -35,
+      "pitch": 0,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": -35,
+      "pitch": 10,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": -35,
+      "pitch": 10,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": 0,
+      "pitch": -10,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": 0,
+      "pitch": -10,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": 0,
+      "pitch": 0,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": 0,
+      "pitch": 0,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": 0,
+      "pitch": 10,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": 0,
+      "pitch": 10,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": 35,
+      "pitch": -10,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": 35,
+      "pitch": -10,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": 35,
+      "pitch": 0,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": 35,
+      "pitch": 0,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": 35,
+      "pitch": 10,
+      "sensor": "ORION_SENSOR_YAW_COLLAR",
+      "obstacle": "ORION_FUSELAGE"
+    },
+    {
+      "frame": 120,
+      "yaw": 35,
+      "pitch": 10,
+      "sensor": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "obstacle": "ORION_FUSELAGE"
+    }
+  ],
+  "unexpected_pose_contacts": [],
+  "posed_bone_errors": [],
+  "engine_validation": "NOT ATTEMPTED"
+}

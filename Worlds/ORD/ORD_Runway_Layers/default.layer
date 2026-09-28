@@ -1,0 +1,23 @@
+Vehicle ORD_Aircraft : "{48E78A18FDC8A93D}Prefabs/ORD/ORD_Aircraft.et" {
+ coords 4770 29.367 11240
+}
+$grp GenericEntity : "{497EDCE0342EC05B}Prefabs/ORD/ORD_Terminal.et" {
+ ORD_Terminal {
+  coords 4798 27.85 11240
+  angles 0 180 0
+ }
+ {
+  coords 4783.768 28.488 11238.83
+ }
+}
+SCR_SpawnPoint ORD_USSR_Spawn : "{4FEA25583D0975F7}Prefabs/MP/Spawning/SpawnPoint_USSR.et" {
+ coords 4788.723 28.522 11246.783
+ angles 0 180 0
+}
+Vehicle Cessna1 : "{5DE11725319FA0C3}Prefabs/Vehicles/Cessna172.et" {
+ coords 4783.838 27.844 11256.357
+}
+GenericEntity ORD_ServicePoint : "{EDF2FF911E560860}Prefabs/ORD/ORD_ServicePoint.et" {
+ coords 4788 27.85 11242
+ angles 0 180 0
+}

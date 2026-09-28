@@ -1,0 +1,7847 @@
+{
+  "alignment": [
+    0.0,
+    -0.699999988079071,
+    -0.949999988079071
+  ],
+  "alignment_evidence": "C, diagnostic only; no station or rack established",
+  "wing_pose": "Visible extended wings only; no documented carriage/stowed pose",
+  "frames_sampled": 160,
+  "groups_sampled": [
+    "ORION_GEAR",
+    "ORION_GEAR_BAYS",
+    "ORION_SENSOR_R3",
+    "ORION_AIRFRAME",
+    "ORION_WINGS",
+    "ORION_TAIL_REAR"
+  ],
+  "surface_triangle_tests": 3527,
+  "surface_intersections": [
+    {
+      "frame": 1,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 1,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 1,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 1,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 1,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 1,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_WING_L",
+      "triangle_pairs": 116
+    },
+    {
+      "frame": 1,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_WING_R",
+      "triangle_pairs": 114
+    },
+    {
+      "frame": 2,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 2,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 2,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 2,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 2,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 2,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_WING_L",
+      "triangle_pairs": 116
+    },
+    {
+      "frame": 2,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_WING_R",
+      "triangle_pairs": 114
+    },
+    {
+      "frame": 3,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 3,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 3,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 3,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 3,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 3,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_WING_L",
+      "triangle_pairs": 116
+    },
+    {
+      "frame": 3,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_WING_R",
+      "triangle_pairs": 114
+    },
+    {
+      "frame": 4,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 4,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 4,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 4,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 4,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 4,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_WING_L",
+      "triangle_pairs": 116
+    },
+    {
+      "frame": 4,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_WING_R",
+      "triangle_pairs": 114
+    },
+    {
+      "frame": 5,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 5,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 5,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 5,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 5,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 5,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_WING_L",
+      "triangle_pairs": 116
+    },
+    {
+      "frame": 5,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_WING_R",
+      "triangle_pairs": 114
+    },
+    {
+      "frame": 6,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 6,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 6,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 6,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 6,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 6,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_WING_L",
+      "triangle_pairs": 116
+    },
+    {
+      "frame": 6,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_WING_R",
+      "triangle_pairs": 114
+    },
+    {
+      "frame": 7,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 7,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 7,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 7,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 7,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 7,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_WING_L",
+      "triangle_pairs": 116
+    },
+    {
+      "frame": 7,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_WING_R",
+      "triangle_pairs": 114
+    },
+    {
+      "frame": 8,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 8,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 8,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 8,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 8,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 8,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_WING_L",
+      "triangle_pairs": 116
+    },
+    {
+      "frame": 8,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_WING_R",
+      "triangle_pairs": 114
+    },
+    {
+      "frame": 9,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 9,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 9,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 9,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 9,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 9,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_WING_L",
+      "triangle_pairs": 116
+    },
+    {
+      "frame": 9,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_WING_R",
+      "triangle_pairs": 114
+    },
+    {
+      "frame": 10,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 10,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 10,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 10,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 10,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 10,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_WING_L",
+      "triangle_pairs": 116
+    },
+    {
+      "frame": 10,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_WING_R",
+      "triangle_pairs": 114
+    },
+    {
+      "frame": 11,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 11,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 11,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 11,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 11,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 11,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_WING_L",
+      "triangle_pairs": 116
+    },
+    {
+      "frame": 11,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_WING_R",
+      "triangle_pairs": 114
+    },
+    {
+      "frame": 12,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 12,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 12,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 12,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 12,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 12,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_WING_L",
+      "triangle_pairs": 116
+    },
+    {
+      "frame": 12,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_WING_R",
+      "triangle_pairs": 114
+    },
+    {
+      "frame": 13,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 13,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 13,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 13,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 13,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 13,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_WING_L",
+      "triangle_pairs": 116
+    },
+    {
+      "frame": 13,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_WING_R",
+      "triangle_pairs": 114
+    },
+    {
+      "frame": 14,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 14,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 14,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 14,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 14,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 14,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_WING_L",
+      "triangle_pairs": 116
+    },
+    {
+      "frame": 14,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_WING_R",
+      "triangle_pairs": 114
+    },
+    {
+      "frame": 15,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 15,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 15,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 15,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 15,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 15,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_WING_L",
+      "triangle_pairs": 116
+    },
+    {
+      "frame": 15,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_WING_R",
+      "triangle_pairs": 114
+    },
+    {
+      "frame": 16,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 16,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 16,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 16,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 16,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 16,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_WING_L",
+      "triangle_pairs": 116
+    },
+    {
+      "frame": 16,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_WING_R",
+      "triangle_pairs": 114
+    },
+    {
+      "frame": 17,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 17,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 17,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 17,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 17,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 17,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_WING_L",
+      "triangle_pairs": 116
+    },
+    {
+      "frame": 17,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_WING_R",
+      "triangle_pairs": 114
+    },
+    {
+      "frame": 18,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 18,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 18,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 18,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 18,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 18,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_WING_L",
+      "triangle_pairs": 116
+    },
+    {
+      "frame": 18,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_WING_R",
+      "triangle_pairs": 114
+    },
+    {
+      "frame": 19,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 19,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 19,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 19,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 19,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 19,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_WING_L",
+      "triangle_pairs": 116
+    },
+    {
+      "frame": 19,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_WING_R",
+      "triangle_pairs": 114
+    },
+    {
+      "frame": 20,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 20,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 20,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 20,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 20,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 20,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_WING_L",
+      "triangle_pairs": 116
+    },
+    {
+      "frame": 20,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_WING_R",
+      "triangle_pairs": 114
+    },
+    {
+      "frame": 21,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 21,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 21,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 21,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 21,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 21,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_WING_L",
+      "triangle_pairs": 20
+    },
+    {
+      "frame": 21,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_WING_R",
+      "triangle_pairs": 24
+    },
+    {
+      "frame": 22,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 22,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 22,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 22,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 22,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 23,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 23,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 23,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 23,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 23,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 24,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 24,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 24,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 24,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 24,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 25,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 25,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 25,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 25,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 25,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 26,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 26,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 26,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 26,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 26,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 27,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 27,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 27,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 27,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 27,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 28,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 28,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 28,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 28,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 28,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 29,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 29,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 29,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 29,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 29,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 30,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 30,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 30,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 30,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 30,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 31,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 31,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 31,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 31,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 31,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 32,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 32,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 32,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 32,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 32,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 33,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 33,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 33,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 33,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 33,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 34,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 34,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 34,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 34,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 34,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 35,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 35,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 35,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 35,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 35,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 36,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 36,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 36,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 36,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 36,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 37,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 37,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 37,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 37,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 37,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 38,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 38,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 38,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 38,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 38,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 39,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 39,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 39,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 39,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 39,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 40,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 40,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 40,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 40,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 40,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 41,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 41,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 41,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 41,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 41,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 42,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 42,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 42,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 42,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 42,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 43,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 43,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 43,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 43,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 43,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 44,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 44,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 44,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 44,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 44,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 45,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 45,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 45,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 45,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 45,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 46,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 46,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 46,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 46,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 46,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 47,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 47,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 47,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 47,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 47,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 48,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 48,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 48,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 48,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 48,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 49,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 49,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 49,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 49,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 49,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 50,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 50,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 50,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 50,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 50,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 51,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 51,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 51,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 51,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 51,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 52,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 52,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 52,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 52,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 52,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 53,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 53,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 53,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 53,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 53,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 54,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 54,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 54,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 54,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 54,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 55,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 55,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 55,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 55,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 55,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 56,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 56,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 56,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 56,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 56,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 57,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 57,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 57,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 57,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 57,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 58,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 58,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 58,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 58,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 58,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 58,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 22
+    },
+    {
+      "frame": 58,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 43
+    },
+    {
+      "frame": 58,
+      "orion": "ORION_MAIN_L_LINK_PIN_1_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 32
+    },
+    {
+      "frame": 58,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 22
+    },
+    {
+      "frame": 58,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 43
+    },
+    {
+      "frame": 58,
+      "orion": "ORION_MAIN_R_LINK_PIN_-1_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 32
+    },
+    {
+      "frame": 59,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 59,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 59,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 59,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 59,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 59,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 46
+    },
+    {
+      "frame": 59,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 54
+    },
+    {
+      "frame": 59,
+      "orion": "ORION_MAIN_L_LINK_PIN_1_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 32
+    },
+    {
+      "frame": 59,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 46
+    },
+    {
+      "frame": 59,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 54
+    },
+    {
+      "frame": 59,
+      "orion": "ORION_MAIN_R_LINK_PIN_-1_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 32
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.58",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 27
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.58",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 27
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 60
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 54
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.58",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 22
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 23
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 52
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_LINK_PIN_-1_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 31
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 60
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 54
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.58",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 22
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 23
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 52
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_LINK_PIN_1_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 31
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 68
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 81
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.58",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 46
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 22
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_LINK_PIN_-1_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 32
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 44
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 68
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 81
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.58",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 46
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 22
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_LINK_PIN_1_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 32
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 82
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 106
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.58",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 47
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 20
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 27
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_LINK_PIN_1_2",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 30
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 72
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 82
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 106
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.58",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 47
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 20
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 27
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_LINK_PIN_-1_2",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 30
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 70
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 56
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 56
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.58",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 52
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_LINK_PIN_-1_2",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 20
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 90
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 56
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 56
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.58",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 52
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_LINK_PIN_1_2",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 20
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 92
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 52
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 50
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.58",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_LINK_PIN_-1_2",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 31
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 110
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 52
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 50
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.58",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_LINK_PIN_1_2",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 31
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 118
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 72
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 52
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.58",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 55
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 132
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 52
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.58",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 55
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 132
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 72
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 52
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 88
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.58",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 50
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 32
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 26
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_LINK_PIN_-1_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 26
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_LINK_PIN_1_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 24
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 166
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 25
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 52
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 88
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.58",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 50
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_LINK_PIN_-1_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 24
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 32
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 26
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_LINK_PIN_1_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 26
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 166
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 25
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 64
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 52
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 102
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.58",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_LINK_PIN_1_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 22
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 190
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 55
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 52
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 102
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.58",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_LINK_PIN_-1_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 22
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 190
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 55
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 66
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 52
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 97
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.58",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 24
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 24
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 19
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 212
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 71
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 52
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 97
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.58",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 24
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 19
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 24
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 212
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 71
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 39
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 66
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 52
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 72
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 48
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 230
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_L_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 85
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 52
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 72
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 48
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 230
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_R_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 85
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 66
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 54
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 48
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_L_FORK_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 23
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 41
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 244
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_L_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 95
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_L_AXLE_CAP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 54
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 48
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_R_FORK_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 23
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 41
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 244
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_R_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 95
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_R_AXLE_CAP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 37
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 65
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 52
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 48
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 48
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_L_AXLE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 55
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_L_FORK_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 31
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 35
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 264
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_L_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 101
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_L_AXLE_CAP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 52
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 48
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 48
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_R_AXLE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 55
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_R_FORK_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 31
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 35
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 264
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_R_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 101
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_R_AXLE_CAP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 67
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 94
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 50
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 44
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_L_AXLE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 50
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_L_FORK_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 30
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 292
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_L_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 107
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 50
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 44
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_R_AXLE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 50
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_R_FORK_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 30
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 292
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_R_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 107
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 65
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 115
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 52
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 22
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_L_AXLE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 44
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_L_FORK_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 29
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 344
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_L_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 117
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 52
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 22
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_R_AXLE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 44
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_R_FORK_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 29
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 342
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_R_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 117
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 65
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 111
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 50
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_L_AXLE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 39
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_L_FORK_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 28
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 32
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 410
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_L_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 131
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 50
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_R_AXLE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 39
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_R_FORK_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 28
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 32
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 406
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_R_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 131
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 64
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_NOSE_FORK_BRIDGE_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_NOSE_FORK_BRIDGE_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 81
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 112
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 50
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_L_AXLE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 37
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_L_FORK_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_L_FORK_-1",
+      "banderol": "BDL_SIDE_FASTENER_-1_0",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 28
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_L_LINK_PIN_-1_2",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 31
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 448
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_L_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 155
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 50
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_R_AXLE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 37
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_R_FORK_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_R_FORK_1",
+      "banderol": "BDL_SIDE_FASTENER_1_0",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 28
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_R_LINK_PIN_1_2",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 31
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 444
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_R_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 155
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 37
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 32
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_NOSE_FORK_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_NOSE_FORK_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 94
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 96
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_NOSE_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 27
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_NOSE_RIM",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 31
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 50
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_L_AXLE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 39
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_L_FORK_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 44
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 44
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_L_LINK_PIN_1_2",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 22
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 454
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_L_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 146
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 50
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_R_AXLE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 39
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_R_LINK_PIN_-1_2",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 22
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_R_FORK_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 44
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 44
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 458
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_R_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 146
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 33
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_NOSE_FORK_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_NOSE_FORK_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 89
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 89
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_NOSE_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 27
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_NOSE_RIM",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 31
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_NOSE_HUB_RECESS_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_NOSE_HUB_RECESS_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_NOSE_HUB_RECESS_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_NOSE_HUB_RECESS_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 52
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_MAIN_L_AXLE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 44
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_MAIN_L_FORK_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 22
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 412
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_MAIN_L_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 135
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 52
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_MAIN_R_AXLE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 44
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_MAIN_R_FORK_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 22
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 420
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_MAIN_R_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 135
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 32
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 19
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 51
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_NOSE_FORK_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 71
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_NOSE_FORK_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 31
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_NOSE_FORK_BRIDGE_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_NOSE_FORK_BRIDGE_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_NOSE_FORK_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 71
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_NOSE_FORK_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 31
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_NOSE_FORK_BRIDGE_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_NOSE_FORK_BRIDGE_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 93
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 92
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_NOSE_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 25
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_NOSE_RIM",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 25
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_NOSE_HUB_RECESS_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_NOSE_AXLE_CAP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 21
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_NOSE_HUB_RECESS_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_NOSE_AXLE_CAP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 21
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 45
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_L_AXLE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 44
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 43
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 27
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 366
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_L_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 119
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 45
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_R_AXLE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 44
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 27
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 43
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 366
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_R_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 119
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 27
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 32
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 66
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_NOSE_AXLE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 54
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_NOSE_FORK_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 27
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_NOSE_FORK_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 27
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 113
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 94
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_NOSE_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 30
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_NOSE_HUB_RECESS_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_NOSE_AXLE_CAP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 22
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_NOSE_HUB_RECESS_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_NOSE_AXLE_CAP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 22
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_MAIN_L_AXLE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 46
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 44
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 294
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_MAIN_L_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 109
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_MAIN_R_AXLE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 46
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 44
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 294
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_MAIN_R_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 109
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 32
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 64
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 12
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 119
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 85
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_NOSE_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 30
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_NOSE_HUB_RECESS_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_NOSE_HUB_BOLT_-1_4",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_NOSE_HUB_BOLT_-1_5",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_NOSE_HUB_RECESS_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_NOSE_HUB_BOLT_1_4",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_NOSE_HUB_BOLT_1_5",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_MAIN_L_AXLE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 44
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 25
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 264
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_MAIN_L_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 101
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_MAIN_L_AXLE_CAP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_MAIN_R_AXLE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 44
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 25
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 262
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_MAIN_R_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 101
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_MAIN_R_AXLE_CAP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 32
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 64
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 32
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 66
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 32
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 66
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 118
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_NOSE_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_MAIN_L_AXLE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 46
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 242
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_MAIN_L_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 93
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_MAIN_L_AXLE_CAP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_MAIN_R_AXLE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 46
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 242
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_MAIN_R_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 93
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_MAIN_R_AXLE_CAP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 32
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 270
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 224
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_MAIN_L_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 81
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_4",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_5",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 224
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_MAIN_R_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 81
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_4",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_5",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 84,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 33
+    },
+    {
+      "frame": 84,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 262
+    },
+    {
+      "frame": 84,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 200
+    },
+    {
+      "frame": 84,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_SIDE_FASTENER_-1_0",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 84,
+      "orion": "ORION_MAIN_L_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 59
+    },
+    {
+      "frame": 84,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 200
+    },
+    {
+      "frame": 84,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_SIDE_FASTENER_1_0",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 84,
+      "orion": "ORION_MAIN_R_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 59
+    },
+    {
+      "frame": 85,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 85,
+      "orion": "ORION_NOSE_FORK_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 23
+    },
+    {
+      "frame": 85,
+      "orion": "ORION_NOSE_FORK_BRIDGE_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 85,
+      "orion": "ORION_NOSE_FORK_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 23
+    },
+    {
+      "frame": 85,
+      "orion": "ORION_NOSE_FORK_BRIDGE_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 85,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 138
+    },
+    {
+      "frame": 85,
+      "orion": "ORION_NOSE_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 30
+    },
+    {
+      "frame": 85,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 154
+    },
+    {
+      "frame": 85,
+      "orion": "ORION_MAIN_L_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 23
+    },
+    {
+      "frame": 85,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 154
+    },
+    {
+      "frame": 85,
+      "orion": "ORION_MAIN_R_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 23
+    },
+    {
+      "frame": 86,
+      "orion": "ORION_NOSE_FORK_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 86,
+      "orion": "ORION_NOSE_FORK_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 86,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 100
+    },
+    {
+      "frame": 86,
+      "orion": "ORION_NOSE_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 30
+    },
+    {
+      "frame": 86,
+      "orion": "ORION_NOSE_HUB_RECESS_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 86,
+      "orion": "ORION_NOSE_AXLE_CAP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 4
+    },
+    {
+      "frame": 86,
+      "orion": "ORION_NOSE_HUB_RECESS_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 86,
+      "orion": "ORION_NOSE_AXLE_CAP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 4
+    },
+    {
+      "frame": 86,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 128
+    },
+    {
+      "frame": 86,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 128
+    },
+    {
+      "frame": 87,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 98
+    },
+    {
+      "frame": 87,
+      "orion": "ORION_NOSE_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 30
+    },
+    {
+      "frame": 87,
+      "orion": "ORION_NOSE_HUB_RECESS_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 87,
+      "orion": "ORION_NOSE_AXLE_CAP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 20
+    },
+    {
+      "frame": 87,
+      "orion": "ORION_NOSE_HUB_RECESS_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 87,
+      "orion": "ORION_NOSE_AXLE_CAP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 20
+    },
+    {
+      "frame": 87,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 86
+    },
+    {
+      "frame": 87,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 80
+    },
+    {
+      "frame": 88,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 115
+    },
+    {
+      "frame": 88,
+      "orion": "ORION_NOSE_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 30
+    },
+    {
+      "frame": 88,
+      "orion": "ORION_NOSE_HUB_RECESS_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 88,
+      "orion": "ORION_NOSE_HUB_RECESS_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 89,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 154
+    },
+    {
+      "frame": 90,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 84
+    },
+    {
+      "frame": 135,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 123
+    },
+    {
+      "frame": 135,
+      "orion": "ORION_NOSE_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 136,
+      "orion": "ORION_NOSE_FORK_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 136,
+      "orion": "ORION_NOSE_FORK_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 136,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 100
+    },
+    {
+      "frame": 136,
+      "orion": "ORION_NOSE_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 30
+    },
+    {
+      "frame": 136,
+      "orion": "ORION_NOSE_HUB_RECESS_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 136,
+      "orion": "ORION_NOSE_AXLE_CAP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 4
+    },
+    {
+      "frame": 136,
+      "orion": "ORION_NOSE_HUB_RECESS_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 136,
+      "orion": "ORION_NOSE_AXLE_CAP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 4
+    },
+    {
+      "frame": 136,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 128
+    },
+    {
+      "frame": 136,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 128
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 32
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_NOSE_LINK_PIN_-1_2",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 20
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_NOSE_LINK_PIN_1_2",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 20
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 207
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 206
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_MAIN_L_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 71
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 206
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_MAIN_R_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 71
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 32
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 64
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 23
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 57
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_NOSE_LINK_PIN_-1_2",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_NOSE_LINK_PIN_-1_2",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 23
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 57
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_NOSE_LINK_PIN_1_2",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_NOSE_LINK_PIN_1_2",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 194
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 118
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_NOSE_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 30
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_NOSE_HUB_RECESS_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_NOSE_HUB_RECESS_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_MAIN_L_AXLE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 44
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 254
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_MAIN_L_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 99
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_MAIN_L_AXLE_CAP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_MAIN_R_AXLE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 44
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 254
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_MAIN_R_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 99
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_MAIN_R_AXLE_CAP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 32
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 19
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 51
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_NOSE_FORK_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 71
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_NOSE_FORK_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 31
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_NOSE_FORK_BRIDGE_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_NOSE_FORK_BRIDGE_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_NOSE_FORK_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 71
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_NOSE_FORK_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 31
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_NOSE_FORK_BRIDGE_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_NOSE_FORK_BRIDGE_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 93
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 92
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_NOSE_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 25
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_NOSE_RIM",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 25
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_NOSE_HUB_RECESS_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_NOSE_AXLE_CAP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 21
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_NOSE_HUB_RECESS_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_NOSE_AXLE_CAP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 21
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 45
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_L_AXLE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 44
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 43
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 27
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 366
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_L_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 119
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 45
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_R_AXLE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 44
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 27
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 43
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 366
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_R_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 119
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 32
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_NOSE_FORK_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_NOSE_FORK_BRIDGE_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 24
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 33
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_NOSE_FORK_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_NOSE_FORK_BRIDGE_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 24
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 98
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 100
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_NOSE_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 25
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_NOSE_RIM",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 29
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 50
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_L_AXLE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 37
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_L_FORK_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 35
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 43
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 446
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_L_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 140
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 50
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_R_AXLE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 37
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_R_FORK_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 35
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 43
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 450
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_R_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 140
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 37
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 65
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_NOSE_TIRE",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 123
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 50
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_L_AXLE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 43
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_L_FORK_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 31
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 29
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 394
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_L_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 121
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 50
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_R_AXLE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 43
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_R_FORK_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 31
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 29
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 388
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_R_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 121
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 37
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 65
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 52
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 48
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 48
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_L_AXLE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 55
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_L_FORK_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 31
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 35
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 264
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_L_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 101
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_L_AXLE_CAP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 52
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 48
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 48
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_R_AXLE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 55
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_R_FORK_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 31
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 35
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 264
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_R_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 101
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_R_AXLE_CAP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 67
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 52
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 83
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 45
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 46
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 224
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_L_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 81
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_2",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 52
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 83
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 46
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 45
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 224
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_R_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 81
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_2",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 72
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 34
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 52
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 91
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.58",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 47
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_LINK_PIN_-1_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 26
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 39
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_LINK_PIN_1_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 20
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 174
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 39
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 52
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 91
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.58",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 47
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 39
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 16
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_LINK_PIN_-1_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 20
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 18
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 38
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_LINK_PIN_1_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 26
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 174
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_RIM",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 39
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 52
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 50
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.58",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_LINK_PIN_-1_2",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 31
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 110
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 52
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 50
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.58",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_LINK_PIN_1_2",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 31
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 118
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 68
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 81
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.58",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 46
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 22
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_LINK_PIN_-1_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 32
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 44
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 68
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 81
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.58",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 46
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 22
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 40
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_LINK_PIN_1_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 32
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 147,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 147,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 147,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 147,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 147,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 147,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 46
+    },
+    {
+      "frame": 147,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 54
+    },
+    {
+      "frame": 147,
+      "orion": "ORION_MAIN_L_LINK_PIN_1_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 32
+    },
+    {
+      "frame": 147,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 46
+    },
+    {
+      "frame": 147,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 54
+    },
+    {
+      "frame": 147,
+      "orion": "ORION_MAIN_R_LINK_PIN_-1_1",
+      "banderol": "BDL_BODY",
+      "triangle_pairs": 32
+    },
+    {
+      "frame": 148,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 148,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 148,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 148,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 148,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 149,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 149,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 149,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 149,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 149,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 150,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 150,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 150,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 150,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 150,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 151,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 151,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 151,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 151,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 151,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 152,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 152,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 152,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 152,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 152,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 153,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 153,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 153,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 153,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 153,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 154,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 154,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 154,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 154,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 154,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 155,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 155,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 155,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 155,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 155,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 156,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 156,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 156,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 156,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 156,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 157,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 157,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 157,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 157,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 157,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 158,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 158,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 158,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 158,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 158,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 159,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 159,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 159,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 159,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 159,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 160,
+      "orion": "ORION_NOSE_UPPER_STRUT",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 42
+    },
+    {
+      "frame": 160,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 74
+    },
+    {
+      "frame": 160,
+      "orion": "ORION_NOSE_STRUT_COLLAR_0.7",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 17
+    },
+    {
+      "frame": 160,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 160,
+      "orion": "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "banderol": "BDL_NOSE",
+      "triangle_pairs": 36
+    },
+    {
+      "frame": 160,
+      "orion": "ORION_MAIN_L_TIRE",
+      "banderol": "BDL_WING_L",
+      "triangle_pairs": 116
+    },
+    {
+      "frame": 160,
+      "orion": "ORION_MAIN_R_TIRE",
+      "banderol": "BDL_WING_R",
+      "triangle_pairs": 114
+    }
+  ],
+  "limitations": [
+    "Surface intersections are not a signed-volume or distance guarantee.",
+    "No exact rack/station, carried wing pose or R3 sensor compatibility established.",
+    "Sensor and control surfaces left in approved neutral pose; no combined extremes swept.",
+    "Source-only propeller pose audit remains separate; no assembly propeller sweep."
+  ],
+  "authenticated_carriage": "BLOCKED BY EVIDENCE",
+  "fit_status": "FAILED"
+}

@@ -1,0 +1,56 @@
+{
+  "existing_asset_sha256": {
+    "C:\\Users\\david\\Desktop\\RECON DRONES\\Assets\\ORD\\Models\\OrionE_Detailed\\OrionE_Detailed.blend": "82cc12bc69afed7f71d52aca60ee0d1c942cd0b3b21295e98a581ae941655208",
+    "C:\\Users\\david\\Desktop\\RECON DRONES\\Assets\\ORD\\Models\\OrionE_Game\\ORD_Orion_Detailed.blend": "19d0df1e0fb8646ed93a41ac8669273f6fbf08fe988b8b35451d07bdb2e380f8",
+    "C:\\Users\\david\\Desktop\\RECON DRONES\\Assets\\ORD\\Models\\ORD_Missile.blend": "d4cdaf5fc3e371a58ff3ff61f021fd07108befe6fd2c2f1101fcc8f40970874a"
+  },
+  "references": [
+    {
+      "id": "R1",
+      "source": "C:\\Users\\david\\AppData\\Local\\Temp\\codex-clipboard-a937edfa-25c3-4607-a701-eb58f497244c.png",
+      "local": "Support/references_private/R1.png",
+      "sha256": "812948765dce3bccc0d9cc91696d2165b9611be2194491cbd4c19b7d80a0a588",
+      "caption": "Side illustration / compatible layout only",
+      "role": "SUPPORTING_PROJECTION",
+      "reuse": "Private supplied reference; redistribution permission unestablished"
+    },
+    {
+      "id": "R2",
+      "source": "C:\\Users\\david\\AppData\\Local\\Temp\\codex-clipboard-2e75e101-7b5d-4673-beb1-2cc8b872e020.png",
+      "local": "Support/references_private/R2.png",
+      "sha256": "21701e954b43b37459982ab071fab055bc2ac010bddb4bf865e9fee8a799e3c8",
+      "caption": "Airframe 01 / compatible structure only",
+      "role": "CONDITIONAL_PHOTO",
+      "reuse": "Private supplied reference; redistribution permission unestablished"
+    },
+    {
+      "id": "R3",
+      "source": "C:\\Users\\david\\AppData\\Local\\Temp\\codex-clipboard-74f8d8c5-b408-45ea-b6ca-df551a3a0ca6.png",
+      "local": "Support/references_private/R3.png",
+      "sha256": "637fe95bf21c10f25f4637d1013f260ebcc662f57526a1c666ef313081a679f1",
+      "caption": "Grey airframe / white nose / primary appearance",
+      "role": "PRIMARY_PHOTO",
+      "reuse": "Private supplied reference; redistribution permission unestablished"
+    },
+    {
+      "id": "R4",
+      "source": "C:\\Users\\david\\AppData\\Local\\Temp\\codex-clipboard-73ed205f-9d66-4644-acb3-a5a2f9dc1ff4.png",
+      "local": "Support/references_private/R4.png",
+      "sha256": "254fbc8c7f0dcaffcf7372ec535fecb47255675f5270450a57e911d2f94c8164",
+      "caption": "Unidentified missile render / excluded",
+      "role": "EXCLUDED_GEOMETRY",
+      "reuse": "Private supplied reference; redistribution permission unestablished"
+    },
+    {
+      "id": "R5",
+      "source": "C:\\Users\\david\\AppData\\Local\\Temp\\codex-clipboard-0a25e247-6aca-4166-88f8-3293dbaef80b.png",
+      "local": "Support/references_private/R5.png",
+      "sha256": "8b706df2e80a4b0093bf9bb94f612a974d91ae53bc6d0344d5e4817e635dd261",
+      "caption": "Banderol-like render / comparison lead only",
+      "role": "ILLUSTRATION_ONLY",
+      "reuse": "Private supplied reference; redistribution permission unestablished"
+    }
+  ],
+  "blender_version": "5.2.2 LTS",
+  "stage": "A/B setup; no aircraft geometry"
+}

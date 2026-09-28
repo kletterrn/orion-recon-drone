@@ -1,0 +1,674 @@
+{
+  "Orion/Orion_Master.blend": {
+    "objects": 249,
+    "mesh_faces": 67315,
+    "materials": {
+      "ORION_BAY_INTERIOR_APPROXIMATION": {
+        "Base Color": [
+          0.20999999344348907,
+          0.23499999940395355,
+          0.24500000476837158,
+          1.0
+        ],
+        "Roughness": 0.7400000095367432,
+        "Metallic": 0.0
+      },
+      "ORION_DARK_REVIEW": {
+        "Base Color": [
+          0.02500000037252903,
+          0.029999999329447746,
+          0.035999998450279236,
+          1.0
+        ],
+        "Roughness": 0.6499999761581421,
+        "Metallic": 0.0
+      },
+      "ORION_EXPOSED_SLIDING_METAL": {
+        "Base Color": [
+          0.6499999761581421,
+          0.6899999976158142,
+          0.7200000286102295,
+          1.0
+        ],
+        "Roughness": 0.20000000298023224,
+        "Metallic": 0.8500000238418579
+      },
+      "ORION_GEAR_SATIN_METAL": {
+        "Base Color": [
+          0.49000000953674316,
+          0.5199999809265137,
+          0.550000011920929,
+          1.0
+        ],
+        "Roughness": 0.3199999928474426,
+        "Metallic": 0.75
+      },
+      "ORION_GREEN_LENS": {
+        "Base Color": [
+          0.006000000052154064,
+          0.18000000715255737,
+          0.03500000014901161,
+          1.0
+        ],
+        "Roughness": 0.20000000298023224,
+        "Metallic": 0.0
+      },
+      "ORION_GREY_REVIEW": {
+        "Base Color": [
+          0.23999999463558197,
+          0.27000001072883606,
+          0.30000001192092896,
+          1.0
+        ],
+        "Roughness": 0.6499999761581421,
+        "Metallic": 0.0
+      },
+      "ORION_NEUTRAL_CLAY": {
+        "Base Color": [
+          0.47999998927116394,
+          0.5099999904632568,
+          0.5400000214576721,
+          1.0
+        ],
+        "Roughness": 0.800000011920929,
+        "Metallic": 0.0
+      },
+      "ORION_PROPELLER_TIP_PAINT": {
+        "Base Color": [
+          0.7799999713897705,
+          0.6000000238418579,
+          0.02500000037252903,
+          1.0
+        ],
+        "Roughness": 0.550000011920929,
+        "Metallic": 0.0
+      },
+      "ORION_RED_LENS": {
+        "Base Color": [
+          0.2800000011920929,
+          0.006000000052154064,
+          0.004000000189989805,
+          1.0
+        ],
+        "Roughness": 0.20000000298023224,
+        "Metallic": 0.0
+      },
+      "ORION_SEALS_DARK": {
+        "Base Color": [
+          0.027000000700354576,
+          0.03500000014901161,
+          0.03999999910593033,
+          1.0
+        ],
+        "Roughness": 0.6600000262260437,
+        "Metallic": 0.0
+      },
+      "ORION_SENSOR_BLUE_OPTIC_REVIEW": {
+        "Base Color": [
+          0.012000000104308128,
+          0.023000000044703484,
+          0.07500000298023224,
+          1.0
+        ],
+        "Roughness": 0.1599999964237213,
+        "Metallic": 0.0
+      },
+      "ORION_SENSOR_WARM_OPTIC_REVIEW": {
+        "Base Color": [
+          0.05000000074505806,
+          0.012000000104308128,
+          0.00800000037997961,
+          1.0
+        ],
+        "Roughness": 0.1899999976158142,
+        "Metallic": 0.0
+      },
+      "ORION_STRUT_REVIEW": {
+        "Base Color": [
+          0.44999998807907104,
+          0.47999998927116394,
+          0.5,
+          1.0
+        ],
+        "Roughness": 0.44999998807907104,
+        "Metallic": 0.5
+      },
+      "ORION_STUDIO_FLOOR": {
+        "Base Color": [
+          0.1599999964237213,
+          0.18000000715255737,
+          0.20000000298023224,
+          1.0
+        ],
+        "Roughness": 0.8500000238418579,
+        "Metallic": 0.0
+      },
+      "ORION_TIRE_RUBBER": {
+        "Base Color": [
+          0.014999999664723873,
+          0.01899999938905239,
+          0.02199999988079071,
+          1.0
+        ],
+        "Roughness": 0.7900000214576721,
+        "Metallic": 0.0
+      },
+      "ORION_WHITE_NOSE_REVIEW": {
+        "Base Color": [
+          0.7900000214576721,
+          0.7900000214576721,
+          0.7599999904632568,
+          1.0
+        ],
+        "Roughness": 0.6499999761581421,
+        "Metallic": 0.0
+      }
+    },
+    "collections": {
+      "ORION_AIRFRAME": 4,
+      "ORION_WINGS": 12,
+      "ORION_TAIL_REAR": 9,
+      "ORION_GEAR": 116,
+      "ORION_GEAR_BAYS": 48,
+      "ORION_SENSOR_R3": 31,
+      "ORION_EXTERIOR_DETAILS_R3": 29
+    },
+    "source_names": [
+      "ORION_FUSELAGE",
+      "ORION_NOSE_WHITE",
+      "ORION_WING_ROOT_BLEND_L",
+      "ORION_WING_ROOT_BLEND_R",
+      "ORION_WING_L",
+      "ORION_ROOT_TRAILING_L",
+      "ORION_FLAP_L",
+      "ORION_MID_TRAILING_L",
+      "ORION_AILERON_L",
+      "ORION_TIP_TRAILING_L",
+      "ORION_WING_R",
+      "ORION_ROOT_TRAILING_R",
+      "ORION_FLAP_R",
+      "ORION_MID_TRAILING_R",
+      "ORION_AILERON_R",
+      "ORION_TIP_TRAILING_R",
+      "ORION_TAIL_L",
+      "ORION_RUDDERVATOR_L",
+      "ORION_TAIL_R",
+      "ORION_RUDDERVATOR_R",
+      "ORION_REAR_COLLAR",
+      "ORION_PROPELLER_HUB",
+      "ORION_PUSHER_SPINNER",
+      "ORION_PROPELLER_BLADE_A",
+      "ORION_PROPELLER_BLADE_B",
+      "ORION_NOSE_UPPER_STRUT",
+      "ORION_NOSE_SLIDING_SECTION",
+      "ORION_NOSE_STRUT_COLLAR_0.18",
+      "ORION_NOSE_STRUT_COLLAR_0.58",
+      "ORION_NOSE_STRUT_COLLAR_0.7",
+      "ORION_NOSE_AXLE",
+      "ORION_NOSE_FORK_-1",
+      "ORION_NOSE_FORK_BRIDGE_-1",
+      "ORION_NOSE_VISIBLE_LINK_UP_-1",
+      "ORION_NOSE_VISIBLE_LINK_LOW_-1",
+      "ORION_NOSE_LINK_PIN_-1_0",
+      "ORION_NOSE_LINK_PIN_-1_1",
+      "ORION_NOSE_LINK_PIN_-1_2",
+      "ORION_NOSE_FORK_1",
+      "ORION_NOSE_FORK_BRIDGE_1",
+      "ORION_NOSE_VISIBLE_LINK_UP_1",
+      "ORION_NOSE_VISIBLE_LINK_LOW_1",
+      "ORION_NOSE_LINK_PIN_1_0",
+      "ORION_NOSE_LINK_PIN_1_1",
+      "ORION_NOSE_LINK_PIN_1_2",
+      "ORION_NOSE_VISIBLE_COIL",
+      "ORION_NOSE_VISIBLE_FLEX_LINE",
+      "ORION_NOSE_TIRE",
+      "ORION_NOSE_RIM",
+      "ORION_NOSE_HUB_RECESS_-1",
+      "ORION_NOSE_AXLE_CAP_-1",
+      "ORION_NOSE_HUB_BOLT_-1_0",
+      "ORION_NOSE_HUB_BOLT_-1_1",
+      "ORION_NOSE_HUB_BOLT_-1_2",
+      "ORION_NOSE_HUB_BOLT_-1_3",
+      "ORION_NOSE_HUB_BOLT_-1_4",
+      "ORION_NOSE_HUB_BOLT_-1_5",
+      "ORION_NOSE_HUB_RECESS_1",
+      "ORION_NOSE_AXLE_CAP_1",
+      "ORION_NOSE_HUB_BOLT_1_0",
+      "ORION_NOSE_HUB_BOLT_1_1",
+      "ORION_NOSE_HUB_BOLT_1_2",
+      "ORION_NOSE_HUB_BOLT_1_3",
+      "ORION_NOSE_HUB_BOLT_1_4",
+      "ORION_NOSE_HUB_BOLT_1_5",
+      "ORION_MAIN_L_UPPER_STRUT",
+      "ORION_MAIN_L_SLIDING_SECTION",
+      "ORION_MAIN_L_STRUT_COLLAR_0.18",
+      "ORION_MAIN_L_STRUT_COLLAR_0.58",
+      "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "ORION_MAIN_L_AXLE",
+      "ORION_MAIN_L_FORK_-1",
+      "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "ORION_MAIN_L_VISIBLE_LINK_UP_-1",
+      "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "ORION_MAIN_L_LINK_PIN_-1_0",
+      "ORION_MAIN_L_LINK_PIN_-1_1",
+      "ORION_MAIN_L_LINK_PIN_-1_2",
+      "ORION_MAIN_L_FORK_1",
+      "ORION_MAIN_L_FORK_BRIDGE_1",
+      "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "ORION_MAIN_L_LINK_PIN_1_0",
+      "ORION_MAIN_L_LINK_PIN_1_1",
+      "ORION_MAIN_L_LINK_PIN_1_2",
+      "ORION_MAIN_L_TIRE",
+      "ORION_MAIN_L_RIM",
+      "ORION_MAIN_L_HUB_RECESS_-1",
+      "ORION_MAIN_L_AXLE_CAP_-1",
+      "ORION_MAIN_L_HUB_BOLT_-1_0",
+      "ORION_MAIN_L_HUB_BOLT_-1_1",
+      "ORION_MAIN_L_HUB_BOLT_-1_2",
+      "ORION_MAIN_L_HUB_BOLT_-1_3",
+      "ORION_MAIN_L_HUB_BOLT_-1_4",
+      "ORION_MAIN_L_HUB_BOLT_-1_5",
+      "ORION_MAIN_L_HUB_RECESS_1",
+      "ORION_MAIN_L_AXLE_CAP_1",
+      "ORION_MAIN_L_HUB_BOLT_1_0",
+      "ORION_MAIN_L_HUB_BOLT_1_1",
+      "ORION_MAIN_L_HUB_BOLT_1_2",
+      "ORION_MAIN_L_HUB_BOLT_1_3",
+      "ORION_MAIN_L_HUB_BOLT_1_4",
+      "ORION_MAIN_L_HUB_BOLT_1_5",
+      "ORION_MAIN_R_UPPER_STRUT",
+      "ORION_MAIN_R_SLIDING_SECTION",
+      "ORION_MAIN_R_STRUT_COLLAR_0.18",
+      "ORION_MAIN_R_STRUT_COLLAR_0.58",
+      "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "ORION_MAIN_R_AXLE",
+      "ORION_MAIN_R_FORK_-1",
+      "ORION_MAIN_R_FORK_BRIDGE_-1",
+      "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "ORION_MAIN_R_LINK_PIN_-1_0",
+      "ORION_MAIN_R_LINK_PIN_-1_1",
+      "ORION_MAIN_R_LINK_PIN_-1_2",
+      "ORION_MAIN_R_FORK_1",
+      "ORION_MAIN_R_FORK_BRIDGE_1",
+      "ORION_MAIN_R_VISIBLE_LINK_UP_1",
+      "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "ORION_MAIN_R_LINK_PIN_1_0",
+      "ORION_MAIN_R_LINK_PIN_1_1",
+      "ORION_MAIN_R_LINK_PIN_1_2",
+      "ORION_MAIN_R_TIRE",
+      "ORION_MAIN_R_RIM",
+      "ORION_MAIN_R_HUB_RECESS_-1",
+      "ORION_MAIN_R_AXLE_CAP_-1",
+      "ORION_MAIN_R_HUB_BOLT_-1_0",
+      "ORION_MAIN_R_HUB_BOLT_-1_1",
+      "ORION_MAIN_R_HUB_BOLT_-1_2",
+      "ORION_MAIN_R_HUB_BOLT_-1_3",
+      "ORION_MAIN_R_HUB_BOLT_-1_4",
+      "ORION_MAIN_R_HUB_BOLT_-1_5",
+      "ORION_MAIN_R_HUB_RECESS_1",
+      "ORION_MAIN_R_AXLE_CAP_1",
+      "ORION_MAIN_R_HUB_BOLT_1_0",
+      "ORION_MAIN_R_HUB_BOLT_1_1",
+      "ORION_MAIN_R_HUB_BOLT_1_2",
+      "ORION_MAIN_R_HUB_BOLT_1_3",
+      "ORION_MAIN_R_HUB_BOLT_1_4",
+      "ORION_MAIN_R_HUB_BOLT_1_5",
+      "ORION_NOSE_BAY_SIDE_-1",
+      "ORION_NOSE_BAY_END_-1",
+      "ORION_NOSE_BAY_SIDE_1",
+      "ORION_NOSE_BAY_END_1",
+      "ORION_NOSE_BAY_ROOF",
+      "ORION_NOSE_BAY_ROOF_SUPPORT_0",
+      "ORION_NOSE_BAY_ROOF_SUPPORT_1",
+      "ORION_NOSE_OPENING_LIP_-1",
+      "ORION_NOSE_OPENING_LIP_1",
+      "ORION_NOSE_DOOR_SHELL_-1",
+      "ORION_NOSE_DOOR_HINGE_BARREL_-1_-1",
+      "ORION_NOSE_DOOR_HINGE_BARREL_-1_1",
+      "ORION_NOSE_DOOR_SHELL_1",
+      "ORION_NOSE_DOOR_HINGE_BARREL_1_-1",
+      "ORION_NOSE_DOOR_HINGE_BARREL_1_1",
+      "ORION_MAIN_L_BAY_SIDE_-1",
+      "ORION_MAIN_L_BAY_END_-1",
+      "ORION_MAIN_L_BAY_SIDE_1",
+      "ORION_MAIN_L_BAY_END_1",
+      "ORION_MAIN_L_BAY_ROOF",
+      "ORION_MAIN_L_BAY_ROOF_SUPPORT_0",
+      "ORION_MAIN_L_BAY_ROOF_SUPPORT_1",
+      "ORION_MAIN_L_OPENING_LIP_-1",
+      "ORION_MAIN_L_OPENING_LIP_1",
+      "ORION_MAIN_L_DOOR_SHELL_1",
+      "ORION_MAIN_L_DOOR_HINGE_BARREL_1_-1",
+      "ORION_MAIN_L_DOOR_HINGE_BARREL_1_1",
+      "ORION_MAIN_R_BAY_SIDE_-1",
+      "ORION_MAIN_R_BAY_END_-1",
+      "ORION_MAIN_R_BAY_SIDE_1",
+      "ORION_MAIN_R_BAY_END_1",
+      "ORION_MAIN_R_BAY_ROOF",
+      "ORION_MAIN_R_BAY_ROOF_SUPPORT_0",
+      "ORION_MAIN_R_BAY_ROOF_SUPPORT_1",
+      "ORION_MAIN_R_OPENING_LIP_-1",
+      "ORION_MAIN_R_OPENING_LIP_1",
+      "ORION_MAIN_R_DOOR_SHELL_-1",
+      "ORION_MAIN_R_DOOR_HINGE_BARREL_-1_-1",
+      "ORION_MAIN_R_DOOR_HINGE_BARREL_-1_1",
+      "ORION_NOSE_BAY_ATTACHMENT_PIN",
+      "ORION_NOSE_BAY_ATTACHMENT_BRACKET_-1",
+      "ORION_NOSE_BAY_ATTACHMENT_BRACKET_1",
+      "ORION_MAIN_L_BAY_ATTACHMENT_PIN",
+      "ORION_MAIN_L_BAY_ATTACHMENT_BRACKET_-1",
+      "ORION_MAIN_L_BAY_ATTACHMENT_BRACKET_1",
+      "ORION_MAIN_R_BAY_ATTACHMENT_PIN",
+      "ORION_MAIN_R_BAY_ATTACHMENT_BRACKET_-1",
+      "ORION_MAIN_R_BAY_ATTACHMENT_BRACKET_1",
+      "ORION_SENSOR_FIXED_CONFORMAL_SADDLE",
+      "ORION_SENSOR_YAW_COLLAR",
+      "ORION_SENSOR_PITCH_HOUSING",
+      "ORION_SENSOR_MAIN_WINDOW_RIM",
+      "ORION_SENSOR_MAIN_OPTICAL_SURFACE",
+      "ORION_SENSOR_MAIN_DARK_BACKING",
+      "ORION_SENSOR_UPPER_BLUE_WINDOW_RIM",
+      "ORION_SENSOR_UPPER_BLUE_OPTICAL_SURFACE",
+      "ORION_SENSOR_UPPER_BLUE_DARK_BACKING",
+      "ORION_SENSOR_RIGHT_MID_WINDOW_RIM",
+      "ORION_SENSOR_RIGHT_MID_OPTICAL_SURFACE",
+      "ORION_SENSOR_RIGHT_MID_DARK_BACKING",
+      "ORION_SENSOR_LOWER_L_WINDOW_RIM",
+      "ORION_SENSOR_LOWER_L_OPTICAL_SURFACE",
+      "ORION_SENSOR_LOWER_L_DARK_BACKING",
+      "ORION_SENSOR_LOWER_MID_WINDOW_RIM",
+      "ORION_SENSOR_LOWER_MID_OPTICAL_SURFACE",
+      "ORION_SENSOR_LOWER_MID_DARK_BACKING",
+      "ORION_SENSOR_LOWER_R_WINDOW_RIM",
+      "ORION_SENSOR_LOWER_R_OPTICAL_SURFACE",
+      "ORION_SENSOR_LOWER_R_DARK_BACKING",
+      "ORION_SENSOR_LEFT_SMALL_WINDOW_RIM",
+      "ORION_SENSOR_LEFT_SMALL_OPTICAL_SURFACE",
+      "ORION_SENSOR_LEFT_SMALL_DARK_BACKING",
+      "ORION_SENSOR_YOKE_TOP_BRIDGE",
+      "ORION_SENSOR_YOKE_-1",
+      "ORION_SENSOR_PITCH_PIVOT_CAP_-1",
+      "ORION_SENSOR_SIDE_SEAM_-1",
+      "ORION_SENSOR_YOKE_1",
+      "ORION_SENSOR_PITCH_PIVOT_CAP_1",
+      "ORION_SENSOR_SIDE_SEAM_1",
+      "ORION_DORSAL_WHITE_DOME",
+      "ORION_DORSAL_DOME_BASE_SEAL",
+      "ORION_DORSAL_DOME_BASE_FLANGE",
+      "ORION_DORSAL_DOME_CONFORMAL_BASE",
+      "ORION_FORWARD_LOW_DORSAL_COVER",
+      "ORION_FORWARD_RED_DORSAL_BLADE",
+      "ORION_AFT_SHORT_DORSAL_AERIAL",
+      "ORION_LEFT_FORWARD_PANEL_SEAL",
+      "ORION_LEFT_PANEL_VISIBLE_FASTENER_0",
+      "ORION_LEFT_PANEL_VISIBLE_FASTENER_1",
+      "ORION_LEFT_PANEL_VISIBLE_FASTENER_2",
+      "ORION_LEFT_PANEL_VISIBLE_FASTENER_3",
+      "ORION_LEFT_PANEL_VISIBLE_FASTENER_4",
+      "ORION_LEFT_PANEL_VISIBLE_FASTENER_5",
+      "ORION_LEFT_PANEL_VISIBLE_FASTENER_6",
+      "ORION_LEFT_PANEL_VISIBLE_FASTENER_7",
+      "ORION_LEFT_VENT_SHALLOW_BACKING",
+      "ORION_LEFT_VENT_RIM",
+      "ORION_REAR_DORSAL_INTAKE_SHELL",
+      "ORION_REAR_INTAKE_BACKING",
+      "ORION_FORWARD_UNDERSIDE_APERTURE_FAIRING",
+      "ORION_FORWARD_UNDERSIDE_APERTURE_-1",
+      "ORION_FORWARD_UNDERSIDE_APERTURE_1",
+      "ORION_WING_TIP_LIGHT_HOUSING_L",
+      "ORION_WING_TIP_LIGHT_LENS_L",
+      "ORION_WING_TIP_SMALL_PROJECTION_L",
+      "ORION_WING_TIP_LIGHT_HOUSING_R",
+      "ORION_WING_TIP_LIGHT_LENS_R",
+      "ORION_WING_TIP_SMALL_PROJECTION_R"
+    ]
+  },
+  "Banderol/S8000_Banderol_Master.blend": {
+    "objects": 34,
+    "mesh_faces": 9866,
+    "materials": {
+      "BDL_FLOOR": {
+        "Base Color": [
+          0.12999999523162842,
+          0.14000000059604645,
+          0.15000000596046448,
+          1.0
+        ],
+        "Roughness": 0.800000011920929,
+        "Metallic": 0.0
+      },
+      "BDL_LIGHT_GREY_REVIEW": {
+        "Base Color": [
+          0.23999999463558197,
+          0.2549999952316284,
+          0.25999999046325684,
+          1.0
+        ],
+        "Roughness": 0.5,
+        "Metallic": 0.0
+      },
+      "BDL_NEUTRAL_CLAY": {
+        "Base Color": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929,
+          1.0
+        ],
+        "Roughness": 0.5,
+        "Metallic": 0.0
+      },
+      "BDL_PANEL_SEAL": {
+        "Base Color": [
+          0.06499999761581421,
+          0.07000000029802322,
+          0.07199999690055847,
+          1.0
+        ],
+        "Roughness": 0.550000011920929,
+        "Metallic": 0.0
+      },
+      "BDL_REAR_RECESS_DARK": {
+        "Base Color": [
+          0.024000000208616257,
+          0.027000000700354576,
+          0.02800000086426735,
+          1.0
+        ],
+        "Roughness": 0.800000011920929,
+        "Metallic": 0.0
+      },
+      "BDL_REAR_RIM_REVIEW": {
+        "Base Color": [
+          0.3199999928474426,
+          0.3400000035762787,
+          0.3499999940395355,
+          1.0
+        ],
+        "Roughness": 0.3799999952316284,
+        "Metallic": 0.699999988079071
+      },
+      "BDL_SMALL_HARDWARE": {
+        "Base Color": [
+          0.28999999165534973,
+          0.30000001192092896,
+          0.3100000023841858,
+          1.0
+        ],
+        "Roughness": 0.550000011920929,
+        "Metallic": 0.6000000238418579
+      },
+      "BDL_TOP_LOOP_BRONZE": {
+        "Base Color": [
+          0.38999998569488525,
+          0.23999999463558197,
+          0.09000000357627869,
+          1.0
+        ],
+        "Roughness": 0.550000011920929,
+        "Metallic": 0.550000011920929
+      }
+    },
+    "collections": {},
+    "source_names": [
+      "BDL_REAR_COWLING_LINED",
+      "BDL_REAR_OPENING_RIM",
+      "BDL_WING_L",
+      "BDL_WING_ROOT_FAIRING_L",
+      "BDL_TAIL_L",
+      "BDL_WING_R",
+      "BDL_WING_ROOT_FAIRING_R",
+      "BDL_TAIL_R",
+      "BDL_TAIL_TOP",
+      "BDL_BODY",
+      "BDL_NOSE",
+      "BDL_CASE_SEAM_0",
+      "BDL_CASE_SEAM_1",
+      "BDL_CASE_SEAM_2",
+      "BDL_NOSE_PANEL_BOUNDARY",
+      "BDL_SIDE_FASTENER_-1_0",
+      "BDL_SIDE_FASTENER_-1_1",
+      "BDL_SIDE_FASTENER_-1_2",
+      "BDL_SIDE_FASTENER_-1_3",
+      "BDL_SIDE_FASTENER_-1_4",
+      "BDL_CROWN_FASTENER_-1_0",
+      "BDL_CROWN_FASTENER_-1_1",
+      "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "BDL_SIDE_FASTENER_1_0",
+      "BDL_SIDE_FASTENER_1_1",
+      "BDL_SIDE_FASTENER_1_2",
+      "BDL_SIDE_FASTENER_1_3",
+      "BDL_SIDE_FASTENER_1_4",
+      "BDL_CROWN_FASTENER_1_0",
+      "BDL_CROWN_FASTENER_1_1",
+      "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "BDL_TOP_LOOP_BASE",
+      "BDL_TOP_LOOP",
+      "BDL_REAR_UNDERSIDE_EXTERNAL_COVER"
+    ]
+  },
+  "Banderol/S8000_Banderol_VisualFit_Master.blend": {
+    "objects": 34,
+    "mesh_faces": 9866,
+    "materials": {
+      "BDL_FLOOR": {
+        "Base Color": [
+          0.12999999523162842,
+          0.14000000059604645,
+          0.15000000596046448,
+          1.0
+        ],
+        "Roughness": 0.800000011920929,
+        "Metallic": 0.0
+      },
+      "BDL_LIGHT_GREY_REVIEW": {
+        "Base Color": [
+          0.23999999463558197,
+          0.2549999952316284,
+          0.25999999046325684,
+          1.0
+        ],
+        "Roughness": 0.5,
+        "Metallic": 0.0
+      },
+      "BDL_NEUTRAL_CLAY": {
+        "Base Color": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929,
+          1.0
+        ],
+        "Roughness": 0.5,
+        "Metallic": 0.0
+      },
+      "BDL_PANEL_SEAL": {
+        "Base Color": [
+          0.06499999761581421,
+          0.07000000029802322,
+          0.07199999690055847,
+          1.0
+        ],
+        "Roughness": 0.550000011920929,
+        "Metallic": 0.0
+      },
+      "BDL_REAR_RECESS_DARK": {
+        "Base Color": [
+          0.024000000208616257,
+          0.027000000700354576,
+          0.02800000086426735,
+          1.0
+        ],
+        "Roughness": 0.800000011920929,
+        "Metallic": 0.0
+      },
+      "BDL_REAR_RIM_REVIEW": {
+        "Base Color": [
+          0.3199999928474426,
+          0.3400000035762787,
+          0.3499999940395355,
+          1.0
+        ],
+        "Roughness": 0.3799999952316284,
+        "Metallic": 0.699999988079071
+      },
+      "BDL_SMALL_HARDWARE": {
+        "Base Color": [
+          0.28999999165534973,
+          0.30000001192092896,
+          0.3100000023841858,
+          1.0
+        ],
+        "Roughness": 0.550000011920929,
+        "Metallic": 0.6000000238418579
+      },
+      "BDL_TOP_LOOP_BRONZE": {
+        "Base Color": [
+          0.38999998569488525,
+          0.23999999463558197,
+          0.09000000357627869,
+          1.0
+        ],
+        "Roughness": 0.550000011920929,
+        "Metallic": 0.550000011920929
+      }
+    },
+    "collections": {},
+    "source_names": [
+      "BDLF_REAR_COWLING_LINED",
+      "BDLF_REAR_OPENING_RIM",
+      "BDLF_WING_L",
+      "BDLF_WING_ROOT_FAIRING_L",
+      "BDLF_TAIL_L",
+      "BDLF_WING_R",
+      "BDLF_WING_ROOT_FAIRING_R",
+      "BDLF_TAIL_R",
+      "BDLF_TAIL_TOP",
+      "BDLF_BODY",
+      "BDLF_NOSE",
+      "BDLF_CASE_SEAM_0",
+      "BDLF_CASE_SEAM_1",
+      "BDLF_CASE_SEAM_2",
+      "BDLF_NOSE_PANEL_BOUNDARY",
+      "BDLF_SIDE_FASTENER_-1_0",
+      "BDLF_SIDE_FASTENER_-1_1",
+      "BDLF_SIDE_FASTENER_-1_2",
+      "BDLF_SIDE_FASTENER_-1_3",
+      "BDLF_SIDE_FASTENER_-1_4",
+      "BDLF_CROWN_FASTENER_-1_0",
+      "BDLF_CROWN_FASTENER_-1_1",
+      "BDLF_WING_ROOT_ROUNDED_COVER_-1",
+      "BDLF_SIDE_FASTENER_1_0",
+      "BDLF_SIDE_FASTENER_1_1",
+      "BDLF_SIDE_FASTENER_1_2",
+      "BDLF_SIDE_FASTENER_1_3",
+      "BDLF_SIDE_FASTENER_1_4",
+      "BDLF_CROWN_FASTENER_1_0",
+      "BDLF_CROWN_FASTENER_1_1",
+      "BDLF_WING_ROOT_ROUNDED_COVER_1",
+      "BDLF_TOP_LOOP_BASE",
+      "BDLF_TOP_LOOP",
+      "BDLF_REAR_UNDERSIDE_EXTERNAL_COVER"
+    ]
+  }
+}

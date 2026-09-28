@@ -1,0 +1,137 @@
+MetaFileClass {
+ Name "{9E31A4C705ECBD82}Assets/ORD/Models/OrionE_Game/ORD_Orion_Detailed.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{BF34F1FFBADAA938}" {
+     SourceMaterial "ORD_Detailed_e5c4cabc"
+     AssignedMaterial "{BF34F1FFBADAA938}Assets/ORD/Models/OrionE_Game/ORD_Detailed_e5c4cabc.emat"
+    }
+    MaterialAssignClass "{F8898F8545A91486}" {
+     SourceMaterial "ORD_Detailed_101a3b10"
+     AssignedMaterial "{F8898F8545A91486}Assets/ORD/Models/OrionE_Game/ORD_Detailed_101a3b10.emat"
+    }
+    MaterialAssignClass "{32F81D18270231E5}" {
+     SourceMaterial "ORD_Detailed_d7109e1e"
+     AssignedMaterial "{32F81D18270231E5}Assets/ORD/Models/OrionE_Game/ORD_Detailed_d7109e1e.emat"
+    }
+    MaterialAssignClass "{FED7A0DB9557A823}" {
+     SourceMaterial "ORD_Detailed_fb5adc42"
+     AssignedMaterial "{FED7A0DB9557A823}Assets/ORD/Models/OrionE_Game/ORD_Detailed_fb5adc42.emat"
+    }
+    MaterialAssignClass "{B556C0064A92FBDD}" {
+     SourceMaterial "ORD_Detailed_6399215d"
+     AssignedMaterial "{B556C0064A92FBDD}Assets/ORD/Models/OrionE_Game/ORD_Detailed_6399215d.emat"
+    }
+    MaterialAssignClass "{18BEDE435873D54C}" {
+     SourceMaterial "ORD_Detailed_3942872b"
+     AssignedMaterial "{18BEDE435873D54C}Assets/ORD/Models/OrionE_Game/ORD_Detailed_3942872b.emat"
+    }
+    MaterialAssignClass "{B1923992F0D2723C}" {
+     SourceMaterial "ORD_Detailed_532d6ff7"
+     AssignedMaterial "{B1923992F0D2723C}Assets/ORD/Models/OrionE_Game/ORD_Detailed_532d6ff7.emat"
+    }
+    MaterialAssignClass "{A0A5769975A77804}" {
+     SourceMaterial "ORD_Detailed_b714f705"
+     AssignedMaterial "{A0A5769975A77804}Assets/ORD/Models/OrionE_Game/ORD_Detailed_b714f705.emat"
+    }
+    MaterialAssignClass "{50C3910B0E829708}" {
+     SourceMaterial "ORD_Detailed_c1a60ceb"
+     AssignedMaterial "{50C3910B0E829708}Assets/ORD/Models/OrionE_Game/ORD_Detailed_c1a60ceb.emat"
+    }
+    MaterialAssignClass "{E998F3A883C4C0B0}" {
+     SourceMaterial "ORD_Detailed_ef8292f7"
+     AssignedMaterial "{E998F3A883C4C0B0}Assets/ORD/Models/OrionE_Game/ORD_Detailed_ef8292f7.emat"
+    }
+    MaterialAssignClass "{13C349F61245DC52}" {
+     SourceMaterial "ORD_Detailed_ad6dc48e"
+     AssignedMaterial "{13C349F61245DC52}Assets/ORD/Models/OrionE_Game/ORD_Detailed_ad6dc48e.emat"
+    }
+    MaterialAssignClass "{DE24173152037029}" {
+     SourceMaterial "ORD_Detailed_bb668d5e"
+     AssignedMaterial "{DE24173152037029}Assets/ORD/Models/OrionE_Game/ORD_Detailed_bb668d5e.emat"
+    }
+    MaterialAssignClass "{81B528955CA72724}" {
+     SourceMaterial "ORD_Detailed_da965638"
+     AssignedMaterial "{81B528955CA72724}Assets/ORD/Models/OrionE_Game/ORD_Detailed_da965638.emat"
+    }
+    MaterialAssignClass "{680D7C200817A9EF}" {
+     SourceMaterial "ORD_Detailed_b9a3ba1a"
+     AssignedMaterial "{680D7C200817A9EF}Assets/ORD/Models/OrionE_Game/ORD_Detailed_b9a3ba1a.emat"
+    }
+    MaterialAssignClass "{0B0907EBEFA9A1AA}" {
+     SourceMaterial "ORD_Detailed_5f50a58f"
+     AssignedMaterial "{0B0907EBEFA9A1AA}Assets/ORD/Models/OrionE_Game/ORD_Detailed_5f50a58f.emat"
+    }
+    MaterialAssignClass "{AAF52AC72FE6729A}" {
+     SourceMaterial "ORD_Detailed_7892e8c8"
+     AssignedMaterial "{AAF52AC72FE6729A}Assets/ORD/Models/OrionE_Game/ORD_Detailed_7892e8c8.emat"
+    }
+   }
+   MeshParams {
+    MeshParam ORD_Aileron_L_visual {
+    }
+    MeshParam ORD_Aileron_R_visual {
+    }
+    MeshParam ORD_Flap_L_visual {
+    }
+    MeshParam ORD_Flap_R_visual {
+    }
+    MeshParam ORD_Gear_L_visual {
+    }
+    MeshParam ORD_Gear_Nose_visual {
+    }
+    MeshParam ORD_Gear_R_visual {
+    }
+    MeshParam ORD_Propeller_visual {
+    }
+    MeshParam ORD_Root_visual {
+    }
+    MeshParam ORD_Sensor_visual {
+    }
+    MeshParam ORD_Tail_L_visual {
+    }
+    MeshParam ORD_Tail_R_visual {
+    }
+    MeshParam front_wheel_visual {
+    }
+    MeshParam rear_wheel_l_visual {
+    }
+    MeshParam rear_wheel_r_visual {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_Fuselage {
+     LayerPreset "Vehicle"
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_Wing_L {
+     LayerPreset "Vehicle"
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_Wing_R {
+     LayerPreset "Vehicle"
+     Mass 0
+     Margin 0
+    }
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.5.3 LTS"
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+ }
+}

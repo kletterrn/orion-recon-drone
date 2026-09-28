@@ -1,0 +1,20 @@
+MetaFileClass {
+ Name "{B842C294CE8044DE}Assets/ORD/Models/RC8/Textures/BDL_VisualFit_Appendages_BCR.edds"
+ Configurations {
+  TIFFResourceClass PC {
+   SourceFile "BDL_VisualFit_Appendages_BCR.tif"
+   Conversion ColorHQCompression
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass PS5 : PC {
+  }
+ }
+}

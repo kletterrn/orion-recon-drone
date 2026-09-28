@@ -1,0 +1,37 @@
+{
+  "input": "Banderol_RC8_Game.blend",
+  "output": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\Banderol_RC8_Game_v003.blend",
+  "source": "Banderol_RC8_Motion_v004.blend",
+  "changed_vertices": {
+    "BDL_Wing_L": 1307,
+    "BDL_Wing_R": 1310
+  },
+  "example": {
+    "BDL_Wing_L": {
+      "before": [
+        -0.03999999910593033,
+        0.28584176301956177,
+        -0.1624000072479248
+      ],
+      "after": [
+        -0.1352713704109192,
+        0.08355721831321716,
+        -0.21253448724746704
+      ]
+    },
+    "BDL_Wing_R": {
+      "before": [
+        0.03999999910593033,
+        0.28584176301956177,
+        -0.1624000072479248
+      ],
+      "after": [
+        0.07539673894643784,
+        0.11889461427927017,
+        -0.26250001788139343
+      ]
+    }
+  },
+  "rest_bones": "already folded in v002",
+  "status": "folded bind geometry; engine import pending"
+}

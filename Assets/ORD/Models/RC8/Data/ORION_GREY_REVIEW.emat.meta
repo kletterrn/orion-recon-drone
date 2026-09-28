@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0B42D064EEB7D9A8}Assets/ORD/Models/RC8/Data/ORION_GREY_REVIEW.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

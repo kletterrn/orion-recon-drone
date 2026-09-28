@@ -1,0 +1,110 @@
+{
+  "fresh_process_reopens": [
+    {
+      "success": true,
+      "details": {
+        "target": "C:\\Users\\david\\Desktop\\RECON DRONES\\AssetProduction\\Orion_Banderol_R3_v001\\Orion\\Orion_Master.blend",
+        "libraries": [],
+        "missing_images": [],
+        "scenes": [
+          "ORION_GEOMETRY_REVIEW",
+          "REFERENCE_AUDIT_PRIVATE"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "details": {
+        "target": "C:\\Users\\david\\Desktop\\RECON DRONES\\AssetProduction\\Orion_Banderol_R3_v001\\Banderol\\S8000_Banderol_Master.blend",
+        "libraries": [],
+        "missing_images": [],
+        "scenes": [
+          "BANDEROL_GEOMETRY_REVIEW"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "details": {
+        "target": "C:\\Users\\david\\Desktop\\RECON DRONES\\AssetProduction\\Orion_Banderol_R3_v001\\Assembly\\Orion_Banderol_Preview.blend",
+        "libraries": [
+          {
+            "path": "//..\\Orion\\Orion_Master.blend",
+            "absolute": "C:\\Users\\david\\Desktop\\RECON DRONES\\AssetProduction\\Orion_Banderol_R3_v001\\Assembly\\..\\Orion\\Orion_Master.blend",
+            "exists": true
+          },
+          {
+            "path": "//..\\Banderol\\S8000_Banderol_Master.blend",
+            "absolute": "C:\\Users\\david\\Desktop\\RECON DRONES\\AssetProduction\\Orion_Banderol_R3_v001\\Assembly\\..\\Banderol\\S8000_Banderol_Master.blend",
+            "exists": true
+          }
+        ],
+        "missing_images": [],
+        "scenes": [
+          "H_CARRIAGE_DIAGNOSTIC",
+          "H_SEPARATE_SCALE_REVIEW"
+        ],
+        "linked_gear_motion_metres": 1.743759028093491,
+        "render_mesh_instances": 287
+      }
+    },
+    {
+      "success": true,
+      "details": {
+        "target": "C:\\Users\\david\\Desktop\\RECON DRONES\\AssetProduction\\Orion_Banderol_R3_v001\\Assembly\\checkpoints\\Orion_Banderol_H_support_v007.blend",
+        "libraries": [
+          {
+            "path": "//..\\..\\Orion\\Orion_Master.blend",
+            "absolute": "C:\\Users\\david\\Desktop\\RECON DRONES\\AssetProduction\\Orion_Banderol_R3_v001\\Assembly\\checkpoints\\..\\..\\Orion\\Orion_Master.blend",
+            "exists": true
+          },
+          {
+            "path": "//..\\..\\Banderol\\S8000_Banderol_Master.blend",
+            "absolute": "C:\\Users\\david\\Desktop\\RECON DRONES\\AssetProduction\\Orion_Banderol_R3_v001\\Assembly\\checkpoints\\..\\..\\Banderol\\S8000_Banderol_Master.blend",
+            "exists": true
+          }
+        ],
+        "missing_images": [],
+        "scenes": [
+          "H_CARRIAGE_DIAGNOSTIC",
+          "H_SEPARATE_SCALE_REVIEW"
+        ],
+        "linked_gear_motion_metres": 1.743759028093491,
+        "render_mesh_instances": 287
+      }
+    },
+    {
+      "success": true,
+      "details": {
+        "target": "C:\\Users\\david\\Desktop\\RECON DRONES\\AssetProduction\\Orion_Banderol_R3_v001\\Support\\validation_relocated_H_v007\\Assembly\\Orion_Banderol_Preview.blend",
+        "libraries": [
+          {
+            "path": "//..\\Orion\\Orion_Master.blend",
+            "absolute": "C:\\Users\\david\\Desktop\\RECON DRONES\\AssetProduction\\Orion_Banderol_R3_v001\\Support\\validation_relocated_H_v007\\Assembly\\..\\Orion\\Orion_Master.blend",
+            "exists": true
+          },
+          {
+            "path": "//..\\Banderol\\S8000_Banderol_Master.blend",
+            "absolute": "C:\\Users\\david\\Desktop\\RECON DRONES\\AssetProduction\\Orion_Banderol_R3_v001\\Support\\validation_relocated_H_v007\\Assembly\\..\\Banderol\\S8000_Banderol_Master.blend",
+            "exists": true
+          }
+        ],
+        "missing_images": [],
+        "scenes": [
+          "H_CARRIAGE_DIAGNOSTIC",
+          "H_SEPARATE_SCALE_REVIEW"
+        ],
+        "linked_gear_motion_metres": 1.743759028093491,
+        "render_mesh_instances": 287
+      }
+    }
+  ],
+  "masters_byte_identical": true,
+  "digital_fit": "Default gear-down and full rotor sweep clear; intermediate illustrative gear poses still intersect",
+  "sampled_gear_frames": 160,
+  "sampled_surface_contacts": 929,
+  "relative_library_relocation": true,
+  "actual_rack_and_carried_wing_configuration": "BLOCKED BY REFERENCE EVIDENCE",
+  "engine_validation": "NOT ATTEMPTED",
+  "visual_inspection": "Performed: four H_v006 renders; v007 preserves rendered world positions and changes parenting only"
+}

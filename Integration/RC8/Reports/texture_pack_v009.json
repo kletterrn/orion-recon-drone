@@ -1,0 +1,200 @@
+[
+  {
+    "group": "Assembly_Pylon",
+    "BCR": {
+      "path": "C:\\Users\\david\\Desktop\\RECON DRONES\\Assets\\ORD\\Models\\RC8\\Textures\\Assembly_Pylon_BCR.tif",
+      "sha256": "1be18e6183d93395fbf66963de6c37c57f004d579904bc676b0cd491db2ca23b",
+      "bytes": 1800986,
+      "size": [
+        4096,
+        4096
+      ]
+    },
+    "NMO": {
+      "path": "C:\\Users\\david\\Desktop\\RECON DRONES\\Assets\\ORD\\Models\\RC8\\Textures\\Assembly_Pylon_NMO.tif",
+      "sha256": "cc6f05676a43b4ad3fe6a2e257a0595683fedf4e35db2058270f0b164ecbb669",
+      "bytes": 11589630,
+      "size": [
+        4096,
+        4096
+      ]
+    },
+    "channels": "BCR: baseRGB roughA (sRGB); NMO: normalX, flippedDirectXnormalY, metallicB, AOA (linear)"
+  },
+  {
+    "group": "Orion_Airframe",
+    "BCR": {
+      "path": "C:\\Users\\david\\Desktop\\RECON DRONES\\Assets\\ORD\\Models\\RC8\\Textures\\Orion_Airframe_BCR.tif",
+      "sha256": "333b3d7c9b1c81c58cd1a940c70c2ef98c007557fee4f11f77dd8fdd6683ac48",
+      "bytes": 1635966,
+      "size": [
+        4096,
+        4096
+      ]
+    },
+    "NMO": {
+      "path": "C:\\Users\\david\\Desktop\\RECON DRONES\\Assets\\ORD\\Models\\RC8\\Textures\\Orion_Airframe_NMO.tif",
+      "sha256": "c959fcc27cfea93a28a2fa8ae1734485804ac3024c57dae80ffbadbff4727172",
+      "bytes": 7842914,
+      "size": [
+        4096,
+        4096
+      ]
+    },
+    "channels": "BCR: baseRGB roughA (sRGB); NMO: normalX, flippedDirectXnormalY, metallicB, AOA (linear)"
+  },
+  {
+    "group": "Orion_Bay_Skin",
+    "BCR": {
+      "path": "C:\\Users\\david\\Desktop\\RECON DRONES\\Assets\\ORD\\Models\\RC8\\Textures\\Orion_Bay_Skin_BCR.tif",
+      "sha256": "769de541ba80a9a1b06dab56c60165a0807173ffc5515bdce3cfd2819174cf7d",
+      "bytes": 1069198,
+      "size": [
+        4096,
+        4096
+      ]
+    },
+    "NMO": {
+      "path": "C:\\Users\\david\\Desktop\\RECON DRONES\\Assets\\ORD\\Models\\RC8\\Textures\\Orion_Bay_Skin_NMO.tif",
+      "sha256": "14753db3943e7cd3b54d91c6bf816ae024678669bbe256d0d5f690dc409a280e",
+      "bytes": 21411456,
+      "size": [
+        4096,
+        4096
+      ]
+    },
+    "channels": "BCR: baseRGB roughA (sRGB); NMO: normalX, flippedDirectXnormalY, metallicB, AOA (linear)"
+  },
+  {
+    "group": "Orion_Equipment",
+    "BCR": {
+      "path": "C:\\Users\\david\\Desktop\\RECON DRONES\\Assets\\ORD\\Models\\RC8\\Textures\\Orion_Equipment_BCR.tif",
+      "sha256": "496e0b7d13e89ed6b1e97ecb9827ec0166018795d6dc2037f9738208282ef860",
+      "bytes": 1708128,
+      "size": [
+        4096,
+        4096
+      ]
+    },
+    "NMO": {
+      "path": "C:\\Users\\david\\Desktop\\RECON DRONES\\Assets\\ORD\\Models\\RC8\\Textures\\Orion_Equipment_NMO.tif",
+      "sha256": "1949d2fb96fd8dae95aa2ab7c546213341988c00c436b9140d08b7eeb32fb36a",
+      "bytes": 9285406,
+      "size": [
+        4096,
+        4096
+      ]
+    },
+    "channels": "BCR: baseRGB roughA (sRGB); NMO: normalX, flippedDirectXnormalY, metallicB, AOA (linear)"
+  },
+  {
+    "group": "Orion_Gear_Bays",
+    "BCR": {
+      "path": "C:\\Users\\david\\Desktop\\RECON DRONES\\Assets\\ORD\\Models\\RC8\\Textures\\Orion_Gear_Bays_BCR.tif",
+      "sha256": "6ce9ea4971161319c5548001366b6ebdca0a249520979b867666625cd5978e3f",
+      "bytes": 2148806,
+      "size": [
+        4096,
+        4096
+      ]
+    },
+    "NMO": {
+      "path": "C:\\Users\\david\\Desktop\\RECON DRONES\\Assets\\ORD\\Models\\RC8\\Textures\\Orion_Gear_Bays_NMO.tif",
+      "sha256": "32bb9cfa2d71b13122da66b6f455fcc5b3f6593464b91c0df557465f26c1c5e5",
+      "bytes": 27461680,
+      "size": [
+        4096,
+        4096
+      ]
+    },
+    "channels": "BCR: baseRGB roughA (sRGB); NMO: normalX, flippedDirectXnormalY, metallicB, AOA (linear)"
+  },
+  {
+    "group": "Orion_Sensor",
+    "BCR": {
+      "path": "C:\\Users\\david\\Desktop\\RECON DRONES\\Assets\\ORD\\Models\\RC8\\Textures\\Orion_Sensor_BCR.tif",
+      "sha256": "cc1f708f0544a1f6272fca2a75365f6edf42237d6fe61c7fb85b9b27f7146e70",
+      "bytes": 1585492,
+      "size": [
+        4096,
+        4096
+      ]
+    },
+    "NMO": {
+      "path": "C:\\Users\\david\\Desktop\\RECON DRONES\\Assets\\ORD\\Models\\RC8\\Textures\\Orion_Sensor_NMO.tif",
+      "sha256": "8780e0996b754eb3e3ba66c976b653f0ca351707a01154288a631eaf5750d5b6",
+      "bytes": 17995272,
+      "size": [
+        4096,
+        4096
+      ]
+    },
+    "channels": "BCR: baseRGB roughA (sRGB); NMO: normalX, flippedDirectXnormalY, metallicB, AOA (linear)"
+  },
+  {
+    "group": "Orion_Tail_Rear",
+    "BCR": {
+      "path": "C:\\Users\\david\\Desktop\\RECON DRONES\\Assets\\ORD\\Models\\RC8\\Textures\\Orion_Tail_Rear_BCR.tif",
+      "sha256": "9f034ffe8467e507b68d76b2cb52078733f3ff6cf3d030305d563990755f0b62",
+      "bytes": 1350816,
+      "size": [
+        4096,
+        4096
+      ]
+    },
+    "NMO": {
+      "path": "C:\\Users\\david\\Desktop\\RECON DRONES\\Assets\\ORD\\Models\\RC8\\Textures\\Orion_Tail_Rear_NMO.tif",
+      "sha256": "122345e5a0a0b327e562626ef0ed8e216d6ea06821d928cf655fb2d35edea6c7",
+      "bytes": 22251224,
+      "size": [
+        4096,
+        4096
+      ]
+    },
+    "channels": "BCR: baseRGB roughA (sRGB); NMO: normalX, flippedDirectXnormalY, metallicB, AOA (linear)"
+  },
+  {
+    "group": "Orion_Wing_L",
+    "BCR": {
+      "path": "C:\\Users\\david\\Desktop\\RECON DRONES\\Assets\\ORD\\Models\\RC8\\Textures\\Orion_Wing_L_BCR.tif",
+      "sha256": "623129a9b19dfce03a027df271932d24fc60f3b860dfc936cef7a2e74df69cd9",
+      "bytes": 939174,
+      "size": [
+        4096,
+        4096
+      ]
+    },
+    "NMO": {
+      "path": "C:\\Users\\david\\Desktop\\RECON DRONES\\Assets\\ORD\\Models\\RC8\\Textures\\Orion_Wing_L_NMO.tif",
+      "sha256": "fdabf1c961cd20e37a93bad0884c91716c312f9e8ab33ceb9bdcafa4d1d26eb3",
+      "bytes": 4567722,
+      "size": [
+        4096,
+        4096
+      ]
+    },
+    "channels": "BCR: baseRGB roughA (sRGB); NMO: normalX, flippedDirectXnormalY, metallicB, AOA (linear)"
+  },
+  {
+    "group": "Orion_Wing_R",
+    "BCR": {
+      "path": "C:\\Users\\david\\Desktop\\RECON DRONES\\Assets\\ORD\\Models\\RC8\\Textures\\Orion_Wing_R_BCR.tif",
+      "sha256": "1529d9830b0ab8162447b07f0de07b1f5b5cad8e30e80ce053e301afc1909f35",
+      "bytes": 920332,
+      "size": [
+        4096,
+        4096
+      ]
+    },
+    "NMO": {
+      "path": "C:\\Users\\david\\Desktop\\RECON DRONES\\Assets\\ORD\\Models\\RC8\\Textures\\Orion_Wing_R_NMO.tif",
+      "sha256": "705587d4c35f6125c91a24b56e5814d2b3867d9100856cb64881c488dc44267b",
+      "bytes": 4438084,
+      "size": [
+        4096,
+        4096
+      ]
+    },
+    "channels": "BCR: baseRGB roughA (sRGB); NMO: normalX, flippedDirectXnormalY, metallicB, AOA (linear)"
+  }
+]

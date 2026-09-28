@@ -1,0 +1,34 @@
+[
+  {
+    "view": "Hero",
+    "path": "Previews/E_v005_Hero.png"
+  },
+  {
+    "view": "Forward_Exterior",
+    "path": "Previews/E_v005_Forward_Exterior.png"
+  },
+  {
+    "view": "Dorsal_Panel",
+    "path": "Previews/E_v005_Dorsal_Panel.png"
+  },
+  {
+    "view": "Rear_Propeller",
+    "path": "Previews/E_v005_Rear_Propeller.png"
+  },
+  {
+    "view": "Left_Tip",
+    "path": "Previews/E_v005_Left_Tip.png"
+  },
+  {
+    "view": "Rig_Pose",
+    "path": "Previews/E_v005_Rig_Pose.png"
+  },
+  {
+    "view": "Clay_Hero",
+    "path": "Previews/E_v005_Clay_Hero.png"
+  },
+  {
+    "view": "Underside_Apertures",
+    "path": "Previews/E_v005_Underside_Apertures.png"
+  }
+]

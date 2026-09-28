@@ -1,0 +1,26 @@
+{
+  "revision": "v012",
+  "fresh_master_reopen": true,
+  "roots": [
+    {
+      "name": "ORION_WING_ROOT_BLEND_L",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "positive_volume": true,
+      "inner_cap_points": 128,
+      "cap_max_signed_distance": -0.011061036198952934,
+      "cap_entirely_inside_evaluated_body": true,
+      "body_surface_intersection_pairs": 234
+    },
+    {
+      "name": "ORION_WING_ROOT_BLEND_R",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "positive_volume": true,
+      "inner_cap_points": 128,
+      "cap_max_signed_distance": -0.011060933062253753,
+      "cap_entirely_inside_evaluated_body": true,
+      "body_surface_intersection_pairs": 234
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+[
+  {
+    "source": "BDLF_REAR_COWLING_LINED",
+    "export": "BDLF_REAR_COWLING_LINED_RC8_SKIN",
+    "bone": "ORD_Root",
+    "vertices": 576
+  },
+  {
+    "source": "BDLF_REAR_OPENING_RIM",
+    "export": "BDLF_REAR_OPENING_RIM_RC8_SKIN",
+    "bone": "ORD_Root",
+    "vertices": 384
+  },
+  {
+    "source": "BDLF_WING_L",
+    "export": "BDLF_WING_L_RC8_SKIN",
+    "bone": "BDL_Wing_L",
+    "vertices": 492
+  },
+  {
+    "source": "BDLF_WING_ROOT_FAIRING_L",
+    "export": "BDLF_WING_ROOT_FAIRING_L_RC8_SKIN",
+    "bone": "ORD_Root",
+    "vertices": 384
+  },
+  {
+    "source": "BDLF_TAIL_L",
+    "export": "BDLF_TAIL_L_RC8_SKIN",
+    "bone": "ORD_Root",
+    "vertices": 328
+  },
+  {
+    "source": "BDLF_WING_R",
+    "export": "BDLF_WING_R_RC8_SKIN",
+    "bone": "BDL_Wing_R",
+    "vertices": 492
+  },
+  {
+    "source": "BDLF_WING_ROOT_FAIRING_R",
+    "export": "BDLF_WING_ROOT_FAIRING_R_RC8_SKIN",
+    "bone": "ORD_Root",
+    "vertices": 384
+  },
+  {
+    "source": "BDLF_TAIL_R",
+    "export": "BDLF_TAIL_R_RC8_SKIN",
+    "bone": "ORD_Root",
+    "vertices": 328
+  },
+  {
+    "source": "BDLF_TAIL_TOP",
+    "export": "BDLF_TAIL_TOP_RC8_SKIN",
+    "bone": "ORD_Root",
+    "vertices": 328
+  },
+  {
+    "source": "BDLF_BODY",
+    "export": "BDLF_BODY_RC8_SKIN",
+    "bone": "ORD_Root",
+    "vertices": 768
+  },
+  {
+    "source": "BDLF_NOSE",
+    "export": "BDLF_NOSE_RC8_SKIN",
+    "bone": "ORD_Root",
+    "vertices": 1152
+  },
+  {
+    "source": "BDLF_CASE_SEAM_0",
+    "export": "BDLF_CASE_SEAM_0_RC8_SKIN",
+    "bone": "ORD_Root",
+    "vertices": 1280
+  },
+  {
+    "source": "BDLF_CASE_SEAM_1",
+    "export": "BDLF_CASE_SEAM_1_RC8_SKIN",
+    "bone": "ORD_Root",
+    "vertices": 1280
+  },
+  {
+    "source": "BDLF_CASE_SEAM_2",
+    "export": "BDLF_CASE_SEAM_2_RC8_SKIN",
+    "bone": "ORD_Root",
+    "vertices": 1280
+  },
+  {
+    "source": "BDLF_NOSE_PANEL_BOUNDARY",
+    "export": "BDLF_NOSE_PANEL_BOUNDARY_RC8_SKIN",
+    "bone": "ORD_Root",
+    "vertices": 1280
+  },
+  {
+    "source": "BDLF_SIDE_FASTENER_-1_0",
+    "export": "BDLF_SIDE_FASTENER_-1_0_RC8_SKIN",
+    "bone": "ORD_Root",
+    "vertices": 266
+  },
+  {
+    "source": "BDLF_SIDE_FASTENER_-1_1",
+    "export": "BDLF_SIDE_FASTENER_-1_1_RC8_SKIN",
+    "bone": "ORD_Root",
+    "vertices": 266
+  },
+  {
+    "source": "BDLF_SIDE_FASTENER_-1_2",
+    "export": "BDLF_SIDE_FASTENER_-1_2_RC8_SKIN",
+    "bone": "ORD_Root",
+    "vertices": 266
+  },
+  {
+    "source": "BDLF_SIDE_FASTENER_-1_3",
+    "export": "BDLF_SIDE_FASTENER_-1_3_RC8_SKIN",
+    "bone": "ORD_Root",
+    "vertices": 266
+  },
+  {
+    "source": "BDLF_SIDE_FASTENER_-1_4",
+    "export": "BDLF_SIDE_FASTENER_-1_4_RC8_SKIN",
+    "bone": "ORD_Root",
+    "vertices": 266
+  },
+  {
+    "source": "BDLF_CROWN_FASTENER_-1_0",
+    "export": "BDLF_CROWN_FASTENER_-1_0_RC8_SKIN",
+    "bone": "ORD_Root",
+    "vertices": 266
+  },
+  {
+    "source": "BDLF_CROWN_FASTENER_-1_1",
+    "export": "BDLF_CROWN_FASTENER_-1_1_RC8_SKIN",
+    "bone": "ORD_Root",
+    "vertices": 266
+  },
+  {
+    "source": "BDLF_WING_ROOT_ROUNDED_COVER_-1",
+    "export": "BDLF_WING_ROOT_ROUNDED_COVER_-1_RC8_SKIN",
+    "bone": "ORD_Root",
+    "vertices": 266
+  },
+  {
+    "source": "BDLF_SIDE_FASTENER_1_0",
+    "export": "BDLF_SIDE_FASTENER_1_0_RC8_SKIN",
+    "bone": "ORD_Root",
+    "vertices": 266
+  },
+  {
+    "source": "BDLF_SIDE_FASTENER_1_1",
+    "export": "BDLF_SIDE_FASTENER_1_1_RC8_SKIN",
+    "bone": "ORD_Root",
+    "vertices": 266
+  },
+  {
+    "source": "BDLF_SIDE_FASTENER_1_2",
+    "export": "BDLF_SIDE_FASTENER_1_2_RC8_SKIN",
+    "bone": "ORD_Root",
+    "vertices": 266
+  },
+  {
+    "source": "BDLF_SIDE_FASTENER_1_3",
+    "export": "BDLF_SIDE_FASTENER_1_3_RC8_SKIN",
+    "bone": "ORD_Root",
+    "vertices": 266
+  },
+  {
+    "source": "BDLF_SIDE_FASTENER_1_4",
+    "export": "BDLF_SIDE_FASTENER_1_4_RC8_SKIN",
+    "bone": "ORD_Root",
+    "vertices": 266
+  },
+  {
+    "source": "BDLF_CROWN_FASTENER_1_0",
+    "export": "BDLF_CROWN_FASTENER_1_0_RC8_SKIN",
+    "bone": "ORD_Root",
+    "vertices": 266
+  },
+  {
+    "source": "BDLF_CROWN_FASTENER_1_1",
+    "export": "BDLF_CROWN_FASTENER_1_1_RC8_SKIN",
+    "bone": "ORD_Root",
+    "vertices": 266
+  },
+  {
+    "source": "BDLF_WING_ROOT_ROUNDED_COVER_1",
+    "export": "BDLF_WING_ROOT_ROUNDED_COVER_1_RC8_SKIN",
+    "bone": "ORD_Root",
+    "vertices": 266
+  },
+  {
+    "source": "BDLF_TOP_LOOP_BASE",
+    "export": "BDLF_TOP_LOOP_BASE_RC8_SKIN",
+    "bone": "ORD_Root",
+    "vertices": 266
+  },
+  {
+    "source": "BDLF_TOP_LOOP",
+    "export": "BDLF_TOP_LOOP_RC8_SKIN",
+    "bone": "ORD_Root",
+    "vertices": 70
+  },
+  {
+    "source": "BDLF_REAR_UNDERSIDE_EXTERNAL_COVER",
+    "export": "BDLF_REAR_UNDERSIDE_EXTERNAL_COVER_RC8_SKIN",
+    "bone": "ORD_Root",
+    "vertices": 266
+  }
+]

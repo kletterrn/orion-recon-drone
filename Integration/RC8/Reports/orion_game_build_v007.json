@@ -1,0 +1,329 @@
+{
+  "asset": "Orion",
+  "groups": {
+    "Orion_Gear_Bays": {
+      "triangles": 54066,
+      "source_meshes": 1,
+      "resolution": 4096
+    },
+    "Orion_Airframe": {
+      "triangles": 54936,
+      "source_meshes": 1,
+      "resolution": 4096
+    },
+    "Orion_Wing_L": {
+      "triangles": 17726,
+      "source_meshes": 1,
+      "resolution": 4096
+    },
+    "Orion_Wing_R": {
+      "triangles": 17726,
+      "source_meshes": 1,
+      "resolution": 4096
+    },
+    "Orion_Bay_Skin": {
+      "triangles": 14608,
+      "source_meshes": 1,
+      "resolution": 4096
+    },
+    "Orion_Tail_Rear": {
+      "triangles": 6120,
+      "source_meshes": 1,
+      "resolution": 4096
+    },
+    "Orion_Equipment": {
+      "triangles": 10276,
+      "source_meshes": 1,
+      "resolution": 4096
+    },
+    "Orion_Sensor": {
+      "triangles": 20596,
+      "source_meshes": 1,
+      "resolution": 4096
+    },
+    "Assembly_Pylon": {
+      "triangles": 3938,
+      "source_meshes": 1,
+      "resolution": 4096
+    }
+  },
+  "lod_triangles": [
+    199992,
+    79992,
+    29993,
+    8146
+  ],
+  "bakes": [
+    {
+      "group": "Orion_Gear_Bays",
+      "channel": "BaseColor",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Gear_Bays_BaseColor.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Gear_Bays",
+      "channel": "Roughness",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Gear_Bays_Roughness.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Gear_Bays",
+      "channel": "Metallic",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Gear_Bays_Metallic.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Gear_Bays",
+      "channel": "Normal",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Gear_Bays_Normal.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Gear_Bays",
+      "channel": "AO",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Gear_Bays_AO.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Airframe",
+      "channel": "BaseColor",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Airframe_BaseColor.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Airframe",
+      "channel": "Roughness",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Airframe_Roughness.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Airframe",
+      "channel": "Metallic",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Airframe_Metallic.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Airframe",
+      "channel": "Normal",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Airframe_Normal.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Airframe",
+      "channel": "AO",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Airframe_AO.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Wing_L",
+      "channel": "BaseColor",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Wing_L_BaseColor.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Wing_L",
+      "channel": "Roughness",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Wing_L_Roughness.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Wing_L",
+      "channel": "Metallic",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Wing_L_Metallic.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Wing_L",
+      "channel": "Normal",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Wing_L_Normal.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Wing_L",
+      "channel": "AO",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Wing_L_AO.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Wing_R",
+      "channel": "BaseColor",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Wing_R_BaseColor.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Wing_R",
+      "channel": "Roughness",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Wing_R_Roughness.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Wing_R",
+      "channel": "Metallic",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Wing_R_Metallic.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Wing_R",
+      "channel": "Normal",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Wing_R_Normal.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Wing_R",
+      "channel": "AO",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Wing_R_AO.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Bay_Skin",
+      "channel": "BaseColor",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Bay_Skin_BaseColor.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Bay_Skin",
+      "channel": "Roughness",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Bay_Skin_Roughness.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Bay_Skin",
+      "channel": "Metallic",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Bay_Skin_Metallic.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Bay_Skin",
+      "channel": "Normal",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Bay_Skin_Normal.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Bay_Skin",
+      "channel": "AO",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Bay_Skin_AO.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Tail_Rear",
+      "channel": "BaseColor",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Tail_Rear_BaseColor.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Tail_Rear",
+      "channel": "Roughness",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Tail_Rear_Roughness.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Tail_Rear",
+      "channel": "Metallic",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Tail_Rear_Metallic.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Tail_Rear",
+      "channel": "Normal",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Tail_Rear_Normal.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Tail_Rear",
+      "channel": "AO",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Tail_Rear_AO.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Equipment",
+      "channel": "BaseColor",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Equipment_BaseColor.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Equipment",
+      "channel": "Roughness",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Equipment_Roughness.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Equipment",
+      "channel": "Metallic",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Equipment_Metallic.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Equipment",
+      "channel": "Normal",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Equipment_Normal.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Equipment",
+      "channel": "AO",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Equipment_AO.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Sensor",
+      "channel": "BaseColor",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Sensor_BaseColor.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Sensor",
+      "channel": "Roughness",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Sensor_Roughness.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Sensor",
+      "channel": "Metallic",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Sensor_Metallic.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Sensor",
+      "channel": "Normal",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Sensor_Normal.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Orion_Sensor",
+      "channel": "AO",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Orion_Sensor_AO.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Assembly_Pylon",
+      "channel": "BaseColor",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Assembly_Pylon_BaseColor.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Assembly_Pylon",
+      "channel": "Roughness",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Assembly_Pylon_Roughness.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Assembly_Pylon",
+      "channel": "Metallic",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Assembly_Pylon_Metallic.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Assembly_Pylon",
+      "channel": "Normal",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Assembly_Pylon_Normal.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Assembly_Pylon",
+      "channel": "AO",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures_v007\\Assembly_Pylon_AO.png",
+      "actual_selected_to_active": true
+    }
+  ],
+  "status": "built and baked; native import and visual inspection pending"
+}

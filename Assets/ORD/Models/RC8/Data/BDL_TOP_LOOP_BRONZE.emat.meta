@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5FF2F85635CEBA40}Assets/ORD/Models/RC8/Data/BDL_TOP_LOOP_BRONZE.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

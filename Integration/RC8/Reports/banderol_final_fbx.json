@@ -1,0 +1,25 @@
+{
+  "source": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\Banderol_RC8_Game_v003.blend",
+  "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Assets\\ORD\\Models\\RC8\\ORD_Banderol_RC8.fbx",
+  "bones": [
+    "ORD_Root",
+    "BDL_Wing_L",
+    "BDL_Wing_R"
+  ],
+  "lods": {
+    "0": 31424,
+    "1": 11996,
+    "2": 3996,
+    "3": 1068
+  },
+  "materials": [
+    "RC8_BDL_VisualFit_Appendages",
+    "RC8_BDL_VisualFit_Body",
+    "RC8_Banderol_Details"
+  ],
+  "colliders": [
+    "UBX_Body"
+  ],
+  "orientation": "Blender +Y forward to Enfusion +Z forward; verify in native import",
+  "status": "FBX exported; native import pending"
+}

@@ -1,0 +1,21 @@
+{
+  "fresh_master_open": true,
+  "evaluated_sensor_mesh_defects": [
+    {
+      "object": "ORION_SENSOR_YOKE_-1",
+      "nonmanifold": 0,
+      "degenerate": 41,
+      "volume": 0.003680379925565535
+    },
+    {
+      "object": "ORION_SENSOR_YOKE_1",
+      "nonmanifold": 0,
+      "degenerate": 41,
+      "volume": 0.0036803799255655453
+    }
+  ],
+  "sensor_to_airframe_gear_sampled_contacts": [],
+  "mount_intersects_body_intentionally": true,
+  "pose_samples": 45,
+  "engine_validation": "NOT ATTEMPTED"
+}

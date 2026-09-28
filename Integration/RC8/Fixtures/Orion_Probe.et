@@ -1,0 +1,8 @@
+GenericEntity {
+ components {
+  SignalsManagerComponent {}
+  SoundComponent { Filenames { "{4B25B09A31945782}Sounds/ORD/RC8/ORD_Orion_RC8.acp" } }
+  MeshObject { Object "{63E70502EA1FCF67}Assets/ORD/Models/RC8/ORD_Orion_RC8_Probe.xob" }
+ }
+}
+

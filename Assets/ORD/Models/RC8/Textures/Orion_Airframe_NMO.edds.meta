@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{9588B12904E6231E}Assets/ORD/Models/RC8/Textures/Orion_Airframe_NMO.edds"
+ Configurations {
+  TIFFResourceClass PC {
+   SourceFile "Orion_Airframe_NMO.tif"
+   Conversion ColorHQCompression
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass PS5 : PC {
+  }
+ }
+}

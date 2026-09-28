@@ -1,0 +1,134 @@
+[
+  {
+    "angle": 0,
+    "hits": [
+      [
+        "ORION_MAIN_R_DOOR_SHELL_-1",
+        "ORION_MAIN_R_UPPER_STRUT"
+      ],
+      [
+        "ORION_MAIN_R_DOOR_SHELL_-1",
+        "ORION_MAIN_R_STRUT_COLLAR_0.18"
+      ],
+      [
+        "ORION_MAIN_R_DOOR_SHELL_-1",
+        "ORION_MAIN_R_VISIBLE_LINK_UP_-1"
+      ],
+      [
+        "ORION_MAIN_R_DOOR_SHELL_-1",
+        "ORION_MAIN_R_VISIBLE_LINK_UP_1"
+      ]
+    ]
+  },
+  {
+    "angle": 30,
+    "hits": [
+      [
+        "ORION_MAIN_R_DOOR_SHELL_-1",
+        "ORION_MAIN_R_UPPER_STRUT"
+      ],
+      [
+        "ORION_MAIN_R_DOOR_SHELL_-1",
+        "ORION_MAIN_R_VISIBLE_LINK_UP_-1"
+      ],
+      [
+        "ORION_MAIN_R_DOOR_SHELL_-1",
+        "ORION_MAIN_R_VISIBLE_LINK_UP_1"
+      ]
+    ]
+  },
+  {
+    "angle": 60,
+    "hits": [
+      [
+        "ORION_MAIN_R_DOOR_SHELL_-1",
+        "ORION_MAIN_R_UPPER_STRUT"
+      ],
+      [
+        "ORION_MAIN_R_DOOR_SHELL_-1",
+        "ORION_MAIN_R_VISIBLE_LINK_UP_-1"
+      ],
+      [
+        "ORION_MAIN_R_DOOR_SHELL_-1",
+        "ORION_MAIN_R_VISIBLE_LINK_UP_1"
+      ]
+    ]
+  },
+  {
+    "angle": 90,
+    "hits": [
+      [
+        "ORION_MAIN_R_DOOR_SHELL_-1",
+        "ORION_MAIN_R_UPPER_STRUT"
+      ],
+      [
+        "ORION_MAIN_R_DOOR_SHELL_-1",
+        "ORION_MAIN_R_VISIBLE_LINK_UP_-1"
+      ],
+      [
+        "ORION_MAIN_R_DOOR_SHELL_-1",
+        "ORION_MAIN_R_VISIBLE_LINK_UP_1"
+      ]
+    ]
+  },
+  {
+    "angle": 120,
+    "hits": [
+      [
+        "ORION_MAIN_R_DOOR_SHELL_-1",
+        "ORION_MAIN_R_UPPER_STRUT"
+      ],
+      [
+        "ORION_MAIN_R_DOOR_SHELL_-1",
+        "ORION_MAIN_R_VISIBLE_LINK_UP_-1"
+      ],
+      [
+        "ORION_MAIN_R_DOOR_SHELL_-1",
+        "ORION_MAIN_R_VISIBLE_LINK_UP_1"
+      ]
+    ]
+  },
+  {
+    "angle": 150,
+    "hits": [
+      [
+        "ORION_MAIN_R_DOOR_SHELL_-1",
+        "ORION_MAIN_R_UPPER_STRUT"
+      ],
+      [
+        "ORION_MAIN_R_DOOR_SHELL_-1",
+        "ORION_MAIN_R_VISIBLE_LINK_UP_-1"
+      ],
+      [
+        "ORION_MAIN_R_DOOR_SHELL_-1",
+        "ORION_MAIN_R_VISIBLE_LINK_UP_1"
+      ]
+    ]
+  },
+  {
+    "angle": 180,
+    "hits": [
+      [
+        "ORION_MAIN_R_DOOR_SHELL_-1",
+        "ORION_MAIN_R_UPPER_STRUT"
+      ],
+      [
+        "ORION_MAIN_R_DOOR_SHELL_-1",
+        "ORION_MAIN_R_VISIBLE_LINK_UP_1"
+      ]
+    ]
+  },
+  {
+    "angle": 210,
+    "hits": [
+      [
+        "ORION_MAIN_R_DOOR_SHELL_-1",
+        "ORION_MAIN_R_UPPER_STRUT"
+      ],
+      [
+        "ORION_MAIN_R_DOOR_SHELL_-1",
+        "ORION_MAIN_R_VISIBLE_LINK_UP_1"
+      ]
+    ]
+  }
+]

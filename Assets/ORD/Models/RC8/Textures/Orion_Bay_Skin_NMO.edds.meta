@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{AED18D2EBFE00AD2}Assets/ORD/Models/RC8/Textures/Orion_Bay_Skin_NMO.edds"
+ Configurations {
+  TIFFResourceClass PC {
+   SourceFile "Orion_Bay_Skin_NMO.tif"
+   Conversion ColorHQCompression
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass PS5 : PC {
+  }
+ }
+}

@@ -1,0 +1,9 @@
+GenericEntity {
+ components {
+ MeshObject { Object "{3346D889B2B2D4BB}Assets/ORD/Models/ORD_ServicePoint.xob" }
+ RigidBody { ModelGeometry 1 }
+ RplComponent {}
+ ORD_ServiceComponent {}
+ SCR_EditableEntityComponent {}
+ }
+}

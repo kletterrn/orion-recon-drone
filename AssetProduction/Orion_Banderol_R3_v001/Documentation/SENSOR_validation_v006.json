@@ -1,0 +1,8 @@
+{
+  "fresh_master_open": true,
+  "evaluated_sensor_mesh_defects": [],
+  "sensor_to_airframe_gear_sampled_contacts": [],
+  "mount_intersects_body_intentionally": true,
+  "pose_samples": 45,
+  "engine_validation": "NOT ATTEMPTED"
+}

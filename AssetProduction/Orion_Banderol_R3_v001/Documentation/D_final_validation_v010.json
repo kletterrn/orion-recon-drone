@@ -1,0 +1,82 @@
+{
+  "approved_C_primary_meshes_unchanged": {
+    "ORION_FUSELAGE": true,
+    "ORION_NOSE_WHITE": true,
+    "ORION_WING_ROOT_BLEND_L": true,
+    "ORION_WING_ROOT_BLEND_R": true,
+    "ORION_WING_L": true,
+    "ORION_ROOT_TRAILING_L": true,
+    "ORION_FLAP_L": true,
+    "ORION_MID_TRAILING_L": true,
+    "ORION_AILERON_L": true,
+    "ORION_TIP_TRAILING_L": true,
+    "ORION_WING_R": true,
+    "ORION_ROOT_TRAILING_R": true,
+    "ORION_FLAP_R": true,
+    "ORION_MID_TRAILING_R": true,
+    "ORION_AILERON_R": true,
+    "ORION_TIP_TRAILING_R": true,
+    "ORION_TAIL_L": true,
+    "ORION_RUDDERVATOR_L": true,
+    "ORION_TAIL_R": true,
+    "ORION_RUDDERVATOR_R": true,
+    "ORION_REAR_COLLAR": true,
+    "ORION_PROPELLER_HUB": true,
+    "ORION_PUSHER_SPINNER": true,
+    "ORION_PROPELLER_BLADE_A": true,
+    "ORION_PROPELLER_BLADE_B": true
+  },
+  "sensor_nine_orientation_checks": [],
+  "evaluated_mesh_checks": [
+    {
+      "object": "ORION_FUSELAGE",
+      "nonmanifold": 0,
+      "degenerate": 0,
+      "volume": 2.1409899818193074
+    },
+    {
+      "object": "ORION_SENSOR_PITCH_HOUSING",
+      "nonmanifold": 0,
+      "degenerate": 0,
+      "volume": 0.11880124117572315
+    }
+  ],
+  "left_right_main_gear_intersections_all_160_frames": [],
+  "old_assets_preserved": {
+    "C:\\Users\\david\\Desktop\\RECON DRONES\\Assets\\ORD\\Models\\OrionE_Detailed\\OrionE_Detailed.blend": true,
+    "C:\\Users\\david\\Desktop\\RECON DRONES\\Assets\\ORD\\Models\\OrionE_Game\\ORD_Orion_Detailed.blend": true,
+    "C:\\Users\\david\\Desktop\\RECON DRONES\\Assets\\ORD\\Models\\ORD_Missile.blend": true
+  },
+  "relative_images": [
+    {
+      "name": "R1.png",
+      "relative": true,
+      "exists": true
+    },
+    {
+      "name": "R2.png",
+      "relative": true,
+      "exists": true
+    },
+    {
+      "name": "R3.png",
+      "relative": true,
+      "exists": true
+    },
+    {
+      "name": "R4.png",
+      "relative": true,
+      "exists": true
+    },
+    {
+      "name": "R5.png",
+      "relative": true,
+      "exists": true
+    }
+  ],
+  "relocated_master_reopen": true,
+  "relocated_test_directory": "C:\\Users\\david\\AppData\\Local\\Temp\\Orion_D_reopen_av_p2gpb",
+  "fresh_reopen_log": "00:00.031  color_management | Using OCIO=C:\\Blender\\5.2\\datafiles\\colormanagement\\config.ocio\n00:00.422  blend            | Read blend: \"C:\\Users\\david\\AppData\\Local\\Temp\\Orion_D_reopen_av_p2gpb\\Orion\\Orion_Master.blend\"\nRELOCATED_MASTER_REOPEN_OK\nBlender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)\n\nBlender quit\n",
+  "exports_and_engine_import": "NOT ATTEMPTED; later milestone",
+  "real_gear_motion": "NOT VERIFIED; animation is illustrative"
+}

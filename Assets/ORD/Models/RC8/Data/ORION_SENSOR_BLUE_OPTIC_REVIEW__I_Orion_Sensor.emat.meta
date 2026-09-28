@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{53CA4FE788CA4726}Assets/ORD/Models/RC8/Data/ORION_SENSOR_BLUE_OPTIC_REVIEW__I_Orion_Sensor.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

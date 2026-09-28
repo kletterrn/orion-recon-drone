@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{68077215888B092C}Sounds/ORD/ORD_LinkOpen.wav"
+ Configurations {
+  WAVResourceClass PC {
+  }
+  WAVResourceClass HEADLESS : PC {
+  }
+  WAVResourceClass XBOX_ONE : PC {
+  }
+  WAVResourceClass XBOX_SERIES : PC {
+  }
+  WAVResourceClass PS4 : PC {
+  }
+  WAVResourceClass PS5 : PC {
+  }
+ }
+}

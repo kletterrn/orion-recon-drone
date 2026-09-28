@@ -1,0 +1,9663 @@
+{
+  "poses": [
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": 35,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": 35,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": 35,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": 35,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": 35,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": 35,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": 35,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": 35,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": 35,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": 35,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": 35,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": 35,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": 35,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": 35,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": 35,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": 35,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": 35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": 35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": 35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": 35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": 35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": 35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": 35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": 35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": 35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": 35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": 35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": 35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": 35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": 35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": 35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": 35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": 35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": -80,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": -75,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": -70,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": -65,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": -60,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": -55,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": -50,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": -45,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": -40,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": -35,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": -30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": -25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": -20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": -15,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": -10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": -5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": 10,
+      "clear": true
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": 15,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": 20,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": 25,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": 30,
+      "clear": false
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": 35,
+      "clear": false
+    }
+  ],
+  "contacts": [
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -120,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -105,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -90,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -75,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -60,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -45,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -30,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": -15,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 0,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 15,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 30,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 45,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 60,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 75,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 90,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 105,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 1,
+      "yaw": 120,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -120,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -105,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -90,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -75,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -60,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -45,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -30,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": -15,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 0,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 15,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 30,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 45,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 60,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 75,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 90,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 105,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": -50,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": -45,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": -40,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": -35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": -30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": -25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": -20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": 15,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": 20,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": 25,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": 30,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    },
+    {
+      "gear_frame": 120,
+      "yaw": 120,
+      "pitch": 35,
+      "pairs": [
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_FUSELAGE"
+        ],
+        [
+          "ORION_SENSOR_PITCH_HOUSING",
+          "ORION_SENSOR_YOKE_TOP_BRIDGE"
+        ]
+      ]
+    }
+  ],
+  "status": "sampled pose grid, intermediate gear/angles still require validation"
+}

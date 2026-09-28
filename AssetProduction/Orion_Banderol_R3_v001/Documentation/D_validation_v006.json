@@ -1,0 +1,87 @@
+{
+  "fresh_master_reopen": true,
+  "source_objects": 234,
+  "base_mesh_defects": [],
+  "sampled_frames": [
+    1,
+    5,
+    9,
+    13,
+    17,
+    20,
+    21,
+    25,
+    29,
+    33,
+    37,
+    41,
+    45,
+    49,
+    53,
+    57,
+    61,
+    65,
+    69,
+    73,
+    77,
+    81,
+    85,
+    89,
+    93,
+    97,
+    100,
+    101,
+    105,
+    109,
+    113,
+    117,
+    120,
+    160
+  ],
+  "gear_surface_contacts": [
+    {
+      "frame": 93,
+      "moving": "ORION_MAIN_L_HUB_BOLT_1_4",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_1",
+      "surface_pairs": 22
+    },
+    {
+      "frame": 93,
+      "moving": "ORION_MAIN_R_HUB_BOLT_-1_4",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_-1",
+      "surface_pairs": 22
+    }
+  ],
+  "image_dependencies": [
+    {
+      "name": "R1.png",
+      "filepath": "//..\\Support\\references_private\\R1.png",
+      "exists": true
+    },
+    {
+      "name": "R2.png",
+      "filepath": "//..\\Support\\references_private\\R2.png",
+      "exists": true
+    },
+    {
+      "name": "R3.png",
+      "filepath": "//..\\Support\\references_private\\R3.png",
+      "exists": true
+    },
+    {
+      "name": "R4.png",
+      "filepath": "//..\\Support\\references_private\\R4.png",
+      "exists": true
+    },
+    {
+      "name": "R5.png",
+      "filepath": "//..\\Support\\references_private\\R5.png",
+      "exists": true
+    }
+  ],
+  "body_nose_vertex_hashes": {
+    "ORION_FUSELAGE": "d1596535720d1bfbc9b6b502b9bb09e5f147b41bb150da9dad4d72d31d2181ca",
+    "ORION_NOSE_WHITE": "eb3e19a85086845f2d00e7f0616a1a242135f59af6560b12d5e1729500a95234"
+  },
+  "scope": "Surface intersections against fuselage, bay liners, doors and sensor. Intentional gear-to-gear joints excluded. Containment and full swept-volume checks not established."
+}

@@ -1,0 +1,209 @@
+{
+  "status": "ACP source graphs authored; import, event routing and listening tests pending",
+  "gain_note": "Gain signals drive bank volume in dB; runtime supplies base gain and the feed attenuation",
+  "Orion": [
+    {
+      "event": "ORD_Idle_WORLD",
+      "sample": "ORD_Idle",
+      "loop": true,
+      "gain_signal": "ORD_IdleWorldDb",
+      "base_db": -96,
+      "spatial": true,
+      "outer_range_m": 1500,
+      "mix_port": 70663
+    },
+    {
+      "event": "ORD_Cruise_WORLD",
+      "sample": "ORD_Cruise",
+      "loop": true,
+      "gain_signal": "ORD_CruiseWorldDb",
+      "base_db": -96,
+      "spatial": true,
+      "outer_range_m": 1500,
+      "mix_port": 70663
+    },
+    {
+      "event": "ORD_Startup_WORLD",
+      "sample": "ORD_Startup",
+      "loop": false,
+      "gain_signal": null,
+      "base_db": -6,
+      "spatial": true,
+      "outer_range_m": 1500,
+      "mix_port": 70663
+    },
+    {
+      "event": "ORD_Shutdown_WORLD",
+      "sample": "ORD_Shutdown",
+      "loop": false,
+      "gain_signal": null,
+      "base_db": -7,
+      "spatial": true,
+      "outer_range_m": 1500,
+      "mix_port": 70663
+    },
+    {
+      "event": "ORD_Takeoff_WORLD",
+      "sample": "ORD_Takeoff",
+      "loop": false,
+      "gain_signal": null,
+      "base_db": -15,
+      "spatial": true,
+      "outer_range_m": 1500,
+      "mix_port": 70663
+    },
+    {
+      "event": "ORD_Idle_FEED",
+      "sample": "ORD_Idle",
+      "loop": true,
+      "gain_signal": "ORD_IdleFeedDb",
+      "base_db": -96,
+      "spatial": false,
+      "outer_range_m": 1500,
+      "mix_port": 70663
+    },
+    {
+      "event": "ORD_Cruise_FEED",
+      "sample": "ORD_Cruise",
+      "loop": true,
+      "gain_signal": "ORD_CruiseFeedDb",
+      "base_db": -96,
+      "spatial": false,
+      "outer_range_m": 1500,
+      "mix_port": 70663
+    },
+    {
+      "event": "ORD_Startup_FEED",
+      "sample": "ORD_Startup",
+      "loop": false,
+      "gain_signal": null,
+      "base_db": -24,
+      "spatial": false,
+      "outer_range_m": 1500,
+      "mix_port": 70663
+    },
+    {
+      "event": "ORD_Shutdown_FEED",
+      "sample": "ORD_Shutdown",
+      "loop": false,
+      "gain_signal": null,
+      "base_db": -25,
+      "spatial": false,
+      "outer_range_m": 1500,
+      "mix_port": 70663
+    },
+    {
+      "event": "ORD_Takeoff_FEED",
+      "sample": "ORD_Takeoff",
+      "loop": false,
+      "gain_signal": null,
+      "base_db": -33,
+      "spatial": false,
+      "outer_range_m": 1500,
+      "mix_port": 70663
+    },
+    {
+      "event": "ORD_GearMotor",
+      "sample": "ORD_GearMotor",
+      "loop": true,
+      "gain_signal": null,
+      "base_db": -16,
+      "spatial": true,
+      "outer_range_m": 80,
+      "mix_port": 17415
+    },
+    {
+      "event": "ORD_DoorLatch",
+      "sample": "ORD_DoorLatch",
+      "loop": false,
+      "gain_signal": null,
+      "base_db": -13,
+      "spatial": true,
+      "outer_range_m": 60,
+      "mix_port": 17415
+    }
+  ],
+  "Banderol": [
+    {
+      "event": "BDL_Flight",
+      "sample": "BDL_Flight",
+      "loop": true,
+      "gain_signal": "BDL_FlightDb",
+      "base_db": -96,
+      "spatial": true,
+      "outer_range_m": 1800,
+      "mix_port": 342023
+    },
+    {
+      "event": "BDL_FlightBright",
+      "sample": "BDL_FlightBright",
+      "loop": true,
+      "gain_signal": "BDL_FlightDb",
+      "base_db": -96,
+      "spatial": true,
+      "outer_range_m": 1800,
+      "mix_port": 342023
+    },
+    {
+      "event": "BDL_Spoolup",
+      "sample": "BDL_Spoolup",
+      "loop": false,
+      "gain_signal": null,
+      "base_db": -9,
+      "spatial": true,
+      "outer_range_m": 1200,
+      "mix_port": 342023
+    },
+    {
+      "event": "BDL_WingDeployment",
+      "sample": "BDL_WingDeployment",
+      "loop": false,
+      "gain_signal": null,
+      "base_db": -14,
+      "spatial": true,
+      "outer_range_m": 100,
+      "mix_port": 17415
+    },
+    {
+      "event": "BDL_ImpactClose",
+      "sample": "BDL_ImpactClose",
+      "loop": false,
+      "gain_signal": "BDL_ImpactCloseDb",
+      "base_db": -96,
+      "spatial": true,
+      "outer_range_m": 800,
+      "mix_port": 8199
+    },
+    {
+      "event": "BDL_ImpactDistant",
+      "sample": "BDL_ImpactDistant",
+      "loop": false,
+      "gain_signal": "BDL_ImpactDistantDb",
+      "base_db": -96,
+      "spatial": true,
+      "outer_range_m": 3000,
+      "mix_port": 8199
+    },
+    {
+      "event": "BDL_Debris",
+      "sample": "BDL_Debris",
+      "loop": false,
+      "gain_signal": "BDL_DebrisDb",
+      "base_db": -96,
+      "spatial": true,
+      "outer_range_m": 400,
+      "mix_port": 8199
+    }
+  ],
+  "signals": {
+    "ORD_IdleWorldDb": "{B64EFF8DDC53D47D}Sounds/ORD/RC8/Signals/ORD_IdleWorldDb.sig",
+    "ORD_CruiseWorldDb": "{33AC7B221BC9B43F}Sounds/ORD/RC8/Signals/ORD_CruiseWorldDb.sig",
+    "ORD_IdleFeedDb": "{C80B76683874B4DB}Sounds/ORD/RC8/Signals/ORD_IdleFeedDb.sig",
+    "ORD_CruiseFeedDb": "{1772A39FA54C5BEE}Sounds/ORD/RC8/Signals/ORD_CruiseFeedDb.sig",
+    "ORD_WorldGateDb": "{9FB9D80C17A60323}Sounds/ORD/RC8/Signals/ORD_WorldGateDb.sig",
+    "BDL_FlightDb": "{B257A7F2093F716D}Sounds/ORD/RC8/Signals/BDL_FlightDb.sig",
+    "BDL_ImpactCloseDb": "{9FA7B3CA652E480C}Sounds/ORD/RC8/Signals/BDL_ImpactCloseDb.sig",
+    "BDL_ImpactDistantDb": "{F138AFCE24C44B64}Sounds/ORD/RC8/Signals/BDL_ImpactDistantDb.sig",
+    "BDL_DebrisDb": "{06B0E6479F251FF2}Sounds/ORD/RC8/Signals/BDL_DebrisDb.sig"
+  }
+}

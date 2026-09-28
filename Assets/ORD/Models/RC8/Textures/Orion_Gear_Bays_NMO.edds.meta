@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{8B60A71C337CC46B}Assets/ORD/Models/RC8/Textures/Orion_Gear_Bays_NMO.edds"
+ Configurations {
+  TIFFResourceClass PC {
+   SourceFile "Orion_Gear_Bays_NMO.tif"
+   Conversion ColorHQCompression
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass PS5 : PC {
+  }
+ }
+}

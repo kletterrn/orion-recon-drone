@@ -1,0 +1,119 @@
+{
+  "asset": "Banderol",
+  "groups": {
+    "BDL_VisualFit_Body": {
+      "triangles": 13140,
+      "source_meshes": 1,
+      "resolution": 4096
+    },
+    "BDL_VisualFit_Appendages": {
+      "triangles": 7556,
+      "source_meshes": 1,
+      "resolution": 4096
+    },
+    "Banderol_Details": {
+      "triangles": 10728,
+      "source_meshes": 1,
+      "resolution": 4096
+    }
+  },
+  "lod_triangles": [
+    31424,
+    11996,
+    3996,
+    1068
+  ],
+  "bakes": [
+    {
+      "group": "BDL_VisualFit_Body",
+      "channel": "BaseColor",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures\\BDL_VisualFit_Body_BaseColor.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "BDL_VisualFit_Body",
+      "channel": "Roughness",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures\\BDL_VisualFit_Body_Roughness.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "BDL_VisualFit_Body",
+      "channel": "Metallic",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures\\BDL_VisualFit_Body_Metallic.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "BDL_VisualFit_Body",
+      "channel": "Normal",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures\\BDL_VisualFit_Body_Normal.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "BDL_VisualFit_Body",
+      "channel": "AO",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures\\BDL_VisualFit_Body_AO.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "BDL_VisualFit_Appendages",
+      "channel": "BaseColor",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures\\BDL_VisualFit_Appendages_BaseColor.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "BDL_VisualFit_Appendages",
+      "channel": "Roughness",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures\\BDL_VisualFit_Appendages_Roughness.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "BDL_VisualFit_Appendages",
+      "channel": "Metallic",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures\\BDL_VisualFit_Appendages_Metallic.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "BDL_VisualFit_Appendages",
+      "channel": "Normal",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures\\BDL_VisualFit_Appendages_Normal.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "BDL_VisualFit_Appendages",
+      "channel": "AO",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures\\BDL_VisualFit_Appendages_AO.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Banderol_Details",
+      "channel": "BaseColor",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures\\Banderol_Details_BaseColor.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Banderol_Details",
+      "channel": "Roughness",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures\\Banderol_Details_Roughness.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Banderol_Details",
+      "channel": "Metallic",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures\\Banderol_Details_Metallic.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Banderol_Details",
+      "channel": "Normal",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures\\Banderol_Details_Normal.png",
+      "actual_selected_to_active": true
+    },
+    {
+      "group": "Banderol_Details",
+      "channel": "AO",
+      "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\textures\\Banderol_Details_AO.png",
+      "actual_selected_to_active": true
+    }
+  ],
+  "status": "built and baked; native import and visual inspection pending"
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8C2C4E0583B80480}Sounds/ORD/RC8/ORD_Cruise.wav"
+ Configurations {
+  WAVResourceClass PC {
+  }
+  WAVResourceClass HEADLESS : PC {
+  }
+  WAVResourceClass XBOX_ONE : PC {
+  }
+  WAVResourceClass XBOX_SERIES : PC {
+  }
+  WAVResourceClass PS4 : PC {
+  }
+  WAVResourceClass PS5 : PC {
+  }
+ }
+}

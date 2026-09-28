@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{74AFB4965936B1A6}Assets/ORD/Models/RC8/Textures/BDL_VisualFit_Body_NMO.edds"
+ Configurations {
+  TIFFResourceClass PC {
+   SourceFile "BDL_VisualFit_Body_NMO.tif"
+   Conversion ColorHQCompression
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass PS5 : PC {
+  }
+ }
+}

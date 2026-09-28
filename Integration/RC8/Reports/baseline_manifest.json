@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-09-27T22:24:24.360923+00:00",
+  "status": "motion gate in progress; not accepted for runtime",
+  "sources": {
+    "Orion/Orion_Master.blend": {
+      "sha256": "3eddf5b74d64f06d27f5a56197886f8e52498a9fa75658d99ebb80dcfcf1207a",
+      "integration": "Orion_RC8_Motion_v001.blend"
+    },
+    "Banderol/S8000_Banderol_VisualFit_Master.blend": {
+      "sha256": "19e6ef7c119cc10ad91fc9715685c2e64fce77e27a0bcaba1507d708f0ede730",
+      "integration": "Banderol_RC8_Motion_v001.blend"
+    },
+    "Assembly/Orion_Banderol_Preview.blend": {
+      "sha256": "0a0c18875cc5ed7b1c256f301c90aec19f2a84579784020a7f53764a85d4caca",
+      "integration": "Assembly_RC8_Motion_v001.blend"
+    }
+  },
+  "runtime_backup_sha256": "9fd5451bfecd4564c0d7fa4de62bc43ad43eb124d46495e031bc3ae2d6db7318"
+}

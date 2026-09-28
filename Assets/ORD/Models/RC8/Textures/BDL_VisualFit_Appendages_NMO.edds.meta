@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{6BCC41191A404366}Assets/ORD/Models/RC8/Textures/BDL_VisualFit_Appendages_NMO.edds"
+ Configurations {
+  TIFFResourceClass PC {
+   SourceFile "BDL_VisualFit_Appendages_NMO.tif"
+   Conversion ColorHQCompression
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass PS5 : PC {
+  }
+ }
+}

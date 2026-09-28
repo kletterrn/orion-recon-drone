@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{DD42D5F223741D12}Sounds/ORD/RC8/BDL_ImpactClose.wav"
+ Configurations {
+  WAVResourceClass PC {
+  }
+  WAVResourceClass HEADLESS : PC {
+  }
+  WAVResourceClass XBOX_ONE : PC {
+  }
+  WAVResourceClass XBOX_SERIES : PC {
+  }
+  WAVResourceClass PS4 : PC {
+  }
+  WAVResourceClass PS5 : PC {
+  }
+ }
+}

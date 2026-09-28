@@ -1,0 +1,7 @@
+MetaFileClass {
+ Name "{EDF2FF911E560860}Prefabs/ORD/ORD_ServicePoint.et"
+ Configurations {
+  EntityTemplateResourceClass PC {}
+  EntityTemplateResourceClass HEADLESS : PC {}
+ }
+}

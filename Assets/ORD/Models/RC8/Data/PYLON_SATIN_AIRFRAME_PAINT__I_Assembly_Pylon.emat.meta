@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{67CF811B0E87C3B2}Assets/ORD/Models/RC8/Data/PYLON_SATIN_AIRFRAME_PAINT__I_Assembly_Pylon.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

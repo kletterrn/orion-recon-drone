@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{EF45FC0BE20F3F67}Assets/ORD/Models/OrionE_Game/Data/Fine_graphite_panel_seal.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

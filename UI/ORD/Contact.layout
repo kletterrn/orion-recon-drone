@@ -1,0 +1,26 @@
+FrameWidgetClass {
+ Name "ORD_Contact" "Ignore Cursor" 1
+ Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 0 OffsetTop 0 SizeX 80 OffsetRight -80 SizeY 80 OffsetBottom -80 }
+ {
+  TextWidgetClass {
+   Name "ContactLabel" Color 0.35 1 0.55 1 "Font Size" 14 Text "CONTACT" "Ignore Cursor" 1
+   Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 0 OffsetTop -23 SizeX 200 OffsetRight -200 SizeY 23 OffsetBottom 0 }
+  }
+  PanelWidgetClass {
+   Name "Top" Color 0.35 1 0.55 1 "Ignore Cursor" 1
+   Slot FrameWidgetSlot { Anchor 0 0 1 0 OffsetLeft 0 OffsetTop 0 OffsetRight 0 SizeY 2 OffsetBottom -2 }
+  }
+  PanelWidgetClass {
+   Name "Bottom" Color 0.35 1 0.55 1 "Ignore Cursor" 1
+   Slot FrameWidgetSlot { Anchor 0 1 1 1 OffsetLeft 0 OffsetTop -2 OffsetRight 0 SizeY 2 OffsetBottom 0 }
+  }
+  PanelWidgetClass {
+   Name "Left" Color 0.35 1 0.55 1 "Ignore Cursor" 1
+   Slot FrameWidgetSlot { Anchor 0 0 0 1 OffsetLeft 0 OffsetTop 0 SizeX 2 OffsetRight -2 OffsetBottom 0 }
+  }
+  PanelWidgetClass {
+   Name "Right" Color 0.35 1 0.55 1 "Ignore Cursor" 1
+   Slot FrameWidgetSlot { Anchor 1 0 1 1 OffsetLeft -2 OffsetTop 0 SizeX 2 OffsetRight 0 OffsetBottom 0 }
+  }
+ }
+}

@@ -1,0 +1,7 @@
+MetaFileClass {
+ Name "{59A370ECB6924FD3}UI/ORD/Contact.layout"
+ Configurations {
+  LayoutResourceClass PC {}
+  LayoutResourceClass HEADLESS : PC {}
+ }
+}

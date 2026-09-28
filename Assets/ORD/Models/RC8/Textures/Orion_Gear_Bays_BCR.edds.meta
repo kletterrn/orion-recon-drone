@@ -1,0 +1,20 @@
+MetaFileClass {
+ Name "{673CD76486826D2E}Assets/ORD/Models/RC8/Textures/Orion_Gear_Bays_BCR.edds"
+ Configurations {
+  TIFFResourceClass PC {
+   SourceFile "Orion_Gear_Bays_BCR.tif"
+   Conversion ColorHQCompression
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass PS5 : PC {
+  }
+ }
+}

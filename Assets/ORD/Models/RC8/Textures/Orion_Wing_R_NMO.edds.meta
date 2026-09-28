@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{1F1CAF4989890BBA}Assets/ORD/Models/RC8/Textures/Orion_Wing_R_NMO.edds"
+ Configurations {
+  TIFFResourceClass PC {
+   SourceFile "Orion_Wing_R_NMO.tif"
+   Conversion ColorHQCompression
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass PS5 : PC {
+  }
+ }
+}

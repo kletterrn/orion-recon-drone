@@ -1,0 +1,1119 @@
+{
+  "fresh_master_reopen": true,
+  "source_objects": 234,
+  "base_mesh_defects": [],
+  "sampled_frames": [
+    1,
+    5,
+    9,
+    13,
+    17,
+    20,
+    21,
+    25,
+    29,
+    33,
+    37,
+    41,
+    45,
+    49,
+    53,
+    57,
+    61,
+    65,
+    69,
+    73,
+    77,
+    81,
+    85,
+    89,
+    93,
+    97,
+    100,
+    101,
+    105,
+    109,
+    113,
+    117,
+    120,
+    160
+  ],
+  "gear_surface_contacts": [
+    {
+      "frame": 1,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_FUSELAGE",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 1,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_L_BAY_SIDE_-1",
+      "surface_pairs": 60
+    },
+    {
+      "frame": 1,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 40
+    },
+    {
+      "frame": 1,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_FUSELAGE",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 1,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_R_BAY_SIDE_1",
+      "surface_pairs": 60
+    },
+    {
+      "frame": 1,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 40
+    },
+    {
+      "frame": 5,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_FUSELAGE",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 5,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_L_BAY_SIDE_-1",
+      "surface_pairs": 60
+    },
+    {
+      "frame": 5,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 40
+    },
+    {
+      "frame": 5,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_FUSELAGE",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 5,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_R_BAY_SIDE_1",
+      "surface_pairs": 60
+    },
+    {
+      "frame": 5,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 40
+    },
+    {
+      "frame": 9,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_FUSELAGE",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 9,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_L_BAY_SIDE_-1",
+      "surface_pairs": 60
+    },
+    {
+      "frame": 9,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 40
+    },
+    {
+      "frame": 9,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_FUSELAGE",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 9,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_R_BAY_SIDE_1",
+      "surface_pairs": 60
+    },
+    {
+      "frame": 9,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 40
+    },
+    {
+      "frame": 13,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_FUSELAGE",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 13,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_L_BAY_SIDE_-1",
+      "surface_pairs": 60
+    },
+    {
+      "frame": 13,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 40
+    },
+    {
+      "frame": 13,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_FUSELAGE",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 13,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_R_BAY_SIDE_1",
+      "surface_pairs": 60
+    },
+    {
+      "frame": 13,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 40
+    },
+    {
+      "frame": 17,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_FUSELAGE",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 17,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_L_BAY_SIDE_-1",
+      "surface_pairs": 60
+    },
+    {
+      "frame": 17,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 40
+    },
+    {
+      "frame": 17,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_FUSELAGE",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 17,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_R_BAY_SIDE_1",
+      "surface_pairs": 60
+    },
+    {
+      "frame": 17,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 40
+    },
+    {
+      "frame": 20,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_FUSELAGE",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 20,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_L_BAY_SIDE_-1",
+      "surface_pairs": 60
+    },
+    {
+      "frame": 20,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 40
+    },
+    {
+      "frame": 20,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_FUSELAGE",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 20,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_R_BAY_SIDE_1",
+      "surface_pairs": 60
+    },
+    {
+      "frame": 20,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 40
+    },
+    {
+      "frame": 21,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_FUSELAGE",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 21,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_L_BAY_SIDE_-1",
+      "surface_pairs": 58
+    },
+    {
+      "frame": 21,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 40
+    },
+    {
+      "frame": 21,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_FUSELAGE",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 21,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_R_BAY_SIDE_1",
+      "surface_pairs": 58
+    },
+    {
+      "frame": 21,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 40
+    },
+    {
+      "frame": 25,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_FUSELAGE",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 25,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_L_BAY_SIDE_-1",
+      "surface_pairs": 56
+    },
+    {
+      "frame": 25,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 44
+    },
+    {
+      "frame": 25,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_FUSELAGE",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 25,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_R_BAY_SIDE_1",
+      "surface_pairs": 56
+    },
+    {
+      "frame": 25,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 44
+    },
+    {
+      "frame": 29,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_FUSELAGE",
+      "surface_pairs": 76
+    },
+    {
+      "frame": 29,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_L_BAY_SIDE_-1",
+      "surface_pairs": 54
+    },
+    {
+      "frame": 29,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 48
+    },
+    {
+      "frame": 29,
+      "moving": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 18
+    },
+    {
+      "frame": 29,
+      "moving": "ORION_MAIN_L_LINK_PIN_1_0",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 43
+    },
+    {
+      "frame": 29,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_FUSELAGE",
+      "surface_pairs": 76
+    },
+    {
+      "frame": 29,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_R_BAY_SIDE_1",
+      "surface_pairs": 54
+    },
+    {
+      "frame": 29,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 48
+    },
+    {
+      "frame": 29,
+      "moving": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 18
+    },
+    {
+      "frame": 29,
+      "moving": "ORION_MAIN_R_LINK_PIN_-1_0",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 43
+    },
+    {
+      "frame": 33,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_FUSELAGE",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 33,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_L_BAY_SIDE_-1",
+      "surface_pairs": 50
+    },
+    {
+      "frame": 33,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 52
+    },
+    {
+      "frame": 33,
+      "moving": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 60
+    },
+    {
+      "frame": 33,
+      "moving": "ORION_MAIN_L_LINK_PIN_1_0",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 52
+    },
+    {
+      "frame": 33,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_FUSELAGE",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 33,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_R_BAY_SIDE_1",
+      "surface_pairs": 50
+    },
+    {
+      "frame": 33,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 52
+    },
+    {
+      "frame": 33,
+      "moving": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 60
+    },
+    {
+      "frame": 33,
+      "moving": "ORION_MAIN_R_LINK_PIN_-1_0",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 52
+    },
+    {
+      "frame": 37,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_FUSELAGE",
+      "surface_pairs": 68
+    },
+    {
+      "frame": 37,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_L_BAY_SIDE_-1",
+      "surface_pairs": 48
+    },
+    {
+      "frame": 37,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 62
+    },
+    {
+      "frame": 37,
+      "moving": "ORION_MAIN_L_STRUT_COLLAR_0.18",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 14
+    },
+    {
+      "frame": 37,
+      "moving": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 64
+    },
+    {
+      "frame": 37,
+      "moving": "ORION_MAIN_L_LINK_PIN_1_0",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 17
+    },
+    {
+      "frame": 37,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_FUSELAGE",
+      "surface_pairs": 68
+    },
+    {
+      "frame": 37,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_R_BAY_SIDE_1",
+      "surface_pairs": 48
+    },
+    {
+      "frame": 37,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 62
+    },
+    {
+      "frame": 37,
+      "moving": "ORION_MAIN_R_STRUT_COLLAR_0.18",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 14
+    },
+    {
+      "frame": 37,
+      "moving": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 64
+    },
+    {
+      "frame": 37,
+      "moving": "ORION_MAIN_R_LINK_PIN_-1_0",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 17
+    },
+    {
+      "frame": 41,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_FUSELAGE",
+      "surface_pairs": 57
+    },
+    {
+      "frame": 41,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_L_BAY_SIDE_-1",
+      "surface_pairs": 44
+    },
+    {
+      "frame": 41,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 70
+    },
+    {
+      "frame": 41,
+      "moving": "ORION_MAIN_L_STRUT_COLLAR_0.18",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 51
+    },
+    {
+      "frame": 41,
+      "moving": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 72
+    },
+    {
+      "frame": 41,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_FUSELAGE",
+      "surface_pairs": 57
+    },
+    {
+      "frame": 41,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_R_BAY_SIDE_1",
+      "surface_pairs": 44
+    },
+    {
+      "frame": 41,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 70
+    },
+    {
+      "frame": 41,
+      "moving": "ORION_MAIN_R_STRUT_COLLAR_0.18",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 51
+    },
+    {
+      "frame": 41,
+      "moving": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 72
+    },
+    {
+      "frame": 45,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_FUSELAGE",
+      "surface_pairs": 47
+    },
+    {
+      "frame": 45,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_L_BAY_SIDE_-1",
+      "surface_pairs": 38
+    },
+    {
+      "frame": 45,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 90
+    },
+    {
+      "frame": 45,
+      "moving": "ORION_MAIN_L_STRUT_COLLAR_0.18",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 51
+    },
+    {
+      "frame": 45,
+      "moving": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 66
+    },
+    {
+      "frame": 45,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_FUSELAGE",
+      "surface_pairs": 47
+    },
+    {
+      "frame": 45,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_R_BAY_SIDE_1",
+      "surface_pairs": 38
+    },
+    {
+      "frame": 45,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 90
+    },
+    {
+      "frame": 45,
+      "moving": "ORION_MAIN_R_STRUT_COLLAR_0.18",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 51
+    },
+    {
+      "frame": 45,
+      "moving": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 66
+    },
+    {
+      "frame": 49,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_FUSELAGE",
+      "surface_pairs": 35
+    },
+    {
+      "frame": 49,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_L_BAY_SIDE_-1",
+      "surface_pairs": 32
+    },
+    {
+      "frame": 49,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 80
+    },
+    {
+      "frame": 49,
+      "moving": "ORION_MAIN_L_STRUT_COLLAR_0.18",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 48
+    },
+    {
+      "frame": 49,
+      "moving": "ORION_MAIN_L_LINK_PIN_-1_0",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 16
+    },
+    {
+      "frame": 49,
+      "moving": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 66
+    },
+    {
+      "frame": 49,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_FUSELAGE",
+      "surface_pairs": 35
+    },
+    {
+      "frame": 49,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_R_BAY_SIDE_1",
+      "surface_pairs": 32
+    },
+    {
+      "frame": 49,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 80
+    },
+    {
+      "frame": 49,
+      "moving": "ORION_MAIN_R_STRUT_COLLAR_0.18",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 48
+    },
+    {
+      "frame": 49,
+      "moving": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 66
+    },
+    {
+      "frame": 49,
+      "moving": "ORION_MAIN_R_LINK_PIN_1_0",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 16
+    },
+    {
+      "frame": 53,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_FUSELAGE",
+      "surface_pairs": 23
+    },
+    {
+      "frame": 53,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 82
+    },
+    {
+      "frame": 53,
+      "moving": "ORION_MAIN_L_STRUT_COLLAR_0.18",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 49
+    },
+    {
+      "frame": 53,
+      "moving": "ORION_MAIN_L_VISIBLE_LINK_UP_-1",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 72
+    },
+    {
+      "frame": 53,
+      "moving": "ORION_MAIN_L_LINK_PIN_-1_0",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 48
+    },
+    {
+      "frame": 53,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_FUSELAGE",
+      "surface_pairs": 23
+    },
+    {
+      "frame": 53,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 82
+    },
+    {
+      "frame": 53,
+      "moving": "ORION_MAIN_R_STRUT_COLLAR_0.18",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 49
+    },
+    {
+      "frame": 53,
+      "moving": "ORION_MAIN_R_VISIBLE_LINK_UP_1",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 72
+    },
+    {
+      "frame": 53,
+      "moving": "ORION_MAIN_R_LINK_PIN_1_0",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 48
+    },
+    {
+      "frame": 57,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 50
+    },
+    {
+      "frame": 57,
+      "moving": "ORION_MAIN_L_VISIBLE_LINK_UP_-1",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 10
+    },
+    {
+      "frame": 57,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 50
+    },
+    {
+      "frame": 57,
+      "moving": "ORION_MAIN_R_VISIBLE_LINK_UP_1",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 10
+    },
+    {
+      "frame": 85,
+      "moving": "ORION_MAIN_L_TIRE",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 36
+    },
+    {
+      "frame": 85,
+      "moving": "ORION_MAIN_L_HUB_RECESS_-1",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 12
+    },
+    {
+      "frame": 85,
+      "moving": "ORION_MAIN_L_HUB_BOLT_-1_1",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 38
+    },
+    {
+      "frame": 85,
+      "moving": "ORION_MAIN_L_HUB_BOLT_-1_2",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 28
+    },
+    {
+      "frame": 85,
+      "moving": "ORION_MAIN_R_TIRE",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 36
+    },
+    {
+      "frame": 85,
+      "moving": "ORION_MAIN_R_HUB_RECESS_1",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 12
+    },
+    {
+      "frame": 85,
+      "moving": "ORION_MAIN_R_HUB_BOLT_1_1",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 38
+    },
+    {
+      "frame": 85,
+      "moving": "ORION_MAIN_R_HUB_BOLT_1_2",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 28
+    },
+    {
+      "frame": 89,
+      "moving": "ORION_MAIN_L_TIRE",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 42
+    },
+    {
+      "frame": 89,
+      "moving": "ORION_MAIN_L_HUB_RECESS_-1",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 13
+    },
+    {
+      "frame": 89,
+      "moving": "ORION_MAIN_L_AXLE_CAP_-1",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 33
+    },
+    {
+      "frame": 89,
+      "moving": "ORION_MAIN_L_HUB_BOLT_-1_3",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 24
+    },
+    {
+      "frame": 89,
+      "moving": "ORION_MAIN_L_HUB_BOLT_-1_4",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 26
+    },
+    {
+      "frame": 89,
+      "moving": "ORION_MAIN_L_HUB_BOLT_-1_5",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 54
+    },
+    {
+      "frame": 89,
+      "moving": "ORION_MAIN_R_TIRE",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 42
+    },
+    {
+      "frame": 89,
+      "moving": "ORION_MAIN_R_HUB_RECESS_1",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 13
+    },
+    {
+      "frame": 89,
+      "moving": "ORION_MAIN_R_AXLE_CAP_1",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 33
+    },
+    {
+      "frame": 89,
+      "moving": "ORION_MAIN_R_HUB_BOLT_1_3",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 24
+    },
+    {
+      "frame": 89,
+      "moving": "ORION_MAIN_R_HUB_BOLT_1_4",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 26
+    },
+    {
+      "frame": 89,
+      "moving": "ORION_MAIN_R_HUB_BOLT_1_5",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 54
+    },
+    {
+      "frame": 93,
+      "moving": "ORION_MAIN_L_HUB_BOLT_-1_4",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 26
+    },
+    {
+      "frame": 93,
+      "moving": "ORION_MAIN_R_HUB_BOLT_1_4",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 26
+    },
+    {
+      "frame": 100,
+      "moving": "ORION_MAIN_L_TIRE",
+      "obstacle": "ORION_MAIN_L_BAY_ROOF_SUPPORT_0",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 100,
+      "moving": "ORION_MAIN_R_TIRE",
+      "obstacle": "ORION_MAIN_R_BAY_ROOF_SUPPORT_0",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 101,
+      "moving": "ORION_MAIN_L_TIRE",
+      "obstacle": "ORION_MAIN_L_BAY_ROOF_SUPPORT_0",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 101,
+      "moving": "ORION_MAIN_R_TIRE",
+      "obstacle": "ORION_MAIN_R_BAY_ROOF_SUPPORT_0",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 105,
+      "moving": "ORION_MAIN_L_TIRE",
+      "obstacle": "ORION_MAIN_L_BAY_ROOF_SUPPORT_0",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 105,
+      "moving": "ORION_MAIN_R_TIRE",
+      "obstacle": "ORION_MAIN_R_BAY_ROOF_SUPPORT_0",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 109,
+      "moving": "ORION_MAIN_L_TIRE",
+      "obstacle": "ORION_MAIN_L_BAY_ROOF_SUPPORT_0",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 109,
+      "moving": "ORION_MAIN_R_TIRE",
+      "obstacle": "ORION_MAIN_R_BAY_ROOF_SUPPORT_0",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 113,
+      "moving": "ORION_MAIN_L_TIRE",
+      "obstacle": "ORION_MAIN_L_BAY_ROOF_SUPPORT_0",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 113,
+      "moving": "ORION_MAIN_R_TIRE",
+      "obstacle": "ORION_MAIN_R_BAY_ROOF_SUPPORT_0",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 117,
+      "moving": "ORION_MAIN_L_TIRE",
+      "obstacle": "ORION_MAIN_L_BAY_ROOF_SUPPORT_0",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 117,
+      "moving": "ORION_MAIN_R_TIRE",
+      "obstacle": "ORION_MAIN_R_BAY_ROOF_SUPPORT_0",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 120,
+      "moving": "ORION_MAIN_L_TIRE",
+      "obstacle": "ORION_MAIN_L_BAY_ROOF_SUPPORT_0",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 120,
+      "moving": "ORION_MAIN_R_TIRE",
+      "obstacle": "ORION_MAIN_R_BAY_ROOF_SUPPORT_0",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 160,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_FUSELAGE",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 160,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_L_BAY_SIDE_-1",
+      "surface_pairs": 60
+    },
+    {
+      "frame": 160,
+      "moving": "ORION_MAIN_L_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 54
+    },
+    {
+      "frame": 160,
+      "moving": "ORION_MAIN_L_STRUT_COLLAR_0.18",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 38
+    },
+    {
+      "frame": 160,
+      "moving": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 68
+    },
+    {
+      "frame": 160,
+      "moving": "ORION_MAIN_L_LINK_PIN_1_0",
+      "obstacle": "ORION_MAIN_L_DOOR_SHELL_-1",
+      "surface_pairs": 15
+    },
+    {
+      "frame": 160,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_FUSELAGE",
+      "surface_pairs": 78
+    },
+    {
+      "frame": 160,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_R_BAY_SIDE_1",
+      "surface_pairs": 60
+    },
+    {
+      "frame": 160,
+      "moving": "ORION_MAIN_R_UPPER_STRUT",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 54
+    },
+    {
+      "frame": 160,
+      "moving": "ORION_MAIN_R_STRUT_COLLAR_0.18",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 38
+    },
+    {
+      "frame": 160,
+      "moving": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 68
+    },
+    {
+      "frame": 160,
+      "moving": "ORION_MAIN_R_LINK_PIN_-1_0",
+      "obstacle": "ORION_MAIN_R_DOOR_SHELL_1",
+      "surface_pairs": 15
+    }
+  ],
+  "image_dependencies": [
+    {
+      "name": "R1.png",
+      "filepath": "//..\\Support\\references_private\\R1.png",
+      "exists": true
+    },
+    {
+      "name": "R2.png",
+      "filepath": "//..\\Support\\references_private\\R2.png",
+      "exists": true
+    },
+    {
+      "name": "R3.png",
+      "filepath": "//..\\Support\\references_private\\R3.png",
+      "exists": true
+    },
+    {
+      "name": "R4.png",
+      "filepath": "//..\\Support\\references_private\\R4.png",
+      "exists": true
+    },
+    {
+      "name": "R5.png",
+      "filepath": "//..\\Support\\references_private\\R5.png",
+      "exists": true
+    }
+  ],
+  "body_nose_vertex_hashes": {
+    "ORION_FUSELAGE": "d1596535720d1bfbc9b6b502b9bb09e5f147b41bb150da9dad4d72d31d2181ca",
+    "ORION_NOSE_WHITE": "eb3e19a85086845f2d00e7f0616a1a242135f59af6560b12d5e1729500a95234"
+  },
+  "scope": "Surface intersections against fuselage, bay liners, doors and sensor. Intentional gear-to-gear joints excluded. Containment and full swept-volume checks not established."
+}

@@ -1,0 +1,233 @@
+{
+  "fresh_master_reopen": true,
+  "all_prior_mesh_vertex_arrays_preserved": true,
+  "base_mesh_defects": [],
+  "evaluated_mesh_checks": [
+    {
+      "name": "ORION_FUSELAGE",
+      "nonmanifold": 0,
+      "degenerate": 0,
+      "volume": 2.1408167500023687
+    },
+    {
+      "name": "ORION_REAR_DORSAL_INTAKE_SHELL",
+      "nonmanifold": 0,
+      "degenerate": 0,
+      "volume": 0.00597945253897669
+    },
+    {
+      "name": "ORION_FORWARD_UNDERSIDE_APERTURE_FAIRING",
+      "nonmanifold": 0,
+      "degenerate": 0,
+      "volume": 0.00882386294723239
+    }
+  ],
+  "control_motion_checks": [
+    {
+      "control": "ORION_CTRL_PROPELLER",
+      "degrees": 0,
+      "rotation_delta": 0.0
+    },
+    {
+      "control": "ORION_CTRL_PROPELLER",
+      "degrees": 45,
+      "rotation_delta": 0.7071067690849304
+    },
+    {
+      "control": "ORION_CTRL_PROPELLER",
+      "degrees": 90,
+      "rotation_delta": 1.0000000437113883
+    },
+    {
+      "control": "ORION_CTRL_PROPELLER",
+      "degrees": 180,
+      "rotation_delta": 2.0
+    },
+    {
+      "control": "ORION_CTRL_FLAP_L",
+      "degrees": -8,
+      "rotation_delta": 0.13898734748363495
+    },
+    {
+      "control": "ORION_CTRL_FLAP_L",
+      "degrees": 0,
+      "rotation_delta": 0.0
+    },
+    {
+      "control": "ORION_CTRL_FLAP_L",
+      "degrees": 8,
+      "rotation_delta": 0.13898734748363495
+    },
+    {
+      "control": "ORION_CTRL_AILERON_L",
+      "degrees": -8,
+      "rotation_delta": 0.13898733258247375
+    },
+    {
+      "control": "ORION_CTRL_AILERON_L",
+      "degrees": 0,
+      "rotation_delta": 0.0
+    },
+    {
+      "control": "ORION_CTRL_AILERON_L",
+      "degrees": 8,
+      "rotation_delta": 0.13898733258247375
+    },
+    {
+      "control": "ORION_CTRL_RUDDERVATOR_L",
+      "degrees": -8,
+      "rotation_delta": 0.09895869344472885
+    },
+    {
+      "control": "ORION_CTRL_RUDDERVATOR_L",
+      "degrees": 0,
+      "rotation_delta": 0.0
+    },
+    {
+      "control": "ORION_CTRL_RUDDERVATOR_L",
+      "degrees": 8,
+      "rotation_delta": 0.09895869344472885
+    },
+    {
+      "control": "ORION_CTRL_FLAP_R",
+      "degrees": -8,
+      "rotation_delta": 0.13898734748363495
+    },
+    {
+      "control": "ORION_CTRL_FLAP_R",
+      "degrees": 0,
+      "rotation_delta": 0.0
+    },
+    {
+      "control": "ORION_CTRL_FLAP_R",
+      "degrees": 8,
+      "rotation_delta": 0.13898734748363495
+    },
+    {
+      "control": "ORION_CTRL_AILERON_R",
+      "degrees": -8,
+      "rotation_delta": 0.13898733258247375
+    },
+    {
+      "control": "ORION_CTRL_AILERON_R",
+      "degrees": 0,
+      "rotation_delta": 0.0
+    },
+    {
+      "control": "ORION_CTRL_AILERON_R",
+      "degrees": 8,
+      "rotation_delta": 0.13898733258247375
+    },
+    {
+      "control": "ORION_CTRL_RUDDERVATOR_R",
+      "degrees": -8,
+      "rotation_delta": 0.09895869344472885
+    },
+    {
+      "control": "ORION_CTRL_RUDDERVATOR_R",
+      "degrees": 0,
+      "rotation_delta": 0.0
+    },
+    {
+      "control": "ORION_CTRL_RUDDERVATOR_R",
+      "degrees": 8,
+      "rotation_delta": 0.09895869344472885
+    },
+    {
+      "control": "ORION_CTRL_NOSE_WHEEL_SPIN",
+      "degrees": 0,
+      "rotation_delta": 0.0
+    },
+    {
+      "control": "ORION_CTRL_NOSE_WHEEL_SPIN",
+      "degrees": 45,
+      "rotation_delta": 0.7071067690849304
+    },
+    {
+      "control": "ORION_CTRL_NOSE_WHEEL_SPIN",
+      "degrees": 90,
+      "rotation_delta": 1.0000000437113883
+    },
+    {
+      "control": "ORION_CTRL_NOSE_WHEEL_SPIN",
+      "degrees": 180,
+      "rotation_delta": 2.0
+    },
+    {
+      "control": "ORION_CTRL_MAIN_L_WHEEL_SPIN",
+      "degrees": 0,
+      "rotation_delta": 0.0
+    },
+    {
+      "control": "ORION_CTRL_MAIN_L_WHEEL_SPIN",
+      "degrees": 45,
+      "rotation_delta": 0.7071067690849304
+    },
+    {
+      "control": "ORION_CTRL_MAIN_L_WHEEL_SPIN",
+      "degrees": 90,
+      "rotation_delta": 1.0000000437113883
+    },
+    {
+      "control": "ORION_CTRL_MAIN_L_WHEEL_SPIN",
+      "degrees": 180,
+      "rotation_delta": 2.0
+    },
+    {
+      "control": "ORION_CTRL_MAIN_R_WHEEL_SPIN",
+      "degrees": 0,
+      "rotation_delta": 0.0
+    },
+    {
+      "control": "ORION_CTRL_MAIN_R_WHEEL_SPIN",
+      "degrees": 45,
+      "rotation_delta": 0.7071067690849304
+    },
+    {
+      "control": "ORION_CTRL_MAIN_R_WHEEL_SPIN",
+      "degrees": 90,
+      "rotation_delta": 1.0000000437113883
+    },
+    {
+      "control": "ORION_CTRL_MAIN_R_WHEEL_SPIN",
+      "degrees": 180,
+      "rotation_delta": 2.0
+    },
+    {
+      "control": "ORION_SENSOR_YAW",
+      "degrees": -35,
+      "rotation_delta": 0.5735764503479004
+    },
+    {
+      "control": "ORION_SENSOR_YAW",
+      "degrees": 0,
+      "rotation_delta": 0.0
+    },
+    {
+      "control": "ORION_SENSOR_YAW",
+      "degrees": 35,
+      "rotation_delta": 0.5735764503479004
+    },
+    {
+      "control": "ORION_SENSOR_PITCH",
+      "degrees": -15,
+      "rotation_delta": 0.258819043636322
+    },
+    {
+      "control": "ORION_SENSOR_PITCH",
+      "degrees": 0,
+      "rotation_delta": 0.0
+    },
+    {
+      "control": "ORION_SENSOR_PITCH",
+      "degrees": 15,
+      "rotation_delta": 0.258819043636322
+    }
+  ],
+  "control_surface_sensor_propeller_surface_contacts": [],
+  "gear_to_new_exterior_contacts_all_160_frames": [],
+  "bone_target_matrix_errors": [],
+  "relocated_reopen": true,
+  "engine_validation": "NOT ATTEMPTED",
+  "clips_and_weights": "No game-copy skinning or baked engine animation yet"
+}

@@ -1,0 +1,788 @@
+MetaFileClass {
+ Name "{63E70502EA1FCF67}Assets/ORD/Models/RC8/ORD_Orion_RC8_Probe.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{6A777D7221748BE3}" {
+     SourceMaterial "ORION_SEALS_DARK__I_Orion_Airframe"
+     AssignedMaterial "{9D1264B41D019BA4}Assets/ORD/Models/RC8/Data/ORION_SEALS_DARK__I_Orion_Airframe.emat"
+    }
+    MaterialAssignClass "{6A777D7221748BFE}" {
+     SourceMaterial "ORION_GREY_REVIEW__I_Orion_Wing_L"
+     AssignedMaterial "{5EEAC3149EC17C66}Assets/ORD/Models/RC8/Data/ORION_GREY_REVIEW__I_Orion_Wing_L.emat"
+    }
+    MaterialAssignClass "{6A777D7221748BFB}" {
+     SourceMaterial "ORION_GREY_REVIEW__I_Orion_Wing_R"
+     AssignedMaterial "{919A18594E627D26}Assets/ORD/Models/RC8/Data/ORION_GREY_REVIEW__I_Orion_Wing_R.emat"
+    }
+    MaterialAssignClass "{6A777D7221748BC4}" {
+     SourceMaterial "ORION_WHITE_NOSE_REVIEW__I_Orion_Airframe"
+     AssignedMaterial "{E3D4186966DA1C4D}Assets/ORD/Models/RC8/Data/ORION_WHITE_NOSE_REVIEW__I_Orion_Airframe.emat"
+    }
+    MaterialAssignClass "{6A777D7221748BC1}" {
+     SourceMaterial "DefaultGeneratedMaterial"
+     AssignedMaterial "{9D805F0A6E9569F8}Assets/ORD/Models/RC8/Data/DefaultGeneratedMaterial.emat"
+    }
+    MaterialAssignClass "{6A777D7221748BC2}" {
+     SourceMaterial "ORION_RED_LENS__I_Orion_Airframe"
+     AssignedMaterial "{4633D5DE7BFF8DFC}Assets/ORD/Models/RC8/Data/ORION_RED_LENS__I_Orion_Airframe.emat"
+    }
+    MaterialAssignClass "{6A777D7221748BCF}" {
+     SourceMaterial "ORION_GREY_REVIEW__I_Orion_Airframe"
+     AssignedMaterial "{44471B435F07395B}Assets/ORD/Models/RC8/Data/ORION_GREY_REVIEW__I_Orion_Airframe.emat"
+    }
+    MaterialAssignClass "{6A777D7221748BC9}" {
+     SourceMaterial "ORION_SEALS_DARK"
+     AssignedMaterial "{F94562C177635F0A}Assets/ORD/Models/RC8/Data/ORION_SEALS_DARK.emat"
+    }
+    MaterialAssignClass "{6A777D7221748BCB}" {
+     SourceMaterial "ORION_GEAR_SATIN_METAL__I_Orion_Airframe"
+     AssignedMaterial "{32E0310D1E44CCC7}Assets/ORD/Models/RC8/Data/ORION_GEAR_SATIN_METAL__I_Orion_Airframe.emat"
+    }
+    MaterialAssignClass "{6A777D7221748BD4}" {
+     SourceMaterial "ORION_GREY_REVIEW"
+     AssignedMaterial "{0B42D064EEB7D9A8}Assets/ORD/Models/RC8/Data/ORION_GREY_REVIEW.emat"
+    }
+    MaterialAssignClass "{6A777D7221748BDD}" {
+     SourceMaterial "ORION_GEAR_SATIN_METAL__I_Orion_Gear_Bays"
+     AssignedMaterial "{C31DD5B404C04412}Assets/ORD/Models/RC8/Data/ORION_GEAR_SATIN_METAL__I_Orion_Gear_Bays.emat"
+    }
+    MaterialAssignClass "{6A777D7221748BDE}" {
+     SourceMaterial "ORION_BAY_INTERIOR_APPROXIMATION__I_Orion_Gear_Bays"
+     AssignedMaterial "{5F2C48E61BB615F1}Assets/ORD/Models/RC8/Data/ORION_BAY_INTERIOR_APPROXIMATION__I_Orion_Gear_Bays.emat"
+    }
+    MaterialAssignClass "{6A777D7221748BD8}" {
+     SourceMaterial "ORION_GREY_REVIEW__I_Orion_Gear_Bays"
+     AssignedMaterial "{D8A7B57241EDF6F5}Assets/ORD/Models/RC8/Data/ORION_GREY_REVIEW__I_Orion_Gear_Bays.emat"
+    }
+    MaterialAssignClass "{6A777D7221748BDA}" {
+     SourceMaterial "ORION_SEALS_DARK__I_Orion_Gear_Bays"
+     AssignedMaterial "{178CF07BF59F36D5}Assets/ORD/Models/RC8/Data/ORION_SEALS_DARK__I_Orion_Gear_Bays.emat"
+    }
+    MaterialAssignClass "{6A777D7221748B27}" {
+     SourceMaterial "ORION_EXPOSED_SLIDING_METAL__I_Orion_Gear_Bays"
+     AssignedMaterial "{8D453D5780D7481F}Assets/ORD/Models/RC8/Data/ORION_EXPOSED_SLIDING_METAL__I_Orion_Gear_Bays.emat"
+    }
+    MaterialAssignClass "{6A777D7221748B21}" {
+     SourceMaterial "ORION_TIRE_RUBBER__I_Orion_Gear_Bays"
+     AssignedMaterial "{591990EE1B21B033}Assets/ORD/Models/RC8/Data/ORION_TIRE_RUBBER__I_Orion_Gear_Bays.emat"
+    }
+    MaterialAssignClass "{6A777D7221748B23}" {
+     SourceMaterial "ORION_GEAR_SATIN_METAL"
+     AssignedMaterial "{E218F1C439A97FE2}Assets/ORD/Models/RC8/Data/ORION_GEAR_SATIN_METAL.emat"
+    }
+    MaterialAssignClass "{6A777D7221748B2C}" {
+     SourceMaterial "ORION_DARK_REVIEW__I_Orion_Tail_Rear"
+     AssignedMaterial "{5C4601E7B6EE0A55}Assets/ORD/Models/RC8/Data/ORION_DARK_REVIEW__I_Orion_Tail_Rear.emat"
+    }
+    MaterialAssignClass "{6A777D7221748B29}" {
+     SourceMaterial "ORION_PROPELLER_TIP_PAINT__I_Orion_Tail_Rear"
+     AssignedMaterial "{CF42DF034DA7F574}Assets/ORD/Models/RC8/Data/ORION_PROPELLER_TIP_PAINT__I_Orion_Tail_Rear.emat"
+    }
+    MaterialAssignClass "{6A777D7221748B2A}" {
+     SourceMaterial "ORION_STRUT_REVIEW__I_Orion_Tail_Rear"
+     AssignedMaterial "{4129C15DD833B558}Assets/ORD/Models/RC8/Data/ORION_STRUT_REVIEW__I_Orion_Tail_Rear.emat"
+    }
+    MaterialAssignClass "{6A777D7221748B32}" {
+     SourceMaterial "ORION_GREY_REVIEW__I_Orion_Tail_Rear"
+     AssignedMaterial "{E2791D0DAC76C135}Assets/ORD/Models/RC8/Data/ORION_GREY_REVIEW__I_Orion_Tail_Rear.emat"
+    }
+    MaterialAssignClass "{6A777D7221748B3F}" {
+     SourceMaterial "ORION_SEALS_DARK__I_Orion_Tail_Rear"
+     AssignedMaterial "{2D52580418040115}Assets/ORD/Models/RC8/Data/ORION_SEALS_DARK__I_Orion_Tail_Rear.emat"
+    }
+    MaterialAssignClass "{6A777D7221748B39}" {
+     SourceMaterial "ORION_GREY_REVIEW__I_Orion_Sensor"
+     AssignedMaterial "{02D3AC66218DC727}Assets/ORD/Models/RC8/Data/ORION_GREY_REVIEW__I_Orion_Sensor.emat"
+    }
+    MaterialAssignClass "{6A777D7221748B3B}" {
+     SourceMaterial "ORION_SEALS_DARK__I_Orion_Sensor"
+     AssignedMaterial "{C360A952B44A8DD0}Assets/ORD/Models/RC8/Data/ORION_SEALS_DARK__I_Orion_Sensor.emat"
+    }
+    MaterialAssignClass "{6A777D7221748B04}" {
+     SourceMaterial "ORION_SENSOR_WARM_OPTIC_REVIEW__I_Orion_Sensor"
+     AssignedMaterial "{79DCD6E1B6C08A58}Assets/ORD/Models/RC8/Data/ORION_SENSOR_WARM_OPTIC_REVIEW__I_Orion_Sensor.emat"
+    }
+    MaterialAssignClass "{6A777D7221748B06}" {
+     SourceMaterial "ORION_SENSOR_BLUE_OPTIC_REVIEW__I_Orion_Sensor"
+     AssignedMaterial "{53CA4FE788CA4726}Assets/ORD/Models/RC8/Data/ORION_SENSOR_BLUE_OPTIC_REVIEW__I_Orion_Sensor.emat"
+    }
+    MaterialAssignClass "{6A777D7221748B00}" {
+     SourceMaterial "ORION_RED_LENS__I_Orion_Wing_L"
+     AssignedMaterial "{441C03CF533A61E1}Assets/ORD/Models/RC8/Data/ORION_RED_LENS__I_Orion_Wing_L.emat"
+    }
+    MaterialAssignClass "{6A777D7221748B0D}" {
+     SourceMaterial "ORION_GREEN_LENS__I_Orion_Wing_R"
+     AssignedMaterial "{610BE42C02AE18AA}Assets/ORD/Models/RC8/Data/ORION_GREEN_LENS__I_Orion_Wing_R.emat"
+    }
+    MaterialAssignClass "{6A777D7221748B0C}" {
+     SourceMaterial "ORION_SEALS_DARK__I_Orion_Wing_L"
+     AssignedMaterial "{9F59C6200B063691}Assets/ORD/Models/RC8/Data/ORION_SEALS_DARK__I_Orion_Wing_L.emat"
+    }
+    MaterialAssignClass "{6A777D7221748B0E}" {
+     SourceMaterial "ORION_SEALS_DARK__I_Orion_Wing_R"
+     AssignedMaterial "{50291D6DDBA537D1}Assets/ORD/Models/RC8/Data/ORION_SEALS_DARK__I_Orion_Wing_R.emat"
+    }
+    MaterialAssignClass "{6A777D7221748B09}" {
+     SourceMaterial "PYLON_SATIN_AIRFRAME_PAINT__I_Assembly_Pylon"
+     AssignedMaterial "{67CF811B0E87C3B2}Assets/ORD/Models/RC8/Data/PYLON_SATIN_AIRFRAME_PAINT__I_Assembly_Pylon.emat"
+    }
+    MaterialAssignClass "{6A777D7221748B0A}" {
+     SourceMaterial "PYLON_DARK_PANEL_SEAL__I_Assembly_Pylon"
+     AssignedMaterial "{9CDD6F1255640908}Assets/ORD/Models/RC8/Data/PYLON_DARK_PANEL_SEAL__I_Assembly_Pylon.emat"
+    }
+    MaterialAssignClass "{6A777D7221748B14}" {
+     SourceMaterial "PYLON_STAINLESS_FASTENER__I_Assembly_Pylon"
+     AssignedMaterial "{4D06C04BEF3BDD12}Assets/ORD/Models/RC8/Data/PYLON_STAINLESS_FASTENER__I_Assembly_Pylon.emat"
+    }
+    MaterialAssignClass "{6A777D7221748B17}" {
+     SourceMaterial "PYLON_ACCESS_COVER_PAINT__I_Assembly_Pylon"
+     AssignedMaterial "{A891FA9B31439594}Assets/ORD/Models/RC8/Data/PYLON_ACCESS_COVER_PAINT__I_Assembly_Pylon.emat"
+    }
+   }
+   MeshParams {
+    MeshParam ORION_AFT_SHORT_DORSAL_AERIAL {
+    }
+    MeshParam ORION_AILERON_L {
+    }
+    MeshParam ORION_AILERON_R {
+    }
+    MeshParam ORION_DORSAL_DOME_BASE_FLANGE {
+    }
+    MeshParam ORION_DORSAL_DOME_BASE_SEAL {
+    }
+    MeshParam ORION_DORSAL_DOME_CONFORMAL_BASE {
+    }
+    MeshParam ORION_DORSAL_WHITE_DOME {
+    }
+    MeshParam ORION_FLAP_L {
+    }
+    MeshParam ORION_FLAP_R {
+    }
+    MeshParam "ORION_FORWARD_APERTURE_CUTTER_-1" {
+    }
+    MeshParam ORION_FORWARD_APERTURE_CUTTER_1 {
+    }
+    MeshParam ORION_FORWARD_LOW_DORSAL_COVER {
+    }
+    MeshParam ORION_FORWARD_RED_DORSAL_BLADE {
+    }
+    MeshParam "ORION_FORWARD_UNDERSIDE_APERTURE_-1" {
+    }
+    MeshParam ORION_FORWARD_UNDERSIDE_APERTURE_1 {
+    }
+    MeshParam ORION_FORWARD_UNDERSIDE_APERTURE_FAIRING {
+    }
+    MeshParam ORION_FUSELAGE {
+    }
+    MeshParam ORION_LEFT_FORWARD_PANEL_SEAL {
+    }
+    MeshParam ORION_LEFT_PANEL_VISIBLE_FASTENER_0 {
+    }
+    MeshParam ORION_LEFT_PANEL_VISIBLE_FASTENER_1 {
+    }
+    MeshParam ORION_LEFT_PANEL_VISIBLE_FASTENER_2 {
+    }
+    MeshParam ORION_LEFT_PANEL_VISIBLE_FASTENER_3 {
+    }
+    MeshParam ORION_LEFT_PANEL_VISIBLE_FASTENER_4 {
+    }
+    MeshParam ORION_LEFT_PANEL_VISIBLE_FASTENER_5 {
+    }
+    MeshParam ORION_LEFT_PANEL_VISIBLE_FASTENER_6 {
+    }
+    MeshParam ORION_LEFT_PANEL_VISIBLE_FASTENER_7 {
+    }
+    MeshParam ORION_LEFT_TRIANGULAR_VENT_CUTTER {
+    }
+    MeshParam ORION_LEFT_VENT_RIM {
+    }
+    MeshParam ORION_LEFT_VENT_SHALLOW_BACKING {
+    }
+    MeshParam ORION_MAIN_L_AXLE {
+    }
+    MeshParam "ORION_MAIN_L_AXLE_CAP_-1" {
+    }
+    MeshParam ORION_MAIN_L_AXLE_CAP_1 {
+    }
+    MeshParam "ORION_MAIN_L_BAY_ATTACHMENT_BRACKET_-1" {
+    }
+    MeshParam ORION_MAIN_L_BAY_ATTACHMENT_BRACKET_1 {
+    }
+    MeshParam ORION_MAIN_L_BAY_ATTACHMENT_PIN {
+    }
+    MeshParam ORION_MAIN_L_BAY_CUTTER {
+    }
+    MeshParam "ORION_MAIN_L_BAY_END_-1" {
+    }
+    MeshParam ORION_MAIN_L_BAY_END_1 {
+    }
+    MeshParam ORION_MAIN_L_BAY_ROOF {
+    }
+    MeshParam ORION_MAIN_L_BAY_ROOF_SUPPORT_0 {
+    }
+    MeshParam ORION_MAIN_L_BAY_ROOF_SUPPORT_1 {
+    }
+    MeshParam "ORION_MAIN_L_BAY_SIDE_-1" {
+    }
+    MeshParam ORION_MAIN_L_DOOR_HINGE_1_RC8_FIXED_EAR_0 {
+    }
+    MeshParam ORION_MAIN_L_DOOR_HINGE_1_RC8_FIXED_EAR_1 {
+    }
+    MeshParam ORION_MAIN_L_DOOR_HINGE_1_RC8_MOVING_EAR_0 {
+    }
+    MeshParam ORION_MAIN_L_DOOR_HINGE_1_RC8_MOVING_EAR_1 {
+    }
+    MeshParam "ORION_MAIN_L_DOOR_HINGE_BARREL_1_-1" {
+    }
+    MeshParam ORION_MAIN_L_DOOR_HINGE_BARREL_1_1 {
+    }
+    MeshParam ORION_MAIN_L_DOOR_SHELL_1 {
+    }
+    MeshParam "ORION_MAIN_L_FORK_-1" {
+    }
+    MeshParam ORION_MAIN_L_FORK_1 {
+    }
+    MeshParam "ORION_MAIN_L_FORK_BRIDGE_-1" {
+    }
+    MeshParam ORION_MAIN_L_FORK_BRIDGE_1 {
+    }
+    MeshParam "ORION_MAIN_L_HUB_BOLT_-1_0" {
+    }
+    MeshParam "ORION_MAIN_L_HUB_BOLT_-1_1" {
+    }
+    MeshParam "ORION_MAIN_L_HUB_BOLT_-1_2" {
+    }
+    MeshParam "ORION_MAIN_L_HUB_BOLT_-1_3" {
+    }
+    MeshParam "ORION_MAIN_L_HUB_BOLT_-1_4" {
+    }
+    MeshParam "ORION_MAIN_L_HUB_BOLT_-1_5" {
+    }
+    MeshParam ORION_MAIN_L_HUB_BOLT_1_0 {
+    }
+    MeshParam ORION_MAIN_L_HUB_BOLT_1_1 {
+    }
+    MeshParam ORION_MAIN_L_HUB_BOLT_1_2 {
+    }
+    MeshParam ORION_MAIN_L_HUB_BOLT_1_3 {
+    }
+    MeshParam ORION_MAIN_L_HUB_BOLT_1_4 {
+    }
+    MeshParam ORION_MAIN_L_HUB_BOLT_1_5 {
+    }
+    MeshParam "ORION_MAIN_L_HUB_RECESS_-1" {
+    }
+    MeshParam ORION_MAIN_L_HUB_RECESS_1 {
+    }
+    MeshParam "ORION_MAIN_L_LINK_PIN_-1_0" {
+    }
+    MeshParam "ORION_MAIN_L_LINK_PIN_-1_1" {
+    }
+    MeshParam "ORION_MAIN_L_LINK_PIN_-1_2" {
+    }
+    MeshParam ORION_MAIN_L_LINK_PIN_1_0 {
+    }
+    MeshParam ORION_MAIN_L_LINK_PIN_1_1 {
+    }
+    MeshParam ORION_MAIN_L_LINK_PIN_1_2 {
+    }
+    MeshParam "ORION_MAIN_L_OPENING_LIP_-1" {
+    }
+    MeshParam ORION_MAIN_L_OPENING_LIP_1 {
+    }
+    MeshParam ORION_MAIN_L_RC8_INTERNAL_PIVOT_KNUCKLE {
+    }
+    MeshParam ORION_MAIN_L_RIM {
+    }
+    MeshParam ORION_MAIN_L_SLIDING_SECTION {
+    }
+    MeshParam "ORION_MAIN_L_STRUT_COLLAR_0.18" {
+    }
+    MeshParam "ORION_MAIN_L_STRUT_COLLAR_0.58" {
+    }
+    MeshParam "ORION_MAIN_L_STRUT_COLLAR_0.7" {
+    }
+    MeshParam ORION_MAIN_L_TIRE {
+    }
+    MeshParam ORION_MAIN_L_UPPER_STRUT {
+    }
+    MeshParam "ORION_MAIN_L_VISIBLE_LINK_LOW_-1" {
+    }
+    MeshParam ORION_MAIN_L_VISIBLE_LINK_LOW_1 {
+    }
+    MeshParam "ORION_MAIN_L_VISIBLE_LINK_UP_-1" {
+    }
+    MeshParam ORION_MAIN_L_VISIBLE_LINK_UP_1 {
+    }
+    MeshParam ORION_MAIN_R_AXLE {
+    }
+    MeshParam "ORION_MAIN_R_AXLE_CAP_-1" {
+    }
+    MeshParam ORION_MAIN_R_AXLE_CAP_1 {
+    }
+    MeshParam "ORION_MAIN_R_BAY_ATTACHMENT_BRACKET_-1" {
+    }
+    MeshParam ORION_MAIN_R_BAY_ATTACHMENT_BRACKET_1 {
+    }
+    MeshParam ORION_MAIN_R_BAY_ATTACHMENT_PIN {
+    }
+    MeshParam ORION_MAIN_R_BAY_CUTTER {
+    }
+    MeshParam "ORION_MAIN_R_BAY_END_-1" {
+    }
+    MeshParam ORION_MAIN_R_BAY_END_1 {
+    }
+    MeshParam ORION_MAIN_R_BAY_ROOF {
+    }
+    MeshParam ORION_MAIN_R_BAY_ROOF_SUPPORT_0 {
+    }
+    MeshParam ORION_MAIN_R_BAY_ROOF_SUPPORT_1 {
+    }
+    MeshParam ORION_MAIN_R_BAY_SIDE_1 {
+    }
+    MeshParam "ORION_MAIN_R_DOOR_HINGE_-1_RC8_FIXED_EAR_0" {
+    }
+    MeshParam "ORION_MAIN_R_DOOR_HINGE_-1_RC8_FIXED_EAR_1" {
+    }
+    MeshParam "ORION_MAIN_R_DOOR_HINGE_-1_RC8_MOVING_EAR_0" {
+    }
+    MeshParam "ORION_MAIN_R_DOOR_HINGE_-1_RC8_MOVING_EAR_1" {
+    }
+    MeshParam "ORION_MAIN_R_DOOR_HINGE_BARREL_-1_-1" {
+    }
+    MeshParam "ORION_MAIN_R_DOOR_HINGE_BARREL_-1_1" {
+    }
+    MeshParam "ORION_MAIN_R_DOOR_SHELL_-1" {
+    }
+    MeshParam "ORION_MAIN_R_FORK_-1" {
+    }
+    MeshParam ORION_MAIN_R_FORK_1 {
+    }
+    MeshParam "ORION_MAIN_R_FORK_BRIDGE_-1" {
+    }
+    MeshParam ORION_MAIN_R_FORK_BRIDGE_1 {
+    }
+    MeshParam "ORION_MAIN_R_HUB_BOLT_-1_0" {
+    }
+    MeshParam "ORION_MAIN_R_HUB_BOLT_-1_1" {
+    }
+    MeshParam "ORION_MAIN_R_HUB_BOLT_-1_2" {
+    }
+    MeshParam "ORION_MAIN_R_HUB_BOLT_-1_3" {
+    }
+    MeshParam "ORION_MAIN_R_HUB_BOLT_-1_4" {
+    }
+    MeshParam "ORION_MAIN_R_HUB_BOLT_-1_5" {
+    }
+    MeshParam ORION_MAIN_R_HUB_BOLT_1_0 {
+    }
+    MeshParam ORION_MAIN_R_HUB_BOLT_1_1 {
+    }
+    MeshParam ORION_MAIN_R_HUB_BOLT_1_2 {
+    }
+    MeshParam ORION_MAIN_R_HUB_BOLT_1_3 {
+    }
+    MeshParam ORION_MAIN_R_HUB_BOLT_1_4 {
+    }
+    MeshParam ORION_MAIN_R_HUB_BOLT_1_5 {
+    }
+    MeshParam "ORION_MAIN_R_HUB_RECESS_-1" {
+    }
+    MeshParam ORION_MAIN_R_HUB_RECESS_1 {
+    }
+    MeshParam "ORION_MAIN_R_LINK_PIN_-1_0" {
+    }
+    MeshParam "ORION_MAIN_R_LINK_PIN_-1_1" {
+    }
+    MeshParam "ORION_MAIN_R_LINK_PIN_-1_2" {
+    }
+    MeshParam ORION_MAIN_R_LINK_PIN_1_0 {
+    }
+    MeshParam ORION_MAIN_R_LINK_PIN_1_1 {
+    }
+    MeshParam ORION_MAIN_R_LINK_PIN_1_2 {
+    }
+    MeshParam "ORION_MAIN_R_OPENING_LIP_-1" {
+    }
+    MeshParam ORION_MAIN_R_OPENING_LIP_1 {
+    }
+    MeshParam ORION_MAIN_R_RC8_INTERNAL_PIVOT_KNUCKLE {
+    }
+    MeshParam ORION_MAIN_R_RIM {
+    }
+    MeshParam ORION_MAIN_R_SLIDING_SECTION {
+    }
+    MeshParam "ORION_MAIN_R_STRUT_COLLAR_0.18" {
+    }
+    MeshParam "ORION_MAIN_R_STRUT_COLLAR_0.58" {
+    }
+    MeshParam "ORION_MAIN_R_STRUT_COLLAR_0.7" {
+    }
+    MeshParam ORION_MAIN_R_TIRE {
+    }
+    MeshParam ORION_MAIN_R_UPPER_STRUT {
+    }
+    MeshParam "ORION_MAIN_R_VISIBLE_LINK_LOW_-1" {
+    }
+    MeshParam ORION_MAIN_R_VISIBLE_LINK_LOW_1 {
+    }
+    MeshParam "ORION_MAIN_R_VISIBLE_LINK_UP_-1" {
+    }
+    MeshParam ORION_MAIN_R_VISIBLE_LINK_UP_1 {
+    }
+    MeshParam ORION_MID_TRAILING_L {
+    }
+    MeshParam ORION_MID_TRAILING_R {
+    }
+    MeshParam ORION_NOSE_AXLE {
+    }
+    MeshParam "ORION_NOSE_AXLE_CAP_-1" {
+    }
+    MeshParam ORION_NOSE_AXLE_CAP_1 {
+    }
+    MeshParam "ORION_NOSE_BAY_ATTACHMENT_BRACKET_-1" {
+    }
+    MeshParam ORION_NOSE_BAY_ATTACHMENT_BRACKET_1 {
+    }
+    MeshParam ORION_NOSE_BAY_ATTACHMENT_PIN {
+    }
+    MeshParam ORION_NOSE_BAY_CUTTER {
+    }
+    MeshParam "ORION_NOSE_BAY_END_-1" {
+    }
+    MeshParam ORION_NOSE_BAY_END_1 {
+    }
+    MeshParam ORION_NOSE_BAY_ROOF {
+    }
+    MeshParam ORION_NOSE_BAY_ROOF_SUPPORT_0 {
+    }
+    MeshParam ORION_NOSE_BAY_ROOF_SUPPORT_1 {
+    }
+    MeshParam "ORION_NOSE_BAY_SIDE_-1" {
+    }
+    MeshParam ORION_NOSE_BAY_SIDE_1 {
+    }
+    MeshParam "ORION_NOSE_DOOR_HINGE_-1_RC8_FIXED_EAR_0" {
+    }
+    MeshParam "ORION_NOSE_DOOR_HINGE_-1_RC8_FIXED_EAR_1" {
+    }
+    MeshParam "ORION_NOSE_DOOR_HINGE_-1_RC8_MOVING_EAR_0" {
+    }
+    MeshParam "ORION_NOSE_DOOR_HINGE_-1_RC8_MOVING_EAR_1" {
+    }
+    MeshParam ORION_NOSE_DOOR_HINGE_1_RC8_FIXED_EAR_0 {
+    }
+    MeshParam ORION_NOSE_DOOR_HINGE_1_RC8_FIXED_EAR_1 {
+    }
+    MeshParam ORION_NOSE_DOOR_HINGE_1_RC8_MOVING_EAR_0 {
+    }
+    MeshParam ORION_NOSE_DOOR_HINGE_1_RC8_MOVING_EAR_1 {
+    }
+    MeshParam "ORION_NOSE_DOOR_HINGE_BARREL_-1_-1" {
+    }
+    MeshParam "ORION_NOSE_DOOR_HINGE_BARREL_-1_1" {
+    }
+    MeshParam "ORION_NOSE_DOOR_HINGE_BARREL_1_-1" {
+    }
+    MeshParam ORION_NOSE_DOOR_HINGE_BARREL_1_1 {
+    }
+    MeshParam "ORION_NOSE_DOOR_SHELL_-1" {
+    }
+    MeshParam ORION_NOSE_DOOR_SHELL_1 {
+    }
+    MeshParam "ORION_NOSE_FORK_-1" {
+    }
+    MeshParam ORION_NOSE_FORK_1 {
+    }
+    MeshParam "ORION_NOSE_FORK_BRIDGE_-1" {
+    }
+    MeshParam ORION_NOSE_FORK_BRIDGE_1 {
+    }
+    MeshParam "ORION_NOSE_HUB_BOLT_-1_0" {
+    }
+    MeshParam "ORION_NOSE_HUB_BOLT_-1_1" {
+    }
+    MeshParam "ORION_NOSE_HUB_BOLT_-1_2" {
+    }
+    MeshParam "ORION_NOSE_HUB_BOLT_-1_3" {
+    }
+    MeshParam "ORION_NOSE_HUB_BOLT_-1_4" {
+    }
+    MeshParam "ORION_NOSE_HUB_BOLT_-1_5" {
+    }
+    MeshParam ORION_NOSE_HUB_BOLT_1_0 {
+    }
+    MeshParam ORION_NOSE_HUB_BOLT_1_1 {
+    }
+    MeshParam ORION_NOSE_HUB_BOLT_1_2 {
+    }
+    MeshParam ORION_NOSE_HUB_BOLT_1_3 {
+    }
+    MeshParam ORION_NOSE_HUB_BOLT_1_4 {
+    }
+    MeshParam ORION_NOSE_HUB_BOLT_1_5 {
+    }
+    MeshParam "ORION_NOSE_HUB_RECESS_-1" {
+    }
+    MeshParam ORION_NOSE_HUB_RECESS_1 {
+    }
+    MeshParam "ORION_NOSE_LINK_PIN_-1_0" {
+    }
+    MeshParam "ORION_NOSE_LINK_PIN_-1_1" {
+    }
+    MeshParam "ORION_NOSE_LINK_PIN_-1_2" {
+    }
+    MeshParam ORION_NOSE_LINK_PIN_1_0 {
+    }
+    MeshParam ORION_NOSE_LINK_PIN_1_1 {
+    }
+    MeshParam ORION_NOSE_LINK_PIN_1_2 {
+    }
+    MeshParam "ORION_NOSE_OPENING_LIP_-1" {
+    }
+    MeshParam ORION_NOSE_OPENING_LIP_1 {
+    }
+    MeshParam ORION_NOSE_RIM {
+    }
+    MeshParam ORION_NOSE_SLIDING_SECTION {
+    }
+    MeshParam "ORION_NOSE_STRUT_COLLAR_0.18" {
+    }
+    MeshParam "ORION_NOSE_STRUT_COLLAR_0.58" {
+    }
+    MeshParam "ORION_NOSE_STRUT_COLLAR_0.7" {
+    }
+    MeshParam ORION_NOSE_TIRE {
+    }
+    MeshParam ORION_NOSE_UPPER_STRUT {
+    }
+    MeshParam ORION_NOSE_VISIBLE_COIL {
+    }
+    MeshParam ORION_NOSE_VISIBLE_FLEX_LINE {
+    }
+    MeshParam "ORION_NOSE_VISIBLE_LINK_LOW_-1" {
+    }
+    MeshParam ORION_NOSE_VISIBLE_LINK_LOW_1 {
+    }
+    MeshParam "ORION_NOSE_VISIBLE_LINK_UP_-1" {
+    }
+    MeshParam ORION_NOSE_VISIBLE_LINK_UP_1 {
+    }
+    MeshParam ORION_NOSE_WHITE {
+    }
+    MeshParam ORION_PROPELLER_BLADE_A {
+    }
+    MeshParam ORION_PROPELLER_BLADE_B {
+    }
+    MeshParam ORION_PROPELLER_HUB {
+    }
+    MeshParam ORION_PUSHER_SPINNER {
+    }
+    MeshParam ORION_RC8_MAIN_WELL_CENTRE_END_FRONT {
+    }
+    MeshParam ORION_RC8_MAIN_WELL_CENTRE_END_REAR {
+    }
+    MeshParam ORION_RC8_MAIN_WELL_CENTRE_ROOF {
+    }
+    MeshParam ORION_REAR_COLLAR {
+    }
+    MeshParam ORION_REAR_DORSAL_INTAKE_SHELL {
+    }
+    MeshParam ORION_REAR_INTAKE_BACKING {
+    }
+    MeshParam ORION_REAR_INTAKE_RECESS_CUTTER {
+    }
+    MeshParam ORION_ROOT_TRAILING_L {
+    }
+    MeshParam ORION_ROOT_TRAILING_R {
+    }
+    MeshParam ORION_RUDDERVATOR_L {
+    }
+    MeshParam ORION_RUDDERVATOR_R {
+    }
+    MeshParam ORION_SENSOR_FIXED_CONFORMAL_SADDLE {
+    }
+    MeshParam ORION_SENSOR_LEFT_SMALL_DARK_BACKING {
+    }
+    MeshParam ORION_SENSOR_LEFT_SMALL_OPTICAL_SURFACE {
+    }
+    MeshParam ORION_SENSOR_LEFT_SMALL_RECESS_CUTTER {
+    }
+    MeshParam ORION_SENSOR_LEFT_SMALL_WINDOW_RIM {
+    }
+    MeshParam ORION_SENSOR_LOWER_L_DARK_BACKING {
+    }
+    MeshParam ORION_SENSOR_LOWER_L_OPTICAL_SURFACE {
+    }
+    MeshParam ORION_SENSOR_LOWER_L_RECESS_CUTTER {
+    }
+    MeshParam ORION_SENSOR_LOWER_L_WINDOW_RIM {
+    }
+    MeshParam ORION_SENSOR_LOWER_MID_DARK_BACKING {
+    }
+    MeshParam ORION_SENSOR_LOWER_MID_OPTICAL_SURFACE {
+    }
+    MeshParam ORION_SENSOR_LOWER_MID_RECESS_CUTTER {
+    }
+    MeshParam ORION_SENSOR_LOWER_MID_WINDOW_RIM {
+    }
+    MeshParam ORION_SENSOR_LOWER_R_DARK_BACKING {
+    }
+    MeshParam ORION_SENSOR_LOWER_R_OPTICAL_SURFACE {
+    }
+    MeshParam ORION_SENSOR_LOWER_R_RECESS_CUTTER {
+    }
+    MeshParam ORION_SENSOR_LOWER_R_WINDOW_RIM {
+    }
+    MeshParam ORION_SENSOR_MAIN_DARK_BACKING {
+    }
+    MeshParam ORION_SENSOR_MAIN_OPTICAL_SURFACE {
+    }
+    MeshParam ORION_SENSOR_MAIN_RECESS_CUTTER {
+    }
+    MeshParam ORION_SENSOR_MAIN_WINDOW_RIM {
+    }
+    MeshParam ORION_SENSOR_PITCH_HOUSING {
+    }
+    MeshParam "ORION_SENSOR_PITCH_PIVOT_CAP_-1" {
+    }
+    MeshParam ORION_SENSOR_PITCH_PIVOT_CAP_1 {
+    }
+    MeshParam ORION_SENSOR_RIGHT_MID_DARK_BACKING {
+    }
+    MeshParam ORION_SENSOR_RIGHT_MID_OPTICAL_SURFACE {
+    }
+    MeshParam ORION_SENSOR_RIGHT_MID_RECESS_CUTTER {
+    }
+    MeshParam ORION_SENSOR_RIGHT_MID_WINDOW_RIM {
+    }
+    MeshParam "ORION_SENSOR_SIDE_SEAM_-1" {
+    }
+    MeshParam ORION_SENSOR_SIDE_SEAM_1 {
+    }
+    MeshParam ORION_SENSOR_UPPER_BLUE_DARK_BACKING {
+    }
+    MeshParam ORION_SENSOR_UPPER_BLUE_OPTICAL_SURFACE {
+    }
+    MeshParam ORION_SENSOR_UPPER_BLUE_RECESS_CUTTER {
+    }
+    MeshParam ORION_SENSOR_UPPER_BLUE_WINDOW_RIM {
+    }
+    MeshParam ORION_SENSOR_YAW_COLLAR {
+    }
+    MeshParam "ORION_SENSOR_YOKE_-1" {
+    }
+    MeshParam ORION_SENSOR_YOKE_1 {
+    }
+    MeshParam ORION_SENSOR_YOKE_TOP_BRIDGE {
+    }
+    MeshParam ORION_TAIL_L {
+    }
+    MeshParam ORION_TAIL_R {
+    }
+    MeshParam ORION_TIP_TRAILING_L {
+    }
+    MeshParam ORION_TIP_TRAILING_R {
+    }
+    MeshParam ORION_WING_L {
+    }
+    MeshParam ORION_WING_R {
+    }
+    MeshParam ORION_WING_ROOT_BLEND_L {
+    }
+    MeshParam ORION_WING_ROOT_BLEND_R {
+    }
+    MeshParam ORION_WING_TIP_LIGHT_HOUSING_L {
+    }
+    MeshParam ORION_WING_TIP_LIGHT_HOUSING_R {
+    }
+    MeshParam ORION_WING_TIP_LIGHT_LENS_L {
+    }
+    MeshParam ORION_WING_TIP_LIGHT_LENS_R {
+    }
+    MeshParam ORION_WING_TIP_SMALL_PROJECTION_L {
+    }
+    MeshParam ORION_WING_TIP_SMALL_PROJECTION_R {
+    }
+    MeshParam PYLON_CONFORMING_UPPER_SADDLE {
+    }
+    MeshParam "PYLON_COVER_SEAL_-1" {
+    }
+    MeshParam PYLON_COVER_SEAL_1 {
+    }
+    MeshParam PYLON_CURVED_LOWER_SHOE {
+    }
+    MeshParam "PYLON_FASTENER_SLOT_-1_0" {
+    }
+    MeshParam "PYLON_FASTENER_SLOT_-1_1" {
+    }
+    MeshParam "PYLON_FASTENER_SLOT_-1_2" {
+    }
+    MeshParam "PYLON_FASTENER_SLOT_-1_3" {
+    }
+    MeshParam PYLON_FASTENER_SLOT_1_0 {
+    }
+    MeshParam PYLON_FASTENER_SLOT_1_1 {
+    }
+    MeshParam PYLON_FASTENER_SLOT_1_2 {
+    }
+    MeshParam PYLON_FASTENER_SLOT_1_3 {
+    }
+    MeshParam PYLON_LOWER_CONTACT_SEAL {
+    }
+    MeshParam "PYLON_RECESSED_COVER_FASTENER_-1_0" {
+    }
+    MeshParam "PYLON_RECESSED_COVER_FASTENER_-1_1" {
+    }
+    MeshParam "PYLON_RECESSED_COVER_FASTENER_-1_2" {
+    }
+    MeshParam "PYLON_RECESSED_COVER_FASTENER_-1_3" {
+    }
+    MeshParam PYLON_RECESSED_COVER_FASTENER_1_0 {
+    }
+    MeshParam PYLON_RECESSED_COVER_FASTENER_1_1 {
+    }
+    MeshParam PYLON_RECESSED_COVER_FASTENER_1_2 {
+    }
+    MeshParam PYLON_RECESSED_COVER_FASTENER_1_3 {
+    }
+    MeshParam "PYLON_REMOVABLE_SIDE_COVER_-1" {
+    }
+    MeshParam PYLON_REMOVABLE_SIDE_COVER_1 {
+    }
+    MeshParam PYLON_STREAMLINED_OUTER_HOUSING {
+    }
+    MeshParam PYLON_UPPER_INTERFACE_SEAL {
+    }
+   }
+   Common TXOCommonClass "{6A777D72208A60B9}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "5.2.2 LTS"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6A777D72208A61C1}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6A777D72208A610B}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6A777D72208A6155}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6A777D72208A6E84}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6A777D72208A6EF3}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

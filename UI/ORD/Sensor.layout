@@ -1,0 +1,16 @@
+FrameWidgetClass {
+ Name "ORD_SensorHUD" "Ignore Cursor" 1
+ Slot FrameWidgetSlot { Anchor 0 0 1 1 OffsetLeft 0 OffsetTop 0 OffsetRight 0 OffsetBottom 0 }
+ {
+  CanvasWidgetClass {
+   Name "Symbology" "Ignore Cursor" 1
+   Slot FrameWidgetSlot { Anchor 0 0 1 1 OffsetLeft 0 OffsetTop 0 OffsetRight 0 OffsetBottom 0 }
+   FontProperties { FontProperties { Font "{3E7733BAC8C831F6}UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.fnt" } }
+  }
+  CanvasWidgetClass {
+   Name "Telemetry" "Ignore Cursor" 1
+   Slot FrameWidgetSlot { Anchor 0 0 1 1 OffsetLeft 0 OffsetTop 0 OffsetRight 0 OffsetBottom 0 }
+   FontProperties { FontProperties { Font "{3E7733BAC8C831F6}UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.fnt" } }
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{607AB5C4D091566E}Sounds/ORD/RC8/ORD_Idle.wav"
+ Configurations {
+  WAVResourceClass PC {
+  }
+  WAVResourceClass HEADLESS : PC {
+  }
+  WAVResourceClass XBOX_ONE : PC {
+  }
+  WAVResourceClass XBOX_SERIES : PC {
+  }
+  WAVResourceClass PS4 : PC {
+  }
+  WAVResourceClass PS5 : PC {
+  }
+ }
+}

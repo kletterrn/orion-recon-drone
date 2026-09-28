@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{344076784399B903}Assets/ORD/Models/RC8/Data/BDLF_RC8_HINGE_SATIN.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

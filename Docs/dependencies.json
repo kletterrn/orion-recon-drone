@@ -1,0 +1,225 @@
+{
+  "gameVersion": "1.8.0.13",
+  "dependencies": [
+    {
+      "id": "69A8A34027DA65C5",
+      "version": "unversioned-local-source",
+      "files": [
+        {
+          "path": "addon.gproj",
+          "sha256": "9862758405ce1eb02ff6d2d1e66ac43224f6c6b2b0517b4728013c04b8c6585c"
+        },
+        {
+          "path": "Configs/ControlHints/AvailableActions.conf",
+          "sha256": "bf625c199fb6783116c1ba47ae0be1132108e6f9ed01f31fc8a45162f3350afa"
+        },
+        {
+          "path": "Configs/ControlHints/AvailableActions.conf.meta",
+          "sha256": "8cd7141e079ac82e0eeaa81de180810b6265fe382811916e6312c1553508703a"
+        },
+        {
+          "path": "Configs/ProcAnims/PFC_Propeller.pap",
+          "sha256": "11e4bad41deab31728c993ebd05c9273bc3ac9dac9341337126a82f439f6f0e7"
+        },
+        {
+          "path": "Configs/ProcAnims/PFC_Propeller.pap.meta",
+          "sha256": "6f5f43c5e4a0e65b820531cd9e4d879ca085a28d5f228a12116eaee739ee7ba1"
+        },
+        {
+          "path": "Configs/ProcAnims/PFC_Propeller.siga",
+          "sha256": "8ca1131155d9956759ec06a41ef49517d38fb4eb40ee0a64242fac4ab2881cbc"
+        },
+        {
+          "path": "Configs/ProcAnims/PFC_Propeller.siga.meta",
+          "sha256": "010b1a3742fcd1827fdeb9bf76fa3596ceef507ed6b32cf6acd864ec0039b16c"
+        },
+        {
+          "path": "Configs/System/chimeraInputCommon.conf",
+          "sha256": "dead5b5b88dd6390b871fe623e92acba8760112b350ebecf4e9836fbd2592892"
+        },
+        {
+          "path": "Configs/System/chimeraInputCommon.conf.meta",
+          "sha256": "933e431fc7684747364a0b76db4f220fe575fb41f9d12f9ab171faf13018f180"
+        },
+        {
+          "path": "Configs/System/keyBindingMenu.conf",
+          "sha256": "f42346b27d530f9da286f6ece82a962ec32aa1d04536330422e05b480df350b1"
+        },
+        {
+          "path": "Configs/System/keyBindingMenu.conf.meta",
+          "sha256": "344a0e66f191e86993d732aa755c4c84d9443427338b5b33b9956522b27548cc"
+        },
+        {
+          "path": "Models/Cessna172.fbx",
+          "sha256": "38345e618f3b0a268b5c308374bf278276e9845c076e2b6578c127520985d2dd"
+        },
+        {
+          "path": "Models/Cessna172.txo",
+          "sha256": "2998b259654080a0ab5a10f0ff33fa51b555784a2fedfc5e8fcee58111c1212d"
+        },
+        {
+          "path": "Models/Cessna172.xob",
+          "sha256": "9c1be0b87dc36e06a426bf0bea21cd5ada97e1a1867ed497979d4b43b7dcefa6"
+        },
+        {
+          "path": "Models/Cessna172.xob.meta",
+          "sha256": "da9c2ffd73f75262758bc31c0c8edc1f9a1b6ddcaef1c4b8e4946b36f4385925"
+        },
+        {
+          "path": "Models/Data/Blades.emat",
+          "sha256": "d68f3b46c0637a98d7c999dc055ff86da86063a68110a52a9fc2e3374dd654c7"
+        },
+        {
+          "path": "Models/Data/Blades.emat.meta",
+          "sha256": "20a743c9d7574cb894daec6521d618f2a0f03379a3f77667257763256fa25215"
+        },
+        {
+          "path": "Models/Data/Center.emat",
+          "sha256": "d68f3b46c0637a98d7c999dc055ff86da86063a68110a52a9fc2e3374dd654c7"
+        },
+        {
+          "path": "Models/Data/Center.emat.meta",
+          "sha256": "e0698c32144474d0b84325f2134e6923d33915794be3118420f25ff2a2fa8a78"
+        },
+        {
+          "path": "Models/Data/Gray.emat",
+          "sha256": "b2b068bd2094c07cc195be18eba579d3362e87b4061e8c3a43deb714cf33f8f5"
+        },
+        {
+          "path": "Models/Data/Gray.emat.meta",
+          "sha256": "fd2373363b36b5ba259d50ad8d23a61fbac528d04d9463fe29780f8a2a179b8e"
+        },
+        {
+          "path": "Models/Data/Spinner.emat",
+          "sha256": "d68f3b46c0637a98d7c999dc055ff86da86063a68110a52a9fc2e3374dd654c7"
+        },
+        {
+          "path": "Models/Data/Spinner.emat.meta",
+          "sha256": "6d98f6c775044c5531d6b9e423c75af039108772bcd1925ef1094fad437672ad"
+        },
+        {
+          "path": "Models/Data/Texture_0_13.emat",
+          "sha256": "d68f3b46c0637a98d7c999dc055ff86da86063a68110a52a9fc2e3374dd654c7"
+        },
+        {
+          "path": "Models/Data/Texture_0_13.emat.meta",
+          "sha256": "622cb783bca3f0859512722a3f6e6a2cf57fdef49c93e52816351c9e2a2f3a99"
+        },
+        {
+          "path": "Models/prop.txo",
+          "sha256": "874134f0859613ac97b9fe9cd28b75345e9d93330347a6556bf00dcd9539427f"
+        },
+        {
+          "path": "Models/prop.xob",
+          "sha256": "8e4501a487f5fb6b94d5f693424ca0e704531e03456862df8687a33669dd3429"
+        },
+        {
+          "path": "Models/prop.xob.meta",
+          "sha256": "cec6bb9538168f0b3480a13bbab58a093c02817086f55e6a4d5a18a2fc85901a"
+        },
+        {
+          "path": "Prefabs/Vehicles/Cessna172.et",
+          "sha256": "148687da755d452e89faf9b978e63aa85bbeff4746cd8a91d823b4cc01c6a5af"
+        },
+        {
+          "path": "Prefabs/Vehicles/Cessna172.et.meta",
+          "sha256": "c6741efd713dd463c942949facbed1435749f71f314cac16e79d9c79ecf967cb"
+        },
+        {
+          "path": "Scripts/Game/UI/HUD/AvailableActions/Conditions/Game/Vehicle/PFC_IsInPlaneCondition.c",
+          "sha256": "02a3c7c5d4e0b6ca18e20d088343032b1b221d5191126336583fa02198a9791e"
+        },
+        {
+          "path": "Scripts/Game/Utilities/PFC_PilotUtil.c",
+          "sha256": "1d7af246032b7a94e70b1c0c77e418d5f98ac9a1ab78e56f4c48ce3a938b9650"
+        },
+        {
+          "path": "Scripts/Game/Vehicle/PFC_AeroSurface.c",
+          "sha256": "12d906a4287e8ef9e1f29190dc8d1222d6e3c10ff681db970940274a0924191e"
+        },
+        {
+          "path": "Scripts/Game/Vehicle/PFC_AeroSurfaceConfig.c",
+          "sha256": "9e498bb0007b4dfd769b74c4235b4898ecdfa9873e028a0e1e7026eea6cf3944"
+        },
+        {
+          "path": "Scripts/Game/Vehicle/PFC_AeroSurfaceDef.c",
+          "sha256": "5e44d057b54830456bb84f292be053817f78fd5d837d5bd852e3721472aafde6"
+        },
+        {
+          "path": "Scripts/Game/Vehicle/PFC_FlightController.c",
+          "sha256": "a02ed5d4df6c2363bef4eb224627d48c1be6c29155e1ff08a609d6f59d51c9d0"
+        },
+        {
+          "path": "Scripts/Game/Vehicle/PFC_FlightModel.c",
+          "sha256": "ec0041a7dbda3e256f06ae7a0a46b75a218fa27bed08512fc80407f76c926877"
+        },
+        {
+          "path": "Scripts/Game/Vehicle/PFC_FreeLookController.c",
+          "sha256": "e6792c67cc477c9503784437d8bb25f513b91addff5186c81f80d84601fc21c7"
+        },
+        {
+          "path": "Scripts/Game/Vehicle/PFC_NwkMovementComponent.c",
+          "sha256": "b41146eb99518827ed2a55077e119bae308c5567ab204a926961c0c16be82e91"
+        },
+        {
+          "path": "thumbnail.png",
+          "sha256": "fb0c1b7cb60c603673f6f5d7dc42984fa699cd44b100993bda8baf5ca271530c"
+        },
+        {
+          "path": "UI/layouts/HUD/PFC_VehicleHUD.layout",
+          "sha256": "fc1ed083be131326a6789cd2d7a7f84777588dc4b382e6ef91042456b9c3c756"
+        },
+        {
+          "path": "UI/layouts/HUD/PFC_VehicleHUD.layout.meta",
+          "sha256": "c5a51e3c3b588700654e1ebb6c4b01f364d57723f106fa21940342dba22cd5d2"
+        },
+        {
+          "path": "Worlds/MP_Test.ent",
+          "sha256": "9a4b6164081987b81336950dbe74dbde92e4c8d752b55efdda615438bd82813e"
+        },
+        {
+          "path": "Worlds/MP_Test.ent.meta",
+          "sha256": "85f5c7d40d2d19b16fd5b0b6fe4eda3f2604beb899f0c38deb3057659103d2f3"
+        },
+        {
+          "path": "Worlds/MP_Test_Layers/default.layer",
+          "sha256": "bc147277c103eca7fc5e46e3fd3554d0ae669ccd22500dd704cd5cb18e05dd30"
+        }
+      ]
+    },
+    {
+      "id": "69623A037A721B91",
+      "version": "1.0.23",
+      "files": [
+        {
+          "path": "addon.gproj",
+          "sha256": "b9065d7df52ad4af3c7b44761420785a38c1ac60b9d54aa870f44d3491e77a0b"
+        },
+        {
+          "path": "addon.gproj_1.0.23_manifest.json",
+          "sha256": "f4eb26074d172d6a54ce95e8591433523fd8fdfb2733a21df1b5cb63396d5723"
+        },
+        {
+          "path": "data.pak",
+          "sha256": "c32d6ec7e6e9bbe3040138327ca9639e70d6f6a058b3766d076177643d77c124"
+        },
+        {
+          "path": "data.pak_1.0.23_manifest.json",
+          "sha256": "39cd47f5f735d2daea8bc3309ffd1ea03cee59f520ff4daa3891ee5c0a78df68"
+        },
+        {
+          "path": "meta",
+          "sha256": "9689481c8181d1c956a88761cfed421c44a79b2eb6dd304548d2e9d35c25dc2b"
+        },
+        {
+          "path": "resourceDatabase.rdb_1.0.23_manifest.json",
+          "sha256": "5ca1db3f026a655fcafbede017eecea461ac4e3d7f0017d259616fe44ef24842"
+        },
+        {
+          "path": "ServerData.json",
+          "sha256": "6c619f3831b07ffb8a169db9e2db1b7b46faa290773bd50d124611ec71620fbb"
+        }
+      ]
+    }
+  ]
+}

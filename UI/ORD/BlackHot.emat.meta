@@ -1,0 +1,7 @@
+MetaFileClass {
+ Name "{1D6BAE8108BE137F}UI/ORD/BlackHot.emat"
+ Configurations {
+  EMATResourceClass PC {}
+  EMATResourceClass HEADLESS : PC {}
+ }
+}

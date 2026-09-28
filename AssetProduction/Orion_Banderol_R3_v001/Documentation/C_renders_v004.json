@@ -1,0 +1,56 @@
+[
+  {
+    "view": "Hero",
+    "file": "Previews\\C_v004_Hero.png",
+    "width": 1800,
+    "height": 1200
+  },
+  {
+    "view": "Front",
+    "file": "Previews\\C_v004_Front.png",
+    "width": 1800,
+    "height": 800
+  },
+  {
+    "view": "Rear",
+    "file": "Previews\\C_v004_Rear.png",
+    "width": 1800,
+    "height": 800
+  },
+  {
+    "view": "Left",
+    "file": "Previews\\C_v004_Left.png",
+    "width": 1800,
+    "height": 1200
+  },
+  {
+    "view": "Right",
+    "file": "Previews\\C_v004_Right.png",
+    "width": 1800,
+    "height": 1200
+  },
+  {
+    "view": "Top",
+    "file": "Previews\\C_v004_Top.png",
+    "width": 1800,
+    "height": 1200
+  },
+  {
+    "view": "Underside",
+    "file": "Previews\\C_v004_Underside.png",
+    "width": 1800,
+    "height": 1200
+  },
+  {
+    "view": "R3_Perspective",
+    "file": "Previews\\C_v004_R3_Perspective.png",
+    "width": 1800,
+    "height": 1200
+  },
+  {
+    "view": "Nose_Profile",
+    "file": "Previews\\C_v004_Nose_Profile.png",
+    "width": 1800,
+    "height": 1200
+  }
+]

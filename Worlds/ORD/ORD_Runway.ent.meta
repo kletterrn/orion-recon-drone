@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5B7E11C2E4A94D70}Worlds/ORD/ORD_Runway.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+ }
+}

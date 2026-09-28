@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3F5ED2F2E0597F63}Assets/ORD/Models/OrionE_Game/Data/Optics__coated_deep_cyan.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,70 @@
+// Test-stage camera/pose fixture only. Never include this script in the release.
+modded class ORD_AircraftVisuals
+{
+ protected float m_RC8CaptureTime;
+ protected int m_RC8CapturePhase = -1;
+ protected SCR_CameraBase m_RC8CaptureCamera;
+
+ override void EOnFrame(IEntity owner, float timeSlice)
+ {
+  super.EOnFrame(owner, timeSlice);
+  if (System.IsConsoleApp() || !m_Rig || owner.GetName() != "ORD_Aircraft") return;
+  m_RC8CaptureTime += timeSlice;
+  vector rawOrigin = owner.GetOrigin(); vector rawAngles = owner.GetAngles();
+  // Isolate render/pose inspection from runway collision and flight physics.
+  owner.SetOrigin("4770 240 11240"); owner.SetAngles(vector.Zero);
+  Physics body = owner.GetPhysics();
+  if (body) { body.SetVelocity(vector.Zero); body.SetAngularVelocity(vector.Zero); }
+  int phase = 0;
+  if (m_RC8CaptureTime >= 5) phase = 1;
+  if (m_RC8CaptureTime >= 8) phase = 2;
+  float gear = 0;
+  if (phase == 1) gear = 0.5;
+  if (phase == 2) gear = 1;
+  for (int i = 0; i < ORD_RC8Rig.Curves.Count(); i++)
+  {
+   string name = ORD_RC8Rig.Curves.GetKey(i);
+   if (name.StartsWith("BDL_")) continue;
+   vector pose[4];
+   if (m_Rig.Sample(name, gear, pose)) m_Rig.Apply(name, pose);
+  }
+  ChimeraGame game = ChimeraGame.Cast(GetGame());
+  if (!m_RC8CaptureCamera)
+  {
+   m_RC8CaptureCamera = SCR_CameraBase.Cast(game.SpawnEntity(ORD_RC8CaptureCamera, owner.GetWorld()));
+   game.GetCameraManager().SetCamera(m_RC8CaptureCamera);
+  }
+  game.GetCameraManager().SetOverlayCamera(m_RC8CaptureCamera);
+  vector cameraOrigin = owner.GetOrigin() + Vector(-7, 3, 12);
+  vector focus = owner.CoordToParent("0 0 0");
+  vector look = (focus - cameraOrigin).Normalized();
+  vector right = Vector(look[2], 0, -look[0]); right.Normalize();
+  vector up = Vector(look[1] * right[2], look[2] * right[0] - look[0] * right[2], -look[1] * right[0]);
+  vector cameraTransform[4];
+  cameraTransform[0] = right; cameraTransform[1] = up; cameraTransform[2] = look; cameraTransform[3] = cameraOrigin;
+  m_RC8CaptureCamera.SetTransform(cameraTransform);
+  if (phase != m_RC8CapturePhase)
+  {
+   m_RC8CapturePhase = phase;
+   vector socket[4];
+   bool hasSocket = m_Aircraft.PayloadTransform(socket);
+   Print(string.Format("ORD_RC8_CAPTURE phase=%1 gear=%2 socket=%3 animation=%4 rawOrigin=%5 rawAngles=%6 camera=%7", phase, gear, hasSocket, owner.GetAnimation() != null, rawOrigin, rawAngles, m_RC8CaptureCamera.GetOrigin()));
+  }
+  if (m_RC8CaptureTime >= 3 && m_RC8CaptureTime < 3 + timeSlice) System.MakeScreenshot("$profile:RC8_OrionDown.bmp");
+  if (m_RC8CaptureTime >= 6.5 && m_RC8CaptureTime < 6.5 + timeSlice) System.MakeScreenshot("$profile:RC8_OrionTransit.bmp");
+  if (m_RC8CaptureTime >= 9.5 && m_RC8CaptureTime < 9.5 + timeSlice) System.MakeScreenshot("$profile:RC8_OrionRetracted.bmp");
+ }
+}
+class ORD_RC8CaptureCameraClass : SCR_CameraBaseClass {}
+class ORD_RC8CaptureCamera : SCR_CameraBase
+{
+ void ORD_RC8CaptureCamera(IEntitySource src, IEntity parent) { SetEventMask(EntityEvent.POSTFRAME); }
+ override void EOnPostFrame(IEntity owner, float timeSlice)
+ {
+  super.EOnPostFrame(owner,timeSlice);
+  vector transform[4]; GetTransform(transform);
+  World world = GetWorld();
+  world.SetCameraEx(world.GetCurrentCameraId(),transform);
+  world.SetCameraVerticalFOV(world.GetCurrentCameraId(),40);
+ }
+}

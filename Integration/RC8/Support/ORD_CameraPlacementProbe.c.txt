@@ -1,0 +1,28 @@
+// Isolated background camera-placement fixture. Never ship as a runtime script.
+modded class ORD_TerminalComponent
+{
+ protected int m_CameraProbePhase;
+ override void EOnFrame(IEntity owner,float timeSlice)
+ {
+  super.EOnFrame(owner,timeSlice);
+  if (!m_bActive || !m_Drone) return;
+  IEntity aircraft=m_Drone.GetOwner();
+  aircraft.SetOrigin("4770 240 11240"); aircraft.SetAngles(vector.Zero);
+  aircraft.GetPhysics().SetVelocity(vector.Zero); aircraft.GetPhysics().SetAngularVelocity(vector.Zero);
+  SCR_PlayerController player=SCR_PlayerController.Cast(GetGame().GetPlayerController());
+  if(m_CameraProbePhase==0 && m_fFeedTime>2) { player.ORD_Send(aircraft,ORD_Command.PILOT); m_CameraProbePhase++; }
+  if(m_CameraProbePhase==1 && m_fFeedTime>4) { CameraProbeLog("FLIGHT");m_CameraProbePhase++; }
+  if(m_CameraProbePhase==2 && m_fFeedTime>5) { player.ORD_Send(aircraft,ORD_Command.SENSOR);m_fYaw=0;m_fPitch=-30;m_CameraProbePhase++; }
+  if(m_CameraProbePhase==3 && m_fFeedTime>8) { CameraProbeLog("SENSOR");m_fYaw=65;m_fPitch=-50;m_CameraProbePhase++; }
+  if(m_CameraProbePhase==4 && m_fFeedTime>11) { CameraProbeLog("SENSOR_TURN");player.ORD_Send(aircraft,ORD_Command.PILOT);m_CameraProbePhase++; }
+  if(m_CameraProbePhase==5 && m_fFeedTime>14) { CameraProbeLog("FLIGHT_RETURN");Print("ORD_CAMERA_DONE");m_CameraProbePhase++; }
+ }
+ protected void CameraProbeLog(string phase)
+ {
+  IEntity aircraft=m_Drone.GetOwner();
+  vector expected=ORD_CameraMounts.PilotOrigin(aircraft);
+  if(!m_bPilot) expected=ORD_CameraMounts.SensorOrigin(aircraft,m_Camera.GetTransformAxis(2));
+  Print(string.Format("ORD_CAMERA %1 pilot=%2 local=%3 originError=%4 forward=%5",phase,m_bPilot,aircraft.CoordToLocal(m_Camera.GetOrigin()),vector.Distance(expected,m_Camera.GetOrigin()),m_Camera.GetTransformAxis(2)));
+  System.MakeScreenshot("$profile:CAMERA_"+phase);
+ }
+}

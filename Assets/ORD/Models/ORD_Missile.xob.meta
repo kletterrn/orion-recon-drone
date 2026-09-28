@@ -1,0 +1,58 @@
+MetaFileClass {
+ Name "{0B02A7C868F7549D}Assets/ORD/Models/ORD_Missile.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass "{6A711D0A145B45A8}" {
+     SourceMaterial "ORD_Airframe_Placeholder"
+     AssignedMaterial "{1164058B77EDA41D}Assets/ORD/Models/Data/ORD_Airframe_Placeholder.emat"
+    }
+    MaterialAssignClass "{6A711D0A145B4585}" {
+     SourceMaterial "ORD_Dark_Mechanical"
+     AssignedMaterial "{DC8F0F3A5AAC58DA}Assets/ORD/Models/Data/ORD_Dark_Mechanical.emat"
+    }
+   }
+   MeshParams {
+    MeshParam BDL_Exhaust {
+    }
+    MeshParam BDL_Fin {
+    }
+    MeshParam BDL_Fuselage {
+    }
+    MeshParam BDL_Intake {
+    }
+    MeshParam BDL_Nose {
+    }
+    MeshParam BDL_Tail {
+    }
+    MeshParam "BDL_Tail.001" {
+    }
+    MeshParam BDL_Wing {
+    }
+    MeshParam "BDL_Wing.001" {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_Missile {
+     LayerPreset "Vehicle"
+     Mass 0
+     Margin 0
+    }
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.5.3 LTS"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4129C15DD833B558}Assets/ORD/Models/RC8/Data/ORION_STRUT_REVIEW__I_Orion_Tail_Rear.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

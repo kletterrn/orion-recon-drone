@@ -1,0 +1,57 @@
+[
+  {
+    "view": "Hero",
+    "frame": 1,
+    "image": "Previews/D_v002_Hero.png"
+  },
+  {
+    "view": "Forward_Detail",
+    "frame": 1,
+    "image": "Previews/D_v002_Forward_Detail.png"
+  },
+  {
+    "view": "Sensor",
+    "frame": 1,
+    "image": "Previews/D_v002_Sensor.png"
+  },
+  {
+    "view": "Nose_Gear",
+    "frame": 1,
+    "image": "Previews/D_v002_Nose_Gear.png"
+  },
+  {
+    "view": "Main_Gear",
+    "frame": 1,
+    "image": "Previews/D_v002_Main_Gear.png"
+  },
+  {
+    "view": "Bays_Down_Underside",
+    "frame": 1,
+    "image": "Previews/D_v002_Bays_Down_Underside.png"
+  },
+  {
+    "view": "Retracted_Underside",
+    "frame": 120,
+    "image": "Previews/D_v002_Retracted_Underside.png"
+  },
+  {
+    "view": "Inspection",
+    "frame": 160,
+    "image": "Previews/D_v002_Inspection.png"
+  },
+  {
+    "view": "Inside_Open",
+    "frame": 100,
+    "image": "Previews/D_v002_Inside_Open.png"
+  },
+  {
+    "view": "Nose_Bay_Interior",
+    "frame": 160,
+    "image": "Previews/D_v002_Nose_Bay_Interior.png"
+  },
+  {
+    "view": "Main_Bay_Interior",
+    "frame": 160,
+    "image": "Previews/D_v002_Main_Bay_Interior.png"
+  }
+]

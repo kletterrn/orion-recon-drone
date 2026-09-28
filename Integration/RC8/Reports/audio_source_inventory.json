@@ -1,0 +1,223 @@
+{
+  "status": "source preparation only; engine playback and listening tests not performed",
+  "synthetic": true,
+  "archives": [
+    {
+      "file": "S8000_Banderol_SYNTHETIC_sound_pack.zip",
+      "sha256": "7af5e55e8b7e7c70a0d360d6585d6cc716c3914054b40b859482bd74b1cd37d3"
+    },
+    {
+      "file": "Orion_SYNTHETIC_audio_illustration.zip",
+      "sha256": "5381fef80a2ca496dbac60e6796bf77ed676d1270f97c2b1328e439cddc5cafd"
+    }
+  ],
+  "wav_analysis": [
+    {
+      "file": "SourceFiles\\orion_audio_illustration\\01_startup_ILLUSTRATION.wav",
+      "channels": 1,
+      "sample_rate": 48000,
+      "bits": 16,
+      "seconds": 7.0,
+      "peak_dbfs": -8.693583762379923,
+      "rms_dbfs": -23.923955884077387,
+      "samples_at_full_scale": 0,
+      "runtime_candidate": true
+    },
+    {
+      "file": "SourceFiles\\orion_audio_illustration\\02_idle_loop_ILLUSTRATION.wav",
+      "channels": 1,
+      "sample_rate": 48000,
+      "bits": 16,
+      "seconds": 8.0,
+      "peak_dbfs": -8.710186756147113,
+      "rms_dbfs": -23.55522077171691,
+      "samples_at_full_scale": 0,
+      "runtime_candidate": true
+    },
+    {
+      "file": "SourceFiles\\orion_audio_illustration\\03_takeoff_power_ILLUSTRATION.wav",
+      "channels": 1,
+      "sample_rate": 48000,
+      "bits": 16,
+      "seconds": 9.0,
+      "peak_dbfs": -5.280127998527114,
+      "rms_dbfs": -17.89402152379077,
+      "samples_at_full_scale": 0,
+      "runtime_candidate": true
+    },
+    {
+      "file": "SourceFiles\\orion_audio_illustration\\04_cruise_loop_ILLUSTRATION.wav",
+      "channels": 1,
+      "sample_rate": 48000,
+      "bits": 16,
+      "seconds": 8.0,
+      "peak_dbfs": -6.820242770153442,
+      "rms_dbfs": -19.66831034189308,
+      "samples_at_full_scale": 0,
+      "runtime_candidate": true
+    },
+    {
+      "file": "SourceFiles\\orion_audio_illustration\\05_flyby_stereo_ILLUSTRATION.wav",
+      "channels": 2,
+      "sample_rate": 48000,
+      "bits": 16,
+      "seconds": 12.0,
+      "peak_dbfs": -10.394540259285051,
+      "rms_dbfs": -27.648472453506862,
+      "samples_at_full_scale": 0,
+      "runtime_candidate": false
+    },
+    {
+      "file": "SourceFiles\\orion_audio_illustration\\06_shutdown_ILLUSTRATION.wav",
+      "channels": 1,
+      "sample_rate": 48000,
+      "bits": 16,
+      "seconds": 5.0,
+      "peak_dbfs": -9.47798706484144,
+      "rms_dbfs": -27.471672416713613,
+      "samples_at_full_scale": 0,
+      "runtime_candidate": true
+    },
+    {
+      "file": "SourceFiles\\orion_audio_illustration\\Orion_STYLE_SYNTHETIC_preview.wav",
+      "channels": 2,
+      "sample_rate": 48000,
+      "bits": 16,
+      "seconds": 37.94,
+      "peak_dbfs": -8.291942166048338,
+      "rms_dbfs": -24.576875374188706,
+      "samples_at_full_scale": 0,
+      "runtime_candidate": false
+    },
+    {
+      "file": "SourceFiles\\S8000_Banderol_SYNTHETIC_sound_pack\\01_turbine_spoolup_mono_SYNTHETIC.wav",
+      "channels": 1,
+      "sample_rate": 48000,
+      "bits": 16,
+      "seconds": 7.0,
+      "peak_dbfs": -6.891448553682757,
+      "rms_dbfs": -18.416375203895313,
+      "samples_at_full_scale": 0,
+      "runtime_candidate": true
+    },
+    {
+      "file": "SourceFiles\\S8000_Banderol_SYNTHETIC_sound_pack\\02_flight_engine_LOOP_mono_SYNTHETIC.wav",
+      "channels": 1,
+      "sample_rate": 48000,
+      "bits": 16,
+      "seconds": 12.0,
+      "peak_dbfs": -11.612971864263624,
+      "rms_dbfs": -16.19336566523496,
+      "samples_at_full_scale": 0,
+      "runtime_candidate": true
+    },
+    {
+      "file": "SourceFiles\\S8000_Banderol_SYNTHETIC_sound_pack\\03_flight_engine_high_LOOP_mono_SYNTHETIC.wav",
+      "channels": 1,
+      "sample_rate": 48000,
+      "bits": 16,
+      "seconds": 12.0,
+      "peak_dbfs": -10.384896575627868,
+      "rms_dbfs": -14.894548936910226,
+      "samples_at_full_scale": 0,
+      "runtime_candidate": true
+    },
+    {
+      "file": "SourceFiles\\S8000_Banderol_SYNTHETIC_sound_pack\\04_flyby_close_stereo_SYNTHETIC.wav",
+      "channels": 2,
+      "sample_rate": 48000,
+      "bits": 16,
+      "seconds": 11.0,
+      "peak_dbfs": -7.769495921837773,
+      "rms_dbfs": -24.840325880889203,
+      "samples_at_full_scale": 0,
+      "runtime_candidate": false
+    },
+    {
+      "file": "SourceFiles\\S8000_Banderol_SYNTHETIC_sound_pack\\05_flyby_distant_stereo_SYNTHETIC.wav",
+      "channels": 2,
+      "sample_rate": 48000,
+      "bits": 16,
+      "seconds": 12.0,
+      "peak_dbfs": -14.192187722900904,
+      "rms_dbfs": -29.059584451434898,
+      "samples_at_full_scale": 0,
+      "runtime_candidate": false
+    },
+    {
+      "file": "SourceFiles\\S8000_Banderol_SYNTHETIC_sound_pack\\06_incoming_and_impact_stereo_SYNTHETIC.wav",
+      "channels": 2,
+      "sample_rate": 48000,
+      "bits": 16,
+      "seconds": 13.0,
+      "peak_dbfs": -4.298828112328532,
+      "rms_dbfs": -25.921589444839665,
+      "samples_at_full_scale": 0,
+      "runtime_candidate": false
+    },
+    {
+      "file": "SourceFiles\\S8000_Banderol_SYNTHETIC_sound_pack\\07_impact_close_mono_SYNTHETIC.wav",
+      "channels": 1,
+      "sample_rate": 48000,
+      "bits": 16,
+      "seconds": 7.0,
+      "peak_dbfs": -1.3101789237276062,
+      "rms_dbfs": -21.300640074527635,
+      "samples_at_full_scale": 0,
+      "runtime_candidate": true
+    },
+    {
+      "file": "SourceFiles\\S8000_Banderol_SYNTHETIC_sound_pack\\08_impact_distant_mono_SYNTHETIC.wav",
+      "channels": 1,
+      "sample_rate": 48000,
+      "bits": 16,
+      "seconds": 10.0,
+      "peak_dbfs": -4.425407873344639,
+      "rms_dbfs": -25.576391813188625,
+      "samples_at_full_scale": 0,
+      "runtime_candidate": true
+    },
+    {
+      "file": "SourceFiles\\S8000_Banderol_SYNTHETIC_sound_pack\\09_debris_tail_mono_SYNTHETIC.wav",
+      "channels": 1,
+      "sample_rate": 48000,
+      "bits": 16,
+      "seconds": 5.0,
+      "peak_dbfs": -17.1468619890665,
+      "rms_dbfs": -41.136911768040804,
+      "samples_at_full_scale": 0,
+      "runtime_candidate": true
+    },
+    {
+      "file": "SourceFiles\\S8000_Banderol_SYNTHETIC_sound_pack\\Banderol_STYLE_SYNTHETIC_preview.wav",
+      "channels": 2,
+      "sample_rate": 48000,
+      "bits": 16,
+      "seconds": 51.0,
+      "peak_dbfs": -6.236919669104517,
+      "rms_dbfs": -24.858677893638305,
+      "samples_at_full_scale": 0,
+      "runtime_candidate": false
+    }
+  ],
+  "authored": [
+    {
+      "file": "Authored\\ORD_GearMotor_SYNTHETIC.wav",
+      "seconds": 1.0,
+      "description": "Original synthetic game presentation cue; not an authentic recording",
+      "peak_dbfs": -18.132062252666124
+    },
+    {
+      "file": "Authored\\ORD_DoorLatch_SYNTHETIC.wav",
+      "seconds": 0.15,
+      "description": "Original synthetic game presentation cue; not an authentic recording",
+      "peak_dbfs": -18.12565121315396
+    },
+    {
+      "file": "Authored\\BDL_WingDeployment_SYNTHETIC.wav",
+      "seconds": 0.38,
+      "description": "Original synthetic game presentation cue; not an authentic recording",
+      "peak_dbfs": -23.51599554692068
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+// Temporary Workbench material rebuild helper; excluded from runtime package.
+[WorkbenchPluginAttribute(name: "RC8 bay paint build", wbModules: {"ResourceManager"})]
+class ORD_RC8_BayPaintBuildPlugin : WorkbenchPlugin
+{
+ override void Run() { RunCommandline(); }
+ override void RunCommandline()
+ {
+  ResourceManager rm = Workbench.GetModule(ResourceManager);
+  string path = "C:/Users/david/Desktop/RECON DRONES/Assets/ORD/Models/RC8/Data/RC8_Orion_Bay_Skin.emat";
+  if (!rm.GetMetaFile(path)) { Print("RC8_BAY_PAINT_META_MISSING"); return; }
+  rm.RebuildResourceFile(path, "PC", false);
+  Print("RC8_BAY_PAINT_REBUILD_REQUESTED");
+ }
+}

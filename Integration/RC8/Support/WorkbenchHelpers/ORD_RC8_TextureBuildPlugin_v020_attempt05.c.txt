@@ -1,0 +1,55 @@
+// Temporary RC8 native-import helper. Remove from the release package.
+[WorkbenchPluginAttribute(name: "RC8 texture build", wbModules: {"ResourceManager"})]
+class ORD_RC8_TextureBuildPlugin : WorkbenchPlugin
+{
+ override void Run() { RunCommandline(); }
+
+ override void RunCommandline()
+ {
+  ResourceManager rm = Workbench.GetModule(ResourceManager);
+  string root = "C:/Users/david/Desktop/RECON DRONES/Assets/ORD/Models/RC8/Textures/";
+  array<string> names = {
+   "Assembly_Pylon_BCR.tif", "Assembly_Pylon_NMO.tif",
+   "Banderol_Details_BCR.tif", "Banderol_Details_NMO.tif",
+   "BDL_VisualFit_Appendages_BCR.tif", "BDL_VisualFit_Appendages_NMO.tif",
+   "BDL_VisualFit_Body_BCR.tif", "BDL_VisualFit_Body_NMO.tif",
+   "Orion_Airframe_BCR.tif", "Orion_Airframe_NMO.tif",
+   "Orion_Equipment_BCR.tif", "Orion_Equipment_NMO.tif",
+   "Orion_Gear_Bays_BCR.tif", "Orion_Gear_Bays_NMO.tif",
+   "Orion_Sensor_BCR.tif", "Orion_Sensor_NMO.tif",
+   "Orion_Tail_Rear_BCR.tif", "Orion_Tail_Rear_NMO.tif",
+   "Orion_Wing_L_BCR.tif", "Orion_Wing_L_NMO.tif",
+   "Orion_Wing_R_BCR.tif", "Orion_Wing_R_NMO.tif"
+  };
+  foreach (string name : names)
+  {
+   string path = root + name;
+   MetaFile meta = rm.GetMetaFile(path);
+   if (!meta) { PrintFormat("RC8_TEXTURE_META_MISSING %1", path); continue; }
+   PrintFormat("RC8_TEXTURE_META %1", meta.GetResourceID());
+   rm.RebuildResourceFile(path, "PC", false);
+   PrintFormat("RC8_TEXTURE_REBUILD_REQUESTED %1", name);
+  }
+  array<string> materials = {
+   "RC8_Assembly_Pylon", "RC8_Orion_Airframe", "RC8_Orion_Equipment",
+   "RC8_Orion_Gear_Bays", "RC8_Orion_Sensor", "RC8_Orion_Tail_Rear",
+   "RC8_Orion_Wing_L", "RC8_Orion_Wing_R",
+   "RC8_BDL_VisualFit_Appendages", "RC8_BDL_VisualFit_Body", "RC8_Banderol_Details"
+  };
+  foreach (string materialName : materials)
+  {
+   string materialPath = "C:/Users/david/Desktop/RECON DRONES/Assets/ORD/Models/RC8/Data/" + materialName + ".emat";
+   if (!rm.GetMetaFile(materialPath)) { PrintFormat("RC8_MATERIAL_META_MISSING %1", materialPath); continue; }
+   rm.RebuildResourceFile(materialPath, "PC", false);
+   PrintFormat("RC8_MATERIAL_REBUILD_REQUESTED %1", materialName);
+  }
+  array<string> models = {"ORD_Orion_RC8.fbx", "ORD_Banderol_RC8.fbx"};
+  foreach (string modelName : models)
+  {
+   string modelPath = "C:/Users/david/Desktop/RECON DRONES/Assets/ORD/Models/RC8/" + modelName;
+   if (!rm.GetMetaFile(modelPath)) { PrintFormat("RC8_MODEL_META_MISSING %1", modelPath); continue; }
+   rm.RebuildResourceFile(modelPath, "PC", false);
+   PrintFormat("RC8_MODEL_REBUILD_REQUESTED %1", modelName);
+  }
+ }
+}

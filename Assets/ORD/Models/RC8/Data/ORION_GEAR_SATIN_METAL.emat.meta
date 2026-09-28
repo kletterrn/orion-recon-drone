@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E218F1C439A97FE2}Assets/ORD/Models/RC8/Data/ORION_GEAR_SATIN_METAL.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,7 @@
+MetaFileClass {
+ Name "{707B22AC91E47701}UI/ORD/Sensor.layout"
+ Configurations {
+  LayoutResourceClass PC {}
+  LayoutResourceClass HEADLESS : PC {}
+ }
+}

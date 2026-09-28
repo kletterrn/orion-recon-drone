@@ -1,0 +1,22 @@
+{
+  "status": "candidate; root fairing interfaces still require inspection",
+  "wing_body_or_wing_wing_contacts": [
+    {
+      "frame": 30,
+      "a": "WING_L",
+      "b": "BODY"
+    },
+    {
+      "frame": 31,
+      "a": "WING_L",
+      "b": "BODY"
+    },
+    {
+      "frame": 31,
+      "a": "WING_R",
+      "b": "BODY"
+    }
+  ],
+  "sampled_frames": 31,
+  "duration_seconds": 1
+}

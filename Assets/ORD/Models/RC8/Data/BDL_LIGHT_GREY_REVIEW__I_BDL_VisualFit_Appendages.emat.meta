@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9A5A114A79AE23ED}Assets/ORD/Models/RC8/Data/BDL_LIGHT_GREY_REVIEW__I_BDL_VisualFit_Appendages.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

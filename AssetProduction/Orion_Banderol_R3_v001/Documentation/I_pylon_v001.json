@@ -1,0 +1,47 @@
+{
+  "set": "Assembly_Pylon",
+  "resolution": 4096,
+  "objects": [
+    "PYLON_CONFORMING_UPPER_SADDLE",
+    "PYLON_CURVED_LOWER_SHOE",
+    "PYLON_STREAMLINED_OUTER_HOUSING",
+    "PYLON_COVER_SEAL_-1",
+    "PYLON_REMOVABLE_SIDE_COVER_-1",
+    "PYLON_RECESSED_COVER_FASTENER_-1_0",
+    "PYLON_FASTENER_SLOT_-1_0",
+    "PYLON_RECESSED_COVER_FASTENER_-1_1",
+    "PYLON_FASTENER_SLOT_-1_1",
+    "PYLON_RECESSED_COVER_FASTENER_-1_2",
+    "PYLON_FASTENER_SLOT_-1_2",
+    "PYLON_RECESSED_COVER_FASTENER_-1_3",
+    "PYLON_FASTENER_SLOT_-1_3",
+    "PYLON_COVER_SEAL_1",
+    "PYLON_REMOVABLE_SIDE_COVER_1",
+    "PYLON_RECESSED_COVER_FASTENER_1_0",
+    "PYLON_FASTENER_SLOT_1_0",
+    "PYLON_RECESSED_COVER_FASTENER_1_1",
+    "PYLON_FASTENER_SLOT_1_1",
+    "PYLON_RECESSED_COVER_FASTENER_1_2",
+    "PYLON_FASTENER_SLOT_1_2",
+    "PYLON_RECESSED_COVER_FASTENER_1_3",
+    "PYLON_FASTENER_SLOT_1_3",
+    "PYLON_UPPER_INTERFACE_SEAL",
+    "PYLON_LOWER_CONTACT_SEAL"
+  ],
+  "materials": [
+    "PYLON_SATIN_AIRFRAME_PAINT__I_Assembly_Pylon",
+    "PYLON_DARK_PANEL_SEAL__I_Assembly_Pylon",
+    "PYLON_ACCESS_COVER_PAINT__I_Assembly_Pylon",
+    "PYLON_STAINLESS_FASTENER__I_Assembly_Pylon"
+  ],
+  "images": {
+    "BaseColor": "//textures\\I_v001\\Assembly_Pylon_BaseColor.png",
+    "Roughness": "//textures\\I_v001\\Assembly_Pylon_Roughness.png",
+    "Metallic": "//textures\\I_v001\\Assembly_Pylon_Metallic.png",
+    "Normal": "//textures\\I_v001\\Assembly_Pylon_Normal.png"
+  },
+  "uv_loops": 1788,
+  "zero_area_uv_faces": [],
+  "uv_bounds_errors": [],
+  "geometry_preserved": true
+}

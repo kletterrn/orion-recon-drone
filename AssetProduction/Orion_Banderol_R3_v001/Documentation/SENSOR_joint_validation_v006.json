@@ -1,0 +1,12 @@
+[
+  {
+    "pitch": 15,
+    "object": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+    "pairs": 52
+  },
+  {
+    "pitch": 15,
+    "object": "ORION_SENSOR_YAW_COLLAR",
+    "pairs": 52
+  }
+]

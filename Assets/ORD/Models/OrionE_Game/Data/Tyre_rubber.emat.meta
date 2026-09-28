@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{BCA7337EA1F94B14}Assets/ORD/Models/OrionE_Game/Data/Tyre_rubber.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

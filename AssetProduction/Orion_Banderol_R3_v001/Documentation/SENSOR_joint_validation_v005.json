@@ -1,0 +1,57 @@
+[
+  {
+    "pitch": -15,
+    "object": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+    "pairs": 185
+  },
+  {
+    "pitch": -15,
+    "object": "ORION_SENSOR_YAW_COLLAR",
+    "pairs": 213
+  },
+  {
+    "pitch": -10,
+    "object": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+    "pairs": 133
+  },
+  {
+    "pitch": -10,
+    "object": "ORION_SENSOR_YAW_COLLAR",
+    "pairs": 239
+  },
+  {
+    "pitch": -5,
+    "object": "ORION_SENSOR_YAW_COLLAR",
+    "pairs": 267
+  },
+  {
+    "pitch": 0,
+    "object": "ORION_SENSOR_YAW_COLLAR",
+    "pairs": 384
+  },
+  {
+    "pitch": 5,
+    "object": "ORION_SENSOR_YAW_COLLAR",
+    "pairs": 277
+  },
+  {
+    "pitch": 10,
+    "object": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+    "pairs": 151
+  },
+  {
+    "pitch": 10,
+    "object": "ORION_SENSOR_YAW_COLLAR",
+    "pairs": 251
+  },
+  {
+    "pitch": 15,
+    "object": "ORION_SENSOR_YOKE_TOP_BRIDGE",
+    "pairs": 167
+  },
+  {
+    "pitch": 15,
+    "object": "ORION_SENSOR_YAW_COLLAR",
+    "pairs": 225
+  }
+]

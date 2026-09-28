@@ -1,0 +1,6 @@
+{
+  "name": "orion-validation-tools",
+  "private": true,
+  "type": "module",
+  "dependencies": {"enfusion-mcp": "0.6.1"}
+}

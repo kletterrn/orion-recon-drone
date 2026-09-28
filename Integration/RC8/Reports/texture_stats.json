@@ -1,0 +1,1047 @@
+[
+  {
+    "name": "Assembly_Pylon_AO.png",
+    "bytes": 5309371,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      106.3,
+      106.3,
+      106.3
+    ],
+    "stddev": [
+      113.5,
+      113.5,
+      113.5
+    ]
+  },
+  {
+    "name": "Assembly_Pylon_BaseColor.png",
+    "bytes": 450051,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      83.0,
+      87.7,
+      91.1
+    ],
+    "stddev": [
+      57.0,
+      59.8,
+      62.2
+    ]
+  },
+  {
+    "name": "Assembly_Pylon_Metallic.png",
+    "bytes": 388013,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      15.3,
+      15.3,
+      15.3
+    ],
+    "stddev": [
+      15.5,
+      15.5,
+      15.5
+    ]
+  },
+  {
+    "name": "Assembly_Pylon_Normal.png",
+    "bytes": 2311352,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      127.9,
+      128.0,
+      247.3
+    ],
+    "stddev": [
+      6.8,
+      7.7,
+      35.0
+    ]
+  },
+  {
+    "name": "Assembly_Pylon_Roughness.png",
+    "bytes": 438231,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      103.0,
+      103.0,
+      103.0
+    ],
+    "stddev": [
+      61.2,
+      61.2,
+      61.2
+    ]
+  },
+  {
+    "name": "Banderol_Details_AO.png",
+    "bytes": 1574212,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      34.5,
+      34.5,
+      34.5
+    ],
+    "stddev": [
+      71.5,
+      71.5,
+      71.5
+    ]
+  },
+  {
+    "name": "Banderol_Details_BaseColor.png",
+    "bytes": 550906,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      13.5,
+      13.8,
+      13.7
+    ],
+    "stddev": [
+      31.9,
+      32.2,
+      32.0
+    ]
+  },
+  {
+    "name": "Banderol_Details_Metallic.png",
+    "bytes": 258825,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      6.3,
+      6.3,
+      6.3
+    ],
+    "stddev": [
+      26.8,
+      26.8,
+      26.8
+    ]
+  },
+  {
+    "name": "Banderol_Details_Normal.png",
+    "bytes": 1576082,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      128.0,
+      128.0,
+      255.0
+    ],
+    "stddev": [
+      0.8,
+      0.4,
+      0.1
+    ]
+  },
+  {
+    "name": "Banderol_Details_Roughness.png",
+    "bytes": 547451,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      22.5,
+      22.5,
+      22.5
+    ],
+    "stddev": [
+      45.9,
+      45.9,
+      45.9
+    ]
+  },
+  {
+    "name": "BDL_VisualFit_Appendages_AO.png",
+    "bytes": 6348596,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      153.8,
+      153.8,
+      153.8
+    ],
+    "stddev": [
+      110.9,
+      110.9,
+      110.9
+    ]
+  },
+  {
+    "name": "BDL_VisualFit_Appendages_BaseColor.png",
+    "bytes": 393843,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      113.4,
+      116.7,
+      117.3
+    ],
+    "stddev": [
+      72.3,
+      74.4,
+      74.9
+    ]
+  },
+  {
+    "name": "BDL_VisualFit_Appendages_Metallic.png",
+    "bytes": 235670,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      0.9,
+      0.9,
+      0.9
+    ],
+    "stddev": [
+      10.6,
+      10.6,
+      10.6
+    ]
+  },
+  {
+    "name": "BDL_VisualFit_Appendages_Normal.png",
+    "bytes": 1409275,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      128.0,
+      127.9,
+      251.3
+    ],
+    "stddev": [
+      7.9,
+      5.5,
+      22.1
+    ]
+  },
+  {
+    "name": "BDL_VisualFit_Appendages_Roughness.png",
+    "bytes": 382818,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      76.3,
+      76.3,
+      76.3
+    ],
+    "stddev": [
+      48.6,
+      48.6,
+      48.6
+    ]
+  },
+  {
+    "name": "BDL_VisualFit_Body_AO.png",
+    "bytes": 1227440,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      146.6,
+      146.6,
+      146.6
+    ],
+    "stddev": [
+      122.3,
+      122.3,
+      122.3
+    ]
+  },
+  {
+    "name": "BDL_VisualFit_Body_BaseColor.png",
+    "bytes": 413312,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      106.3,
+      109.5,
+      110.2
+    ],
+    "stddev": [
+      76.3,
+      78.6,
+      79.1
+    ]
+  },
+  {
+    "name": "BDL_VisualFit_Body_Metallic.png",
+    "bytes": 346419,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      4.3,
+      4.3,
+      4.3
+    ],
+    "stddev": [
+      24.0,
+      24.0,
+      24.0
+    ]
+  },
+  {
+    "name": "BDL_VisualFit_Body_Normal.png",
+    "bytes": 772641,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      127.9,
+      128.0,
+      250.3
+    ],
+    "stddev": [
+      5.8,
+      6.0,
+      25.0
+    ]
+  },
+  {
+    "name": "BDL_VisualFit_Body_Roughness.png",
+    "bytes": 403515,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      71.2,
+      71.2,
+      71.2
+    ],
+    "stddev": [
+      51.1,
+      51.1,
+      51.1
+    ]
+  },
+  {
+    "name": "Orion_Airframe_AO.png",
+    "bytes": 5110645,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      105.5,
+      105.5,
+      105.5
+    ],
+    "stddev": [
+      109.5,
+      109.5,
+      109.5
+    ]
+  },
+  {
+    "name": "Orion_Airframe_BaseColor.png",
+    "bytes": 749651,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      62.3,
+      64.9,
+      66.6
+    ],
+    "stddev": [
+      73.6,
+      76.2,
+      77.7
+    ]
+  },
+  {
+    "name": "Orion_Airframe_Metallic.png",
+    "bytes": 232245,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      0.1,
+      0.1,
+      0.1
+    ],
+    "stddev": [
+      1.5,
+      1.5,
+      1.5
+    ]
+  },
+  {
+    "name": "Orion_Airframe_Normal.png",
+    "bytes": 1355535,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      133.1,
+      122.9,
+      236.5
+    ],
+    "stddev": [
+      20.7,
+      21.4,
+      51.8
+    ]
+  },
+  {
+    "name": "Orion_Airframe_Roughness.png",
+    "bytes": 690809,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      49.4,
+      49.4,
+      49.4
+    ],
+    "stddev": [
+      55.7,
+      55.7,
+      55.7
+    ]
+  },
+  {
+    "name": "Orion_Equipment_AO.png",
+    "bytes": 3078344,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      65.3,
+      65.3,
+      65.3
+    ],
+    "stddev": [
+      97.4,
+      97.4,
+      97.4
+    ]
+  },
+  {
+    "name": "Orion_Equipment_BaseColor.png",
+    "bytes": 630743,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      29.0,
+      31.0,
+      32.1
+    ],
+    "stddev": [
+      49.3,
+      52.1,
+      53.9
+    ]
+  },
+  {
+    "name": "Orion_Equipment_Metallic.png",
+    "bytes": 310328,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      3.8,
+      3.8,
+      3.8
+    ],
+    "stddev": [
+      23.3,
+      23.3,
+      23.3
+    ]
+  },
+  {
+    "name": "Orion_Equipment_Normal.png",
+    "bytes": 2537553,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      128.0,
+      128.0,
+      254.8
+    ],
+    "stddev": [
+      2.0,
+      0.8,
+      1.1
+    ]
+  },
+  {
+    "name": "Orion_Equipment_Roughness.png",
+    "bytes": 614861,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      36.0,
+      36.0,
+      36.0
+    ],
+    "stddev": [
+      53.6,
+      53.6,
+      53.6
+    ]
+  },
+  {
+    "name": "Orion_Gear_Bays_AO.png",
+    "bytes": 11411844,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      126.3,
+      126.3,
+      126.3
+    ],
+    "stddev": [
+      85.7,
+      85.7,
+      85.7
+    ]
+  },
+  {
+    "name": "Orion_Gear_Bays_BaseColor.png",
+    "bytes": 1076840,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      3.7,
+      3.9,
+      4.0
+    ],
+    "stddev": [
+      14.4,
+      15.2,
+      15.6
+    ]
+  },
+  {
+    "name": "Orion_Gear_Bays_Metallic.png",
+    "bytes": 542066,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      0.9,
+      0.9,
+      0.9
+    ],
+    "stddev": [
+      5.9,
+      5.9,
+      5.9
+    ]
+  },
+  {
+    "name": "Orion_Gear_Bays_Normal.png",
+    "bytes": 4829871,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      133.0,
+      120.3,
+      174.6
+    ],
+    "stddev": [
+      47.1,
+      45.1,
+      78.9
+    ]
+  },
+  {
+    "name": "Orion_Gear_Bays_Roughness.png",
+    "bytes": 955870,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      3.8,
+      3.8,
+      3.8
+    ],
+    "stddev": [
+      15.0,
+      15.0,
+      15.0
+    ]
+  },
+  {
+    "name": "Orion_Sensor_AO.png",
+    "bytes": 9812066,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      113.1,
+      113.1,
+      113.1
+    ],
+    "stddev": [
+      99.1,
+      99.1,
+      99.1
+    ]
+  },
+  {
+    "name": "Orion_Sensor_BaseColor.png",
+    "bytes": 836607,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      101.5,
+      107.6,
+      111.6
+    ],
+    "stddev": [
+      51.0,
+      53.9,
+      55.6
+    ]
+  },
+  {
+    "name": "Orion_Sensor_Metallic.png",
+    "bytes": 264099,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      0.1,
+      0.1,
+      0.1
+    ],
+    "stddev": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "name": "Orion_Sensor_Normal.png",
+    "bytes": 3758698,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      127.5,
+      128.1,
+      238.3
+    ],
+    "stddev": [
+      16.8,
+      19.2,
+      45.6
+    ]
+  },
+  {
+    "name": "Orion_Sensor_Roughness.png",
+    "bytes": 800601,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      94.5,
+      94.5,
+      94.5
+    ],
+    "stddev": [
+      45.0,
+      45.0,
+      45.0
+    ]
+  },
+  {
+    "name": "Orion_Tail_Rear_AO.png",
+    "bytes": 8148524,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      146.3,
+      146.3,
+      146.3
+    ],
+    "stddev": [
+      108.4,
+      108.4,
+      108.4
+    ]
+  },
+  {
+    "name": "Orion_Tail_Rear_BaseColor.png",
+    "bytes": 477808,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      84.4,
+      89.5,
+      92.8
+    ],
+    "stddev": [
+      60.9,
+      64.4,
+      66.5
+    ]
+  },
+  {
+    "name": "Orion_Tail_Rear_Metallic.png",
+    "bytes": 241410,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      1.2,
+      1.2,
+      1.2
+    ],
+    "stddev": [
+      11.1,
+      11.1,
+      11.1
+    ]
+  },
+  {
+    "name": "Orion_Tail_Rear_Normal.png",
+    "bytes": 3178065,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      127.9,
+      128.2,
+      247.5
+    ],
+    "stddev": [
+      10.3,
+      20.2,
+      26.4
+    ]
+  },
+  {
+    "name": "Orion_Tail_Rear_Roughness.png",
+    "bytes": 464657,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      81.5,
+      81.5,
+      81.5
+    ],
+    "stddev": [
+      55.8,
+      55.8,
+      55.8
+    ]
+  },
+  {
+    "name": "Orion_Wing_L_AO.png",
+    "bytes": 1465764,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      71.6,
+      71.6,
+      71.6
+    ],
+    "stddev": [
+      108.8,
+      108.8,
+      108.8
+    ]
+  },
+  {
+    "name": "Orion_Wing_L_BaseColor.png",
+    "bytes": 315927,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      41.1,
+      43.5,
+      45.0
+    ],
+    "stddev": [
+      60.1,
+      63.7,
+      65.9
+    ]
+  },
+  {
+    "name": "Orion_Wing_L_Metallic.png",
+    "bytes": 220209,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "stddev": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "name": "Orion_Wing_L_Normal.png",
+    "bytes": 1144521,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      128.3,
+      127.9,
+      252.6
+    ],
+    "stddev": [
+      6.7,
+      4.9,
+      13.1
+    ]
+  },
+  {
+    "name": "Orion_Wing_L_Roughness.png",
+    "bytes": 311455,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      35.9,
+      35.9,
+      35.9
+    ],
+    "stddev": [
+      52.5,
+      52.5,
+      52.5
+    ]
+  },
+  {
+    "name": "Orion_Wing_R_AO.png",
+    "bytes": 1551548,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      82.8,
+      82.8,
+      82.8
+    ],
+    "stddev": [
+      113.4,
+      113.4,
+      113.4
+    ]
+  },
+  {
+    "name": "Orion_Wing_R_BaseColor.png",
+    "bytes": 327553,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      47.2,
+      50.0,
+      51.8
+    ],
+    "stddev": [
+      62.0,
+      65.7,
+      68.0
+    ]
+  },
+  {
+    "name": "Orion_Wing_R_Metallic.png",
+    "bytes": 220209,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "stddev": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "name": "Orion_Wing_R_Normal.png",
+    "bytes": 1249667,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      127.9,
+      127.8,
+      252.4
+    ],
+    "stddev": [
+      7.3,
+      5.2,
+      13.1
+    ]
+  },
+  {
+    "name": "Orion_Wing_R_Roughness.png",
+    "bytes": 322058,
+    "mode": "RGB",
+    "size": [
+      4096,
+      4096
+    ],
+    "mean": [
+      41.2,
+      41.2,
+      41.2
+    ],
+    "stddev": [
+      54.1,
+      54.1,
+      54.1
+    ]
+  }
+]

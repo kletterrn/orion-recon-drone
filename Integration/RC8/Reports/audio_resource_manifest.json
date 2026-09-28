@@ -1,0 +1,100 @@
+{
+  "status": "staged; not wired to runtime",
+  "samples": [
+    {
+      "name": "ORD_Startup",
+      "resource": "{8D218BBEE091D24D}Sounds/ORD/RC8/ORD_Startup.wav",
+      "source": "SourceFiles\\orion_audio_illustration\\01_startup_ILLUSTRATION.wav",
+      "sha256": "1a740165002479970e5e63485356bddc4f9667c5473f4b041de314676a4359dc"
+    },
+    {
+      "name": "ORD_Idle",
+      "resource": "{607AB5C4D091566E}Sounds/ORD/RC8/ORD_Idle.wav",
+      "source": "SourceFiles\\orion_audio_illustration\\02_idle_loop_ILLUSTRATION.wav",
+      "sha256": "6c94e3a4807bb5e87d9b1260fb8c4cf901980b67a4ff401870b42c0f30a907a2"
+    },
+    {
+      "name": "ORD_Takeoff",
+      "resource": "{71D2E52D9D4366FB}Sounds/ORD/RC8/ORD_Takeoff.wav",
+      "source": "SourceFiles\\orion_audio_illustration\\03_takeoff_power_ILLUSTRATION.wav",
+      "sha256": "14627287e2a2d9e891145cbd998fa1f6574f3cf847ed6af2e7d3e347c2c25551"
+    },
+    {
+      "name": "ORD_Cruise",
+      "resource": "{8C2C4E0583B80480}Sounds/ORD/RC8/ORD_Cruise.wav",
+      "source": "SourceFiles\\orion_audio_illustration\\04_cruise_loop_ILLUSTRATION.wav",
+      "sha256": "80b4bce2acafd08203e1546fde18211475bf3add54eccc9fc82a4940e41fffa8"
+    },
+    {
+      "name": "ORD_Shutdown",
+      "resource": "{8482BBE098E07122}Sounds/ORD/RC8/ORD_Shutdown.wav",
+      "source": "SourceFiles\\orion_audio_illustration\\06_shutdown_ILLUSTRATION.wav",
+      "sha256": "fd0945c2674b4e1063231693b42b8a77a2916da87e5e3b9bc697abdc3b0d6c84"
+    },
+    {
+      "name": "BDL_Spoolup",
+      "resource": "{A7359FFA9C01E90A}Sounds/ORD/RC8/BDL_Spoolup.wav",
+      "source": "SourceFiles\\S8000_Banderol_SYNTHETIC_sound_pack\\01_turbine_spoolup_mono_SYNTHETIC.wav",
+      "sha256": "f7b3b51b0fb44ac6816de9210c0154322c66847bdab790cefaddfd39f9e5cb4c"
+    },
+    {
+      "name": "BDL_Flight",
+      "resource": "{06D4BFADE2337A7A}Sounds/ORD/RC8/BDL_Flight.wav",
+      "source": "SourceFiles\\S8000_Banderol_SYNTHETIC_sound_pack\\02_flight_engine_LOOP_mono_SYNTHETIC.wav",
+      "sha256": "bd825876260c7abf3a45808f89dc078accdcabcf29a3d4dc013124190d7f1c7c"
+    },
+    {
+      "name": "BDL_FlightBright",
+      "resource": "{D52A3759FE1053CE}Sounds/ORD/RC8/BDL_FlightBright.wav",
+      "source": "SourceFiles\\S8000_Banderol_SYNTHETIC_sound_pack\\03_flight_engine_high_LOOP_mono_SYNTHETIC.wav",
+      "sha256": "8d73640fc2a91a69c08e0fe02993073dcdf2db54baea1b297edf4f30926d6046"
+    },
+    {
+      "name": "BDL_ImpactClose",
+      "resource": "{DD42D5F223741D12}Sounds/ORD/RC8/BDL_ImpactClose.wav",
+      "source": "SourceFiles\\S8000_Banderol_SYNTHETIC_sound_pack\\07_impact_close_mono_SYNTHETIC.wav",
+      "sha256": "a9b074f81e135cd8eaa266adbb14777c41260ec75da7b225e1d630b5a546aaf7"
+    },
+    {
+      "name": "BDL_ImpactDistant",
+      "resource": "{83C1A7D7E902EE5B}Sounds/ORD/RC8/BDL_ImpactDistant.wav",
+      "source": "SourceFiles\\S8000_Banderol_SYNTHETIC_sound_pack\\08_impact_distant_mono_SYNTHETIC.wav",
+      "sha256": "5f9d0af9750d82476676a868a3b1abdf33d095b84e84b0f24572c123952d4e4a"
+    },
+    {
+      "name": "BDL_Debris",
+      "resource": "{D6E3760F700F3AE0}Sounds/ORD/RC8/BDL_Debris.wav",
+      "source": "SourceFiles\\S8000_Banderol_SYNTHETIC_sound_pack\\09_debris_tail_mono_SYNTHETIC.wav",
+      "sha256": "2e3ef852fffe9ac9c09810d8f7fc793c074497eef5750ce21166334bbb5ab7b8"
+    },
+    {
+      "name": "ORD_GearMotor",
+      "resource": "{B324B65615F7F457}Sounds/ORD/RC8/ORD_GearMotor.wav",
+      "source": "Authored\\ORD_GearMotor_SYNTHETIC.wav",
+      "sha256": "f60ce181f9bf3964dd687542e02f83ed4900e2bcb781b7bd444a486da7632da2"
+    },
+    {
+      "name": "ORD_DoorLatch",
+      "resource": "{A70DE98021897364}Sounds/ORD/RC8/ORD_DoorLatch.wav",
+      "source": "Authored\\ORD_DoorLatch_SYNTHETIC.wav",
+      "sha256": "7c8ee4fd28054cd11d468f0dada7a6ef32549f80d54abce4c4b006f1585d0b53"
+    },
+    {
+      "name": "BDL_WingDeployment",
+      "resource": "{F40DD21EAF468041}Sounds/ORD/RC8/BDL_WingDeployment.wav",
+      "source": "Authored\\BDL_WingDeployment_SYNTHETIC.wav",
+      "sha256": "2516948fbaaa8a699c8188d886f8b5a2e2daf7be55ba32fedaf6baf949cd919d"
+    }
+  ],
+  "signals": [
+    "ORD_IdleWorldDb",
+    "ORD_CruiseWorldDb",
+    "ORD_IdleFeedDb",
+    "ORD_CruiseFeedDb",
+    "ORD_WorldGateDb",
+    "BDL_FlightDb",
+    "BDL_ImpactCloseDb",
+    "BDL_ImpactDistantDb",
+    "BDL_DebrisDb"
+  ]
+}

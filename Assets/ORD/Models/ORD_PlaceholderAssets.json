@@ -1,0 +1,68 @@
+{
+  "coordinate_system": "Enfusion: X right, Y up, Z forward; all dimensions in metres",
+  "ORD_Orion_Recon": {
+    "length_m": 8.0,
+    "span_m": 16.0,
+    "pivots": {
+      "PROP_PIVOT": [
+        0,
+        0.48,
+        -3.95
+      ],
+      "SENSOR_PIVOT": [
+        0,
+        -0.5,
+        2.2
+      ],
+      "front_wheel": [
+        0,
+        -0.6,
+        2.6
+      ],
+      "rear_wheel_l": [
+        -0.78,
+        -0.6,
+        -0.55
+      ],
+      "rear_wheel_r": [
+        0.78,
+        -0.6,
+        -0.55
+      ],
+      "SERVICE_POINT": [
+        -0.55,
+        0.5,
+        -0.25
+      ],
+      "TERMINAL_LINK_POINT": [
+        0,
+        0.72,
+        1.15
+      ]
+    },
+    "collision_meshes": [
+      "UBX_Fuselage",
+      "UBX_wing_l",
+      "UBX_wing_r",
+      "UBX_Gear_Nose",
+      "UBX_Gear_Main_L",
+      "UBX_Gear_Main_R"
+    ]
+  },
+  "ORD_GroundTerminal": {
+    "dimensions_m": [
+      0.42,
+      0.3,
+      0.28
+    ],
+    "pivot": "TERMINAL_OPERATOR_POINT [0.25, 0, 0.05]"
+  },
+  "ORD_ServicePoint": {
+    "dimensions_m": [
+      1.1,
+      0.72,
+      1.12
+    ],
+    "pivot": "SERVICE_INTERACTION_POINT [0.72, 0, 0.45]"
+  }
+}

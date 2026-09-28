@@ -1,0 +1,33 @@
+// Temporary RC8 import helper. Exclude from the release package.
+[WorkbenchPluginAttribute(name: "RC8 final material and model build", wbModules: {"ResourceManager"})]
+class ORD_RC8_FinalModelBuildPlugin : WorkbenchPlugin
+{
+ override void Run() { RunCommandline(); }
+
+ override void RunCommandline()
+ {
+  ResourceManager rm = Workbench.GetModule(ResourceManager);
+  string root = "C:/Users/david/Desktop/RECON DRONES/Assets/ORD/Models/RC8/";
+  array<string> materials = {
+   "RC8_Assembly_Pylon", "RC8_Orion_Airframe", "RC8_Orion_Equipment",
+   "RC8_Orion_Gear_Bays", "RC8_Orion_Sensor", "RC8_Orion_Tail_Rear",
+   "RC8_Orion_Wing_L", "RC8_Orion_Wing_R",
+   "RC8_BDL_VisualFit_Appendages", "RC8_BDL_VisualFit_Body", "RC8_Banderol_Details"
+  };
+  foreach (string name : materials)
+  {
+   string path = root + "Data/" + name + ".emat";
+   if (!rm.GetMetaFile(path)) { PrintFormat("RC8_MATERIAL_META_MISSING %1", path); continue; }
+   rm.RebuildResourceFile(path, "PC", false);
+   PrintFormat("RC8_MATERIAL_REBUILD_REQUESTED %1", name);
+  }
+  array<string> models = {"ORD_Orion_RC8.fbx", "ORD_Banderol_RC8.fbx"};
+  foreach (string name2 : models)
+  {
+   string path2 = root + name2;
+   if (!rm.GetMetaFile(path2)) { PrintFormat("RC8_MODEL_META_MISSING %1", path2); continue; }
+   rm.RebuildResourceFile(path2, "PC", false);
+   PrintFormat("RC8_MODEL_REBUILD_REQUESTED %1", name2);
+  }
+ }
+}

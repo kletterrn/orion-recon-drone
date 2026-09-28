@@ -1,0 +1,94 @@
+FrameWidgetClass {
+ Name "ORD_HUD"
+ Slot FrameWidgetSlot { Anchor 0 0 1 1 OffsetLeft 0 OffsetTop 0 OffsetRight 0 OffsetBottom 0 }
+ {
+  TextWidgetClass {
+   Name "FrameTop" Color 1 1 1 0.12 "Font Size" 16 Text "----------------------------------------------------------------------------------------------------------"
+   Slot FrameWidgetSlot { Anchor 0.5 0 0.5 0 OffsetLeft -670 OffsetTop 10 SizeX 1340 OffsetRight -670 SizeY 25 OffsetBottom -35 }
+  }
+  TextWidgetClass {
+   Name "FrameBottom" Color 1 1 1 0.12 "Font Size" 16 Text "----------------------------------------------------------------------------------------------------------"
+   Slot FrameWidgetSlot { Anchor 0.5 1 0.5 1 OffsetLeft -670 OffsetTop -37 SizeX 1340 OffsetRight -670 SizeY 25 OffsetBottom 12 }
+  }
+  TextWidgetClass {
+   Name "TopLeft" Color 1 1 1 0.96 "Font Size" 18 Text "ORION-E / CAM 01\nLINK --  FLIGHT\nASL ---- M  AGL ---- M\nGSPD --- KM/H  HDG ---" Wrap 1
+   Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 36 OffsetTop 34 SizeX 355 OffsetRight -391 SizeY 125 OffsetBottom -159 }
+  }
+  TextWidgetClass {
+   Name "HeadingTape" Color 1 1 1 0.92 "Font Size" 16 Text "300      330       N       030      060\n|---------|---------|---------|---------|" Wrap 1
+   Slot FrameWidgetSlot { Anchor 0.5 0 0.5 0 OffsetLeft -280 OffsetTop 31 SizeX 560 OffsetRight -280 SizeY 47 OffsetBottom -78 }
+  }
+  TextWidgetClass {
+   Name "HeadingPointer" Color 1 1 1 0.95 "Font Size" 21 Text "V"
+   Slot FrameWidgetSlot { Anchor 0.5 0 0.5 0 OffsetLeft -10 OffsetTop 73 SizeX 24 OffsetRight -14 SizeY 26 OffsetBottom -99 }
+  }
+  TextWidgetClass {
+   Name "TopRight" Color 1 1 1 0.96 "Font Size" 18 Text "FEED 00:00\nTRK OFF\nMODE EO DAY\nZOOM 1.0X" Wrap 1
+   Slot FrameWidgetSlot { Anchor 1 0 1 0 OffsetLeft -352 OffsetTop 30 SizeX 315 OffsetRight 37 SizeY 158 OffsetBottom -188 }
+  }
+  TextWidgetClass {
+   Name "ZoomReadout" Color 1 1 1 0.98 "Font Size" 20 Text "SENSOR  1.0X / 40X"
+   Slot FrameWidgetSlot { Anchor 0.5 1 0.5 1 OffsetLeft -170 OffsetTop -160 SizeX 340 OffsetRight -170 SizeY 32 OffsetBottom 128 }
+  }
+  TextWidgetClass {
+   Name "SideLeft" Color 1 1 1 0.55 "Font Size" 17 Text "|\n|\n+\n|\n|\n+\n|\n|\n+\n|\n|" Wrap 1
+   Slot FrameWidgetSlot { Anchor 0 0.5 0 0.5 OffsetLeft 23 OffsetTop -164 SizeX 22 OffsetRight -45 SizeY 335 OffsetBottom -171 }
+  }
+  TextWidgetClass {
+   Name "SideRight" Color 1 1 1 0.08 "Font Size" 17 Text "|\n|\n+\n|\n|\n+\n|\n|\n+\n|\n|" Wrap 1
+   Slot FrameWidgetSlot { Anchor 1 0.5 1 0.5 OffsetLeft -43 OffsetTop -164 SizeX 22 OffsetRight 21 SizeY 335 OffsetBottom -171 }
+  }
+  TextWidgetClass {
+   Name "PitchLadder" Color 1 1 1 0.76 "Font Size" 16 Text "+60 --\n\n+30 --\n\n  0 --\n\n-30 --\n\n-60 --" Wrap 1
+   Slot FrameWidgetSlot { Anchor 0 0.5 0 0.5 OffsetLeft 50 OffsetTop -142 SizeX 115 OffsetRight -165 SizeY 285 OffsetBottom -143 }
+  }
+  TextWidgetClass {
+   Name "PitchValue" Color 1 1 1 0.88 "Font Size" 15 Text "PITCH -20 DEG"
+   Slot FrameWidgetSlot { Anchor 0 0.5 0 0.5 OffsetLeft 49 OffsetTop 151 SizeX 220 OffsetRight -269 SizeY 26 OffsetBottom -177 }
+  }
+  TextWidgetClass {
+   Name "Reticle" Color 1 1 1 0.96 "Font Size" 26 Text "-  +  -"
+   Slot FrameWidgetSlot { Anchor 0.5 0.5 0.5 0.5 OffsetLeft -47 OffsetTop -16 SizeX 110 OffsetRight -63 SizeY 34 OffsetBottom -18 }
+  }
+  TextWidgetClass {
+   Name "ReticleVertical" Color 1 1 1 0.82 "Font Size" 16 Text "|\n\n\n|" Wrap 1
+   Slot FrameWidgetSlot { Anchor 0.5 0.5 0.5 0.5 OffsetLeft -2 OffsetTop -57 SizeX 14 OffsetRight -12 SizeY 113 OffsetBottom -56 }
+  }
+  TextWidgetClass {
+   Name "TrackBox" Color 0.89 0.98 0.9 0 "Font Size" 1 Text ""
+   Slot FrameWidgetSlot { Anchor 0.5 0.5 0.5 0.5 OffsetLeft 0 OffsetTop 0 SizeX 1 OffsetRight -1 SizeY 1 OffsetBottom -1 }
+  }
+  TextWidgetClass {
+   Name "CenterStatus" Color 1 1 1 0.9 "Font Size" 15 Text "STABILIZED"
+   Slot FrameWidgetSlot { Anchor 0.5 0.5 0.5 0.5 OffsetLeft -100 OffsetTop 105 SizeX 200 OffsetRight -100 SizeY 25 OffsetBottom -130 }
+  }
+  TextWidgetClass {
+   Name "FeedLine" Color 1 1 1 0.14 "Font Size" 14 Text "--------------------------------------------------------------------------------------------------------------"
+   Slot FrameWidgetSlot { Anchor 0.5 1 0.5 1 OffsetLeft -540 OffsetTop -189 SizeX 1080 OffsetRight -540 SizeY 20 OffsetBottom 169 }
+  }
+  TextWidgetClass {
+   Name "BottomLeft" Color 1 1 1 0.94 "Font Size" 18 Text "EO DAY\nGIMBAL -- / --\nENGINE OFF\nFUEL --- %" Wrap 1
+   Slot FrameWidgetSlot { Anchor 0 1 0 1 OffsetLeft 37 OffsetTop -166 SizeX 290 OffsetRight -327 SizeY 124 OffsetBottom 42 }
+  }
+  TextWidgetClass {
+   Name "BottomCenter" Color 1 1 1 0.9 "Font Size" 16 Text "RNG ---- M\n--       --       --       --       --\n|--------|--------|--------|--------|" Wrap 1
+   Slot FrameWidgetSlot { Anchor 0.5 1 0.5 1 OffsetLeft -270 OffsetTop -119 SizeX 540 OffsetRight -270 SizeY 80 OffsetBottom 39 }
+  }
+  TextWidgetClass {
+   Name "BottomRight" Color 1 1 1 0.94 "Font Size" 18 Text "GRID ---- ----\nSLANT RNG ---- M\nSET AGL --- M\nSET SPD --- KM/H" Wrap 1
+   Slot FrameWidgetSlot { Anchor 1 1 1 1 OffsetLeft -323 OffsetTop -166 SizeX 286 OffsetRight 37 SizeY 124 OffsetBottom 42 }
+  }
+  TextWidgetClass {
+   Name "ControlHint" Color 1 1 1 0.74 "Font Size" 12 Text "ESC EXIT   H MODE   M MAP   WHEEL ZOOM   TAB LOCK   T TRACK"
+   Slot FrameWidgetSlot { Anchor 0.5 1 0.5 1 OffsetLeft -520 OffsetTop -25 SizeX 1040 OffsetRight -520 SizeY 18 OffsetBottom 7 }
+  }
+  TextWidgetClass {
+   Name "MapStatus" Color 1 1 1 0.98 "Font Size" 17 Text "MISSION MAP / GRID ---- ---- / WAYPOINTS 0/8\nPAN MOUSE/ARROWS  ENTER WP  P LOITER  J ROUTE" Wrap 1
+   Slot FrameWidgetSlot { Anchor 0.5 0 0.5 0 OffsetLeft -480 OffsetTop 125 SizeX 960 OffsetRight -480 SizeY 55 OffsetBottom -180 }
+  }
+  TextWidgetClass {
+   Name "MapCursor" Color 1 1 1 0.96 "Font Size" 30 Text "+"
+   Slot FrameWidgetSlot { Anchor 0.5 0.5 0.5 0.5 OffsetLeft -12 OffsetTop -20 SizeX 30 OffsetRight -18 SizeY 35 OffsetBottom -15 }
+  }
+ }
+}

@@ -1,0 +1,59 @@
+Vehicle {
+ ID "ORD_Aircraft"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" { Object "{96E002018895950C}Assets/ORD/Models/RC8/ORD_Orion_RC8.xob" }
+  RigidBody "{51DAA09FECF52BBF}" { ModelGeometry 1 Active Active Mass 1150 CenterOfMass 0 0 0 ResponseIndex "Vehicle" }
+  RplComponent "{517AACDFA78F5EE7}" {}
+  SignalsManagerComponent "{B81364864E7D4F92}" {}
+  ORD_FlightController {}
+  ORD_AircraftVisuals {}
+  ORD_AudioPresentation {}
+  SoundComponent { Filenames { "{4B25B09A31945782}Sounds/ORD/RC8/ORD_Orion_RC8.acp" } }
+  PFC_NwkMovementComponent {}
+  PFC_FlightModel {
+   m_fMaxThrustPerEngine 3600
+   m_iNumEngines 1
+   m_fFuselageDragArea 0.5
+   m_fAngularDamping 1.4
+   m_aSurfaceDefs {
+    PFC_AeroSurfaceDef { m_sLabel "Wing" m_vPosition 3.6 0.2 0 m_bMirror 1 m_iControlAxis NONE m_fChord 1.2 m_fSpan 7.5 m_fLiftSlope 5.7 m_fSkinFriction 0.025 m_fZeroLiftAoA -6 m_fStallAngleHigh 15 m_fStallAngleLow -15 m_fEfficiency 0.82 }
+    PFC_AeroSurfaceDef { m_sLabel "Aileron" m_vPosition 5.0 0.2 -0.3 m_bMirror 1 m_iControlAxis AILERON m_fChord 0.3 m_fSpan 2 m_fLiftSlope 5.4 m_fSkinFriction 0.025 m_fStallAngleHigh 18 m_fStallAngleLow -18 m_fFlapFraction 0.7 }
+    PFC_AeroSurfaceDef { m_sLabel "Elevator" m_vPosition 0.7 0.6 -3 m_bMirror 1 m_iControlAxis ELEVATOR m_fChord 0.7 m_fSpan 1 m_fLiftSlope 5 m_fSkinFriction 0.03 m_fStallAngleHigh 18 m_fStallAngleLow -18 m_fFlapFraction 1 }
+    PFC_AeroSurfaceDef { m_sLabel "Rudder" m_vPosition 0 0.8 -3 m_vRotation 0 0 90 m_bMirror 0 m_iControlAxis RUDDER m_fChord 0.7 m_fSpan 1 m_fLiftSlope 5 m_fSkinFriction 0.03 m_fStallAngleHigh 18 m_fStallAngleLow -18 m_fFlapFraction 0.7 }
+   }
+  }
+  VehicleWheeledSimulation "{731B26FCA2F19855}" : "{A25CB790B888B786}Prefabs/Vehicles/Core/Components/VehicleWheeledSimulation_Base.ct" {
+   Simulation Wheeled {
+    Engine Engine Engine { MaxPower 1 MaxTorque 1 RpmIdle 850 RpmRedline 6000 RpmMax 7000 Output "Clutch" }
+    Clutch Clutch Clutch { Output "Gearbox" }
+    Gearbox Gearbox Gearbox { Forward { 4 } Reverse 4 }
+    Axles {
+     Axle {
+      TorqueShare 0
+      Suspension Suspension { MaxSteeringAngle 24 SpringRate 180 CompressionDamper 5200 RelaxationDamper 7000 MaxTravelUp 0.1 MaxTravelDown 0.15 }
+      Wheel Wheel { Radius 0.2 Mass 6 BrakeTorque 800 }
+      Tyre Tyre { Roughness 0.15 LongitudinalFriction 0.6 LateralFriction 0.8 RollingResistance 0.03 RollingDrag 0.03 Tread 1 }
+      WheelPositions { WheelPosition Nose_L { PivotID "front_wheel_contact" } WheelPosition Nose_R { PivotID "front_wheel_contact" } }
+     }
+     Axle {
+      TorqueShare 1
+      Suspension Suspension { MaxSteeringAngle 0 SpringRate 250 CompressionDamper 6500 RelaxationDamper 8500 MaxTravelUp 0.1 MaxTravelDown 0.15 }
+      Wheel Wheel { Radius 0.24 Mass 8 BrakeTorque 1200 }
+      Tyre Tyre { Roughness 0.15 LongitudinalFriction 0.6 LateralFriction 0.85 RollingResistance 0.03 RollingDrag 0.03 Tread 1 }
+      WheelPositions { WheelPosition Left { PivotID "rear_wheel_l_contact" } WheelPosition Right { PivotID "rear_wheel_r_contact" } }
+     }
+    }
+    Aerodynamics Aerodynamics { ReferenceArea 0 DragCoefficient 0 }
+    RaycastLayer "VehicleCast"
+   }
+  }
+  ORD_AircraftComponent {}
+  SCR_DamageManagerComponent "{141326E9FD94FE40}" {
+   "Additional hit zones" {
+    SCR_FlammableHitZone Hull { MaxHealth 450 }
+   }
+  }
+ }
+}
+
+

@@ -1,0 +1,98 @@
+{
+  "stage": "A/B setup only",
+  "blender_version": "5.2.2 LTS",
+  "files": [
+    {
+      "file": "Orion/Orion_Master.blend",
+      "status": "passed",
+      "reference_images": [
+        {
+          "name": "R1.png",
+          "path": "//..\\Support\\references_private\\R1.png",
+          "width": 1603,
+          "height": 570
+        },
+        {
+          "name": "R2.png",
+          "path": "//..\\Support\\references_private\\R2.png",
+          "width": 1500,
+          "height": 1000
+        },
+        {
+          "name": "R3.png",
+          "path": "//..\\Support\\references_private\\R3.png",
+          "width": 2048,
+          "height": 1365
+        },
+        {
+          "name": "R4.png",
+          "path": "//..\\Support\\references_private\\R4.png",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "name": "R5.png",
+          "path": "//..\\Support\\references_private\\R5.png",
+          "width": 632,
+          "height": 316
+        }
+      ],
+      "authoritative_aircraft_meshes": 0,
+      "export_meshes": 0,
+      "review_cameras": 7
+    },
+    {
+      "file": "Orion/checkpoints/Orion_B_reference_scale_v001.blend",
+      "status": "passed",
+      "reference_images": [
+        {
+          "name": "R1.png",
+          "path": "//..\\..\\Support\\references_private\\R1.png",
+          "width": 1603,
+          "height": 570
+        },
+        {
+          "name": "R2.png",
+          "path": "//..\\..\\Support\\references_private\\R2.png",
+          "width": 1500,
+          "height": 1000
+        },
+        {
+          "name": "R3.png",
+          "path": "//..\\..\\Support\\references_private\\R3.png",
+          "width": 2048,
+          "height": 1365
+        },
+        {
+          "name": "R4.png",
+          "path": "//..\\..\\Support\\references_private\\R4.png",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "name": "R5.png",
+          "path": "//..\\..\\Support\\references_private\\R5.png",
+          "width": 632,
+          "height": 316
+        }
+      ],
+      "authoritative_aircraft_meshes": 0,
+      "export_meshes": 0,
+      "review_cameras": 7
+    }
+  ],
+  "checks": [
+    "Three existing Blender assets retain recorded SHA-256 hashes",
+    "All five supplied image copies match their original hashes",
+    "Both files reopened without resaving",
+    "Metric scale and identity root",
+    "Eight-metre and sixteen-metre guide endpoints",
+    "Seven review cameras and explicitly unsolved R3 backdrop",
+    "Five relative image paths resolve from both master and numbered checkpoint",
+    "No reference/audit meshes in future assembly-link collection",
+    "No source or export meshes mislabeled as completed aircraft",
+    "Two 2400x1200 setup renders exist and decode in Blender",
+    "Both files reopen from a temporary relocated package and resolve all five private images"
+  ],
+  "status": "passed"
+}

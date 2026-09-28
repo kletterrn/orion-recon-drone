@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E2791D0DAC76C135}Assets/ORD/Models/RC8/Data/ORION_GREY_REVIEW__I_Orion_Tail_Rear.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

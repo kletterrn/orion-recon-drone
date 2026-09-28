@@ -1,0 +1,46 @@
+MetaFileClass {
+ Name "{93EC26B6DFD2B43B}Assets/ORD/Models/ORD_GroundTerminal.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass "{6A711D0A14384EC6}" {
+     SourceMaterial "ORD_Dark_Mechanical"
+     AssignedMaterial "{DC8F0F3A5AAC58DA}Assets/ORD/Models/Data/ORD_Dark_Mechanical.emat"
+    }
+    MaterialAssignClass "{6A711D0A14384ED5}" {
+     SourceMaterial "ORD_Ground_Equipment"
+     AssignedMaterial "{80DB0E650B285419}Assets/ORD/Models/Data/ORD_Ground_Equipment.emat"
+    }
+   }
+   MeshParams {
+    MeshParam ORD_TerminalAntenna {
+    }
+    MeshParam ORD_TerminalScreen {
+    }
+    MeshParam ORD_TerminalBody {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_Terminal {
+     LayerPreset "Vehicle"
+     Mass 2
+     Margin 0
+    }
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "5.2.2 LTS"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+ }
+}

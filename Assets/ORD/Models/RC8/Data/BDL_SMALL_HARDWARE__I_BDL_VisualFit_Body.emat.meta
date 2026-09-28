@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8B138A9B6DB9B242}Assets/ORD/Models/RC8/Data/BDL_SMALL_HARDWARE__I_BDL_VisualFit_Body.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

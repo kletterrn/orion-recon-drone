@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A51F9767666A7FE2}Assets/ORD/Models/OrionE_Game/Data/Graphite_blue__painted_composite.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

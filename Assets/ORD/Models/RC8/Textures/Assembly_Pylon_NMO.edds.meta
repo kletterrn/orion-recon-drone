@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{C6AC0EAF3014D395}Assets/ORD/Models/RC8/Textures/Assembly_Pylon_NMO.edds"
+ Configurations {
+  TIFFResourceClass PC {
+   SourceFile "Assembly_Pylon_NMO.tif"
+   Conversion ColorHQCompression
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass PS5 : PC {
+  }
+ }
+}

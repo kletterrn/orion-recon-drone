@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{50291D6DDBA537D1}Assets/ORD/Models/RC8/Data/ORION_SEALS_DARK__I_Orion_Wing_R.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

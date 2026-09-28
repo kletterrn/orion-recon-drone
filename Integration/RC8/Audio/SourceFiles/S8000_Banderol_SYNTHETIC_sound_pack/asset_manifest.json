@@ -1,0 +1,135 @@
+{
+  "title": "S8000 Banderol-inspired SYNTHETIC game-audio sketches",
+  "authenticity": "Not field recordings. Engine, timing, movement and impacts are artistic approximations.",
+  "assets": [
+    {
+      "file": "02_flight_engine_LOOP_mono_SYNTHETIC.wav",
+      "seconds": 12.0,
+      "channels": 1,
+      "sample_rate": 48000,
+      "bit_depth": 16,
+      "loop": true,
+      "purpose": "Dry continuous engine emitter, no baked movement",
+      "peak_dbfs": -11.61,
+      "rms_dbfs": -16.19,
+      "loop_join_jump": 0.017563
+    },
+    {
+      "file": "03_flight_engine_high_LOOP_mono_SYNTHETIC.wav",
+      "seconds": 12.0,
+      "channels": 1,
+      "sample_rate": 48000,
+      "bit_depth": 16,
+      "loop": true,
+      "purpose": "Brighter alternative engine texture; not a measured thrust mode",
+      "peak_dbfs": -10.38,
+      "rms_dbfs": -14.89,
+      "loop_join_jump": 0.119924
+    },
+    {
+      "file": "01_turbine_spoolup_mono_SYNTHETIC.wav",
+      "seconds": 7.0,
+      "channels": 1,
+      "sample_rate": 48000,
+      "bit_depth": 16,
+      "loop": false,
+      "purpose": "Illustrative rising turbine sound; not authentic launch timing",
+      "peak_dbfs": -6.89,
+      "rms_dbfs": -18.42
+    },
+    {
+      "file": "04_flyby_close_stereo_SYNTHETIC.wav",
+      "seconds": 11.0,
+      "channels": 2,
+      "sample_rate": 48000,
+      "bit_depth": 16,
+      "loop": false,
+      "purpose": "Rendered left-to-right cinematic flyby; movement is baked in",
+      "peak_dbfs": -7.77,
+      "rms_dbfs": -24.84
+    },
+    {
+      "file": "05_flyby_distant_stereo_SYNTHETIC.wav",
+      "seconds": 12.0,
+      "channels": 2,
+      "sample_rate": 48000,
+      "bit_depth": 16,
+      "loop": false,
+      "purpose": "Rendered softer, filtered distant pass",
+      "peak_dbfs": -14.19,
+      "rms_dbfs": -29.06
+    },
+    {
+      "file": "07_impact_close_mono_SYNTHETIC.wav",
+      "seconds": 7.0,
+      "channels": 1,
+      "sample_rate": 48000,
+      "bit_depth": 16,
+      "loop": false,
+      "purpose": "Generic short attack, body and decay; no real yield or signature",
+      "peak_dbfs": -1.31,
+      "rms_dbfs": -21.3
+    },
+    {
+      "file": "08_impact_distant_mono_SYNTHETIC.wav",
+      "seconds": 10.0,
+      "channels": 1,
+      "sample_rate": 48000,
+      "bit_depth": 16,
+      "loop": false,
+      "purpose": "Generic muffled explosion with a rolling tail",
+      "peak_dbfs": -4.43,
+      "rms_dbfs": -25.58
+    },
+    {
+      "file": "09_debris_tail_mono_SYNTHETIC.wav",
+      "seconds": 5.0,
+      "channels": 1,
+      "sample_rate": 48000,
+      "bit_depth": 16,
+      "loop": false,
+      "purpose": "Separate restrained rubble/debris sweetener",
+      "peak_dbfs": -17.15,
+      "rms_dbfs": -41.14
+    },
+    {
+      "file": "06_incoming_and_impact_stereo_SYNTHETIC.wav",
+      "seconds": 13.0,
+      "channels": 2,
+      "sample_rate": 48000,
+      "bit_depth": 16,
+      "loop": false,
+      "purpose": "Edited six-second approach plus generic impact; preview use",
+      "peak_dbfs": -4.3,
+      "rms_dbfs": -25.92
+    }
+  ],
+  "preview_seconds": 51.0,
+  "preview_chapters": [
+    {
+      "start_seconds": 0,
+      "end_seconds": 7.0,
+      "label": "Illustrative turbine spool-up"
+    },
+    {
+      "start_seconds": 7,
+      "end_seconds": 13.0,
+      "label": "Steady engine sound"
+    },
+    {
+      "start_seconds": 14,
+      "end_seconds": 25.0,
+      "label": "Close stereo flyby"
+    },
+    {
+      "start_seconds": 26,
+      "end_seconds": 39.0,
+      "label": "Incoming pass; generic impact at 00:32"
+    },
+    {
+      "start_seconds": 40,
+      "end_seconds": 50.0,
+      "label": "Distant generic impact"
+    }
+  ]
+}

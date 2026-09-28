@@ -1,0 +1,50 @@
+// Background fixture only: moving physics body, real terminal, no physical input.
+modded class ORD_TerminalComponent
+{
+ protected int m_SpeedPhase;
+ protected float m_SpeedLog;
+ override void OnPostInit(IEntity owner)
+ {
+  super.OnPostInit(owner);
+  SetEventMask(owner, EntityEvent.POSTFRAME);
+ }
+ override void EOnFrame(IEntity owner, float timeSlice)
+ {
+  super.EOnFrame(owner,timeSlice);
+  if (!m_bActive || !m_Drone) return;
+  IEntity aircraft=m_Drone.GetOwner();
+  if(m_SpeedPhase==0)
+  {
+   aircraft.SetOrigin("4770 400 11240");
+   aircraft.SetAngles(vector.Zero);
+   SCR_PlayerController.Cast(GetGame().GetPlayerController()).ORD_Send(aircraft,ORD_Command.PILOT);
+   m_SpeedPhase=1;
+  }
+  aircraft.GetPhysics().SetVelocity("0 0 80");
+  aircraft.GetPhysics().SetAngularVelocity(vector.Zero);
+  if(m_fFeedTime>2 && m_fFeedTime<3)
+   SCR_PlayerController.Cast(GetGame().GetPlayerController()).ORD_Send(aircraft,ORD_Command.PILOT);
+  if(m_SpeedPhase==1 && m_fFeedTime>8)
+  {
+   SCR_PlayerController.Cast(GetGame().GetPlayerController()).ORD_Send(aircraft,ORD_Command.SENSOR);
+   m_fYaw=25; m_fPitch=-30; m_SpeedPhase=2;
+  }
+  if(m_SpeedPhase==2 && m_fFeedTime>16)
+  {
+   Print("ORD_SPEED_DONE"); m_SpeedPhase=3;
+  }
+ }
+ override void EOnPostFrame(IEntity owner, float timeSlice)
+ {
+  if(!m_bActive || !m_Drone || m_fFeedTime<3 || m_SpeedPhase>2) return;
+  if(m_fFeedTime-m_SpeedLog<1) return;
+  m_SpeedLog=m_fFeedTime;
+  IEntity aircraft=m_Drone.GetOwner();
+  vector expected=ORD_CameraMounts.PilotOrigin(aircraft);
+  if(!m_bPilot) expected=ORD_CameraMounts.SensorOrigin(aircraft,m_Camera.GetTransformAxis(2));
+  vector rendered[4]; m_Camera.GetWorldCameraTransform(rendered);
+  Print(string.Format("ORD_SPEED pilot=%1 speed=%2 entityError=%3 renderedError=%4 dt=%5",m_bPilot,aircraft.GetPhysics().GetVelocity().Length(),vector.Distance(expected,m_Camera.GetOrigin()),vector.Distance(expected,rendered[3]),timeSlice));
+  if(m_fFeedTime>6 && m_fFeedTime<7.1) System.MakeScreenshot("$profile:SPEED_FLIGHT");
+  if(m_fFeedTime>13 && m_fFeedTime<14.1) System.MakeScreenshot("$profile:SPEED_SENSOR");
+ }
+}

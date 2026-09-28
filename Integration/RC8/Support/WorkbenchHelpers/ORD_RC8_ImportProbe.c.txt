@@ -1,0 +1,65 @@
+// Temporary local validation only; excluded and removed before packaging.
+class ORD_RC8_ImportRequest : JsonApiStruct
+{
+ string path,action;float phase;
+ void ORD_RC8_ImportRequest() { RegV("path");RegV("action");RegV("phase"); }
+}
+class ORD_RC8_ImportResponse : JsonApiStruct
+{
+ string result;
+ void ORD_RC8_ImportResponse() { RegV("result"); }
+}
+class ORD_RC8_ImportProbe : NetApiHandler
+{
+ static IEntity Probe;
+ static ref ORD_RC8Rig Rig;
+ static SCR_CameraBase Camera;
+ static AudioHandle Handle;
+ override JsonApiStruct GetRequest() { return new ORD_RC8_ImportRequest(); }
+ override JsonApiStruct GetResponse(JsonApiStruct request)
+ {
+  ORD_RC8_ImportRequest req=ORD_RC8_ImportRequest.Cast(request);ORD_RC8_ImportResponse resp=new ORD_RC8_ImportResponse();
+  if(!GetGame() || !GetGame().GetWorld()) { resp.result="NO_WORLD";return resp; }
+  if(req.action=="clear")
+  {
+   if(Probe)SCR_EntityHelper.DeleteEntityAndChildren(Probe);Probe=null;Rig=null;
+   if(Camera) { ChimeraGame g=ChimeraGame.Cast(GetGame());g.GetCameraManager().SetPreviousCamera();SCR_EntityHelper.DeleteEntityAndChildren(Camera);Camera=null; }
+   AudioSystem.TerminateSound(Handle);resp.result="CLEARED";return resp;
+  }
+  if(req.path!="")
+  {
+   if(Probe)SCR_EntityHelper.DeleteEntityAndChildren(Probe);
+   EntitySpawnParams p=new EntitySpawnParams();p.TransformMode=ETransformMode.WORLD;Math3D.MatrixIdentity4(p.Transform);
+   p.Transform[3]=Vector(4770,GetGame().GetWorld().GetSurfaceY(4770,11240)+4,11240);
+   Probe=GetGame().SpawnEntityPrefab(Resource.Load(req.path),GetGame().GetWorld(),p);
+   if(!Probe) { resp.result="SPAWN_FAILED";return resp; }Rig=new ORD_RC8Rig(Probe);
+  }
+  if(!Probe) { resp.result="NO_PROBE";return resp; }
+  if(req.action=="pose")
+  {
+   for(int i=0;i<ORD_RC8Rig.Curves.Count();i++) { string name=ORD_RC8Rig.Curves.GetKey(i);vector pose[4];Rig.Sample(name,req.phase,pose);Rig.Apply(name,pose); }
+  }
+  if(req.action=="camera")
+  {
+   ChimeraGame game=ChimeraGame.Cast(GetGame());
+   if(!Camera)Camera=SCR_CameraBase.Cast(GetGame().SpawnEntity(SCR_CameraBase,GetGame().GetWorld()));
+   vector eye=Probe.GetOrigin()+Vector(8,-1,9),look=Probe.GetOrigin()+Vector(0,-0.5,0)-eye;
+   Camera.SetOrigin(eye);Camera.SetAngles(look.VectorToAngles());game.GetCameraManager().SetCamera(Camera);
+  }
+  if(req.action=="sound")
+  {
+   SoundComponent sound=SoundComponent.Cast(Probe.FindComponent(SoundComponent));
+   if(!sound) { resp.result="NO_SOUND_COMPONENT";return resp; }
+   sound.SetSignalValueStr("ORD_IdleWorldDb",-9);sound.SetSignalValueStr("ORD_IdleFeedDb",-96);
+   Handle=sound.SoundEventBone("ORD_Idle_WORLD","ORD_EngineAudio");
+  }
+  Animation anim=Probe.GetAnimation();array<string> names={};anim.GetBoneNames(names);vector lo,hi;Probe.GetBounds(lo,hi);
+  resp.result=string.Format("BOUNDS %1 %2 SOUND_PLAYED %3\n",lo,hi,AudioSystem.IsSoundPlayed(Handle));
+  foreach(string boneName:names)
+  {
+   vector m[4];TNodeId boneId=anim.GetBoneIndex(boneName);bool ok=anim.GetBoneMatrix(boneId,m);
+   resp.result+=string.Format("BONE %1 %2 %3 | %4 | %5 | %6\n",boneName,ok,m[0],m[1],m[2],m[3]);
+  }
+  return resp;
+ }
+}

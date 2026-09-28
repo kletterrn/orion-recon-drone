@@ -1,0 +1,84 @@
+{
+  "source": "OrionE_Detailed revision 04",
+  "bones": {
+    "ORD_Root": [
+      0,
+      0,
+      0
+    ],
+    "front_wheel": [
+      0,
+      1.45,
+      -0.905
+    ],
+    "rear_wheel_l": [
+      -1.18,
+      -1.28,
+      -0.87
+    ],
+    "rear_wheel_r": [
+      1.18,
+      -1.28,
+      -0.87
+    ],
+    "ORD_Propeller": [
+      0,
+      -3.96,
+      0.48
+    ],
+    "ORD_Aileron_L": [
+      -4.62,
+      -1.813,
+      0.66
+    ],
+    "ORD_Aileron_R": [
+      4.62,
+      -1.813,
+      0.66
+    ],
+    "ORD_Flap_L": [
+      -0.42,
+      -1.88,
+      0.66
+    ],
+    "ORD_Flap_R": [
+      0.42,
+      -1.88,
+      0.66
+    ],
+    "ORD_Tail_L": [
+      -0.22,
+      -3.52,
+      0.66
+    ],
+    "ORD_Tail_R": [
+      0.22,
+      -3.52,
+      0.66
+    ],
+    "ORD_Sensor": [
+      0,
+      2.52,
+      0.03
+    ],
+    "ORD_Gear_Nose": [
+      0,
+      1.45,
+      0.21
+    ],
+    "ORD_Gear_L": [
+      -0.35,
+      -1.48,
+      0.21
+    ],
+    "ORD_Gear_R": [
+      0.35,
+      -1.48,
+      0.21
+    ]
+  },
+  "mesh_objects": 48,
+  "polygons": 309244,
+  "materials": 16,
+  "vertical_offset": -1.12
+}

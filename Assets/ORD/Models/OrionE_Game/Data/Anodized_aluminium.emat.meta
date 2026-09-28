@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F7C12CF9574CC69A}Assets/ORD/Models/OrionE_Game/Data/Anodized_aluminium.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

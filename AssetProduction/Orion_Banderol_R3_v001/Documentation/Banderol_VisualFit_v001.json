@@ -1,0 +1,151 @@
+{
+  "original_reference_length": 5,
+  "actual_variant_length_m": 4.400000095367432,
+  "central_case_shortening_m": 0.6,
+  "nose_tail_wings_shapes_retained": true,
+  "root_scale": [
+    1,
+    1,
+    1
+  ],
+  "changes": [
+    {
+      "object": "BDL_REAR_COWLING_LINED",
+      "translation_y": 0.30000000000000004
+    },
+    {
+      "object": "BDL_REAR_OPENING_RIM",
+      "translation_y": 0.2999999999999998
+    },
+    {
+      "object": "BDL_WING_L",
+      "translation_y": -0.014158263802528381
+    },
+    {
+      "object": "BDL_WING_ROOT_FAIRING_L",
+      "translation_y": -0.061875008046627045
+    },
+    {
+      "object": "BDL_TAIL_L",
+      "translation_y": 0.30000000000000004
+    },
+    {
+      "object": "BDL_WING_R",
+      "translation_y": -0.014158263802528381
+    },
+    {
+      "object": "BDL_WING_ROOT_FAIRING_R",
+      "translation_y": -0.061875008046627045
+    },
+    {
+      "object": "BDL_TAIL_R",
+      "translation_y": 0.30000000000000004
+    },
+    {
+      "object": "BDL_TAIL_TOP",
+      "translation_y": 0.30000000000000004
+    },
+    {
+      "object": "BDL_BODY",
+      "change": "Shorten central case stations; retain width/height"
+    },
+    {
+      "object": "BDL_NOSE",
+      "translation_y": -0.30000000000000004
+    },
+    {
+      "object": "BDL_CASE_SEAM_0",
+      "translation_y": 0.30000000000000004
+    },
+    {
+      "object": "BDL_CASE_SEAM_1",
+      "translation_y": 0.2475000098347664
+    },
+    {
+      "object": "BDL_CASE_SEAM_2",
+      "translation_y": -0.30000000000000004
+    },
+    {
+      "object": "BDL_NOSE_PANEL_BOUNDARY",
+      "translation_y": -0.30000000000000004
+    },
+    {
+      "object": "BDL_SIDE_FASTENER_-1_0",
+      "translation_y": 0.30000000000000004
+    },
+    {
+      "object": "BDL_SIDE_FASTENER_-1_1",
+      "translation_y": 0.23250000178813934
+    },
+    {
+      "object": "BDL_SIDE_FASTENER_-1_2",
+      "translation_y": -0.018750000977888703
+    },
+    {
+      "object": "BDL_SIDE_FASTENER_-1_3",
+      "translation_y": -0.30000000000000004
+    },
+    {
+      "object": "BDL_SIDE_FASTENER_-1_4",
+      "translation_y": -0.30000000000000004
+    },
+    {
+      "object": "BDL_CROWN_FASTENER_-1_0",
+      "translation_y": -0.11999999731779099
+    },
+    {
+      "object": "BDL_CROWN_FASTENER_-1_1",
+      "translation_y": -0.11999999731779099
+    },
+    {
+      "object": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "translation_y": -0.06750001385807991
+    },
+    {
+      "object": "BDL_SIDE_FASTENER_1_0",
+      "translation_y": 0.30000000000000004
+    },
+    {
+      "object": "BDL_SIDE_FASTENER_1_1",
+      "translation_y": 0.23250000178813934
+    },
+    {
+      "object": "BDL_SIDE_FASTENER_1_2",
+      "translation_y": -0.018750000977888703
+    },
+    {
+      "object": "BDL_SIDE_FASTENER_1_3",
+      "translation_y": -0.30000000000000004
+    },
+    {
+      "object": "BDL_SIDE_FASTENER_1_4",
+      "translation_y": -0.30000000000000004
+    },
+    {
+      "object": "BDL_CROWN_FASTENER_1_0",
+      "translation_y": -0.11999999731779099
+    },
+    {
+      "object": "BDL_CROWN_FASTENER_1_1",
+      "translation_y": -0.11999999731779099
+    },
+    {
+      "object": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "translation_y": -0.06750001385807991
+    },
+    {
+      "object": "BDL_TOP_LOOP_BASE",
+      "translation_y": -0.06750000547617674
+    },
+    {
+      "object": "BDL_TOP_LOOP",
+      "translation_y": -0.06750000268220901
+    },
+    {
+      "object": "BDL_REAR_UNDERSIDE_EXTERNAL_COVER",
+      "translation_y": 0.30000000000000004
+    }
+  ],
+  "original_master_hash_preserved": "c2bf1a56574e89cc79966a9364d67e74c197e429b380f26affa7469449a74ae9",
+  "status": "Artistic visual-fit variant, no real-world dimension claim"
+}

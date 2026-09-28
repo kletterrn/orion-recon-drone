@@ -1,0 +1,44 @@
+MetaFileClass {
+ Name "{3346D889B2B2D4BB}Assets/ORD/Models/ORD_ServicePoint.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass "{6A711D0A140111E2}" {
+     SourceMaterial "ORD_Sensor_Glass"
+     AssignedMaterial "{9365285079C9533E}Assets/ORD/Models/Data/ORD_Sensor_Glass.emat"
+    }
+    MaterialAssignClass "{6A711D0A140111F6}" {
+     SourceMaterial "ORD_Ground_Equipment"
+     AssignedMaterial "{80DB0E650B285419}Assets/ORD/Models/Data/ORD_Ground_Equipment.emat"
+    }
+   }
+   MeshParams {
+    MeshParam ORD_ServiceBeacon {
+    }
+    MeshParam ORD_ServiceCrate {
+    }
+   }
+   GeometryParams {
+    GeometryParam "UBX_ServiceCrate" {
+     LayerPreset "Vehicle"
+     Mass 0
+     Margin 0
+    }
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "5.2.2 LTS"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+ }
+}

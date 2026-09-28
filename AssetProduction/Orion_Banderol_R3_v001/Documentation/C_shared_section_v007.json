@@ -1,0 +1,7 @@
+{
+  "revision": "v007",
+  "body_station_rings": 70,
+  "same_normalized_section_as_nose": "passed",
+  "maximum_normalized_coordinate_error": 1.1577123970596404e-07,
+  "scope": "Same editable cross-section family; no claim of measured hidden geometry"
+}

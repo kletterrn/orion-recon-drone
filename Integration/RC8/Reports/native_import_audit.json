@@ -1,0 +1,662 @@
+{
+  "passed": 131,
+  "total": 131,
+  "failed": [],
+  "checks": [
+    {
+      "check": "RC8_Assembly_Pylon metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Assembly_Pylon BCR metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Assembly_Pylon BCR native data",
+      "passed": true,
+      "detail": "438849 bytes"
+    },
+    {
+      "check": "RC8_Assembly_Pylon BCR link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Assembly_Pylon BCR source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Assembly_Pylon NMO metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Assembly_Pylon NMO native data",
+      "passed": true,
+      "detail": "6125487 bytes"
+    },
+    {
+      "check": "RC8_Assembly_Pylon NMO link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Assembly_Pylon NMO source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Airframe metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Airframe BCR metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Airframe BCR native data",
+      "passed": true,
+      "detail": "720211 bytes"
+    },
+    {
+      "check": "RC8_Orion_Airframe BCR link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Airframe BCR source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Airframe NMO metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Airframe NMO native data",
+      "passed": true,
+      "detail": "4683778 bytes"
+    },
+    {
+      "check": "RC8_Orion_Airframe NMO link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Airframe NMO source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Bay_Skin metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Bay_Skin BCR metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Bay_Skin BCR native data",
+      "passed": true,
+      "detail": "160997 bytes"
+    },
+    {
+      "check": "RC8_Orion_Bay_Skin BCR link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Bay_Skin BCR source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Bay_Skin NMO metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Bay_Skin NMO native data",
+      "passed": true,
+      "detail": "148052 bytes"
+    },
+    {
+      "check": "RC8_Orion_Bay_Skin NMO link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Bay_Skin NMO source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Equipment metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Equipment BCR metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Equipment BCR native data",
+      "passed": true,
+      "detail": "730489 bytes"
+    },
+    {
+      "check": "RC8_Orion_Equipment BCR link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Equipment BCR source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Equipment NMO metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Equipment NMO native data",
+      "passed": true,
+      "detail": "4672773 bytes"
+    },
+    {
+      "check": "RC8_Orion_Equipment NMO link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Equipment NMO source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Gear_Bays metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Gear_Bays BCR metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Gear_Bays BCR native data",
+      "passed": true,
+      "detail": "904087 bytes"
+    },
+    {
+      "check": "RC8_Orion_Gear_Bays BCR link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Gear_Bays BCR source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Gear_Bays NMO metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Gear_Bays NMO native data",
+      "passed": true,
+      "detail": "12580421 bytes"
+    },
+    {
+      "check": "RC8_Orion_Gear_Bays NMO link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Gear_Bays NMO source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Sensor metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Sensor BCR metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Sensor BCR native data",
+      "passed": true,
+      "detail": "779676 bytes"
+    },
+    {
+      "check": "RC8_Orion_Sensor BCR link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Sensor BCR source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Sensor NMO metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Sensor NMO native data",
+      "passed": true,
+      "detail": "9924177 bytes"
+    },
+    {
+      "check": "RC8_Orion_Sensor NMO link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Sensor NMO source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Tail_Rear metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Tail_Rear BCR metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Tail_Rear BCR native data",
+      "passed": true,
+      "detail": "505623 bytes"
+    },
+    {
+      "check": "RC8_Orion_Tail_Rear BCR link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Tail_Rear BCR source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Tail_Rear NMO metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Tail_Rear NMO native data",
+      "passed": true,
+      "detail": "9849015 bytes"
+    },
+    {
+      "check": "RC8_Orion_Tail_Rear NMO link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Tail_Rear NMO source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Wing_L metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Wing_L BCR metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Wing_L BCR native data",
+      "passed": true,
+      "detail": "223257 bytes"
+    },
+    {
+      "check": "RC8_Orion_Wing_L BCR link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Wing_L BCR source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Wing_L NMO metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Wing_L NMO native data",
+      "passed": true,
+      "detail": "1646650 bytes"
+    },
+    {
+      "check": "RC8_Orion_Wing_L NMO link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Wing_L NMO source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Wing_R metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Wing_R BCR metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Wing_R BCR native data",
+      "passed": true,
+      "detail": "245176 bytes"
+    },
+    {
+      "check": "RC8_Orion_Wing_R BCR link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Wing_R BCR source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Wing_R NMO metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Wing_R NMO native data",
+      "passed": true,
+      "detail": "1640516 bytes"
+    },
+    {
+      "check": "RC8_Orion_Wing_R NMO link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Orion_Wing_R NMO source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Orion model metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Orion model native data",
+      "passed": true,
+      "detail": "10712854 bytes"
+    },
+    {
+      "check": "Orion FBX source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Orion imported hierarchy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Orion four LODs",
+      "passed": true,
+      "detail": "[0, 1, 2, 3]"
+    },
+    {
+      "check": "Orion ORION_PAYLOAD_SOCKET",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Orion ORD_EngineAudio",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Orion front_wheel_contact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Orion ORD_SensorYaw",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Orion ORD_SensorPitch",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Orion ORD_Propeller",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ORD_Aircraft.et final model",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_BDL_VisualFit_Appendages metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_BDL_VisualFit_Appendages BCR metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_BDL_VisualFit_Appendages BCR native data",
+      "passed": true,
+      "detail": "364392 bytes"
+    },
+    {
+      "check": "RC8_BDL_VisualFit_Appendages BCR link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_BDL_VisualFit_Appendages BCR source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_BDL_VisualFit_Appendages NMO metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_BDL_VisualFit_Appendages NMO native data",
+      "passed": true,
+      "detail": "6076971 bytes"
+    },
+    {
+      "check": "RC8_BDL_VisualFit_Appendages NMO link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_BDL_VisualFit_Appendages NMO source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_BDL_VisualFit_Body metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_BDL_VisualFit_Body BCR metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_BDL_VisualFit_Body BCR native data",
+      "passed": true,
+      "detail": "332340 bytes"
+    },
+    {
+      "check": "RC8_BDL_VisualFit_Body BCR link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_BDL_VisualFit_Body BCR source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_BDL_VisualFit_Body NMO metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_BDL_VisualFit_Body NMO native data",
+      "passed": true,
+      "detail": "1082496 bytes"
+    },
+    {
+      "check": "RC8_BDL_VisualFit_Body NMO link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_BDL_VisualFit_Body NMO source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Banderol_Details metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Banderol_Details BCR metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Banderol_Details BCR native data",
+      "passed": true,
+      "detail": "524884 bytes"
+    },
+    {
+      "check": "RC8_Banderol_Details BCR link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Banderol_Details BCR source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Banderol_Details NMO metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Banderol_Details NMO native data",
+      "passed": true,
+      "detail": "2531889 bytes"
+    },
+    {
+      "check": "RC8_Banderol_Details NMO link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RC8_Banderol_Details NMO source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Banderol model metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Banderol model native data",
+      "passed": true,
+      "detail": "1326318 bytes"
+    },
+    {
+      "check": "Banderol FBX source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Banderol imported hierarchy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Banderol four LODs",
+      "passed": true,
+      "detail": "[0, 1, 2, 3]"
+    },
+    {
+      "check": "Banderol BDL_Wing_L",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Banderol BDL_Wing_R",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ORD_Banderol.et final model",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ORD_BanderolStore.et final model",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no obsolete TIFF metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no empty EDDS",
+      "passed": true,
+      "detail": "24 texture resources"
+    }
+  ]
+}

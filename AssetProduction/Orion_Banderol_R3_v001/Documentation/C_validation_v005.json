@@ -1,0 +1,427 @@
+{
+  "stage": "C primary geometry",
+  "status": "passed",
+  "files": [
+    {
+      "file": "Orion/Orion_Master.blend",
+      "source_meshes": 25,
+      "span_m": 16.0,
+      "length_m": 8.0,
+      "mesh_checks": [
+        {
+          "object": "ORION_FUSELAGE",
+          "vertices": 4480,
+          "faces": 4418,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 3.1027134487348387
+        },
+        {
+          "object": "ORION_NOSE_WHITE",
+          "vertices": 1408,
+          "faces": 1346,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.17963492818075794
+        },
+        {
+          "object": "ORION_WING_ROOT_BLEND_L",
+          "vertices": 702,
+          "faces": 626,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.09120550780905873
+        },
+        {
+          "object": "ORION_WING_ROOT_BLEND_R",
+          "vertices": 702,
+          "faces": 626,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.09120550780905878
+        },
+        {
+          "object": "ORION_WING_L",
+          "vertices": 3055,
+          "faces": 2992,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.45248569731973054
+        },
+        {
+          "object": "ORION_ROOT_TRAILING_L",
+          "vertices": 715,
+          "faces": 652,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.004213844329890849
+        },
+        {
+          "object": "ORION_FLAP_L",
+          "vertices": 1430,
+          "faces": 1367,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.028734718121377095
+        },
+        {
+          "object": "ORION_MID_TRAILING_L",
+          "vertices": 715,
+          "faces": 652,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.0001657972808626713
+        },
+        {
+          "object": "ORION_AILERON_L",
+          "vertices": 1430,
+          "faces": 1367,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.013215576050789562
+        },
+        {
+          "object": "ORION_TIP_TRAILING_L",
+          "vertices": 715,
+          "faces": 652,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.0002876777073440636
+        },
+        {
+          "object": "ORION_WING_R",
+          "vertices": 3055,
+          "faces": 2992,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.45248569731973104
+        },
+        {
+          "object": "ORION_ROOT_TRAILING_R",
+          "vertices": 715,
+          "faces": 652,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.004213844329890839
+        },
+        {
+          "object": "ORION_FLAP_R",
+          "vertices": 1430,
+          "faces": 1367,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.02873471812137713
+        },
+        {
+          "object": "ORION_MID_TRAILING_R",
+          "vertices": 715,
+          "faces": 652,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.00016579728086266263
+        },
+        {
+          "object": "ORION_AILERON_R",
+          "vertices": 1430,
+          "faces": 1367,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.013215576050789511
+        },
+        {
+          "object": "ORION_TIP_TRAILING_R",
+          "vertices": 715,
+          "faces": 652,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.0002876777073440818
+        },
+        {
+          "object": "ORION_TAIL_L",
+          "vertices": 715,
+          "faces": 652,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.0669409654501915
+        },
+        {
+          "object": "ORION_RUDDERVATOR_L",
+          "vertices": 715,
+          "faces": 652,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.00777520724333439
+        },
+        {
+          "object": "ORION_TAIL_R",
+          "vertices": 715,
+          "faces": 652,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.06694096553676128
+        },
+        {
+          "object": "ORION_RUDDERVATOR_R",
+          "vertices": 715,
+          "faces": 652,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.007775207226582705
+        },
+        {
+          "object": "ORION_REAR_COLLAR",
+          "vertices": 192,
+          "faces": 130,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.015353473893461311
+        },
+        {
+          "object": "ORION_PROPELLER_HUB",
+          "vertices": 128,
+          "faces": 66,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.0014577095274972383
+        },
+        {
+          "object": "ORION_PUSHER_SPINNER",
+          "vertices": 320,
+          "faces": 258,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.007399703225724542
+        },
+        {
+          "object": "ORION_PROPELLER_BLADE_A",
+          "vertices": 660,
+          "faces": 642,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.0014425539351897558
+        },
+        {
+          "object": "ORION_PROPELLER_BLADE_B",
+          "vertices": 660,
+          "faces": 642,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.001442554017860497
+        }
+      ],
+      "relative_references": "passed"
+    },
+    {
+      "file": "Orion/checkpoints/Orion_C_primary_geometry_v005.blend",
+      "source_meshes": 25,
+      "span_m": 16.0,
+      "length_m": 8.0,
+      "mesh_checks": [
+        {
+          "object": "ORION_FUSELAGE",
+          "vertices": 4480,
+          "faces": 4418,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 3.1027134487348387
+        },
+        {
+          "object": "ORION_NOSE_WHITE",
+          "vertices": 1408,
+          "faces": 1346,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.17963492818075794
+        },
+        {
+          "object": "ORION_WING_ROOT_BLEND_L",
+          "vertices": 702,
+          "faces": 626,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.09120550780905873
+        },
+        {
+          "object": "ORION_WING_ROOT_BLEND_R",
+          "vertices": 702,
+          "faces": 626,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.09120550780905878
+        },
+        {
+          "object": "ORION_WING_L",
+          "vertices": 3055,
+          "faces": 2992,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.45248569731973054
+        },
+        {
+          "object": "ORION_ROOT_TRAILING_L",
+          "vertices": 715,
+          "faces": 652,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.004213844329890849
+        },
+        {
+          "object": "ORION_FLAP_L",
+          "vertices": 1430,
+          "faces": 1367,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.028734718121377095
+        },
+        {
+          "object": "ORION_MID_TRAILING_L",
+          "vertices": 715,
+          "faces": 652,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.0001657972808626713
+        },
+        {
+          "object": "ORION_AILERON_L",
+          "vertices": 1430,
+          "faces": 1367,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.013215576050789562
+        },
+        {
+          "object": "ORION_TIP_TRAILING_L",
+          "vertices": 715,
+          "faces": 652,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.0002876777073440636
+        },
+        {
+          "object": "ORION_WING_R",
+          "vertices": 3055,
+          "faces": 2992,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.45248569731973104
+        },
+        {
+          "object": "ORION_ROOT_TRAILING_R",
+          "vertices": 715,
+          "faces": 652,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.004213844329890839
+        },
+        {
+          "object": "ORION_FLAP_R",
+          "vertices": 1430,
+          "faces": 1367,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.02873471812137713
+        },
+        {
+          "object": "ORION_MID_TRAILING_R",
+          "vertices": 715,
+          "faces": 652,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.00016579728086266263
+        },
+        {
+          "object": "ORION_AILERON_R",
+          "vertices": 1430,
+          "faces": 1367,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.013215576050789511
+        },
+        {
+          "object": "ORION_TIP_TRAILING_R",
+          "vertices": 715,
+          "faces": 652,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.0002876777073440818
+        },
+        {
+          "object": "ORION_TAIL_L",
+          "vertices": 715,
+          "faces": 652,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.0669409654501915
+        },
+        {
+          "object": "ORION_RUDDERVATOR_L",
+          "vertices": 715,
+          "faces": 652,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.00777520724333439
+        },
+        {
+          "object": "ORION_TAIL_R",
+          "vertices": 715,
+          "faces": 652,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.06694096553676128
+        },
+        {
+          "object": "ORION_RUDDERVATOR_R",
+          "vertices": 715,
+          "faces": 652,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.007775207226582705
+        },
+        {
+          "object": "ORION_REAR_COLLAR",
+          "vertices": 192,
+          "faces": 130,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.015353473893461311
+        },
+        {
+          "object": "ORION_PROPELLER_HUB",
+          "vertices": 128,
+          "faces": 66,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.0014577095274972383
+        },
+        {
+          "object": "ORION_PUSHER_SPINNER",
+          "vertices": 320,
+          "faces": 258,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.007399703225724542
+        },
+        {
+          "object": "ORION_PROPELLER_BLADE_A",
+          "vertices": 660,
+          "faces": 642,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.0014425539351897558
+        },
+        {
+          "object": "ORION_PROPELLER_BLADE_B",
+          "vertices": 660,
+          "faces": 642,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume_m3": 0.001442554017860497
+        }
+      ],
+      "relative_references": "passed"
+    }
+  ],
+  "scope": "Technical integrity, not reference authenticity or final rig clearance",
+  "original_asset_hashes": "unchanged",
+  "relocated_fresh_process_reopen": "passed"
+}

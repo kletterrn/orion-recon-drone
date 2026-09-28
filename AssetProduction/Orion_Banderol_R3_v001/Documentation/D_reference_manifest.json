@@ -1,0 +1,20 @@
+[
+  {
+    "source": "https://war-sanctions.gur.gov.ua/en/components/part/4973",
+    "retrieved": "2026-09-27",
+    "id": "P4",
+    "sha256": "3997a52183c840c109f2d3020415433a9f222c8db994e867f93441bacf489a18",
+    "reuse": "Private reference only; redistribution permission unestablished",
+    "visually_inspected": true,
+    "local": "Support/references_private/P4_NoseGear.webp"
+  },
+  {
+    "source": "https://war-sanctions.gur.gov.ua/en/components/part/4997",
+    "retrieved": "2026-09-27",
+    "id": "P5",
+    "sha256": "0f3975f7addf730eeb9526df7a9f96179f4b26f85397f739b7b475cdb32a44cf",
+    "reuse": "Private reference only; redistribution permission unestablished",
+    "visually_inspected": true,
+    "local": "Support/references_private/P5_OpticalHousing.webp"
+  }
+]

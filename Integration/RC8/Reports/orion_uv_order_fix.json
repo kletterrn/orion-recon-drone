@@ -1,0 +1,103 @@
+{
+  "source": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\Orion_RC8_Game.blend",
+  "saved": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\GameSources\\Orion_RC8_Game_v002.blend",
+  "changed": [
+    {
+      "mesh": "Orion_Airframe_LOD0",
+      "before": [
+        "UVMap",
+        "UV_Asset"
+      ],
+      "atlas_uv": "UV_Asset"
+    },
+    {
+      "mesh": "Orion_Airframe_LOD1",
+      "before": [
+        "UVMap",
+        "UV_Asset"
+      ],
+      "atlas_uv": "UV_Asset"
+    },
+    {
+      "mesh": "Orion_Airframe_LOD2",
+      "before": [
+        "UVMap",
+        "UV_Asset"
+      ],
+      "atlas_uv": "UV_Asset"
+    },
+    {
+      "mesh": "Orion_Airframe_LOD3",
+      "before": [
+        "UVMap",
+        "UV_Asset"
+      ],
+      "atlas_uv": "UV_Asset"
+    },
+    {
+      "mesh": "Orion_Gear_Bays_LOD0",
+      "before": [
+        "UVMap",
+        "UV_Asset"
+      ],
+      "atlas_uv": "UVMap"
+    },
+    {
+      "mesh": "Orion_Gear_Bays_LOD1",
+      "before": [
+        "UVMap",
+        "UV_Asset"
+      ],
+      "atlas_uv": "UVMap"
+    },
+    {
+      "mesh": "Orion_Gear_Bays_LOD2",
+      "before": [
+        "UVMap",
+        "UV_Asset"
+      ],
+      "atlas_uv": "UVMap"
+    },
+    {
+      "mesh": "Orion_Gear_Bays_LOD3",
+      "before": [
+        "UVMap",
+        "UV_Asset"
+      ],
+      "atlas_uv": "UVMap"
+    },
+    {
+      "mesh": "Orion_Tail_Rear_LOD0",
+      "before": [
+        "UV_Asset",
+        "UVMap"
+      ],
+      "atlas_uv": "UV_Asset"
+    },
+    {
+      "mesh": "Orion_Tail_Rear_LOD1",
+      "before": [
+        "UV_Asset",
+        "UVMap"
+      ],
+      "atlas_uv": "UV_Asset"
+    },
+    {
+      "mesh": "Orion_Tail_Rear_LOD2",
+      "before": [
+        "UV_Asset",
+        "UVMap"
+      ],
+      "atlas_uv": "UV_Asset"
+    },
+    {
+      "mesh": "Orion_Tail_Rear_LOD3",
+      "before": [
+        "UV_Asset",
+        "UVMap"
+      ],
+      "atlas_uv": "UV_Asset"
+    }
+  ],
+  "rule": "All exported LOD meshes have exactly one UV layer, the active atlas UV."
+}

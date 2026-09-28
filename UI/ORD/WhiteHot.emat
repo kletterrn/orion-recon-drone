@@ -1,0 +1,10 @@
+ThermalImagingEffect {
+ TempConversionTex "{4614B73CA118C4DE}Assets/Thermal/Textures/thermal_WH_BH_5contrast_low.edds"
+ TempConversionTexRowIndex 8
+ TemperatureRangeMin -40
+ TemperatureRangeMax 50
+ TemperatureDisplayMax 35
+ DownsizeMethod Blur
+ UpsampleMethod Bicubic
+ SimOverrideValues 1
+}

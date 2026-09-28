@@ -1,0 +1,58 @@
+[
+  {
+    "file": "01_startup_ILLUSTRATION.wav",
+    "seconds": 7.0,
+    "sample_rate": 48000,
+    "channels": 1,
+    "peak_dbfs": -8.69,
+    "rms_dbfs": -23.92
+  },
+  {
+    "file": "02_idle_loop_ILLUSTRATION.wav",
+    "seconds": 8.0,
+    "sample_rate": 48000,
+    "channels": 1,
+    "peak_dbfs": -8.71,
+    "rms_dbfs": -23.56
+  },
+  {
+    "file": "03_takeoff_power_ILLUSTRATION.wav",
+    "seconds": 9.0,
+    "sample_rate": 48000,
+    "channels": 1,
+    "peak_dbfs": -5.28,
+    "rms_dbfs": -17.89
+  },
+  {
+    "file": "04_cruise_loop_ILLUSTRATION.wav",
+    "seconds": 8.0,
+    "sample_rate": 48000,
+    "channels": 1,
+    "peak_dbfs": -6.82,
+    "rms_dbfs": -19.67
+  },
+  {
+    "file": "05_flyby_stereo_ILLUSTRATION.wav",
+    "seconds": 12.0,
+    "sample_rate": 48000,
+    "channels": 2,
+    "peak_dbfs": -10.39,
+    "rms_dbfs": -27.65
+  },
+  {
+    "file": "06_shutdown_ILLUSTRATION.wav",
+    "seconds": 5.0,
+    "sample_rate": 48000,
+    "channels": 1,
+    "peak_dbfs": -9.48,
+    "rms_dbfs": -27.47
+  },
+  {
+    "file": "Orion_STYLE_SYNTHETIC_preview.wav",
+    "seconds": 37.94,
+    "sample_rate": 48000,
+    "channels": 2,
+    "peak_dbfs": -8.29,
+    "rms_dbfs": -24.58
+  }
+]

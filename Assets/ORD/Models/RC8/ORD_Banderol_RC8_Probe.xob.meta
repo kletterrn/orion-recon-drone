@@ -1,0 +1,154 @@
+MetaFileClass {
+ Name "{B84F5EBBB009A23F}Assets/ORD/Models/RC8/ORD_Banderol_RC8_Probe.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{6A777D724B5D0D78}" {
+     SourceMaterial "BDL_LIGHT_GREY_REVIEW__I_BDL_VisualFit_Body"
+     AssignedMaterial "{B86303A8094E958B}Assets/ORD/Models/RC8/Data/BDL_LIGHT_GREY_REVIEW__I_BDL_VisualFit_Body.emat"
+    }
+    MaterialAssignClass "{6A777D724B5D0D4B}" {
+     SourceMaterial "BDL_PANEL_SEAL"
+     AssignedMaterial "{94A7E2103C88FD46}Assets/ORD/Models/RC8/Data/BDL_PANEL_SEAL.emat"
+    }
+    MaterialAssignClass "{6A777D724B5D0D54}" {
+     SourceMaterial "BDL_SMALL_HARDWARE__I_BDL_VisualFit_Body"
+     AssignedMaterial "{8B138A9B6DB9B242}Assets/ORD/Models/RC8/Data/BDL_SMALL_HARDWARE__I_BDL_VisualFit_Body.emat"
+    }
+    MaterialAssignClass "{6A777D724B5D0D51}" {
+     SourceMaterial "BDLF_RC8_HINGE_SATIN"
+     AssignedMaterial "{344076784399B903}Assets/ORD/Models/RC8/Data/BDLF_RC8_HINGE_SATIN.emat"
+    }
+    MaterialAssignClass "{6A777D724B5D0D53}" {
+     SourceMaterial "BDL_REAR_RECESS_DARK__I_BDL_VisualFit_Body"
+     AssignedMaterial "{2E958F104B5938B1}Assets/ORD/Models/RC8/Data/BDL_REAR_RECESS_DARK__I_BDL_VisualFit_Body.emat"
+    }
+    MaterialAssignClass "{6A777D724B5D0D5C}" {
+     SourceMaterial "BDL_REAR_RIM_REVIEW__I_BDL_VisualFit_Body"
+     AssignedMaterial "{D3B04BA233C677B7}Assets/ORD/Models/RC8/Data/BDL_REAR_RIM_REVIEW__I_BDL_VisualFit_Body.emat"
+    }
+    MaterialAssignClass "{6A777D724B5D0D5E}" {
+     SourceMaterial "BDL_SMALL_HARDWARE__I_BDL_VisualFit_Appendages"
+     AssignedMaterial "{093F95D15C136302}Assets/ORD/Models/RC8/Data/BDL_SMALL_HARDWARE__I_BDL_VisualFit_Appendages.emat"
+    }
+    MaterialAssignClass "{6A777D724B5D0D58}" {
+     SourceMaterial "BDL_LIGHT_GREY_REVIEW__I_BDL_VisualFit_Appendages"
+     AssignedMaterial "{9A5A114A79AE23ED}Assets/ORD/Models/RC8/Data/BDL_LIGHT_GREY_REVIEW__I_BDL_VisualFit_Appendages.emat"
+    }
+    MaterialAssignClass "{6A777D724B5D0AA5}" {
+     SourceMaterial "BDL_TOP_LOOP_BRONZE"
+     AssignedMaterial "{5FF2F85635CEBA40}Assets/ORD/Models/RC8/Data/BDL_TOP_LOOP_BRONZE.emat"
+    }
+    MaterialAssignClass "{6A777D724B5D0AA4}" {
+     SourceMaterial "BDL_TOP_LOOP_BRONZE__I_BDL_VisualFit_Appendages"
+     AssignedMaterial "{8DF020D1C82E226F}Assets/ORD/Models/RC8/Data/BDL_TOP_LOOP_BRONZE__I_BDL_VisualFit_Appendages.emat"
+    }
+   }
+   MeshParams {
+    MeshParam BDLF_BODY {
+    }
+    MeshParam BDLF_CASE_SEAM_0 {
+    }
+    MeshParam BDLF_CASE_SEAM_1 {
+    }
+    MeshParam BDLF_CASE_SEAM_2 {
+    }
+    MeshParam "BDLF_CROWN_FASTENER_-1_0" {
+    }
+    MeshParam "BDLF_CROWN_FASTENER_-1_1" {
+    }
+    MeshParam BDLF_CROWN_FASTENER_1_0 {
+    }
+    MeshParam BDLF_CROWN_FASTENER_1_1 {
+    }
+    MeshParam BDLF_NOSE {
+    }
+    MeshParam BDLF_NOSE_PANEL_BOUNDARY {
+    }
+    MeshParam BDLF_RC8_VISUAL_HINGE_COLLAR_L {
+    }
+    MeshParam BDLF_RC8_VISUAL_HINGE_COLLAR_R {
+    }
+    MeshParam BDLF_RC8_VISUAL_HINGE_PIN_L {
+    }
+    MeshParam BDLF_RC8_VISUAL_HINGE_PIN_R {
+    }
+    MeshParam BDLF_REAR_COWLING_LINED {
+    }
+    MeshParam BDLF_REAR_OPENING_RIM {
+    }
+    MeshParam BDLF_REAR_UNDERSIDE_EXTERNAL_COVER {
+    }
+    MeshParam "BDLF_SIDE_FASTENER_-1_0" {
+    }
+    MeshParam "BDLF_SIDE_FASTENER_-1_1" {
+    }
+    MeshParam "BDLF_SIDE_FASTENER_-1_2" {
+    }
+    MeshParam "BDLF_SIDE_FASTENER_-1_3" {
+    }
+    MeshParam "BDLF_SIDE_FASTENER_-1_4" {
+    }
+    MeshParam BDLF_SIDE_FASTENER_1_0 {
+    }
+    MeshParam BDLF_SIDE_FASTENER_1_1 {
+    }
+    MeshParam BDLF_SIDE_FASTENER_1_2 {
+    }
+    MeshParam BDLF_SIDE_FASTENER_1_3 {
+    }
+    MeshParam BDLF_SIDE_FASTENER_1_4 {
+    }
+    MeshParam BDLF_TAIL_L {
+    }
+    MeshParam BDLF_TAIL_R {
+    }
+    MeshParam BDLF_TAIL_TOP {
+    }
+    MeshParam BDLF_TOP_LOOP {
+    }
+    MeshParam BDLF_TOP_LOOP_BASE {
+    }
+    MeshParam BDLF_WING_L {
+    }
+    MeshParam BDLF_WING_R {
+    }
+    MeshParam BDLF_WING_ROOT_FAIRING_L {
+    }
+    MeshParam BDLF_WING_ROOT_FAIRING_R {
+    }
+    MeshParam "BDLF_WING_ROOT_ROUNDED_COVER_-1" {
+    }
+    MeshParam BDLF_WING_ROOT_ROUNDED_COVER_1 {
+    }
+   }
+   Common TXOCommonClass "{6A777D724B892B49}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "5.2.2 LTS"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6A777D724B8928EC}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6A777D724B8928C7}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6A777D724B8928D3}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6A777D724B89282D}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6A777D724B89283B}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

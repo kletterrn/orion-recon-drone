@@ -1,0 +1,115 @@
+{
+  "properties": {
+    "ORION_CTRL_PROPELLER": {
+      "property": "propeller_degrees",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "limit_degrees": 3600
+    },
+    "ORION_CTRL_FLAP_L": {
+      "property": "flap_l_degrees",
+      "axis": [
+        -3.549999713897705,
+        0.1838918924331665,
+        0.0051909685134887695
+      ],
+      "limit_degrees": 8
+    },
+    "ORION_CTRL_AILERON_L": {
+      "property": "aileron_l_degrees",
+      "axis": [
+        -3.630000114440918,
+        0.18803584575653076,
+        0.005307942628860474
+      ],
+      "limit_degrees": 8
+    },
+    "ORION_CTRL_RUDDERVATOR_L": {
+      "property": "ruddervator_l_degrees",
+      "axis": [
+        -1.3799999952316284,
+        -0.30737999081611633,
+        1.3600000143051147
+      ],
+      "limit_degrees": 8
+    },
+    "ORION_CTRL_FLAP_R": {
+      "property": "flap_r_degrees",
+      "axis": [
+        3.549999713897705,
+        0.1838918924331665,
+        0.0051909685134887695
+      ],
+      "limit_degrees": 8
+    },
+    "ORION_CTRL_AILERON_R": {
+      "property": "aileron_r_degrees",
+      "axis": [
+        3.630000114440918,
+        0.18803584575653076,
+        0.005307942628860474
+      ],
+      "limit_degrees": 8
+    },
+    "ORION_CTRL_RUDDERVATOR_R": {
+      "property": "ruddervator_r_degrees",
+      "axis": [
+        1.3799999952316284,
+        -0.30737999081611633,
+        1.3600000143051147
+      ],
+      "limit_degrees": 8
+    },
+    "ORION_CTRL_NOSE_WHEEL_SPIN": {
+      "property": "wheel_nose_degrees",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "limit_degrees": 3600
+    },
+    "ORION_CTRL_MAIN_L_WHEEL_SPIN": {
+      "property": "wheel_main_l_degrees",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "limit_degrees": 3600
+    },
+    "ORION_CTRL_MAIN_R_WHEEL_SPIN": {
+      "property": "wheel_main_r_degrees",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "limit_degrees": 3600
+    },
+    "ORION_SENSOR_YAW": {
+      "property": "sensor_yaw_degrees",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "limit_degrees": 35
+    },
+    "ORION_SENSOR_PITCH": {
+      "property": "sensor_pitch_degrees",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "limit_degrees": 15
+    }
+  },
+  "export_bones": 23,
+  "game_weights": "Deferred to game copies; source hierarchy remains rigid object parented",
+  "gear_motion": "Illustrative prior D action retained"
+}

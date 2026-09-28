@@ -1,0 +1,13 @@
+{
+  "previous_revision": "D_v010",
+  "checkpoint": "C:\\Users\\david\\Desktop\\RECON DRONES\\AssetProduction\\Orion_Banderol_R3_v001\\Orion\\checkpoints\\Orion_D_wing_root_fix_v012.blend",
+  "changed_meshes": [
+    "ORION_WING_ROOT_BLEND_L",
+    "ORION_WING_ROOT_BLEND_R"
+  ],
+  "all_other_source_mesh_vertices_unchanged": true,
+  "inner_halfspan_m": 0.06,
+  "outer_halfspan_m": 1.02,
+  "hidden_lower_root_min_z_m": 0.23,
+  "scope": "Two fairing meshes only. Body/nose, span, gear, bays, sensor and animations unchanged."
+}

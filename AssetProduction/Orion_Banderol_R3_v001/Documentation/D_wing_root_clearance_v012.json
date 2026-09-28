@@ -1,0 +1,12 @@
+{
+  "revision": "v012",
+  "gear_all_160_frames_against_new_roots": [],
+  "bays_doors_flaps_against_roots": [],
+  "old_assets_unchanged": {
+    "C:\\Users\\david\\Desktop\\RECON DRONES\\Assets\\ORD\\Models\\OrionE_Detailed\\OrionE_Detailed.blend": true,
+    "C:\\Users\\david\\Desktop\\RECON DRONES\\Assets\\ORD\\Models\\OrionE_Game\\ORD_Orion_Detailed.blend": true,
+    "C:\\Users\\david\\Desktop\\RECON DRONES\\Assets\\ORD\\Models\\ORD_Missile.blend": true
+  },
+  "fresh_checkpoint_reopen": true,
+  "relative_images_resolve": true
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "R6",
+    "source": "C:\\Users\\david\\AppData\\Local\\Temp\\codex-clipboard-ab7d5663-1f88-42be-b69d-9850c35e7e5a.png",
+    "local": "Support\\references_private\\R6.png",
+    "sha256": "6cbbdaff8d7081e5772f8218ec9c02f336380cb683a4241d60aedc9220f85c82",
+    "role": "Exhibition 03 photo; compatible side contour only",
+    "permission": "Private reference only; attribution and redistribution rights unresolved"
+  },
+  {
+    "id": "R7",
+    "source": "C:\\Users\\david\\AppData\\Local\\Temp\\codex-clipboard-a76ff791-3357-48f6-9f75-d0208b7906b4.png",
+    "local": "Support\\references_private\\R7.png",
+    "sha256": "b6c4606ac3524c3fa786018875ac3dab4c13daa474d56a84e677d998593a9736",
+    "role": "Ramp photograph; R3-compatible white-nose aircraft",
+    "permission": "Private reference only; attribution and redistribution rights unresolved"
+  },
+  {
+    "id": "R8",
+    "source": "C:\\Users\\david\\AppData\\Local\\Temp\\codex-clipboard-28fd54da-8240-4404-b373-628b47634912.png",
+    "local": "Support\\references_private\\R8.png",
+    "sha256": "abae8247304bb8b9d41f40337bdf382d32dc1122778550875da4be2c91b27b4c",
+    "role": "Airborne photograph; low resolution silhouette",
+    "permission": "Private reference only; attribution and redistribution rights unresolved"
+  },
+  {
+    "id": "R9",
+    "source": "C:\\Users\\david\\AppData\\Local\\Temp\\codex-clipboard-03c4aebd-bbe9-499c-99bd-6a867d665d48.png",
+    "local": "Support\\references_private\\R9.png",
+    "sha256": "6c126666101dc0f38e79f0da9977b07248e9ad7087b1c5684a66bdb4dceb649e",
+    "role": "Illustration/render; supporting comparison, no geometry authority",
+    "permission": "Private reference only; attribution and redistribution rights unresolved"
+  }
+]

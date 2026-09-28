@@ -1,0 +1,648 @@
+{
+  "pak": "C:\\Users\\david\\AppData\\Local\\Temp\\ORD_RC8_SpeedClean\\data.pak",
+  "resources": 195,
+  "checked": 128,
+  "files": [
+    {
+      "name": "Assets/ORD/Models/RC8/Textures/Assembly_Pylon_BCR.edds",
+      "bytes": 438849,
+      "sha256": "45b19fc28153b7f4f1c5665e69575916c8154bac25e6b85332c6f979ac1f0d0d"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Textures/Assembly_Pylon_NMO.edds",
+      "bytes": 6125487,
+      "sha256": "1cb05bfd785c108624a99ed3ec2a6ae7d70330f564400f13d702473bb7b1014a"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Textures/Banderol_Details_BCR.edds",
+      "bytes": 524884,
+      "sha256": "6617e32876e3fecce3e9efcfaf1ec2965673c386c25ec012d150e325abab1f80"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Textures/Banderol_Details_NMO.edds",
+      "bytes": 2531889,
+      "sha256": "e45e6ef006b87a13007621653bc5b9dc22693a4f8ac9040a6bd7a9df6bbc072e"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Textures/BDL_VisualFit_Appendages_BCR.edds",
+      "bytes": 364392,
+      "sha256": "c0d5c793b73e0746f4e1800091fa67c03d01937e96118cc5bdf922a15d261a6c"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Textures/BDL_VisualFit_Appendages_NMO.edds",
+      "bytes": 6076971,
+      "sha256": "1513e44f52a5c359165f8ff4036cc8b41e160f7a10b9d9fc530d3ad2f08eae1c"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Textures/BDL_VisualFit_Body_BCR.edds",
+      "bytes": 332340,
+      "sha256": "bba3d2abd4f3bfd1875ab9f8ea7460a32a5c2192b65a1d7ab5ffad055ed73c1a"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Textures/BDL_VisualFit_Body_NMO.edds",
+      "bytes": 1082496,
+      "sha256": "7446a9577dbb8ac9aec7bf92bd2218bec574dd39450027e006c575082c986378"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Textures/Orion_Airframe_BCR.edds",
+      "bytes": 720211,
+      "sha256": "13aef8a9715285737b8b08050250901ffe66516eac066b4fff928f5ea063fcf1"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Textures/Orion_Airframe_NMO.edds",
+      "bytes": 4683778,
+      "sha256": "776bb2c1de27bfa222e07b39a8485bb66373c2db668077a1d89117fec0cfdf54"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Textures/Orion_Bay_Skin_BCR.edds",
+      "bytes": 160997,
+      "sha256": "fa594b457c2ef75afea06c5f32f7cb72ddd0f1485b75b75094e1abfbcc406e06"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Textures/Orion_Bay_Skin_NMO.edds",
+      "bytes": 148052,
+      "sha256": "7d9e3e1510473a64229104890d04240b212bd1aac2f91bae424a1d971d22c3bb"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Textures/Orion_Equipment_BCR.edds",
+      "bytes": 730489,
+      "sha256": "8bd18ba716bb528d1c5e9ae7a6890e8232aa8502a4b9550f929101418a9d914f"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Textures/Orion_Equipment_NMO.edds",
+      "bytes": 4672773,
+      "sha256": "59cbf66aec457687259c2bdb07ea4ad67e92bec5b28542eb200df8aca4376fa2"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Textures/Orion_Gear_Bays_BCR.edds",
+      "bytes": 904087,
+      "sha256": "a1041e3a1f2ef7e8f1d8a44ddbafa83b24fa384cd1dad18da2cf9415e7dabf72"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Textures/Orion_Gear_Bays_NMO.edds",
+      "bytes": 12580421,
+      "sha256": "0ec52ce8dca48214c5dbf1b6f0cfeca3832bcf88fdae119e98c478c4f3dc6c0f"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Textures/Orion_Sensor_BCR.edds",
+      "bytes": 779676,
+      "sha256": "7fe2667343f2a582312a85c16251958f8ab23c905def0c3ca6e4870bdac27056"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Textures/Orion_Sensor_NMO.edds",
+      "bytes": 9924177,
+      "sha256": "d9df5f22856951ea77f8cf52ebf26fdfd380696433739aec5cc9a8f2955f80d8"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Textures/Orion_Tail_Rear_BCR.edds",
+      "bytes": 505623,
+      "sha256": "fce72d9fc6b81c5ba3a154752d25d16b91e013fdcc1465210af7d9105fa66051"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Textures/Orion_Tail_Rear_NMO.edds",
+      "bytes": 9849015,
+      "sha256": "52814c7bdbb4a50b51cb8bd53841c1766603608cc918a66081aae9b5536e8335"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Textures/Orion_Wing_L_BCR.edds",
+      "bytes": 223257,
+      "sha256": "0d0d3e3a92aa5b9e31d7c1c63e0ccfe8340391e5f1bf274bcdd6115ecf011c7b"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Textures/Orion_Wing_L_NMO.edds",
+      "bytes": 1646650,
+      "sha256": "dd1d52462a22b435ff331565d4a439f5eeffe836a42812d4d9793d8e72d91ce1"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Textures/Orion_Wing_R_BCR.edds",
+      "bytes": 245176,
+      "sha256": "8fe43fbd1f7d6fac11c95e3a4a58de56ec925124144f61ef39780b8923900780"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Textures/Orion_Wing_R_NMO.edds",
+      "bytes": 1640516,
+      "sha256": "709a606d398ec0113c793daf12f119ee003f8b4e5c1e3ee106a0f0a42def2da7"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/BDLF_RC8_HINGE_SATIN.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/BDL_LIGHT_GREY_REVIEW__I_BDL_VisualFit_Appendages.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/BDL_LIGHT_GREY_REVIEW__I_BDL_VisualFit_Body.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/BDL_PANEL_SEAL.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/BDL_REAR_RECESS_DARK__I_BDL_VisualFit_Body.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/BDL_REAR_RIM_REVIEW__I_BDL_VisualFit_Body.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/BDL_SMALL_HARDWARE__I_BDL_VisualFit_Appendages.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/BDL_SMALL_HARDWARE__I_BDL_VisualFit_Body.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/BDL_TOP_LOOP_BRONZE.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/BDL_TOP_LOOP_BRONZE__I_BDL_VisualFit_Appendages.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/DefaultGeneratedMaterial.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/ORION_BAY_INTERIOR_APPROXIMATION__I_Orion_Gear_Bays.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/ORION_DARK_REVIEW__I_Orion_Tail_Rear.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/ORION_EXPOSED_SLIDING_METAL__I_Orion_Gear_Bays.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/ORION_GEAR_SATIN_METAL.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/ORION_GEAR_SATIN_METAL__I_Orion_Airframe.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/ORION_GEAR_SATIN_METAL__I_Orion_Gear_Bays.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/ORION_GREEN_LENS__I_Orion_Wing_R.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/ORION_GREY_REVIEW.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/ORION_GREY_REVIEW__I_Orion_Airframe.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/ORION_GREY_REVIEW__I_Orion_Gear_Bays.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/ORION_GREY_REVIEW__I_Orion_Sensor.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/ORION_GREY_REVIEW__I_Orion_Tail_Rear.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/ORION_GREY_REVIEW__I_Orion_Wing_L.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/ORION_GREY_REVIEW__I_Orion_Wing_R.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/ORION_PROPELLER_TIP_PAINT__I_Orion_Tail_Rear.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/ORION_RED_LENS__I_Orion_Airframe.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/ORION_RED_LENS__I_Orion_Wing_L.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/ORION_SEALS_DARK.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/ORION_SEALS_DARK__I_Orion_Airframe.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/ORION_SEALS_DARK__I_Orion_Gear_Bays.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/ORION_SEALS_DARK__I_Orion_Sensor.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/ORION_SEALS_DARK__I_Orion_Tail_Rear.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/ORION_SEALS_DARK__I_Orion_Wing_L.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/ORION_SEALS_DARK__I_Orion_Wing_R.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/ORION_SENSOR_BLUE_OPTIC_REVIEW__I_Orion_Sensor.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/ORION_SENSOR_WARM_OPTIC_REVIEW__I_Orion_Sensor.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/ORION_STRUT_REVIEW__I_Orion_Tail_Rear.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/ORION_TIRE_RUBBER__I_Orion_Gear_Bays.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/ORION_WHITE_NOSE_REVIEW__I_Orion_Airframe.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/PYLON_ACCESS_COVER_PAINT__I_Assembly_Pylon.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/PYLON_DARK_PANEL_SEAL__I_Assembly_Pylon.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/PYLON_SATIN_AIRFRAME_PAINT__I_Assembly_Pylon.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/PYLON_STAINLESS_FASTENER__I_Assembly_Pylon.emat",
+      "bytes": 15,
+      "sha256": "324a4d878cbd343d17e60f25455eca9dbc7b40dfab562a6e0b91e627fc43f255"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/RC8_Assembly_Pylon.emat",
+      "bytes": 318,
+      "sha256": "4a7f9a53e38802d6e48f4b29db9cfb9d50ce4846e4ba0afaed6f8172e278033e"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/RC8_Banderol_Details.emat",
+      "bytes": 322,
+      "sha256": "3e65cb7ed038bfb485d10ff9101f21f73aa6a64ad1eda315e780e082f81bfaba"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/RC8_BDL_VisualFit_Appendages.emat",
+      "bytes": 338,
+      "sha256": "158e7f4c647c8cecc183326e7cc719ceb321249f2fe307434893a012814a7dc6"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/RC8_BDL_VisualFit_Body.emat",
+      "bytes": 326,
+      "sha256": "bb21c3c0e01ca6887ac474a3237808fdbbc16f9d62108a54c82156fc9db03f0a"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/RC8_Orion_Airframe.emat",
+      "bytes": 324,
+      "sha256": "05c97ccf937cd1d81595522653d621ec713d3fcc0710a1a8c38ac2688c2c9b44"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/RC8_Orion_Bay_Skin.emat",
+      "bytes": 327,
+      "sha256": "6ddb65ea3159ce7ef0d14d92a5af4489774d7a6f90aeea91a25f370ccfcca526"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/RC8_Orion_Equipment.emat",
+      "bytes": 320,
+      "sha256": "84fd1c22052e39ce0b6076521109c421fd54ff328837086276a46fc0203097bb"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/RC8_Orion_Gear_Bays.emat",
+      "bytes": 320,
+      "sha256": "cebc5519834ca44116a8138b34524c2932b684b6767f0fa4cce09c095efa346c"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/RC8_Orion_Sensor.emat",
+      "bytes": 314,
+      "sha256": "8927af296d79020940898b7405da1002757bc09842e860a4281ec6f25bd895d5"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/RC8_Orion_Tail_Rear.emat",
+      "bytes": 331,
+      "sha256": "2f9717cdece2f6e3b9a58beb4543d73b2fd9fdbf3ea0b143b34712034a7297c7"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/RC8_Orion_Wing_L.emat",
+      "bytes": 325,
+      "sha256": "15fb2f3d5bd917a687177f9196f044051c868605066b29369b65e6439bee2a35"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/Data/RC8_Orion_Wing_R.emat",
+      "bytes": 325,
+      "sha256": "0a6e635ec17e5a818ae74e59141ff9db2b1774d60d58d6fe4e8f8060c3abe1e7"
+    },
+    {
+      "name": "Sounds/ORD/RC8/BDL_Debris.wav",
+      "bytes": 480044,
+      "sha256": "2e3ef852fffe9ac9c09810d8f7fc793c074497eef5750ce21166334bbb5ab7b8"
+    },
+    {
+      "name": "Sounds/ORD/RC8/BDL_Flight.wav",
+      "bytes": 1152044,
+      "sha256": "bd825876260c7abf3a45808f89dc078accdcabcf29a3d4dc013124190d7f1c7c"
+    },
+    {
+      "name": "Sounds/ORD/RC8/BDL_FlightBright.wav",
+      "bytes": 1152044,
+      "sha256": "8d73640fc2a91a69c08e0fe02993073dcdf2db54baea1b297edf4f30926d6046"
+    },
+    {
+      "name": "Sounds/ORD/RC8/BDL_ImpactClose.wav",
+      "bytes": 672044,
+      "sha256": "a9b074f81e135cd8eaa266adbb14777c41260ec75da7b225e1d630b5a546aaf7"
+    },
+    {
+      "name": "Sounds/ORD/RC8/BDL_ImpactDistant.wav",
+      "bytes": 960044,
+      "sha256": "5f9d0af9750d82476676a868a3b1abdf33d095b84e84b0f24572c123952d4e4a"
+    },
+    {
+      "name": "Sounds/ORD/RC8/BDL_Spoolup.wav",
+      "bytes": 672044,
+      "sha256": "f7b3b51b0fb44ac6816de9210c0154322c66847bdab790cefaddfd39f9e5cb4c"
+    },
+    {
+      "name": "Sounds/ORD/RC8/BDL_WingDeployment.wav",
+      "bytes": 36524,
+      "sha256": "2516948fbaaa8a699c8188d886f8b5a2e2daf7be55ba32fedaf6baf949cd919d"
+    },
+    {
+      "name": "Sounds/ORD/RC8/ORD_Banderol_RC8.acp",
+      "bytes": 8472,
+      "sha256": "3c7e2fde9c2ab95227efd2a768e5c0a0796293e66e052565c00bb36df7bfd874"
+    },
+    {
+      "name": "Sounds/ORD/RC8/ORD_Cruise.wav",
+      "bytes": 768044,
+      "sha256": "80b4bce2acafd08203e1546fde18211475bf3add54eccc9fc82a4940e41fffa8"
+    },
+    {
+      "name": "Sounds/ORD/RC8/ORD_DoorLatch.wav",
+      "bytes": 14444,
+      "sha256": "7c8ee4fd28054cd11d468f0dada7a6ef32549f80d54abce4c4b006f1585d0b53"
+    },
+    {
+      "name": "Sounds/ORD/RC8/ORD_GearMotor.wav",
+      "bytes": 96044,
+      "sha256": "f60ce181f9bf3964dd687542e02f83ed4900e2bcb781b7bd444a486da7632da2"
+    },
+    {
+      "name": "Sounds/ORD/RC8/ORD_Idle.wav",
+      "bytes": 768044,
+      "sha256": "6c94e3a4807bb5e87d9b1260fb8c4cf901980b67a4ff401870b42c0f30a907a2"
+    },
+    {
+      "name": "Sounds/ORD/RC8/ORD_Orion_RC8.acp",
+      "bytes": 10619,
+      "sha256": "9685f5e2544294d56e3c10b84a6f8212b686a165cf76ef11f101aadb308c4e90"
+    },
+    {
+      "name": "Sounds/ORD/RC8/ORD_Shutdown.wav",
+      "bytes": 480044,
+      "sha256": "fd0945c2674b4e1063231693b42b8a77a2916da87e5e3b9bc697abdc3b0d6c84"
+    },
+    {
+      "name": "Sounds/ORD/RC8/ORD_Startup.wav",
+      "bytes": 672044,
+      "sha256": "1a740165002479970e5e63485356bddc4f9667c5473f4b041de314676a4359dc"
+    },
+    {
+      "name": "Sounds/ORD/RC8/ORD_Takeoff.wav",
+      "bytes": 864044,
+      "sha256": "14627287e2a2d9e891145cbd998fa1f6574f3cf847ed6af2e7d3e347c2c25551"
+    },
+    {
+      "name": "Sounds/ORD/RC8/Signals/BDL_DebrisDb.sig",
+      "bytes": 422,
+      "sha256": "d2dadc5b3e67ade9206c6c6b285287c7b1501c5401987a220dcc5165c3251e90"
+    },
+    {
+      "name": "Sounds/ORD/RC8/Signals/BDL_FlightDb.sig",
+      "bytes": 422,
+      "sha256": "4e924f017db95d556399392e133240926f98d7b0fa971fc54dd1c4366147ff2d"
+    },
+    {
+      "name": "Sounds/ORD/RC8/Signals/BDL_ImpactCloseDb.sig",
+      "bytes": 432,
+      "sha256": "ac8b1bb669468f440f29879f96bbec8d5d42b10ec1cea7147891a41b13bbeba3"
+    },
+    {
+      "name": "Sounds/ORD/RC8/Signals/BDL_ImpactDistantDb.sig",
+      "bytes": 436,
+      "sha256": "679e39741d755b5c8484880abc6e69b26c9e65bd75e36dd020a2c623088f608b"
+    },
+    {
+      "name": "Sounds/ORD/RC8/Signals/ORD_CruiseFeedDb.sig",
+      "bytes": 430,
+      "sha256": "db3b9b9fb99885271c2a18a9e65b95e2ac3c2ebfcdd2a319f394105b06d45d3e"
+    },
+    {
+      "name": "Sounds/ORD/RC8/Signals/ORD_CruiseWorldDb.sig",
+      "bytes": 432,
+      "sha256": "31ac3455ce0dc0adfbd0a193f8d0b3cd6bcd29a9ae274e610cbbcb3bf369ebc5"
+    },
+    {
+      "name": "Sounds/ORD/RC8/Signals/ORD_IdleFeedDb.sig",
+      "bytes": 426,
+      "sha256": "88c5f98aafae40e7f7fe448e9e312d514520e47dd77adf486ea51417bdf62e9e"
+    },
+    {
+      "name": "Sounds/ORD/RC8/Signals/ORD_IdleWorldDb.sig",
+      "bytes": 428,
+      "sha256": "d5ee721df55f9cd8b7b9ae2309891c995128098cad8f2eb5477a3640ce291388"
+    },
+    {
+      "name": "Sounds/ORD/RC8/Signals/ORD_WorldGateDb.sig",
+      "bytes": 428,
+      "sha256": "44a528c3075ff3bd866fdcc378ab1034f5d47e45ec699549bd4e134bfcff2f07"
+    },
+    {
+      "name": "Scripts/Game/ORD/ORD_AircraftComponent.c",
+      "bytes": 35070,
+      "sha256": "4f36d0d651340586e57bff98c9b06d3be752e32644bdd4e92e3d3cd4e9396196"
+    },
+    {
+      "name": "Scripts/Game/ORD/ORD_AircraftVisuals.c",
+      "bytes": 4969,
+      "sha256": "f878b124a4bbbaab8f4574ef78b318a2c66fb788a107b4fb5d270dac61d2d93f"
+    },
+    {
+      "name": "Scripts/Game/ORD/ORD_AudioPresentation.c",
+      "bytes": 4459,
+      "sha256": "bd94ba2a27c500aebfe55ef9ece1525c8be78dc293849fe901975d7abd752b37"
+    },
+    {
+      "name": "Scripts/Game/ORD/ORD_BanderolComponent.c",
+      "bytes": 4038,
+      "sha256": "2e3cec38fdb43f669fc5e362f467353057ea024d9099e845320a3bb1197e31f0"
+    },
+    {
+      "name": "Scripts/Game/ORD/ORD_BanderolPresentation.c",
+      "bytes": 2964,
+      "sha256": "aa13adde5cf29b845f6a1c72403a3171651b3686384610dd1331abb354e7a6e9"
+    },
+    {
+      "name": "Scripts/Game/ORD/ORD_CameraMounts.c",
+      "bytes": 1730,
+      "sha256": "2edccf0c6b7e0fd7e176cf6909158e26f013c9ef86b1398d5f8742bbb9999b3c"
+    },
+    {
+      "name": "Scripts/Game/ORD/ORD_FlightController.c",
+      "bytes": 1296,
+      "sha256": "fb32bb1fb2121ab0148035d57bcdda1ed5d824e779fde7d0ba0266e032330103"
+    },
+    {
+      "name": "Scripts/Game/ORD/ORD_Gateway.c",
+      "bytes": 10466,
+      "sha256": "22c65efbf0bbf1bb228c29bebbc39704c5b938159e81f922c6490cbe9b02113f"
+    },
+    {
+      "name": "Scripts/Game/ORD/ORD_GuidedMissile.c",
+      "bytes": 9622,
+      "sha256": "d5a5bccf4daa5b185dcae10b707a58f24895c5f80ad5d7c0c61f203b7ba2e66c"
+    },
+    {
+      "name": "Scripts/Game/ORD/ORD_MissionMap.c",
+      "bytes": 10435,
+      "sha256": "c642762802507a006bc6a8dd335699c65a5b3cd18af32744de6020b5b4e9eab3"
+    },
+    {
+      "name": "Scripts/Game/ORD/ORD_OpticalCamera.c",
+      "bytes": 658,
+      "sha256": "f15d9e023cc10cba98c9b0cbee1b46775ba215e13123732b198b5ad362d95326"
+    },
+    {
+      "name": "Scripts/Game/ORD/ORD_RC8PoseData.c",
+      "bytes": 441960,
+      "sha256": "e2a17d126b9183bc65f2e12067f5d7bc7a08c4c477575ff116a9bd9b6bbaa227"
+    },
+    {
+      "name": "Scripts/Game/ORD/ORD_RC8Rig.c",
+      "bytes": 3065,
+      "sha256": "fbad07c0ccfabb2da0d69634caf19af7851797cc6ca2b4f16bfdf9b50d3d9276"
+    },
+    {
+      "name": "Scripts/Game/ORD/ORD_SensorHUD.c",
+      "bytes": 15954,
+      "sha256": "245299f5526ddea9a23077244fa30403c1a6219d0d6ecc7fb1567c8cac261779"
+    },
+    {
+      "name": "Scripts/Game/ORD/ORD_TerminalComponent.c",
+      "bytes": 38173,
+      "sha256": "a0d31fe0c5f0310a37e3b42a920d3e01414d186de64545dfc0b075337b2c97e8"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/ORD_Orion_RC8.xob",
+      "bytes": 10712854,
+      "sha256": "f4c1e5da08f01771782996540335bea8e7f843c81f6ca374260a0860204da3dd"
+    },
+    {
+      "name": "Assets/ORD/Models/RC8/ORD_Banderol_RC8.xob",
+      "bytes": 1326318,
+      "sha256": "1bf21976d40693e1a4443d9029e75d4919fd76cb6dd61f402e6af18da5f5caa2"
+    },
+    {
+      "name": "Prefabs/ORD/ORD_Aircraft.et",
+      "bytes": 3376,
+      "sha256": "6791d26b1764615f0e974f1552eadf30db3b65a0cca35c9c7f3e1e6c9ebdf6fb"
+    },
+    {
+      "name": "Prefabs/ORD/ORD_Banderol.et",
+      "bytes": 328,
+      "sha256": "1d435c051a259015cfb16c6849088b4ee00f5187c786ca4ba8424a989e1d2aa4"
+    },
+    {
+      "name": "Prefabs/ORD/ORD_BanderolStore.et",
+      "bytes": 176,
+      "sha256": "024617c1cc6d3847244b2c6bd52cd4f02cdd62957383be14964eab0517cb0f84"
+    },
+    {
+      "name": "Worlds/ORD/ORD_Runway_Layers/default.layer",
+      "bytes": 656,
+      "sha256": "9a852ca0dd74a47ab5369859f773c32bdff26fb9ed71de9d57b2d08ff5c8acb4"
+    },
+    {
+      "name": "UI/ORD/Sensor.layout",
+      "bytes": 722,
+      "sha256": "fb3acd9c1910e851b918845b30b4639a8e0527c58b3e2c2053194521a1ecec9f"
+    },
+    {
+      "name": "Configs/System/chimeraInputCommon.conf",
+      "bytes": 6503,
+      "sha256": "98d32cf0bda90ac8de62391e28c15cfe3a62dbad4da85ec4608a01d99f58f981"
+    }
+  ],
+  "temporaryHandlers": false
+}

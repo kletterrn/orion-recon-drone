@@ -1,0 +1,18 @@
+{
+  "nominal_length_m": 5.0,
+  "reported_body_diameter_m": 0.3,
+  "provisional_wing_span_m": 2.2,
+  "estimated_tail_tip_radius_m": 0.46,
+  "nose_join_y_m": 1.48,
+  "main_wing_leading_root_y_m": 0.3,
+  "tail_leading_root_y_m": -1.52,
+  "tail_count_selected": 3,
+  "axes": "+Y forward +X right +Z up",
+  "geometry_status": "Evidence-limited exterior reconstruction; primary form for review",
+  "wing_span_status": "Provisional 2.2m span: inference from GUR ambiguous Size; published secondary descriptions agree; no measured primary span",
+  "source": "https://war-sanctions.gur.gov.ua/en/page-s8000-banderol",
+  "stage": "G_WING_SIZE_CORRECTION",
+  "evidence": "R12 front / R13 side user render-based correction, C metric geometry",
+  "wing_pose": "Visual extended photo-like pose; authentic folding/stow not established",
+  "body_height_estimated_m": 0.33
+}

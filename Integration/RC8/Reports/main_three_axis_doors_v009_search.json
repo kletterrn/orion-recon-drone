@@ -1,0 +1,9 @@
+{
+  "path": [],
+  "step_pitch": -0.04700147023275596,
+  "step_yaw": -0.0567103732988236,
+  "step_bank": -0.08726646259971647,
+  "states_evaluated": 9495,
+  "seconds": 81.53840136528015,
+  "clearance_scope": "v009 evaluated payload including deployed wings, fuselage, bay walls and offset doors; connected fork and axle motion; edges sampled at quarter steps; pin/lip interfaces require inspection"
+}

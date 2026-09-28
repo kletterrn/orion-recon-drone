@@ -1,0 +1,6803 @@
+{
+  "default_contacts": [],
+  "motion_contacts": [
+    {
+      "frame": 29,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 54
+    },
+    {
+      "frame": 29,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 62
+    },
+    {
+      "frame": 29,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 58
+    },
+    {
+      "frame": 29,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 54
+    },
+    {
+      "frame": 29,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 58
+    },
+    {
+      "frame": 29,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 62
+    },
+    {
+      "frame": 30,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 80
+    },
+    {
+      "frame": 30,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 76
+    },
+    {
+      "frame": 30,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 74
+    },
+    {
+      "frame": 30,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 80
+    },
+    {
+      "frame": 30,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 74
+    },
+    {
+      "frame": 30,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 76
+    },
+    {
+      "frame": 31,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 88
+    },
+    {
+      "frame": 31,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 72
+    },
+    {
+      "frame": 31,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 70
+    },
+    {
+      "frame": 31,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 88
+    },
+    {
+      "frame": 31,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 70
+    },
+    {
+      "frame": 31,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 72
+    },
+    {
+      "frame": 32,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 84
+    },
+    {
+      "frame": 32,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 70
+    },
+    {
+      "frame": 32,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 70
+    },
+    {
+      "frame": 32,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 84
+    },
+    {
+      "frame": 32,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 70
+    },
+    {
+      "frame": 32,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 70
+    },
+    {
+      "frame": 33,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 80
+    },
+    {
+      "frame": 33,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 68
+    },
+    {
+      "frame": 33,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 70
+    },
+    {
+      "frame": 33,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 80
+    },
+    {
+      "frame": 33,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 70
+    },
+    {
+      "frame": 33,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 68
+    },
+    {
+      "frame": 34,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 80
+    },
+    {
+      "frame": 34,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 68
+    },
+    {
+      "frame": 34,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 70
+    },
+    {
+      "frame": 34,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 80
+    },
+    {
+      "frame": 34,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 70
+    },
+    {
+      "frame": 34,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 68
+    },
+    {
+      "frame": 35,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 78
+    },
+    {
+      "frame": 35,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 68
+    },
+    {
+      "frame": 35,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 68
+    },
+    {
+      "frame": 35,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 78
+    },
+    {
+      "frame": 35,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 68
+    },
+    {
+      "frame": 35,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 68
+    },
+    {
+      "frame": 36,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 76
+    },
+    {
+      "frame": 36,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 70
+    },
+    {
+      "frame": 36,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 68
+    },
+    {
+      "frame": 36,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 76
+    },
+    {
+      "frame": 36,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 68
+    },
+    {
+      "frame": 36,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 70
+    },
+    {
+      "frame": 37,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 78
+    },
+    {
+      "frame": 37,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 68
+    },
+    {
+      "frame": 37,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 70
+    },
+    {
+      "frame": 37,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 78
+    },
+    {
+      "frame": 37,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 70
+    },
+    {
+      "frame": 37,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 68
+    },
+    {
+      "frame": 38,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 80
+    },
+    {
+      "frame": 38,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 70
+    },
+    {
+      "frame": 38,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 68
+    },
+    {
+      "frame": 38,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 80
+    },
+    {
+      "frame": 38,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 68
+    },
+    {
+      "frame": 38,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 70
+    },
+    {
+      "frame": 39,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 78
+    },
+    {
+      "frame": 39,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 68
+    },
+    {
+      "frame": 39,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 68
+    },
+    {
+      "frame": 39,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 78
+    },
+    {
+      "frame": 39,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 68
+    },
+    {
+      "frame": 39,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 68
+    },
+    {
+      "frame": 40,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 78
+    },
+    {
+      "frame": 40,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 70
+    },
+    {
+      "frame": 40,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 68
+    },
+    {
+      "frame": 40,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 78
+    },
+    {
+      "frame": 40,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 68
+    },
+    {
+      "frame": 40,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 70
+    },
+    {
+      "frame": 41,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 76
+    },
+    {
+      "frame": 41,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 68
+    },
+    {
+      "frame": 41,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 68
+    },
+    {
+      "frame": 41,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 76
+    },
+    {
+      "frame": 41,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 68
+    },
+    {
+      "frame": 41,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 68
+    },
+    {
+      "frame": 42,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 76
+    },
+    {
+      "frame": 42,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 68
+    },
+    {
+      "frame": 42,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 68
+    },
+    {
+      "frame": 42,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 76
+    },
+    {
+      "frame": 42,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 68
+    },
+    {
+      "frame": 42,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 68
+    },
+    {
+      "frame": 43,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 78
+    },
+    {
+      "frame": 43,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 70
+    },
+    {
+      "frame": 43,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 68
+    },
+    {
+      "frame": 43,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 78
+    },
+    {
+      "frame": 43,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 68
+    },
+    {
+      "frame": 43,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 70
+    },
+    {
+      "frame": 44,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 78
+    },
+    {
+      "frame": 44,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 70
+    },
+    {
+      "frame": 44,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 68
+    },
+    {
+      "frame": 44,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 78
+    },
+    {
+      "frame": 44,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 68
+    },
+    {
+      "frame": 44,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 70
+    },
+    {
+      "frame": 45,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 80
+    },
+    {
+      "frame": 45,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 70
+    },
+    {
+      "frame": 45,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 68
+    },
+    {
+      "frame": 45,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 80
+    },
+    {
+      "frame": 45,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 68
+    },
+    {
+      "frame": 45,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 70
+    },
+    {
+      "frame": 46,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 80
+    },
+    {
+      "frame": 46,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 70
+    },
+    {
+      "frame": 46,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 70
+    },
+    {
+      "frame": 46,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 80
+    },
+    {
+      "frame": 46,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 70
+    },
+    {
+      "frame": 46,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 70
+    },
+    {
+      "frame": 47,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 82
+    },
+    {
+      "frame": 47,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 72
+    },
+    {
+      "frame": 47,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 70
+    },
+    {
+      "frame": 47,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 82
+    },
+    {
+      "frame": 47,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 70
+    },
+    {
+      "frame": 47,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 72
+    },
+    {
+      "frame": 48,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 82
+    },
+    {
+      "frame": 48,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 74
+    },
+    {
+      "frame": 48,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 70
+    },
+    {
+      "frame": 48,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 82
+    },
+    {
+      "frame": 48,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 70
+    },
+    {
+      "frame": 48,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 74
+    },
+    {
+      "frame": 49,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 86
+    },
+    {
+      "frame": 49,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 72
+    },
+    {
+      "frame": 49,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 70
+    },
+    {
+      "frame": 49,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 86
+    },
+    {
+      "frame": 49,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 70
+    },
+    {
+      "frame": 49,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 72
+    },
+    {
+      "frame": 50,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 88
+    },
+    {
+      "frame": 50,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 80
+    },
+    {
+      "frame": 50,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 72
+    },
+    {
+      "frame": 50,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 88
+    },
+    {
+      "frame": 50,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 72
+    },
+    {
+      "frame": 50,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 80
+    },
+    {
+      "frame": 51,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 96
+    },
+    {
+      "frame": 51,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 50
+    },
+    {
+      "frame": 51,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 72
+    },
+    {
+      "frame": 51,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 96
+    },
+    {
+      "frame": 51,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 72
+    },
+    {
+      "frame": 51,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 50
+    },
+    {
+      "frame": 52,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 84
+    },
+    {
+      "frame": 52,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 76
+    },
+    {
+      "frame": 52,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 84
+    },
+    {
+      "frame": 52,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 76
+    },
+    {
+      "frame": 53,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 72
+    },
+    {
+      "frame": 53,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 74
+    },
+    {
+      "frame": 53,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 72
+    },
+    {
+      "frame": 53,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 74
+    },
+    {
+      "frame": 54,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 60
+    },
+    {
+      "frame": 54,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 76
+    },
+    {
+      "frame": 54,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 60
+    },
+    {
+      "frame": 54,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 76
+    },
+    {
+      "frame": 55,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 50
+    },
+    {
+      "frame": 55,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 76
+    },
+    {
+      "frame": 55,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 50
+    },
+    {
+      "frame": 55,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 76
+    },
+    {
+      "frame": 56,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 32
+    },
+    {
+      "frame": 56,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 50
+    },
+    {
+      "frame": 56,
+      "orion": "ORION_MAIN_L_LINK_PIN_1_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 12
+    },
+    {
+      "frame": 56,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 32
+    },
+    {
+      "frame": 56,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 50
+    },
+    {
+      "frame": 56,
+      "orion": "ORION_MAIN_R_LINK_PIN_-1_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 12
+    },
+    {
+      "frame": 57,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 63
+    },
+    {
+      "frame": 57,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 22
+    },
+    {
+      "frame": 57,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 25
+    },
+    {
+      "frame": 57,
+      "orion": "ORION_MAIN_L_LINK_PIN_1_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 28
+    },
+    {
+      "frame": 57,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 63
+    },
+    {
+      "frame": 57,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 22
+    },
+    {
+      "frame": 57,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 25
+    },
+    {
+      "frame": 57,
+      "orion": "ORION_MAIN_R_LINK_PIN_-1_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 28
+    },
+    {
+      "frame": 58,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 58,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_CROWN_FASTENER_-1_1",
+      "pairs": 42
+    },
+    {
+      "frame": 58,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 58,
+      "orion": "ORION_MAIN_L_LINK_PIN_1_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 10
+    },
+    {
+      "frame": 58,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 58,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_CROWN_FASTENER_1_1",
+      "pairs": 42
+    },
+    {
+      "frame": 58,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 58,
+      "orion": "ORION_MAIN_R_LINK_PIN_-1_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 10
+    },
+    {
+      "frame": 59,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 30
+    },
+    {
+      "frame": 59,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.58",
+      "assembly": "BDLF_BODY",
+      "pairs": 28
+    },
+    {
+      "frame": 59,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 59,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_CROWN_FASTENER_-1_1",
+      "pairs": 50
+    },
+    {
+      "frame": 59,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 32
+    },
+    {
+      "frame": 59,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 59,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 30
+    },
+    {
+      "frame": 59,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.58",
+      "assembly": "BDLF_BODY",
+      "pairs": 28
+    },
+    {
+      "frame": 59,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 59,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_CROWN_FASTENER_1_1",
+      "pairs": 50
+    },
+    {
+      "frame": 59,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 32
+    },
+    {
+      "frame": 59,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 60
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 20
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.58",
+      "assembly": "BDLF_BODY",
+      "pairs": 24
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 37
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_BODY",
+      "pairs": 17
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 46
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_SIDE_FASTENER_-1_2",
+      "pairs": 44
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 25
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_L_LINK_PIN_-1_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 26
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_L_LINK_PIN_-1_1",
+      "assembly": "BDLF_SIDE_FASTENER_-1_2",
+      "pairs": 26
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 92
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 60
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 20
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.58",
+      "assembly": "BDLF_BODY",
+      "pairs": 24
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 37
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_BODY",
+      "pairs": 17
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 92
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 46
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_SIDE_FASTENER_1_2",
+      "pairs": 44
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 25
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_R_LINK_PIN_1_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 26
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_R_LINK_PIN_1_1",
+      "assembly": "BDLF_SIDE_FASTENER_1_2",
+      "pairs": 26
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 46
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 91
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 46
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.58",
+      "assembly": "BDLF_BODY",
+      "pairs": 24
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 47
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_BODY",
+      "pairs": 32
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_LINK_PIN_-1_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 15
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 80
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 46
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 91
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 46
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.58",
+      "assembly": "BDLF_BODY",
+      "pairs": 24
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 47
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_BODY",
+      "pairs": 32
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 80
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_LINK_PIN_1_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 15
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 61
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 101
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 84
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 62
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.58",
+      "assembly": "BDLF_BODY",
+      "pairs": 24
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 50
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_BODY",
+      "pairs": 37
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 50
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 80
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 61
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 101
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 84
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 62
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.58",
+      "assembly": "BDLF_BODY",
+      "pairs": 24
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 50
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_BODY",
+      "pairs": 37
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 80
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 50
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 73
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 100
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 120
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 64
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.58",
+      "assembly": "BDLF_BODY",
+      "pairs": 24
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 50
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 88
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 78
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 73
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 100
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 120
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 64
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.58",
+      "assembly": "BDLF_BODY",
+      "pairs": 24
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 50
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 78
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 88
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 56
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 54
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_CROWN_FASTENER_-1_0",
+      "pairs": 48
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 106
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 54
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 29
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_BODY",
+      "pairs": 19
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 80
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 78
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 56
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 54
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_CROWN_FASTENER_1_0",
+      "pairs": 48
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 106
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 54
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 29
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_BODY",
+      "pairs": 19
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 78
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 80
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 54
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 52
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 104
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 48
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 78
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 78
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 54
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 52
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 104
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 48
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 78
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 78
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 56
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 52
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 105
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 48
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 42
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 79
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 80
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 56
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 52
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 105
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 48
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 42
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 80
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 79
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 60
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 52
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 101
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 48
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 67
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 74
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 78
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 72
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 60
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 52
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 101
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 48
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 67
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 78
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 74
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 54
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 49
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 103
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 59
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 76
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_LINK_PIN_-1_2",
+      "assembly": "BDLF_BODY",
+      "pairs": 18
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 70
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 33
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_LINK_PIN_1_2",
+      "assembly": "BDLF_BODY",
+      "pairs": 27
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 108
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 49
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 103
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 59
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 70
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 33
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_LINK_PIN_-1_2",
+      "assembly": "BDLF_BODY",
+      "pairs": 27
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 76
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_LINK_PIN_1_2",
+      "assembly": "BDLF_BODY",
+      "pairs": 18
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 104
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 31
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 85
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 43
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 39
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_LINK_PIN_-1_2",
+      "assembly": "BDLF_BODY",
+      "pairs": 31
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 70
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 128
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 31
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 85
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 43
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 70
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 39
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_LINK_PIN_1_2",
+      "assembly": "BDLF_BODY",
+      "pairs": 31
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 128
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 50
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 74
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 158
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 25
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 50
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 74
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 158
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 25
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 54
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 10
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.58",
+      "assembly": "BDLF_BODY",
+      "pairs": 43
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 55
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 194
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 59
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 54
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 10
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.58",
+      "assembly": "BDLF_BODY",
+      "pairs": 43
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 55
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 194
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 59
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 54
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 89
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.58",
+      "assembly": "BDLF_BODY",
+      "pairs": 52
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_L_LINK_PIN_-1_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 29
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 216
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 77
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 54
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 89
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.58",
+      "assembly": "BDLF_BODY",
+      "pairs": 52
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_R_LINK_PIN_1_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 29
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 216
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 77
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 54
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 77
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.58",
+      "assembly": "BDLF_BODY",
+      "pairs": 48
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 56
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_L_LINK_PIN_-1_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 15
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 39
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 55
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_L_LINK_PIN_1_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 25
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 234
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 89
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 20
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 54
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 77
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.58",
+      "assembly": "BDLF_BODY",
+      "pairs": 48
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 39
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 55
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_R_LINK_PIN_-1_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 25
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 56
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_R_LINK_PIN_1_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 15
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 234
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 89
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 20
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 52
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 48
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.58",
+      "assembly": "BDLF_BODY",
+      "pairs": 33
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_L_FORK_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 28
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_L_LINK_PIN_1_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 17
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 254
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 99
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_L_AXLE_CAP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 18
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 52
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 48
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.58",
+      "assembly": "BDLF_BODY",
+      "pairs": 33
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_R_LINK_PIN_-1_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 17
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_R_FORK_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 28
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 254
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 99
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_R_AXLE_CAP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 18
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 54
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 48
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_BODY",
+      "pairs": 33
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDLF_BODY",
+      "pairs": 69
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_L_FORK_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 33
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 35
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 41
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 274
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 107
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_L_AXLE_CAP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 18
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 54
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 48
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_BODY",
+      "pairs": 33
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDLF_BODY",
+      "pairs": 69
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 41
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_R_FORK_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 33
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 35
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 274
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 107
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_R_AXLE_CAP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 18
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 54
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 48
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_BODY",
+      "pairs": 48
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDLF_BODY",
+      "pairs": 52
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_L_FORK_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 29
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 308
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 111
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 54
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 48
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_BODY",
+      "pairs": 48
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDLF_BODY",
+      "pairs": 52
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_R_FORK_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 29
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 308
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 111
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "assembly": "BDLF_NOSE",
+      "pairs": 132
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 37
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_BODY",
+      "pairs": 45
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDLF_BODY",
+      "pairs": 41
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_L_FORK_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 29
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 29
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 394
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 123
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 37
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_BODY",
+      "pairs": 45
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDLF_BODY",
+      "pairs": 41
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_R_FORK_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 29
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 29
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 402
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 123
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "assembly": "BDLF_NOSE",
+      "pairs": 281
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_NOSE_TIRE",
+      "assembly": "BDLF_NOSE",
+      "pairs": 147
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_BODY",
+      "pairs": 27
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDLF_BODY",
+      "pairs": 39
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_MAIN_L_FORK_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 26
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 35
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 420
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 139
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_BODY",
+      "pairs": 27
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDLF_BODY",
+      "pairs": 39
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_MAIN_R_FORK_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 26
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 35
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 420
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 139
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "assembly": "BDLF_NOSE",
+      "pairs": 120
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_NOSE_TIRE",
+      "assembly": "BDLF_NOSE",
+      "pairs": 218
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDLF_BODY",
+      "pairs": 37
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_L_FORK_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 31
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 39
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_L_LINK_PIN_-1_2",
+      "assembly": "BDLF_BODY",
+      "pairs": 33
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 456
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_SIDE_FASTENER_-1_0",
+      "pairs": 42
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 142
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDLF_BODY",
+      "pairs": 37
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_R_FORK_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 31
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 39
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_R_LINK_PIN_1_2",
+      "assembly": "BDLF_BODY",
+      "pairs": 33
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 456
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_SIDE_FASTENER_1_0",
+      "pairs": 30
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 142
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "assembly": "BDLF_NOSE",
+      "pairs": 82
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_NOSE_FORK_BRIDGE_-1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 66
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_NOSE_FORK_BRIDGE_1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 65
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_NOSE_TIRE",
+      "assembly": "BDLF_NOSE",
+      "pairs": 256
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_NOSE_RIM",
+      "assembly": "BDLF_NOSE",
+      "pairs": 82
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDLF_BODY",
+      "pairs": 46
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_MAIN_L_FORK_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 30
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 436
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 147
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDLF_BODY",
+      "pairs": 46
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_MAIN_R_FORK_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 30
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 436
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 147
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "assembly": "BDLF_NOSE",
+      "pairs": 45
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_NOSE_FORK_-1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 39
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_NOSE_FORK_BRIDGE_-1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 46
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_NOSE_FORK_1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 39
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_NOSE_FORK_BRIDGE_1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 46
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_NOSE_TIRE",
+      "assembly": "BDLF_NOSE",
+      "pairs": 224
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_NOSE_RIM",
+      "assembly": "BDLF_NOSE",
+      "pairs": 82
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_NOSE_HUB_RECESS_-1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 26
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_NOSE_HUB_RECESS_1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 26
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 54
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDLF_BODY",
+      "pairs": 44
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 44
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_MAIN_L_LINK_PIN_1_2",
+      "assembly": "BDLF_BODY",
+      "pairs": 22
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 406
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 127
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 20
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 54
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDLF_BODY",
+      "pairs": 44
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_MAIN_R_LINK_PIN_-1_2",
+      "assembly": "BDLF_BODY",
+      "pairs": 22
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 44
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 402
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 127
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 20
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "assembly": "BDLF_NOSE",
+      "pairs": 42
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_NOSE_AXLE",
+      "assembly": "BDLF_NOSE",
+      "pairs": 72
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_NOSE_FORK_-1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 82
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_NOSE_FORK_BRIDGE_-1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 29
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_NOSE_FORK_1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 81
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_NOSE_FORK_BRIDGE_1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 29
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_NOSE_TIRE",
+      "assembly": "BDLF_NOSE",
+      "pairs": 346
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_NOSE_RIM",
+      "assembly": "BDLF_NOSE",
+      "pairs": 72
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_NOSE_HUB_RECESS_-1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 26
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_NOSE_AXLE_CAP_-1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 28
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_NOSE_HUB_RECESS_1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 26
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_NOSE_AXLE_CAP_1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 28
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDLF_BODY",
+      "pairs": 44
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 31
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 37
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 314
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 113
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_2",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDLF_BODY",
+      "pairs": 44
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 37
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 31
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 318
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 113
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 82,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_2",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "assembly": "BDLF_NOSE",
+      "pairs": 37
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_NOSE_FORK_-1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 34
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_NOSE_FORK_BRIDGE_-1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 26
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_NOSE_FORK_1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 34
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_NOSE_FORK_BRIDGE_1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 26
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_NOSE_TIRE",
+      "assembly": "BDLF_NOSE",
+      "pairs": 314
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_NOSE_RIM",
+      "assembly": "BDLF_NOSE",
+      "pairs": 68
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_NOSE_HUB_RECESS_-1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 25
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_NOSE_AXLE_CAP_-1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 10
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_NOSE_HUB_RECESS_1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 25
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_NOSE_AXLE_CAP_1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 10
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDLF_BODY",
+      "pairs": 46
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 274
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 105
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_MAIN_L_AXLE_CAP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 20
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDLF_BODY",
+      "pairs": 46
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 274
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 105
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 83,
+      "orion": "ORION_MAIN_R_AXLE_CAP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 20
+    },
+    {
+      "frame": 84,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "assembly": "BDLF_NOSE",
+      "pairs": 38
+    },
+    {
+      "frame": 84,
+      "orion": "ORION_NOSE_FORK_-1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 52
+    },
+    {
+      "frame": 84,
+      "orion": "ORION_NOSE_FORK_BRIDGE_-1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 73
+    },
+    {
+      "frame": 84,
+      "orion": "ORION_NOSE_FORK_1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 52
+    },
+    {
+      "frame": 84,
+      "orion": "ORION_NOSE_FORK_BRIDGE_1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 73
+    },
+    {
+      "frame": 84,
+      "orion": "ORION_NOSE_TIRE",
+      "assembly": "BDLF_NOSE",
+      "pairs": 324
+    },
+    {
+      "frame": 84,
+      "orion": "ORION_NOSE_RIM",
+      "assembly": "BDLF_NOSE",
+      "pairs": 58
+    },
+    {
+      "frame": 84,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDLF_BODY",
+      "pairs": 44
+    },
+    {
+      "frame": 84,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 84,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 252
+    },
+    {
+      "frame": 84,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 97
+    },
+    {
+      "frame": 84,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 84,
+      "orion": "ORION_MAIN_L_AXLE_CAP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 22
+    },
+    {
+      "frame": 84,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDLF_BODY",
+      "pairs": 44
+    },
+    {
+      "frame": 84,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 84,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 252
+    },
+    {
+      "frame": 84,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 97
+    },
+    {
+      "frame": 84,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 84,
+      "orion": "ORION_MAIN_R_AXLE_CAP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 22
+    },
+    {
+      "frame": 85,
+      "orion": "ORION_NOSE_FORK_-1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 44
+    },
+    {
+      "frame": 85,
+      "orion": "ORION_NOSE_FORK_1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 44
+    },
+    {
+      "frame": 85,
+      "orion": "ORION_NOSE_TIRE",
+      "assembly": "BDLF_NOSE",
+      "pairs": 306
+    },
+    {
+      "frame": 85,
+      "orion": "ORION_NOSE_RIM",
+      "assembly": "BDLF_NOSE",
+      "pairs": 54
+    },
+    {
+      "frame": 85,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDLF_BODY",
+      "pairs": 26
+    },
+    {
+      "frame": 85,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 18
+    },
+    {
+      "frame": 85,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 230
+    },
+    {
+      "frame": 85,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 85
+    },
+    {
+      "frame": 85,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 85,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDLF_BODY",
+      "pairs": 26
+    },
+    {
+      "frame": 85,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 18
+    },
+    {
+      "frame": 85,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 230
+    },
+    {
+      "frame": 85,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 85
+    },
+    {
+      "frame": 85,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 86,
+      "orion": "ORION_NOSE_FORK_-1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 44
+    },
+    {
+      "frame": 86,
+      "orion": "ORION_NOSE_FORK_1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 44
+    },
+    {
+      "frame": 86,
+      "orion": "ORION_NOSE_TIRE",
+      "assembly": "BDLF_NOSE",
+      "pairs": 244
+    },
+    {
+      "frame": 86,
+      "orion": "ORION_NOSE_RIM",
+      "assembly": "BDLF_NOSE",
+      "pairs": 50
+    },
+    {
+      "frame": 86,
+      "orion": "ORION_NOSE_HUB_RECESS_-1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 22
+    },
+    {
+      "frame": 86,
+      "orion": "ORION_NOSE_HUB_RECESS_1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 22
+    },
+    {
+      "frame": 86,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 206
+    },
+    {
+      "frame": 86,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 69
+    },
+    {
+      "frame": 86,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 86,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 206
+    },
+    {
+      "frame": 86,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 69
+    },
+    {
+      "frame": 86,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 87,
+      "orion": "ORION_NOSE_AXLE",
+      "assembly": "BDLF_NOSE",
+      "pairs": 82
+    },
+    {
+      "frame": 87,
+      "orion": "ORION_NOSE_FORK_-1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 37
+    },
+    {
+      "frame": 87,
+      "orion": "ORION_NOSE_FORK_1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 37
+    },
+    {
+      "frame": 87,
+      "orion": "ORION_NOSE_TIRE",
+      "assembly": "BDLF_NOSE",
+      "pairs": 128
+    },
+    {
+      "frame": 87,
+      "orion": "ORION_NOSE_RIM",
+      "assembly": "BDLF_NOSE",
+      "pairs": 48
+    },
+    {
+      "frame": 87,
+      "orion": "ORION_NOSE_HUB_RECESS_-1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 20
+    },
+    {
+      "frame": 87,
+      "orion": "ORION_NOSE_AXLE_CAP_-1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 25
+    },
+    {
+      "frame": 87,
+      "orion": "ORION_NOSE_HUB_RECESS_1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 20
+    },
+    {
+      "frame": 87,
+      "orion": "ORION_NOSE_AXLE_CAP_1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 25
+    },
+    {
+      "frame": 87,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 174
+    },
+    {
+      "frame": 87,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 39
+    },
+    {
+      "frame": 87,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 174
+    },
+    {
+      "frame": 87,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 39
+    },
+    {
+      "frame": 88,
+      "orion": "ORION_NOSE_TIRE",
+      "assembly": "BDLF_NOSE",
+      "pairs": 126
+    },
+    {
+      "frame": 88,
+      "orion": "ORION_NOSE_RIM",
+      "assembly": "BDLF_NOSE",
+      "pairs": 48
+    },
+    {
+      "frame": 88,
+      "orion": "ORION_NOSE_HUB_RECESS_-1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 18
+    },
+    {
+      "frame": 88,
+      "orion": "ORION_NOSE_HUB_RECESS_1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 18
+    },
+    {
+      "frame": 88,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 136
+    },
+    {
+      "frame": 88,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 136
+    },
+    {
+      "frame": 89,
+      "orion": "ORION_NOSE_TIRE",
+      "assembly": "BDLF_NOSE",
+      "pairs": 134
+    },
+    {
+      "frame": 89,
+      "orion": "ORION_NOSE_RIM",
+      "assembly": "BDLF_NOSE",
+      "pairs": 40
+    },
+    {
+      "frame": 89,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 94
+    },
+    {
+      "frame": 89,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 96
+    },
+    {
+      "frame": 90,
+      "orion": "ORION_NOSE_TIRE",
+      "assembly": "BDLF_NOSE",
+      "pairs": 130
+    },
+    {
+      "frame": 91,
+      "orion": "ORION_NOSE_TIRE",
+      "assembly": "BDLF_NOSE",
+      "pairs": 90
+    },
+    {
+      "frame": 134,
+      "orion": "ORION_NOSE_TIRE",
+      "assembly": "BDLF_NOSE",
+      "pairs": 130
+    },
+    {
+      "frame": 135,
+      "orion": "ORION_NOSE_TIRE",
+      "assembly": "BDLF_NOSE",
+      "pairs": 124
+    },
+    {
+      "frame": 135,
+      "orion": "ORION_NOSE_RIM",
+      "assembly": "BDLF_NOSE",
+      "pairs": 44
+    },
+    {
+      "frame": 135,
+      "orion": "ORION_NOSE_HUB_RECESS_-1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 18
+    },
+    {
+      "frame": 135,
+      "orion": "ORION_NOSE_HUB_BOLT_-1_4",
+      "assembly": "BDLF_NOSE",
+      "pairs": 22
+    },
+    {
+      "frame": 135,
+      "orion": "ORION_NOSE_HUB_RECESS_1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 18
+    },
+    {
+      "frame": 135,
+      "orion": "ORION_NOSE_HUB_BOLT_1_4",
+      "assembly": "BDLF_NOSE",
+      "pairs": 22
+    },
+    {
+      "frame": 135,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 126
+    },
+    {
+      "frame": 135,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 126
+    },
+    {
+      "frame": 136,
+      "orion": "ORION_NOSE_FORK_-1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 44
+    },
+    {
+      "frame": 136,
+      "orion": "ORION_NOSE_FORK_1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 44
+    },
+    {
+      "frame": 136,
+      "orion": "ORION_NOSE_TIRE",
+      "assembly": "BDLF_NOSE",
+      "pairs": 242
+    },
+    {
+      "frame": 136,
+      "orion": "ORION_NOSE_RIM",
+      "assembly": "BDLF_NOSE",
+      "pairs": 50
+    },
+    {
+      "frame": 136,
+      "orion": "ORION_NOSE_HUB_RECESS_-1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 22
+    },
+    {
+      "frame": 136,
+      "orion": "ORION_NOSE_HUB_RECESS_1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 22
+    },
+    {
+      "frame": 136,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 206
+    },
+    {
+      "frame": 136,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 69
+    },
+    {
+      "frame": 136,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 136,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 206
+    },
+    {
+      "frame": 136,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 69
+    },
+    {
+      "frame": 136,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "assembly": "BDLF_NOSE",
+      "pairs": 36
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_NOSE_FORK_-1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 47
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_NOSE_FORK_BRIDGE_-1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 50
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_NOSE_FORK_1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 47
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_NOSE_FORK_BRIDGE_1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 50
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_NOSE_TIRE",
+      "assembly": "BDLF_NOSE",
+      "pairs": 316
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_NOSE_RIM",
+      "assembly": "BDLF_NOSE",
+      "pairs": 62
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_NOSE_HUB_RECESS_-1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 21
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_NOSE_HUB_RECESS_1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 21
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDLF_BODY",
+      "pairs": 44
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 31
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 28
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 254
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 99
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_MAIN_L_AXLE_CAP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 18
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_0",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_3",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDLF_BODY",
+      "pairs": 44
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 31
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 28
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 254
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 99
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_MAIN_R_AXLE_CAP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 18
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_0",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 137,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_3",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "assembly": "BDLF_NOSE",
+      "pairs": 44
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_NOSE_FORK_-1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 55
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_NOSE_FORK_BRIDGE_-1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 42
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_NOSE_FORK_1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 55
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_NOSE_FORK_BRIDGE_1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 42
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_NOSE_TIRE",
+      "assembly": "BDLF_NOSE",
+      "pairs": 251
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_NOSE_RIM",
+      "assembly": "BDLF_NOSE",
+      "pairs": 80
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_NOSE_HUB_RECESS_-1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 30
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_NOSE_HUB_BOLT_-1_1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 18
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_NOSE_HUB_RECESS_1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 30
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_NOSE_HUB_BOLT_1_1",
+      "assembly": "BDLF_NOSE",
+      "pairs": 18
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 57
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDLF_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 44
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 392
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 121
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 20
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 57
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDLF_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 44
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 380
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 121
+    },
+    {
+      "frame": 138,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 20
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_NOSE_SLIDING_SECTION",
+      "assembly": "BDLF_NOSE",
+      "pairs": 120
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_NOSE_TIRE",
+      "assembly": "BDLF_NOSE",
+      "pairs": 218
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDLF_BODY",
+      "pairs": 37
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_L_FORK_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 31
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 39
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_L_LINK_PIN_-1_2",
+      "assembly": "BDLF_BODY",
+      "pairs": 33
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 456
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_SIDE_FASTENER_-1_0",
+      "pairs": 42
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 142
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDLF_BODY",
+      "pairs": 37
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_R_FORK_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 31
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 39
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_R_LINK_PIN_1_2",
+      "assembly": "BDLF_BODY",
+      "pairs": 33
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 456
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_SIDE_FASTENER_1_0",
+      "pairs": 30
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 142
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 44
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_BODY",
+      "pairs": 47
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDLF_BODY",
+      "pairs": 45
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_L_FORK_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 31
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 29
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 352
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 117
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 44
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_BODY",
+      "pairs": 47
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDLF_BODY",
+      "pairs": 45
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_R_FORK_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 31
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 29
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 356
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 117
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 52
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 48
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.58",
+      "assembly": "BDLF_BODY",
+      "pairs": 28
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_L_FORK_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 28
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 256
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 101
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_L_AXLE_CAP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 18
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_0",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_3",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 52
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 48
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.58",
+      "assembly": "BDLF_BODY",
+      "pairs": 28
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_R_FORK_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 28
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 256
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 101
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_R_AXLE_CAP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 18
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_0",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_3",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 54
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 89
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.58",
+      "assembly": "BDLF_BODY",
+      "pairs": 52
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_L_LINK_PIN_-1_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 29
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 216
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 77
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 54
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 89
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.58",
+      "assembly": "BDLF_BODY",
+      "pairs": 52
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_R_LINK_PIN_1_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 29
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 216
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDLF_BODY",
+      "pairs": 77
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 61
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 28
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 74
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 150
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 61
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 28
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 74
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 146
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 61
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 52
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 101
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 48
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 65
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 72
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 72
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 88
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 61
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 52
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 101
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 48
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 65
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 72
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 72
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDLF_BODY",
+      "pairs": 82
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 54
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 52
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 104
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 48
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 78
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 78
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 54
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 52
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 104
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 48
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 78
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 78
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 61
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 101
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 84
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 62
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.58",
+      "assembly": "BDLF_BODY",
+      "pairs": 24
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 50
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_BODY",
+      "pairs": 37
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 50
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 80
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 61
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 101
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 84
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_BODY",
+      "pairs": 62
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.58",
+      "assembly": "BDLF_BODY",
+      "pairs": 24
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 50
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.7",
+      "assembly": "BDLF_BODY",
+      "pairs": 37
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 80
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 50
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 147,
+      "orion": "ORION_MAIN_L_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 30
+    },
+    {
+      "frame": 147,
+      "orion": "ORION_MAIN_L_STRUT_COLLAR_0.58",
+      "assembly": "BDLF_BODY",
+      "pairs": 28
+    },
+    {
+      "frame": 147,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 147,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_UP_1",
+      "assembly": "BDLF_CROWN_FASTENER_-1_1",
+      "pairs": 50
+    },
+    {
+      "frame": 147,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_L",
+      "pairs": 32
+    },
+    {
+      "frame": 147,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 147,
+      "orion": "ORION_MAIN_R_UPPER_STRUT",
+      "assembly": "BDLF_BODY",
+      "pairs": 30
+    },
+    {
+      "frame": 147,
+      "orion": "ORION_MAIN_R_STRUT_COLLAR_0.58",
+      "assembly": "BDLF_BODY",
+      "pairs": 28
+    },
+    {
+      "frame": 147,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 147,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_UP_-1",
+      "assembly": "BDLF_CROWN_FASTENER_1_1",
+      "pairs": 50
+    },
+    {
+      "frame": 147,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_ROOT_FAIRING_R",
+      "pairs": 32
+    },
+    {
+      "frame": 147,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 148,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 32
+    },
+    {
+      "frame": 148,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 50
+    },
+    {
+      "frame": 148,
+      "orion": "ORION_MAIN_L_LINK_PIN_1_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 12
+    },
+    {
+      "frame": 148,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 32
+    },
+    {
+      "frame": 148,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 50
+    },
+    {
+      "frame": 148,
+      "orion": "ORION_MAIN_R_LINK_PIN_-1_1",
+      "assembly": "BDLF_BODY",
+      "pairs": 12
+    },
+    {
+      "frame": 149,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 72
+    },
+    {
+      "frame": 149,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 74
+    },
+    {
+      "frame": 149,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 72
+    },
+    {
+      "frame": 149,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 74
+    },
+    {
+      "frame": 150,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 88
+    },
+    {
+      "frame": 150,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 80
+    },
+    {
+      "frame": 150,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 72
+    },
+    {
+      "frame": 150,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 88
+    },
+    {
+      "frame": 150,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 72
+    },
+    {
+      "frame": 150,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 80
+    },
+    {
+      "frame": 151,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 82
+    },
+    {
+      "frame": 151,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 72
+    },
+    {
+      "frame": 151,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 70
+    },
+    {
+      "frame": 151,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 82
+    },
+    {
+      "frame": 151,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 70
+    },
+    {
+      "frame": 151,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 72
+    },
+    {
+      "frame": 152,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 78
+    },
+    {
+      "frame": 152,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 70
+    },
+    {
+      "frame": 152,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 68
+    },
+    {
+      "frame": 152,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 78
+    },
+    {
+      "frame": 152,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 68
+    },
+    {
+      "frame": 152,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 70
+    },
+    {
+      "frame": 153,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 76
+    },
+    {
+      "frame": 153,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 68
+    },
+    {
+      "frame": 153,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 68
+    },
+    {
+      "frame": 153,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 76
+    },
+    {
+      "frame": 153,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 68
+    },
+    {
+      "frame": 153,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 68
+    },
+    {
+      "frame": 154,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 80
+    },
+    {
+      "frame": 154,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 70
+    },
+    {
+      "frame": 154,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 68
+    },
+    {
+      "frame": 154,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 80
+    },
+    {
+      "frame": 154,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 68
+    },
+    {
+      "frame": 154,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 70
+    },
+    {
+      "frame": 155,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 78
+    },
+    {
+      "frame": 155,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 68
+    },
+    {
+      "frame": 155,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 68
+    },
+    {
+      "frame": 155,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 78
+    },
+    {
+      "frame": 155,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 68
+    },
+    {
+      "frame": 155,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 68
+    },
+    {
+      "frame": 156,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 84
+    },
+    {
+      "frame": 156,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 70
+    },
+    {
+      "frame": 156,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 70
+    },
+    {
+      "frame": 156,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 84
+    },
+    {
+      "frame": 156,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 70
+    },
+    {
+      "frame": 156,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 70
+    },
+    {
+      "frame": 157,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDLF_WING_L",
+      "pairs": 54
+    },
+    {
+      "frame": 157,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 62
+    },
+    {
+      "frame": 157,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_L",
+      "pairs": 58
+    },
+    {
+      "frame": 157,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDLF_WING_R",
+      "pairs": 54
+    },
+    {
+      "frame": 157,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 58
+    },
+    {
+      "frame": 157,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDLF_WING_R",
+      "pairs": 62
+    }
+  ]
+}

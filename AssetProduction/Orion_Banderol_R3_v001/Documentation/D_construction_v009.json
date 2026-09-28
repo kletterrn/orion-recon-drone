@@ -1,0 +1,39 @@
+{
+  "checkpoint": "C:\\Users\\david\\Desktop\\RECON DRONES\\AssetProduction\\Orion_Banderol_R3_v001\\Orion\\checkpoints\\Orion_D_gear_bays_sensor_v009.blend",
+  "source_objects": 234,
+  "bay_specs": [
+    [
+      "NOSE",
+      0,
+      0.76,
+      0.32,
+      1.5,
+      0.205
+    ],
+    [
+      "MAIN_L",
+      -0.115,
+      -1.46,
+      0.21,
+      1.88,
+      0.205
+    ],
+    [
+      "MAIN_R",
+      0.115,
+      -1.46,
+      0.21,
+      1.88,
+      0.205
+    ]
+  ],
+  "poses": {
+    "down": 1,
+    "rear_swing": 65,
+    "inside_open": 100,
+    "retracted": 120,
+    "inspection": 160
+  },
+  "retraction": "Illustrative reconstruction, not documented real motion",
+  "approved_geometry_source": "Orion_C_primary_geometry_v007.blend"
+}

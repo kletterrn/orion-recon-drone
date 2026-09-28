@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1F06D35EFB53FA8F}Assets/ORD/Models/OrionE_Game/Data/Seals_and_recessed_panel_lines.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

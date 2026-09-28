@@ -1,0 +1,7 @@
+GenericEntity {
+ components {
+  MeshObject { Object "{CD62429F99F50B81}Assets/ORD/Models/RC8/ORD_Banderol_RC8.xob" }
+  RplComponent {}
+  ORD_BanderolPresentation {}
+ }
+}

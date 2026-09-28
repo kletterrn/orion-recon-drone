@@ -1,0 +1,126 @@
+MetaFileClass {
+ Name "{E0DB8A1D66F56052}Assets/ORD/Models/ORD_Orion_Recon.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{6A711D0A14DC6717}" {
+     SourceMaterial "ORD_Airframe_Placeholder"
+     AssignedMaterial "{1164058B77EDA41D}Assets/ORD/Models/Data/ORD_Airframe_Placeholder.emat"
+    }
+    MaterialAssignClass "{6A711D0A14DC6765}" {
+     SourceMaterial "ORD_Dark_Mechanical"
+     AssignedMaterial "{DC8F0F3A5AAC58DA}Assets/ORD/Models/Data/ORD_Dark_Mechanical.emat"
+    }
+    MaterialAssignClass "{6A711D0A14DC6763}" {
+     SourceMaterial "ORD_Sensor_Glass"
+     AssignedMaterial "{9365285079C9533E}Assets/ORD/Models/Data/ORD_Sensor_Glass.emat"
+    }
+   }
+   MeshParams {
+    MeshParam ORD_EnginePod {
+    }
+    MeshParam ORD_Fuselage {
+    }
+    MeshParam ORD_GearStrut_Main_L {
+    }
+    MeshParam ORD_GearStrut_Main_R {
+    }
+    MeshParam ORD_GearStrut_Nose {
+    }
+    MeshParam ORD_Nose {
+    }
+    MeshParam ORD_PropellerBlade {
+    }
+    MeshParam "ORD_PropellerBlade.001" {
+    }
+    MeshParam "ORD_PropellerBlade.002" {
+    }
+    MeshParam ORD_PropellerHub {
+    }
+    MeshParam ORD_SensorBall {
+    }
+    MeshParam ORD_SensorNeck {
+    }
+    MeshParam ORD_Wheel_Main_L {
+    }
+    MeshParam ORD_Wheel_Main_R {
+    }
+    MeshParam ORD_Wheel_Nose {
+    }
+    MeshParam ORD_Wing_L {
+    }
+    MeshParam ORD_Wing_R {
+    }
+    MeshParam ORD_Aileron_L {
+    }
+    MeshParam ORD_Aileron_R {
+    }
+    MeshParam ORD_SatcomFairing {
+    }
+    MeshParam ORD_SensorAccess {
+    }
+    MeshParam "ORD_SensorAccess.001" {
+    }
+    MeshParam ORD_VTail_L {
+    }
+    MeshParam ORD_VTail_R {
+    }
+    MeshParam ORD_WingPanel {
+    }
+    MeshParam "ORD_WingPanel.001" {
+    }
+    MeshParam ORD_WingTip_L {
+    }
+    MeshParam ORD_WingTip_R {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_Fuselage {
+     LayerPreset "Vehicle"
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_wing_l {
+     LayerPreset "Vehicle"
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_wing_r {
+     LayerPreset "Vehicle"
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_Gear_Nose {
+     LayerPreset "Vehicle"
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_Gear_Main_L {
+     LayerPreset "Vehicle"
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_Gear_Main_R {
+     LayerPreset "Vehicle"
+     Mass 0
+     Margin 0
+    }
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "5.2.2 LTS"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+ }
+}

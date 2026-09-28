@@ -1,0 +1,291 @@
+{
+  "fresh_process_checks": [
+    {
+      "success": true,
+      "report": {
+        "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\AssetProduction\\Orion_Banderol_R3_v001\\Orion\\Orion_Master.blend",
+        "sets": [
+          {
+            "set": "Orion_Airframe_BaseColor.png",
+            "uv_overlap_selected_loops": 0,
+            "mesh_count": 27,
+            "occupied_uv_area_fraction": 0.3997667336818744,
+            "base_surface_m2_local": 21.185337385017647,
+            "approx_pixels_per_metre_at_4K": 562.6594035530569
+          },
+          {
+            "set": "Orion_Wing_L_BaseColor.png",
+            "uv_overlap_selected_loops": 0,
+            "mesh_count": 7,
+            "occupied_uv_area_fraction": 0.272078514705541,
+            "base_surface_m2_local": 18.371812193605592,
+            "approx_pixels_per_metre_at_4K": 498.46087260436326
+          },
+          {
+            "set": "Orion_Wing_R_BaseColor.png",
+            "uv_overlap_selected_loops": 0,
+            "mesh_count": 7,
+            "occupied_uv_area_fraction": 0.27207930615941683,
+            "base_surface_m2_local": 18.37181294262632,
+            "approx_pixels_per_metre_at_4K": 498.4615874333775
+          },
+          {
+            "set": "Orion_Tail_Rear_BaseColor",
+            "uv_overlap_selected_loops": 0,
+            "mesh_count": 11,
+            "occupied_uv_area_fraction": 0.47504199229349364,
+            "base_surface_m2_local": 7.63748984756694,
+            "approx_pixels_per_metre_at_4K": 1021.5288249340315
+          },
+          {
+            "set": "Orion_Gear_Bays_BaseColor.png",
+            "uv_overlap_selected_loops": 0,
+            "mesh_count": 156,
+            "occupied_uv_area_fraction": 0.4852016689914682,
+            "base_surface_m2_local": 23.089805550949677,
+            "approx_pixels_per_metre_at_4K": 593.7600221827171
+          },
+          {
+            "set": "Orion_Sensor_BaseColor",
+            "uv_overlap_selected_loops": 0,
+            "mesh_count": 29,
+            "occupied_uv_area_fraction": 0.6263299387977349,
+            "base_surface_m2_local": 3.2596856404679784,
+            "approx_pixels_per_metre_at_4K": 1795.451483314611
+          }
+        ],
+        "missing_images": [],
+        "all_texture_paths_resolve": true,
+        "uv_overlap_check": "Blender select_overlap on each shared atlas, base mesh UVs only"
+      }
+    },
+    {
+      "success": true,
+      "report": {
+        "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\AssetProduction\\Orion_Banderol_R3_v001\\Banderol\\S8000_Banderol_Master.blend",
+        "sets": [
+          {
+            "set": "BDL_Reference_Body_BaseColor",
+            "uv_overlap_selected_loops": 0,
+            "mesh_count": 18,
+            "occupied_uv_area_fraction": 0.4602676440901227,
+            "base_surface_m2_local": 5.565086907137214,
+            "approx_pixels_per_metre_at_4K": 1177.9563441012642
+          },
+          {
+            "set": "BDL_Reference_Appendages_BaseColor",
+            "uv_overlap_selected_loops": 0,
+            "mesh_count": 11,
+            "occupied_uv_area_fraction": 0.6643228127362523,
+            "base_surface_m2_local": 2.933427286880942,
+            "approx_pixels_per_metre_at_4K": 1949.22452663848
+          }
+        ],
+        "missing_images": [],
+        "all_texture_paths_resolve": true,
+        "uv_overlap_check": "Blender select_overlap on each shared atlas, base mesh UVs only"
+      }
+    },
+    {
+      "success": true,
+      "report": {
+        "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\AssetProduction\\Orion_Banderol_R3_v001\\Banderol\\S8000_Banderol_VisualFit_Master.blend",
+        "sets": [
+          {
+            "set": "BDL_VisualFit_Body_BaseColor",
+            "uv_overlap_selected_loops": 0,
+            "mesh_count": 18,
+            "occupied_uv_area_fraction": 0.6005238738798606,
+            "base_surface_m2_local": 4.906034589407994,
+            "approx_pixels_per_metre_at_4K": 1433.0448535719038
+          },
+          {
+            "set": "BDL_VisualFit_Appendages_BaseColor",
+            "uv_overlap_selected_loops": 0,
+            "mesh_count": 11,
+            "occupied_uv_area_fraction": 0.6643228127362523,
+            "base_surface_m2_local": 2.933427286880942,
+            "approx_pixels_per_metre_at_4K": 1949.22452663848
+          }
+        ],
+        "missing_images": [],
+        "all_texture_paths_resolve": true,
+        "uv_overlap_check": "Blender select_overlap on each shared atlas, base mesh UVs only"
+      }
+    },
+    {
+      "success": true,
+      "report": {
+        "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\AssetProduction\\Orion_Banderol_R3_v001\\Assembly\\Orion_Banderol_Preview.blend",
+        "sets": [
+          {
+            "set": "Assembly_Pylon_BaseColor.png",
+            "uv_overlap_selected_loops": 0,
+            "mesh_count": 25,
+            "occupied_uv_area_fraction": 0.6812439393233313,
+            "base_surface_m2_local": 1.11972472868365,
+            "approx_pixels_per_metre_at_4K": 3194.888006393689
+          }
+        ],
+        "missing_images": [],
+        "all_texture_paths_resolve": true,
+        "uv_overlap_check": "Blender select_overlap on each shared atlas, base mesh UVs only"
+      }
+    },
+    {
+      "success": true,
+      "report": {
+        "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\AssetProduction\\Orion_Banderol_R3_v001\\Orion\\checkpoints\\Orion_I_uv_materials_v001.blend",
+        "sets": [
+          {
+            "set": "Orion_Airframe_BaseColor.png",
+            "uv_overlap_selected_loops": 0,
+            "mesh_count": 27,
+            "occupied_uv_area_fraction": 0.3997667336818744,
+            "base_surface_m2_local": 21.185337385017647,
+            "approx_pixels_per_metre_at_4K": 562.6594035530569
+          },
+          {
+            "set": "Orion_Wing_L_BaseColor.png",
+            "uv_overlap_selected_loops": 0,
+            "mesh_count": 7,
+            "occupied_uv_area_fraction": 0.272078514705541,
+            "base_surface_m2_local": 18.371812193605592,
+            "approx_pixels_per_metre_at_4K": 498.46087260436326
+          },
+          {
+            "set": "Orion_Wing_R_BaseColor.png",
+            "uv_overlap_selected_loops": 0,
+            "mesh_count": 7,
+            "occupied_uv_area_fraction": 0.27207930615941683,
+            "base_surface_m2_local": 18.37181294262632,
+            "approx_pixels_per_metre_at_4K": 498.4615874333775
+          },
+          {
+            "set": "Orion_Tail_Rear_BaseColor",
+            "uv_overlap_selected_loops": 0,
+            "mesh_count": 11,
+            "occupied_uv_area_fraction": 0.47504199229349364,
+            "base_surface_m2_local": 7.63748984756694,
+            "approx_pixels_per_metre_at_4K": 1021.5288249340315
+          },
+          {
+            "set": "Orion_Gear_Bays_BaseColor.png",
+            "uv_overlap_selected_loops": 0,
+            "mesh_count": 156,
+            "occupied_uv_area_fraction": 0.4852016689914682,
+            "base_surface_m2_local": 23.089805550949677,
+            "approx_pixels_per_metre_at_4K": 593.7600221827171
+          },
+          {
+            "set": "Orion_Sensor_BaseColor",
+            "uv_overlap_selected_loops": 0,
+            "mesh_count": 29,
+            "occupied_uv_area_fraction": 0.6263299387977349,
+            "base_surface_m2_local": 3.2596856404679784,
+            "approx_pixels_per_metre_at_4K": 1795.451483314611
+          }
+        ],
+        "missing_images": [],
+        "all_texture_paths_resolve": true,
+        "uv_overlap_check": "Blender select_overlap on each shared atlas, base mesh UVs only"
+      }
+    },
+    {
+      "success": true,
+      "report": {
+        "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\AssetProduction\\Orion_Banderol_R3_v001\\Banderol\\checkpoints\\BDL_Reference_I_uv_materials_v001.blend",
+        "sets": [
+          {
+            "set": "BDL_Reference_Body_BaseColor",
+            "uv_overlap_selected_loops": 0,
+            "mesh_count": 18,
+            "occupied_uv_area_fraction": 0.4602676440901227,
+            "base_surface_m2_local": 5.565086907137214,
+            "approx_pixels_per_metre_at_4K": 1177.9563441012642
+          },
+          {
+            "set": "BDL_Reference_Appendages_BaseColor",
+            "uv_overlap_selected_loops": 0,
+            "mesh_count": 11,
+            "occupied_uv_area_fraction": 0.6643228127362523,
+            "base_surface_m2_local": 2.933427286880942,
+            "approx_pixels_per_metre_at_4K": 1949.22452663848
+          }
+        ],
+        "missing_images": [],
+        "all_texture_paths_resolve": true,
+        "uv_overlap_check": "Blender select_overlap on each shared atlas, base mesh UVs only"
+      }
+    },
+    {
+      "success": true,
+      "report": {
+        "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\AssetProduction\\Orion_Banderol_R3_v001\\Banderol\\checkpoints\\BDL_VisualFit_I_uv_materials_v001.blend",
+        "sets": [
+          {
+            "set": "BDL_VisualFit_Body_BaseColor",
+            "uv_overlap_selected_loops": 0,
+            "mesh_count": 18,
+            "occupied_uv_area_fraction": 0.6005238738798606,
+            "base_surface_m2_local": 4.906034589407994,
+            "approx_pixels_per_metre_at_4K": 1433.0448535719038
+          },
+          {
+            "set": "BDL_VisualFit_Appendages_BaseColor",
+            "uv_overlap_selected_loops": 0,
+            "mesh_count": 11,
+            "occupied_uv_area_fraction": 0.6643228127362523,
+            "base_surface_m2_local": 2.933427286880942,
+            "approx_pixels_per_metre_at_4K": 1949.22452663848
+          }
+        ],
+        "missing_images": [],
+        "all_texture_paths_resolve": true,
+        "uv_overlap_check": "Blender select_overlap on each shared atlas, base mesh UVs only"
+      }
+    },
+    {
+      "success": true,
+      "report": {
+        "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\AssetProduction\\Orion_Banderol_R3_v001\\Assembly\\checkpoints\\Orion_Banderol_I_materials_v001.blend",
+        "sets": [
+          {
+            "set": "Assembly_Pylon_BaseColor.png",
+            "uv_overlap_selected_loops": 0,
+            "mesh_count": 25,
+            "occupied_uv_area_fraction": 0.6812439393233313,
+            "base_surface_m2_local": 1.11972472868365,
+            "approx_pixels_per_metre_at_4K": 3194.888006393689
+          }
+        ],
+        "missing_images": [],
+        "all_texture_paths_resolve": true,
+        "uv_overlap_check": "Blender select_overlap on each shared atlas, base mesh UVs only"
+      }
+    },
+    {
+      "success": true,
+      "report": {
+        "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\AssetProduction\\Orion_Banderol_R3_v001\\Support\\validation_relocated_I_v001\\Assembly\\Orion_Banderol_Preview.blend",
+        "sets": [
+          {
+            "set": "Assembly_Pylon_BaseColor.png",
+            "uv_overlap_selected_loops": 0,
+            "mesh_count": 25,
+            "occupied_uv_area_fraction": 0.6812439393233313,
+            "base_surface_m2_local": 1.11972472868365,
+            "approx_pixels_per_metre_at_4K": 3194.888006393689
+          }
+        ],
+        "missing_images": [],
+        "all_texture_paths_resolve": true,
+        "uv_overlap_check": "Blender select_overlap on each shared atlas, base mesh UVs only"
+      }
+    }
+  ],
+  "material_validation": "path/UV overlap checks performed; native renders inspected separately",
+  "engine_validation": "NOT ATTEMPTED",
+  "combined_gear_retraction": "Known intersections unchanged; not accepted as clear",
+  "high_to_low_baking": "Deferred to optimized export meshes; current tangent maps are source-surface bakes"
+}

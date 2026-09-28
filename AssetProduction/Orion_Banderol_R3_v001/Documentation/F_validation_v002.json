@@ -1,0 +1,22 @@
+{
+  "fresh_master_open": true,
+  "source_meshes": 11,
+  "base_mesh_defects": [],
+  "length_m": 5.0,
+  "body_width_m": 0.30000001192092896,
+  "wing_span_provisional_m": 2.200000047683716,
+  "intentional_connected_interfaces": {
+    "BDL_WING_L": true,
+    "BDL_WING_R": true,
+    "BDL_WING_ROOT_FAIRING_L": true,
+    "BDL_WING_ROOT_FAIRING_R": true,
+    "BDL_TAIL_L": true,
+    "BDL_TAIL_R": true,
+    "BDL_TAIL_TOP": true
+  },
+  "original_mod_assets_unchanged": true,
+  "material_external_images": 0,
+  "game_validation": "NOT ATTEMPTED",
+  "proportions": "Nominal public dimensions; illustrated sections, wing span and local layout C",
+  "fresh_standalone_checkpoint_open": true
+}

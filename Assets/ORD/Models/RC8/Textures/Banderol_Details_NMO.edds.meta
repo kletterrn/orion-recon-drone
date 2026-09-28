@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{27911AA8E71A2A12}Assets/ORD/Models/RC8/Textures/Banderol_Details_NMO.edds"
+ Configurations {
+  TIFFResourceClass PC {
+   SourceFile "Banderol_Details_NMO.tif"
+   Conversion ColorHQCompression
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass PS5 : PC {
+  }
+ }
+}

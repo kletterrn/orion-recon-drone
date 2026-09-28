@@ -1,0 +1,5658 @@
+{
+  "translation_before": [
+    0.0,
+    -1.75,
+    -1.0700000524520874
+  ],
+  "translation_after": [
+    0.0,
+    -1.75,
+    -1.2200000286102295
+  ],
+  "rotor_pivot_m": [
+    0.0,
+    -3.809999942779541,
+    0.04500000178813934
+  ],
+  "rotating_objects": [
+    "ORION_PROPELLER_BLADE_A",
+    "ORION_PROPELLER_BLADE_B",
+    "ORION_PROPELLER_HUB",
+    "ORION_PUSHER_SPINNER"
+  ],
+  "full_sweep_samples_degrees": 360,
+  "rotor_surface_contacts": [],
+  "conservative_rotor_radius_m": 0.965106872723701,
+  "conservative_swept_envelope_checks": [
+    {
+      "object": "BDL_REAR_COWLING_LINED",
+      "conservative_radial_gap_m": 0.1348931958216405
+    }
+  ],
+  "default_pose_unintended_contacts": [],
+  "intentional_mount_contacts": [
+    {
+      "frame": 1,
+      "orion": "ORION_FUSELAGE",
+      "assembly": "ADAPTER_UPPER_CONFORMING_SADDLE",
+      "pairs": 80
+    }
+  ],
+  "adapter_connected_surface_checks": [
+    {
+      "a": "ADAPTER_UPPER_CONFORMING_SADDLE",
+      "b": "ORION_FUSELAGE",
+      "intentional_contact": true
+    },
+    {
+      "a": "ADAPTER_LOWER_CONTACT_SHOE",
+      "b": "BDL_BODY",
+      "intentional_contact": true
+    },
+    {
+      "a": "ADAPTER_AFT_SUPPORT",
+      "b": "ADAPTER_UPPER_CONFORMING_SADDLE",
+      "intentional_contact": true
+    },
+    {
+      "a": "ADAPTER_AFT_SUPPORT",
+      "b": "ADAPTER_LOWER_CONTACT_SHOE",
+      "intentional_contact": true
+    },
+    {
+      "a": "ADAPTER_FORWARD_SUPPORT",
+      "b": "ADAPTER_UPPER_CONFORMING_SADDLE",
+      "intentional_contact": true
+    },
+    {
+      "a": "ADAPTER_FORWARD_SUPPORT",
+      "b": "ADAPTER_LOWER_CONTACT_SHOE",
+      "intentional_contact": true
+    }
+  ],
+  "adapter_base_mesh_defects": [],
+  "gear_frames_sampled": 160,
+  "remaining_illustrative_gear_motion_contacts": [
+    {
+      "frame": 35,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 88
+    },
+    {
+      "frame": 35,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 94
+    },
+    {
+      "frame": 36,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 104
+    },
+    {
+      "frame": 36,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 106
+    },
+    {
+      "frame": 37,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 116
+    },
+    {
+      "frame": 37,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 118
+    },
+    {
+      "frame": 38,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 128
+    },
+    {
+      "frame": 38,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 130
+    },
+    {
+      "frame": 39,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 144
+    },
+    {
+      "frame": 39,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 18
+    },
+    {
+      "frame": 39,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 140
+    },
+    {
+      "frame": 39,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 18
+    },
+    {
+      "frame": 40,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 152
+    },
+    {
+      "frame": 40,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 41
+    },
+    {
+      "frame": 40,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 148
+    },
+    {
+      "frame": 40,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 41
+    },
+    {
+      "frame": 41,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 134
+    },
+    {
+      "frame": 41,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 56
+    },
+    {
+      "frame": 41,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 136
+    },
+    {
+      "frame": 41,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 56
+    },
+    {
+      "frame": 42,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 130
+    },
+    {
+      "frame": 42,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 64
+    },
+    {
+      "frame": 42,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_L",
+      "pairs": 30
+    },
+    {
+      "frame": 42,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 130
+    },
+    {
+      "frame": 42,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 64
+    },
+    {
+      "frame": 42,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_R",
+      "pairs": 30
+    },
+    {
+      "frame": 43,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 128
+    },
+    {
+      "frame": 43,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 72
+    },
+    {
+      "frame": 43,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_L",
+      "pairs": 46
+    },
+    {
+      "frame": 43,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 126
+    },
+    {
+      "frame": 43,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 72
+    },
+    {
+      "frame": 43,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_R",
+      "pairs": 46
+    },
+    {
+      "frame": 44,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 128
+    },
+    {
+      "frame": 44,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 78
+    },
+    {
+      "frame": 44,
+      "orion": "ORION_MAIN_L_HUB_RECESS_-1",
+      "assembly": "BDL_WING_L",
+      "pairs": 40
+    },
+    {
+      "frame": 44,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_L",
+      "pairs": 56
+    },
+    {
+      "frame": 44,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 128
+    },
+    {
+      "frame": 44,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 78
+    },
+    {
+      "frame": 44,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_R",
+      "pairs": 56
+    },
+    {
+      "frame": 44,
+      "orion": "ORION_MAIN_R_HUB_RECESS_1",
+      "assembly": "BDL_WING_R",
+      "pairs": 40
+    },
+    {
+      "frame": 45,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 120
+    },
+    {
+      "frame": 45,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 82
+    },
+    {
+      "frame": 45,
+      "orion": "ORION_MAIN_L_HUB_RECESS_-1",
+      "assembly": "BDL_WING_L",
+      "pairs": 49
+    },
+    {
+      "frame": 45,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_L",
+      "pairs": 62
+    },
+    {
+      "frame": 45,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 118
+    },
+    {
+      "frame": 45,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 82
+    },
+    {
+      "frame": 45,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_R",
+      "pairs": 62
+    },
+    {
+      "frame": 45,
+      "orion": "ORION_MAIN_R_HUB_RECESS_1",
+      "assembly": "BDL_WING_R",
+      "pairs": 49
+    },
+    {
+      "frame": 46,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 122
+    },
+    {
+      "frame": 46,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 88
+    },
+    {
+      "frame": 46,
+      "orion": "ORION_MAIN_L_HUB_RECESS_-1",
+      "assembly": "BDL_WING_L",
+      "pairs": 58
+    },
+    {
+      "frame": 46,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_L",
+      "pairs": 68
+    },
+    {
+      "frame": 46,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 124
+    },
+    {
+      "frame": 46,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 88
+    },
+    {
+      "frame": 46,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_R",
+      "pairs": 68
+    },
+    {
+      "frame": 46,
+      "orion": "ORION_MAIN_R_HUB_RECESS_1",
+      "assembly": "BDL_WING_R",
+      "pairs": 58
+    },
+    {
+      "frame": 47,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 118
+    },
+    {
+      "frame": 47,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 94
+    },
+    {
+      "frame": 47,
+      "orion": "ORION_MAIN_L_HUB_RECESS_-1",
+      "assembly": "BDL_WING_L",
+      "pairs": 64
+    },
+    {
+      "frame": 47,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_L",
+      "pairs": 76
+    },
+    {
+      "frame": 47,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 116
+    },
+    {
+      "frame": 47,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 94
+    },
+    {
+      "frame": 47,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_R",
+      "pairs": 76
+    },
+    {
+      "frame": 47,
+      "orion": "ORION_MAIN_R_HUB_RECESS_1",
+      "assembly": "BDL_WING_R",
+      "pairs": 64
+    },
+    {
+      "frame": 48,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 124
+    },
+    {
+      "frame": 48,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 98
+    },
+    {
+      "frame": 48,
+      "orion": "ORION_MAIN_L_HUB_RECESS_-1",
+      "assembly": "BDL_WING_L",
+      "pairs": 70
+    },
+    {
+      "frame": 48,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_L",
+      "pairs": 79
+    },
+    {
+      "frame": 48,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 124
+    },
+    {
+      "frame": 48,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 98
+    },
+    {
+      "frame": 48,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_R",
+      "pairs": 79
+    },
+    {
+      "frame": 48,
+      "orion": "ORION_MAIN_R_HUB_RECESS_1",
+      "assembly": "BDL_WING_R",
+      "pairs": 70
+    },
+    {
+      "frame": 49,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 130
+    },
+    {
+      "frame": 49,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 102
+    },
+    {
+      "frame": 49,
+      "orion": "ORION_MAIN_L_HUB_RECESS_-1",
+      "assembly": "BDL_WING_L",
+      "pairs": 74
+    },
+    {
+      "frame": 49,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_L",
+      "pairs": 96
+    },
+    {
+      "frame": 49,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 134
+    },
+    {
+      "frame": 49,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 102
+    },
+    {
+      "frame": 49,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_R",
+      "pairs": 96
+    },
+    {
+      "frame": 49,
+      "orion": "ORION_MAIN_R_HUB_RECESS_1",
+      "assembly": "BDL_WING_R",
+      "pairs": 74
+    },
+    {
+      "frame": 50,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 136
+    },
+    {
+      "frame": 50,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 108
+    },
+    {
+      "frame": 50,
+      "orion": "ORION_MAIN_L_HUB_RECESS_-1",
+      "assembly": "BDL_WING_L",
+      "pairs": 80
+    },
+    {
+      "frame": 50,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_L",
+      "pairs": 82
+    },
+    {
+      "frame": 50,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 132
+    },
+    {
+      "frame": 50,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 108
+    },
+    {
+      "frame": 50,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_R",
+      "pairs": 82
+    },
+    {
+      "frame": 50,
+      "orion": "ORION_MAIN_R_HUB_RECESS_1",
+      "assembly": "BDL_WING_R",
+      "pairs": 80
+    },
+    {
+      "frame": 51,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 128
+    },
+    {
+      "frame": 51,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 112
+    },
+    {
+      "frame": 51,
+      "orion": "ORION_MAIN_L_HUB_RECESS_-1",
+      "assembly": "BDL_WING_L",
+      "pairs": 94
+    },
+    {
+      "frame": 51,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_L",
+      "pairs": 80
+    },
+    {
+      "frame": 51,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 132
+    },
+    {
+      "frame": 51,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 112
+    },
+    {
+      "frame": 51,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_R",
+      "pairs": 80
+    },
+    {
+      "frame": 51,
+      "orion": "ORION_MAIN_R_HUB_RECESS_1",
+      "assembly": "BDL_WING_R",
+      "pairs": 94
+    },
+    {
+      "frame": 52,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 140
+    },
+    {
+      "frame": 52,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 118
+    },
+    {
+      "frame": 52,
+      "orion": "ORION_MAIN_L_HUB_RECESS_-1",
+      "assembly": "BDL_WING_L",
+      "pairs": 78
+    },
+    {
+      "frame": 52,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_L",
+      "pairs": 72
+    },
+    {
+      "frame": 52,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 144
+    },
+    {
+      "frame": 52,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 118
+    },
+    {
+      "frame": 52,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_R",
+      "pairs": 72
+    },
+    {
+      "frame": 52,
+      "orion": "ORION_MAIN_R_HUB_RECESS_1",
+      "assembly": "BDL_WING_R",
+      "pairs": 78
+    },
+    {
+      "frame": 53,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 152
+    },
+    {
+      "frame": 53,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 131
+    },
+    {
+      "frame": 53,
+      "orion": "ORION_MAIN_L_HUB_RECESS_-1",
+      "assembly": "BDL_WING_L",
+      "pairs": 82
+    },
+    {
+      "frame": 53,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_L",
+      "pairs": 76
+    },
+    {
+      "frame": 53,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 150
+    },
+    {
+      "frame": 53,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 131
+    },
+    {
+      "frame": 53,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_R",
+      "pairs": 76
+    },
+    {
+      "frame": 53,
+      "orion": "ORION_MAIN_R_HUB_RECESS_1",
+      "assembly": "BDL_WING_R",
+      "pairs": 82
+    },
+    {
+      "frame": 54,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 126
+    },
+    {
+      "frame": 54,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 135
+    },
+    {
+      "frame": 54,
+      "orion": "ORION_MAIN_L_HUB_RECESS_-1",
+      "assembly": "BDL_WING_L",
+      "pairs": 70
+    },
+    {
+      "frame": 54,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_L",
+      "pairs": 70
+    },
+    {
+      "frame": 54,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 126
+    },
+    {
+      "frame": 54,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 135
+    },
+    {
+      "frame": 54,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_R",
+      "pairs": 70
+    },
+    {
+      "frame": 54,
+      "orion": "ORION_MAIN_R_HUB_RECESS_1",
+      "assembly": "BDL_WING_R",
+      "pairs": 70
+    },
+    {
+      "frame": 55,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 120
+    },
+    {
+      "frame": 55,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 143
+    },
+    {
+      "frame": 55,
+      "orion": "ORION_MAIN_L_HUB_RECESS_-1",
+      "assembly": "BDL_WING_L",
+      "pairs": 74
+    },
+    {
+      "frame": 55,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_L",
+      "pairs": 70
+    },
+    {
+      "frame": 55,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 120
+    },
+    {
+      "frame": 55,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 143
+    },
+    {
+      "frame": 55,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_R",
+      "pairs": 70
+    },
+    {
+      "frame": 55,
+      "orion": "ORION_MAIN_R_HUB_RECESS_1",
+      "assembly": "BDL_WING_R",
+      "pairs": 74
+    },
+    {
+      "frame": 56,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 124
+    },
+    {
+      "frame": 56,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 136
+    },
+    {
+      "frame": 56,
+      "orion": "ORION_MAIN_L_HUB_RECESS_-1",
+      "assembly": "BDL_WING_L",
+      "pairs": 76
+    },
+    {
+      "frame": 56,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_L",
+      "pairs": 72
+    },
+    {
+      "frame": 56,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_5",
+      "assembly": "BDL_WING_L",
+      "pairs": 10
+    },
+    {
+      "frame": 56,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 124
+    },
+    {
+      "frame": 56,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 136
+    },
+    {
+      "frame": 56,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_R",
+      "pairs": 72
+    },
+    {
+      "frame": 56,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_5",
+      "assembly": "BDL_WING_R",
+      "pairs": 10
+    },
+    {
+      "frame": 56,
+      "orion": "ORION_MAIN_R_HUB_RECESS_1",
+      "assembly": "BDL_WING_R",
+      "pairs": 76
+    },
+    {
+      "frame": 57,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 122
+    },
+    {
+      "frame": 57,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 138
+    },
+    {
+      "frame": 57,
+      "orion": "ORION_MAIN_L_HUB_RECESS_-1",
+      "assembly": "BDL_WING_L",
+      "pairs": 76
+    },
+    {
+      "frame": 57,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_L",
+      "pairs": 72
+    },
+    {
+      "frame": 57,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_5",
+      "assembly": "BDL_WING_L",
+      "pairs": 16
+    },
+    {
+      "frame": 57,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 122
+    },
+    {
+      "frame": 57,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 138
+    },
+    {
+      "frame": 57,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_R",
+      "pairs": 72
+    },
+    {
+      "frame": 57,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_5",
+      "assembly": "BDL_WING_R",
+      "pairs": 16
+    },
+    {
+      "frame": 57,
+      "orion": "ORION_MAIN_R_HUB_RECESS_1",
+      "assembly": "BDL_WING_R",
+      "pairs": 76
+    },
+    {
+      "frame": 58,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 128
+    },
+    {
+      "frame": 58,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 133
+    },
+    {
+      "frame": 58,
+      "orion": "ORION_MAIN_L_HUB_RECESS_-1",
+      "assembly": "BDL_WING_L",
+      "pairs": 72
+    },
+    {
+      "frame": 58,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_L",
+      "pairs": 74
+    },
+    {
+      "frame": 58,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_5",
+      "assembly": "BDL_WING_L",
+      "pairs": 16
+    },
+    {
+      "frame": 58,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 128
+    },
+    {
+      "frame": 58,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 133
+    },
+    {
+      "frame": 58,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_R",
+      "pairs": 74
+    },
+    {
+      "frame": 58,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_5",
+      "assembly": "BDL_WING_R",
+      "pairs": 16
+    },
+    {
+      "frame": 58,
+      "orion": "ORION_MAIN_R_HUB_RECESS_1",
+      "assembly": "BDL_WING_R",
+      "pairs": 72
+    },
+    {
+      "frame": 59,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 126
+    },
+    {
+      "frame": 59,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 133
+    },
+    {
+      "frame": 59,
+      "orion": "ORION_MAIN_L_HUB_RECESS_-1",
+      "assembly": "BDL_WING_L",
+      "pairs": 68
+    },
+    {
+      "frame": 59,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_L",
+      "pairs": 78
+    },
+    {
+      "frame": 59,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_5",
+      "assembly": "BDL_WING_L",
+      "pairs": 20
+    },
+    {
+      "frame": 59,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 126
+    },
+    {
+      "frame": 59,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 133
+    },
+    {
+      "frame": 59,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_R",
+      "pairs": 78
+    },
+    {
+      "frame": 59,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_5",
+      "assembly": "BDL_WING_R",
+      "pairs": 20
+    },
+    {
+      "frame": 59,
+      "orion": "ORION_MAIN_R_HUB_RECESS_1",
+      "assembly": "BDL_WING_R",
+      "pairs": 68
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 122
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 26
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 134
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 28
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_L_HUB_RECESS_-1",
+      "assembly": "BDL_WING_L",
+      "pairs": 72
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_L",
+      "pairs": 80
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 41
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_L_AXLE_CAP_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 51
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_5",
+      "assembly": "BDL_WING_L",
+      "pairs": 24
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_5",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 24
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 122
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 26
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 134
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 28
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_R",
+      "pairs": 80
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 41
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_R_AXLE_CAP_-1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 51
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_5",
+      "assembly": "BDL_WING_R",
+      "pairs": 24
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_5",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 24
+    },
+    {
+      "frame": 60,
+      "orion": "ORION_MAIN_R_HUB_RECESS_1",
+      "assembly": "BDL_WING_R",
+      "pairs": 72
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 36
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 17
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 38
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "assembly": "BDL_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_1",
+      "assembly": "BDL_BODY",
+      "pairs": 27
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 122
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 72
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 184
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 40
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 134
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 62
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 71
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 44
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_HUB_RECESS_-1",
+      "assembly": "BDL_WING_L",
+      "pairs": 70
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_L",
+      "pairs": 76
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 51
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_BODY",
+      "pairs": 24
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 60
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_AXLE_CAP_1",
+      "assembly": "BDL_BODY",
+      "pairs": 25
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_4",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 16
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_5",
+      "assembly": "BDL_WING_L",
+      "pairs": 20
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_5",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 18
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 36
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 17
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 38
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 27
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 122
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 72
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 184
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 40
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 134
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 62
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 71
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 44
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_R",
+      "pairs": 76
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 51
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 24
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 60
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_AXLE_CAP_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 25
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_4",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 16
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_5",
+      "assembly": "BDL_WING_R",
+      "pairs": 20
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_5",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 18
+    },
+    {
+      "frame": 61,
+      "orion": "ORION_MAIN_R_HUB_RECESS_1",
+      "assembly": "BDL_WING_R",
+      "pairs": 70
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 46
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 43
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 48
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "assembly": "BDL_BODY",
+      "pairs": 28
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_1",
+      "assembly": "BDL_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 124
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 163
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 244
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 68
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 133
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 106
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 93
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 64
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_HUB_RECESS_-1",
+      "assembly": "BDL_WING_L",
+      "pairs": 70
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_L",
+      "pairs": 76
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 40
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_BODY",
+      "pairs": 18
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 54
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 16
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_2",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 16
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_4",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 12
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_4",
+      "assembly": "BDL_BODY",
+      "pairs": 14
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_4",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 18
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_5",
+      "assembly": "BDL_WING_L",
+      "pairs": 16
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_5",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 14
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_5",
+      "assembly": "BDL_BODY",
+      "pairs": 14
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_5",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 16
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 46
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 43
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 48
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 28
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 124
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 163
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 244
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 68
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 133
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 106
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 93
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 64
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_R",
+      "pairs": 76
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 40
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 18
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 54
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 16
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_2",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 16
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_4",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 12
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_4",
+      "assembly": "BDL_BODY",
+      "pairs": 14
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_4",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 18
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_5",
+      "assembly": "BDL_WING_R",
+      "pairs": 16
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_5",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 14
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_5",
+      "assembly": "BDL_BODY",
+      "pairs": 14
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_5",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 16
+    },
+    {
+      "frame": 62,
+      "orion": "ORION_MAIN_R_HUB_RECESS_1",
+      "assembly": "BDL_WING_R",
+      "pairs": 70
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDL_BODY",
+      "pairs": 56
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 46
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 21
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 42
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_1",
+      "assembly": "BDL_BODY",
+      "pairs": 33
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDL_BODY",
+      "pairs": 22
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_LINK_PIN_1_2",
+      "assembly": "BDL_BODY",
+      "pairs": 30
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 120
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 233
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 294
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 94
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 135
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 129
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 105
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 64
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_HUB_RECESS_-1",
+      "assembly": "BDL_WING_L",
+      "pairs": 72
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_L",
+      "pairs": 76
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 40
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 48
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 18
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_2",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 18
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_5",
+      "assembly": "BDL_WING_L",
+      "pairs": 16
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_5",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 16
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDL_BODY",
+      "pairs": 56
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 46
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 42
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 33
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 22
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_LINK_PIN_-1_2",
+      "assembly": "BDL_BODY",
+      "pairs": 30
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "assembly": "BDL_BODY",
+      "pairs": 21
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 120
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 231
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 294
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 94
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 135
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 129
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 105
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 64
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_R",
+      "pairs": 76
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 40
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 48
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 18
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_2",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 18
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_5",
+      "assembly": "BDL_WING_R",
+      "pairs": 16
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_5",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 16
+    },
+    {
+      "frame": 63,
+      "orion": "ORION_MAIN_R_HUB_RECESS_1",
+      "assembly": "BDL_WING_R",
+      "pairs": 72
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDL_BODY",
+      "pairs": 82
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 46
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 42
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDL_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_LINK_PIN_1_2",
+      "assembly": "BDL_BODY",
+      "pairs": 28
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 114
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 287
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 326
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 116
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 131
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 159
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 113
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 64
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_HUB_RECESS_-1",
+      "assembly": "BDL_WING_L",
+      "pairs": 72
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_HUB_BOLT_-1_5",
+      "assembly": "BDL_WING_L",
+      "pairs": 16
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_L",
+      "pairs": 70
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 40
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_BODY",
+      "pairs": 18
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 34
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 26
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_2",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 22
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_5",
+      "assembly": "BDL_WING_L",
+      "pairs": 16
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_5",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 8
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDL_BODY",
+      "pairs": 82
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 46
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 42
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_LINK_PIN_-1_2",
+      "assembly": "BDL_BODY",
+      "pairs": 28
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "assembly": "BDL_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 114
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 287
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 326
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 118
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 131
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 159
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 113
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 64
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_R",
+      "pairs": 70
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 40
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 18
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 34
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 26
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_2",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 22
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_5",
+      "assembly": "BDL_WING_R",
+      "pairs": 16
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_5",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 8
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_HUB_RECESS_1",
+      "assembly": "BDL_WING_R",
+      "pairs": 72
+    },
+    {
+      "frame": 64,
+      "orion": "ORION_MAIN_R_HUB_BOLT_1_5",
+      "assembly": "BDL_WING_R",
+      "pairs": 16
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDL_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 48
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 46
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_FORK_-1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 44
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_FORK_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 29
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 31
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_LINK_PIN_-1_2",
+      "assembly": "BDL_BODY",
+      "pairs": 30
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 42
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDL_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 98
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 340
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 344
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 118
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 131
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 223
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 119
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 48
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_HUB_RECESS_-1",
+      "assembly": "BDL_WING_L",
+      "pairs": 74
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_HUB_BOLT_-1_5",
+      "assembly": "BDL_WING_L",
+      "pairs": 18
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_L",
+      "pairs": 39
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 47
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_L_AXLE_CAP_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 15
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDL_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 48
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 46
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 42
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_FORK_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 44
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_FORK_1",
+      "assembly": "BDL_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "assembly": "BDL_BODY",
+      "pairs": 29
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDL_BODY",
+      "pairs": 31
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_LINK_PIN_1_2",
+      "assembly": "BDL_BODY",
+      "pairs": 30
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 98
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 340
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 340
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 120
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 131
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 223
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 119
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 48
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_R",
+      "pairs": 39
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 47
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_AXLE_CAP_-1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 15
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_HUB_RECESS_1",
+      "assembly": "BDL_WING_R",
+      "pairs": 74
+    },
+    {
+      "frame": 65,
+      "orion": "ORION_MAIN_R_HUB_BOLT_1_5",
+      "assembly": "BDL_WING_R",
+      "pairs": 18
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDL_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 50
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 44
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_FORK_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 35
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 30
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 42
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDL_BODY",
+      "pairs": 28
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_LINK_PIN_1_2",
+      "assembly": "BDL_BODY",
+      "pairs": 27
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_LINK_PIN_1_2",
+      "assembly": "BDL_CROWN_FASTENER_-1_0",
+      "pairs": 52
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 155
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 348
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 406
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 148
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 128
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 236
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 129
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 50
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_HUB_RECESS_-1",
+      "assembly": "BDL_WING_L",
+      "pairs": 30
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_L",
+      "pairs": 21
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 60
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_BODY",
+      "pairs": 18
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_L_AXLE_CAP_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 28
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDL_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 50
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 44
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 42
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 28
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_LINK_PIN_-1_2",
+      "assembly": "BDL_BODY",
+      "pairs": 27
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_LINK_PIN_-1_2",
+      "assembly": "BDL_CROWN_FASTENER_1_0",
+      "pairs": 52
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_FORK_1",
+      "assembly": "BDL_BODY",
+      "pairs": 35
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "assembly": "BDL_BODY",
+      "pairs": 30
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 157
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 350
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 410
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 146
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 128
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 236
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 129
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 50
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_R",
+      "pairs": 21
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 60
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 18
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_AXLE_CAP_-1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 28
+    },
+    {
+      "frame": 66,
+      "orion": "ORION_MAIN_R_HUB_RECESS_1",
+      "assembly": "BDL_WING_R",
+      "pairs": 30
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDL_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 78
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 37
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_FORK_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 35
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 33
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "assembly": "BDL_SIDE_FASTENER_-1_2",
+      "pairs": 28
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 42
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 187
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 303
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 432
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 142
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 94
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 184
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 147
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 40
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 45
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_L_AXLE_CAP_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 35
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDL_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 78
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 37
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 42
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_FORK_1",
+      "assembly": "BDL_BODY",
+      "pairs": 35
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "assembly": "BDL_BODY",
+      "pairs": 33
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "assembly": "BDL_SIDE_FASTENER_1_2",
+      "pairs": 28
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 191
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 303
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 432
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 144
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 94
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 184
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 147
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 40
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 45
+    },
+    {
+      "frame": 67,
+      "orion": "ORION_MAIN_R_AXLE_CAP_-1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 35
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDL_BODY",
+      "pairs": 52
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 31
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 37
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_FORK_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 41
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 41
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 209
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 271
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 452
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 106
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 156
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 142
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 45
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_L_AXLE_CAP_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 23
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDL_BODY",
+      "pairs": 52
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 31
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 37
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_FORK_1",
+      "assembly": "BDL_BODY",
+      "pairs": 41
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "assembly": "BDL_BODY",
+      "pairs": 41
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 209
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 271
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 452
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 104
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 156
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 142
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 45
+    },
+    {
+      "frame": 68,
+      "orion": "ORION_MAIN_R_AXLE_CAP_-1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 23
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDL_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 37
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_FORK_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 44
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 139
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 245
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 450
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 94
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 109
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 155
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 40
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_5",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 24
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDL_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 37
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_FORK_1",
+      "assembly": "BDL_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "assembly": "BDL_BODY",
+      "pairs": 44
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 139
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 245
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 450
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 94
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 109
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 155
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 40
+    },
+    {
+      "frame": 69,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_5",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 24
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDL_BODY",
+      "pairs": 47
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_L_FORK_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 28
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 47
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_1",
+      "assembly": "BDL_BODY",
+      "pairs": 23
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 133
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 223
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 422
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 88
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 84
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 135
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 18
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDL_BODY",
+      "pairs": 47
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 23
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_R_FORK_1",
+      "assembly": "BDL_BODY",
+      "pairs": 28
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "assembly": "BDL_BODY",
+      "pairs": 47
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 131
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 221
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 418
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 92
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 84
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 135
+    },
+    {
+      "frame": 70,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 18
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDL_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_1",
+      "assembly": "BDL_BODY",
+      "pairs": 52
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 223
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 368
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 64
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 123
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDL_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 52
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 222
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 372
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 64
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 123
+    },
+    {
+      "frame": 71,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 44
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "assembly": "BDL_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 186
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 304
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 37
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 111
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 44
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 183
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 304
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 37
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 111
+    },
+    {
+      "frame": 72,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 46
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "assembly": "BDL_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 120
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 272
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 105
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_L_AXLE_CAP_1",
+      "assembly": "BDL_BODY",
+      "pairs": 18
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 46
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 116
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 272
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 105
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 73,
+      "orion": "ORION_MAIN_R_AXLE_CAP_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 18
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "assembly": "BDL_BODY",
+      "pairs": 35
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 82
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 254
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 99
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_L_AXLE_CAP_1",
+      "assembly": "BDL_BODY",
+      "pairs": 20
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 40
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 35
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 82
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 254
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 99
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 74,
+      "orion": "ORION_MAIN_R_AXLE_CAP_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 20
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_NOSE_TIRE",
+      "assembly": "BDL_NOSE",
+      "pairs": 142
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 42
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 234
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 87
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 41
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 234
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 87
+    },
+    {
+      "frame": 75,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_NOSE_TIRE",
+      "assembly": "BDL_NOSE",
+      "pairs": 168
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 214
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 71
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 214
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 71
+    },
+    {
+      "frame": 76,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_NOSE_TIRE",
+      "assembly": "BDL_NOSE",
+      "pairs": 188
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 190
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 51
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 190
+    },
+    {
+      "frame": 77,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 51
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_NOSE_TIRE",
+      "assembly": "BDL_NOSE",
+      "pairs": 190
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 144
+    },
+    {
+      "frame": 78,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 148
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_NOSE_TIRE",
+      "assembly": "BDL_NOSE",
+      "pairs": 210
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 114
+    },
+    {
+      "frame": 79,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 116
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_NOSE_TIRE",
+      "assembly": "BDL_NOSE",
+      "pairs": 184
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 74
+    },
+    {
+      "frame": 80,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 78
+    },
+    {
+      "frame": 81,
+      "orion": "ORION_NOSE_TIRE",
+      "assembly": "BDL_NOSE",
+      "pairs": 64
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_NOSE_TIRE",
+      "assembly": "BDL_NOSE",
+      "pairs": 210
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 114
+    },
+    {
+      "frame": 139,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 116
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_NOSE_TIRE",
+      "assembly": "BDL_NOSE",
+      "pairs": 178
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 202
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 59
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 202
+    },
+    {
+      "frame": 140,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 59
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 29
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "assembly": "BDL_BODY",
+      "pairs": 23
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 74
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 246
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_SIDE_FASTENER_-1_2",
+      "pairs": 32
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 97
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_L_AXLE_CAP_1",
+      "assembly": "BDL_BODY",
+      "pairs": 18
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 29
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 23
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 71
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 246
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_SIDE_FASTENER_1_2",
+      "pairs": 10
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 97
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 141,
+      "orion": "ORION_MAIN_R_AXLE_CAP_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 18
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 44
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "assembly": "BDL_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 186
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 304
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 37
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 111
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 44
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 38
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 183
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 304
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 37
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 111
+    },
+    {
+      "frame": 142,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDL_BODY",
+      "pairs": 56
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 39
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_L_FORK_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 33
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 132
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 231
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 420
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 102
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 93
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 141
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 34
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDL_BODY",
+      "pairs": 56
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 39
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_R_FORK_1",
+      "assembly": "BDL_BODY",
+      "pairs": 33
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "assembly": "BDL_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 134
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 231
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 424
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 104
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 93
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 141
+    },
+    {
+      "frame": 143,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 34
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDL_BODY",
+      "pairs": 52
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 67
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 37
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_FORK_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 41
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 233
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 291
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 440
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 142
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 44
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 181
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 151
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 36
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 48
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_L_AXLE_CAP_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 34
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDL_BODY",
+      "pairs": 52
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 67
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 37
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 41
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_FORK_1",
+      "assembly": "BDL_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "assembly": "BDL_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 225
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 291
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 444
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 144
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 44
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 181
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 151
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 36
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 48
+    },
+    {
+      "frame": 144,
+      "orion": "ORION_MAIN_R_AXLE_CAP_-1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 34
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_SLIDING_SECTION",
+      "assembly": "BDL_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 48
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 46
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_FORK_-1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 44
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_FORK_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 29
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 31
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_LINK_PIN_-1_2",
+      "assembly": "BDL_BODY",
+      "pairs": 30
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 42
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_VISIBLE_LINK_LOW_1",
+      "assembly": "BDL_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 98
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 340
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 344
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 118
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 131
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 223
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 119
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 48
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_HUB_RECESS_-1",
+      "assembly": "BDL_WING_L",
+      "pairs": 74
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_HUB_BOLT_-1_5",
+      "assembly": "BDL_WING_L",
+      "pairs": 18
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_L",
+      "pairs": 39
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 47
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_L_AXLE_CAP_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 15
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_SLIDING_SECTION",
+      "assembly": "BDL_BODY",
+      "pairs": 50
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 48
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 46
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 42
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 36
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_FORK_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 44
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_FORK_1",
+      "assembly": "BDL_BODY",
+      "pairs": 42
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_1",
+      "assembly": "BDL_BODY",
+      "pairs": 29
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_VISIBLE_LINK_LOW_1",
+      "assembly": "BDL_BODY",
+      "pairs": 31
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_LINK_PIN_1_2",
+      "assembly": "BDL_BODY",
+      "pairs": 30
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 98
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 340
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 340
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 120
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 131
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 223
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 119
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 48
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_R",
+      "pairs": 39
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 47
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 16
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_AXLE_CAP_-1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 15
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_HUB_RECESS_1",
+      "assembly": "BDL_WING_R",
+      "pairs": 74
+    },
+    {
+      "frame": 145,
+      "orion": "ORION_MAIN_R_HUB_BOLT_1_5",
+      "assembly": "BDL_WING_R",
+      "pairs": 18
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 46
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 43
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 48
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_FORK_1",
+      "assembly": "BDL_BODY",
+      "pairs": 28
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_FORK_BRIDGE_1",
+      "assembly": "BDL_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 124
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 163
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 244
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 68
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 133
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 106
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 93
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 64
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_HUB_RECESS_-1",
+      "assembly": "BDL_WING_L",
+      "pairs": 66
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_L",
+      "pairs": 76
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 40
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_BODY",
+      "pairs": 18
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 54
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 16
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_2",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 16
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_4",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 12
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_4",
+      "assembly": "BDL_BODY",
+      "pairs": 14
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_4",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 18
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_5",
+      "assembly": "BDL_WING_L",
+      "pairs": 16
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_5",
+      "assembly": "BDL_WING_ROOT_FAIRING_L",
+      "pairs": 14
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_5",
+      "assembly": "BDL_BODY",
+      "pairs": 14
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_5",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_-1",
+      "pairs": 16
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 46
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_AXLE",
+      "assembly": "BDL_BODY",
+      "pairs": 43
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 48
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_FORK_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 28
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_FORK_BRIDGE_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 34
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 124
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 163
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_BODY",
+      "pairs": 244
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 68
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 133
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 106
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_BODY",
+      "pairs": 93
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 64
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_R",
+      "pairs": 76
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 40
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_BODY",
+      "pairs": 18
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 54
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_1",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 16
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_2",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 16
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_4",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 12
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_4",
+      "assembly": "BDL_BODY",
+      "pairs": 14
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_4",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 18
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_5",
+      "assembly": "BDL_WING_R",
+      "pairs": 16
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_5",
+      "assembly": "BDL_WING_ROOT_FAIRING_R",
+      "pairs": 14
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_5",
+      "assembly": "BDL_BODY",
+      "pairs": 14
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_5",
+      "assembly": "BDL_WING_ROOT_ROUNDED_COVER_1",
+      "pairs": 16
+    },
+    {
+      "frame": 146,
+      "orion": "ORION_MAIN_R_HUB_RECESS_1",
+      "assembly": "BDL_WING_R",
+      "pairs": 66
+    },
+    {
+      "frame": 147,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 126
+    },
+    {
+      "frame": 147,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 133
+    },
+    {
+      "frame": 147,
+      "orion": "ORION_MAIN_L_HUB_RECESS_-1",
+      "assembly": "BDL_WING_L",
+      "pairs": 68
+    },
+    {
+      "frame": 147,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_L",
+      "pairs": 78
+    },
+    {
+      "frame": 147,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_5",
+      "assembly": "BDL_WING_L",
+      "pairs": 20
+    },
+    {
+      "frame": 147,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 126
+    },
+    {
+      "frame": 147,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 133
+    },
+    {
+      "frame": 147,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_R",
+      "pairs": 78
+    },
+    {
+      "frame": 147,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_5",
+      "assembly": "BDL_WING_R",
+      "pairs": 20
+    },
+    {
+      "frame": 147,
+      "orion": "ORION_MAIN_R_HUB_RECESS_1",
+      "assembly": "BDL_WING_R",
+      "pairs": 68
+    },
+    {
+      "frame": 148,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 124
+    },
+    {
+      "frame": 148,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 136
+    },
+    {
+      "frame": 148,
+      "orion": "ORION_MAIN_L_HUB_RECESS_-1",
+      "assembly": "BDL_WING_L",
+      "pairs": 76
+    },
+    {
+      "frame": 148,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_L",
+      "pairs": 72
+    },
+    {
+      "frame": 148,
+      "orion": "ORION_MAIN_L_HUB_BOLT_1_5",
+      "assembly": "BDL_WING_L",
+      "pairs": 10
+    },
+    {
+      "frame": 148,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 124
+    },
+    {
+      "frame": 148,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 136
+    },
+    {
+      "frame": 148,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_R",
+      "pairs": 72
+    },
+    {
+      "frame": 148,
+      "orion": "ORION_MAIN_R_HUB_BOLT_-1_5",
+      "assembly": "BDL_WING_R",
+      "pairs": 10
+    },
+    {
+      "frame": 148,
+      "orion": "ORION_MAIN_R_HUB_RECESS_1",
+      "assembly": "BDL_WING_R",
+      "pairs": 76
+    },
+    {
+      "frame": 149,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 152
+    },
+    {
+      "frame": 149,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 131
+    },
+    {
+      "frame": 149,
+      "orion": "ORION_MAIN_L_HUB_RECESS_-1",
+      "assembly": "BDL_WING_L",
+      "pairs": 82
+    },
+    {
+      "frame": 149,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_L",
+      "pairs": 76
+    },
+    {
+      "frame": 149,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 150
+    },
+    {
+      "frame": 149,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 131
+    },
+    {
+      "frame": 149,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_R",
+      "pairs": 76
+    },
+    {
+      "frame": 149,
+      "orion": "ORION_MAIN_R_HUB_RECESS_1",
+      "assembly": "BDL_WING_R",
+      "pairs": 82
+    },
+    {
+      "frame": 150,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 136
+    },
+    {
+      "frame": 150,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 108
+    },
+    {
+      "frame": 150,
+      "orion": "ORION_MAIN_L_HUB_RECESS_-1",
+      "assembly": "BDL_WING_L",
+      "pairs": 80
+    },
+    {
+      "frame": 150,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_L",
+      "pairs": 82
+    },
+    {
+      "frame": 150,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 132
+    },
+    {
+      "frame": 150,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 108
+    },
+    {
+      "frame": 150,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_R",
+      "pairs": 82
+    },
+    {
+      "frame": 150,
+      "orion": "ORION_MAIN_R_HUB_RECESS_1",
+      "assembly": "BDL_WING_R",
+      "pairs": 80
+    },
+    {
+      "frame": 151,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 118
+    },
+    {
+      "frame": 151,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 94
+    },
+    {
+      "frame": 151,
+      "orion": "ORION_MAIN_L_HUB_RECESS_-1",
+      "assembly": "BDL_WING_L",
+      "pairs": 64
+    },
+    {
+      "frame": 151,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_L",
+      "pairs": 74
+    },
+    {
+      "frame": 151,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 116
+    },
+    {
+      "frame": 151,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 94
+    },
+    {
+      "frame": 151,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_R",
+      "pairs": 74
+    },
+    {
+      "frame": 151,
+      "orion": "ORION_MAIN_R_HUB_RECESS_1",
+      "assembly": "BDL_WING_R",
+      "pairs": 64
+    },
+    {
+      "frame": 152,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 128
+    },
+    {
+      "frame": 152,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 78
+    },
+    {
+      "frame": 152,
+      "orion": "ORION_MAIN_L_HUB_RECESS_-1",
+      "assembly": "BDL_WING_L",
+      "pairs": 40
+    },
+    {
+      "frame": 152,
+      "orion": "ORION_MAIN_L_HUB_RECESS_1",
+      "assembly": "BDL_WING_L",
+      "pairs": 56
+    },
+    {
+      "frame": 152,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 128
+    },
+    {
+      "frame": 152,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 78
+    },
+    {
+      "frame": 152,
+      "orion": "ORION_MAIN_R_HUB_RECESS_-1",
+      "assembly": "BDL_WING_R",
+      "pairs": 56
+    },
+    {
+      "frame": 152,
+      "orion": "ORION_MAIN_R_HUB_RECESS_1",
+      "assembly": "BDL_WING_R",
+      "pairs": 40
+    },
+    {
+      "frame": 153,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 134
+    },
+    {
+      "frame": 153,
+      "orion": "ORION_MAIN_L_RIM",
+      "assembly": "BDL_WING_L",
+      "pairs": 56
+    },
+    {
+      "frame": 153,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 136
+    },
+    {
+      "frame": 153,
+      "orion": "ORION_MAIN_R_RIM",
+      "assembly": "BDL_WING_R",
+      "pairs": 56
+    },
+    {
+      "frame": 154,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 128
+    },
+    {
+      "frame": 154,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 130
+    },
+    {
+      "frame": 155,
+      "orion": "ORION_MAIN_L_TIRE",
+      "assembly": "BDL_WING_L",
+      "pairs": 88
+    },
+    {
+      "frame": 155,
+      "orion": "ORION_MAIN_R_TIRE",
+      "assembly": "BDL_WING_R",
+      "pairs": 94
+    }
+  ],
+  "adapter_evidence": "C, visual exterior approximation only",
+  "source_hashes": {
+    "Orion\\Orion_Master.blend": "28c677227c15c47d98807f3e27e0561c4a3ec588ecf5fee377b418ddd7624905",
+    "Banderol\\S8000_Banderol_Master.blend": "c2bf1a56574e89cc79966a9364d67e74c197e429b380f26affa7469449a74ae9"
+  },
+  "engine_validation": "NOT ATTEMPTED",
+  "visual_inspection": "pending"
+}

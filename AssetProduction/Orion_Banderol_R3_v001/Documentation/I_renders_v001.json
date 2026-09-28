@@ -1,0 +1,52 @@
+[
+  {
+    "view": "Orion_Sensor",
+    "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\AssetProduction\\Orion_Banderol_R3_v001\\Previews\\I_v001_Orion_Sensor.png",
+    "frame": 1
+  },
+  {
+    "view": "Orion_NoseGear",
+    "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\AssetProduction\\Orion_Banderol_R3_v001\\Previews\\I_v001_Orion_NoseGear.png",
+    "frame": 1
+  },
+  {
+    "view": "Orion_MainGear",
+    "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\AssetProduction\\Orion_Banderol_R3_v001\\Previews\\I_v001_Orion_MainGear.png",
+    "frame": 1
+  },
+  {
+    "view": "Orion_BayInterior",
+    "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\AssetProduction\\Orion_Banderol_R3_v001\\Previews\\I_v001_Orion_BayInterior.png",
+    "frame": 160
+  },
+  {
+    "view": "Orion_UVChecker",
+    "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\AssetProduction\\Orion_Banderol_R3_v001\\Previews\\I_v001_Orion_UVChecker.png",
+    "frame": 1
+  },
+  {
+    "view": "Orion_Clay",
+    "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\AssetProduction\\Orion_Banderol_R3_v001\\Previews\\I_v001_Orion_Clay.png",
+    "frame": 1
+  },
+  {
+    "view": "Banderol_Reference",
+    "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\AssetProduction\\Orion_Banderol_R3_v001\\Previews\\I_v001_Banderol_Reference.png",
+    "frame": 1
+  },
+  {
+    "view": "Assembly",
+    "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\AssetProduction\\Orion_Banderol_R3_v001\\Previews\\I_v001_Assembly.png",
+    "frame": 1
+  },
+  {
+    "view": "Pylon",
+    "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\AssetProduction\\Orion_Banderol_R3_v001\\Previews\\I_v001_Pylon.png",
+    "frame": 1
+  },
+  {
+    "view": "Side",
+    "file": "C:\\Users\\david\\Desktop\\RECON DRONES\\AssetProduction\\Orion_Banderol_R3_v001\\Previews\\I_v001_Side.png",
+    "frame": 1
+  }
+]

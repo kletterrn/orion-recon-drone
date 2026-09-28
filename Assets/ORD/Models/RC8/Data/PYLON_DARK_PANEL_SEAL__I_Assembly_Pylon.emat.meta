@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9CDD6F1255640908}Assets/ORD/Models/RC8/Data/PYLON_DARK_PANEL_SEAL__I_Assembly_Pylon.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

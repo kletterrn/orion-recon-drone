@@ -1,0 +1,85 @@
+FrameWidgetClass {
+ Name "ORD_MissionMap" "Z Order" 1000
+ Slot FrameWidgetSlot { Anchor 0 0 1 1 OffsetLeft 0 OffsetTop 0 OffsetRight 0 OffsetBottom 0 }
+ {
+  CanvasWidgetClass {
+   Name "MissionCanvas" "Ignore Cursor" 0
+   Slot FrameWidgetSlot { Anchor 0 0 1 1 OffsetLeft 0 OffsetTop 0 OffsetRight 0 OffsetBottom 0 }
+   FontProperties { FontProperties { Font "{3E7733BAC8C831F6}UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.fnt" } }
+  }
+  FrameWidgetClass {
+   Name "MissionPanel"
+Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 20 OffsetTop 40 SizeX 340 OffsetRight -360 SizeY 900 OffsetBottom -940 }
+   {
+    ImageWidgetClass { Name "PanelBackground" "Ignore Cursor" 1 Color 0.02 0.035 0.045 0.96
+     Slot FrameWidgetSlot { Anchor 0 0 1 1 OffsetLeft 0 OffsetTop 0 OffsetRight 0 OffsetBottom 0 }
+    }
+    TextWidgetClass { Name "MissionStatus" "Font Size" 17 Color 1 1 1 1 Text "ORION MISSION"
+Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 12 OffsetTop 12 SizeX 316 OffsetRight -328 SizeY 295 OffsetBottom -307 }
+    }
+ButtonWidgetClass { Name "RouteTool" Color 0.16 0.23 0.28 1 Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 12 OffsetTop 315 SizeX 152 OffsetRight -164 SizeY 42 OffsetBottom -357 }
+ { TextWidgetClass { Name "LabelRouteTool" Text "Route" "Font Size" 17 Color 1 1 1 1 "Ignore Cursor" 1 Slot ButtonWidgetSlot { HorizontalAlign 3 VerticalAlign 3 Padding 6 8 6 6 } } }
+ }
+ButtonWidgetClass { Name "LoiterTool" Color 0.16 0.23 0.28 1 Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 172 OffsetTop 315 SizeX 152 OffsetRight -324 SizeY 42 OffsetBottom -357 }
+ { TextWidgetClass { Name "LabelLoiterTool" Text "Loiter" "Font Size" 17 Color 1 1 1 1 "Ignore Cursor" 1 Slot ButtonWidgetSlot { HorizontalAlign 3 VerticalAlign 3 Padding 6 8 6 6 } } }
+ }
+ButtonWidgetClass { Name "WeaponTool" Color 0.16 0.23 0.28 1 Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 12 OffsetTop 363 SizeX 152 OffsetRight -164 SizeY 42 OffsetBottom -405 }
+ { TextWidgetClass { Name "LabelWeaponTool" Text "Weapon target" "Font Size" 17 Color 1 1 1 1 "Ignore Cursor" 1 Slot ButtonWidgetSlot { HorizontalAlign 3 VerticalAlign 3 Padding 6 8 6 6 } } }
+ }
+ButtonWidgetClass { Name "Delete" Color 0.16 0.23 0.28 1 Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 172 OffsetTop 363 SizeX 152 OffsetRight -324 SizeY 42 OffsetBottom -405 }
+ { TextWidgetClass { Name "LabelDelete" Text "Delete point" "Font Size" 17 Color 1 1 1 1 "Ignore Cursor" 1 Slot ButtonWidgetSlot { HorizontalAlign 3 VerticalAlign 3 Padding 6 8 6 6 } } }
+ }
+ButtonWidgetClass { Name "Earlier" Color 0.16 0.23 0.28 1 Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 12 OffsetTop 411 SizeX 152 OffsetRight -164 SizeY 42 OffsetBottom -453 }
+ { TextWidgetClass { Name "LabelEarlier" Text "Move earlier" "Font Size" 17 Color 1 1 1 1 "Ignore Cursor" 1 Slot ButtonWidgetSlot { HorizontalAlign 3 VerticalAlign 3 Padding 6 8 6 6 } } }
+ }
+ButtonWidgetClass { Name "Later" Color 0.16 0.23 0.28 1 Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 172 OffsetTop 411 SizeX 152 OffsetRight -324 SizeY 42 OffsetBottom -453 }
+ { TextWidgetClass { Name "LabelLater" Text "Move later" "Font Size" 17 Color 1 1 1 1 "Ignore Cursor" 1 Slot ButtonWidgetSlot { HorizontalAlign 3 VerticalAlign 3 Padding 6 8 6 6 } } }
+ }
+ButtonWidgetClass { Name "AltMinus" Color 0.16 0.23 0.28 1 Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 12 OffsetTop 459 SizeX 152 OffsetRight -164 SizeY 42 OffsetBottom -501 }
+ { TextWidgetClass { Name "LabelAltMinus" Text "Altitude -" "Font Size" 17 Color 1 1 1 1 "Ignore Cursor" 1 Slot ButtonWidgetSlot { HorizontalAlign 3 VerticalAlign 3 Padding 6 8 6 6 } } }
+ }
+ButtonWidgetClass { Name "AltPlus" Color 0.16 0.23 0.28 1 Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 172 OffsetTop 459 SizeX 152 OffsetRight -324 SizeY 42 OffsetBottom -501 }
+ { TextWidgetClass { Name "LabelAltPlus" Text "Altitude +" "Font Size" 17 Color 1 1 1 1 "Ignore Cursor" 1 Slot ButtonWidgetSlot { HorizontalAlign 3 VerticalAlign 3 Padding 6 8 6 6 } } }
+ }
+ButtonWidgetClass { Name "SpeedMinus" Color 0.16 0.23 0.28 1 Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 12 OffsetTop 507 SizeX 152 OffsetRight -164 SizeY 42 OffsetBottom -549 }
+ { TextWidgetClass { Name "LabelSpeedMinus" Text "Speed -" "Font Size" 17 Color 1 1 1 1 "Ignore Cursor" 1 Slot ButtonWidgetSlot { HorizontalAlign 3 VerticalAlign 3 Padding 6 8 6 6 } } }
+ }
+ButtonWidgetClass { Name "SpeedPlus" Color 0.16 0.23 0.28 1 Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 172 OffsetTop 507 SizeX 152 OffsetRight -324 SizeY 42 OffsetBottom -549 }
+ { TextWidgetClass { Name "LabelSpeedPlus" Text "Speed +" "Font Size" 17 Color 1 1 1 1 "Ignore Cursor" 1 Slot ButtonWidgetSlot { HorizontalAlign 3 VerticalAlign 3 Padding 6 8 6 6 } } }
+ }
+ButtonWidgetClass { Name "RadiusMinus" Color 0.16 0.23 0.28 1 Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 12 OffsetTop 555 SizeX 152 OffsetRight -164 SizeY 42 OffsetBottom -597 }
+ { TextWidgetClass { Name "LabelRadiusMinus" Text "Radius -" "Font Size" 17 Color 1 1 1 1 "Ignore Cursor" 1 Slot ButtonWidgetSlot { HorizontalAlign 3 VerticalAlign 3 Padding 6 8 6 6 } } }
+ }
+ButtonWidgetClass { Name "RadiusPlus" Color 0.16 0.23 0.28 1 Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 172 OffsetTop 555 SizeX 152 OffsetRight -324 SizeY 42 OffsetBottom -597 }
+ { TextWidgetClass { Name "LabelRadiusPlus" Text "Radius +" "Font Size" 17 Color 1 1 1 1 "Ignore Cursor" 1 Slot ButtonWidgetSlot { HorizontalAlign 3 VerticalAlign 3 Padding 6 8 6 6 } } }
+ }
+ButtonWidgetClass { Name "Apply" Color 0.16 0.23 0.28 1 Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 12 OffsetTop 603 SizeX 152 OffsetRight -164 SizeY 42 OffsetBottom -645 }
+ { TextWidgetClass { Name "LabelApply" Text "Apply route" "Font Size" 17 Color 1 1 1 1 "Ignore Cursor" 1 Slot ButtonWidgetSlot { HorizontalAlign 3 VerticalAlign 3 Padding 6 8 6 6 } } }
+ }
+ButtonWidgetClass { Name "Fly" Color 0.16 0.23 0.28 1 Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 172 OffsetTop 603 SizeX 152 OffsetRight -324 SizeY 42 OffsetBottom -645 }
+ { TextWidgetClass { Name "LabelFly" Text "Fly route" "Font Size" 17 Color 1 1 1 1 "Ignore Cursor" 1 Slot ButtonWidgetSlot { HorizontalAlign 3 VerticalAlign 3 Padding 6 8 6 6 } } }
+ }
+ButtonWidgetClass { Name "Loiter" Color 0.16 0.23 0.28 1 Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 12 OffsetTop 651 SizeX 152 OffsetRight -164 SizeY 42 OffsetBottom -693 }
+ { TextWidgetClass { Name "LabelLoiter" Text "Loiter here" "Font Size" 17 Color 1 1 1 1 "Ignore Cursor" 1 Slot ButtonWidgetSlot { HorizontalAlign 3 VerticalAlign 3 Padding 6 8 6 6 } } }
+ }
+ButtonWidgetClass { Name "Resume" Color 0.16 0.23 0.28 1 Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 172 OffsetTop 651 SizeX 152 OffsetRight -324 SizeY 42 OffsetBottom -693 }
+ { TextWidgetClass { Name "LabelResume" Text "Resume route" "Font Size" 17 Color 1 1 1 1 "Ignore Cursor" 1 Slot ButtonWidgetSlot { HorizontalAlign 3 VerticalAlign 3 Padding 6 8 6 6 } } }
+ }
+ButtonWidgetClass { Name "Reload" Color 0.16 0.23 0.28 1 Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 12 OffsetTop 699 SizeX 152 OffsetRight -164 SizeY 42 OffsetBottom -741 }
+ { TextWidgetClass { Name "LabelReload" Text "Reload accepted" "Font Size" 17 Color 1 1 1 1 "Ignore Cursor" 1 Slot ButtonWidgetSlot { HorizontalAlign 3 VerticalAlign 3 Padding 6 8 6 6 } } }
+ }
+ButtonWidgetClass { Name "Clear" Color 0.16 0.23 0.28 1 Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 172 OffsetTop 699 SizeX 152 OffsetRight -324 SizeY 42 OffsetBottom -741 }
+ { TextWidgetClass { Name "LabelClear" Text "Clear route" "Font Size" 17 Color 1 1 1 1 "Ignore Cursor" 1 Slot ButtonWidgetSlot { HorizontalAlign 3 VerticalAlign 3 Padding 6 8 6 6 } } }
+ }
+ButtonWidgetClass { Name "Arm" Color 0.16 0.23 0.28 1 Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 12 OffsetTop 747 SizeX 152 OffsetRight -164 SizeY 42 OffsetBottom -789 }
+ { TextWidgetClass { Name "LabelArm" Text "Arm / Safe" "Font Size" 17 Color 1 1 1 1 "Ignore Cursor" 1 Slot ButtonWidgetSlot { HorizontalAlign 3 VerticalAlign 3 Padding 6 8 6 6 } } }
+ }
+ButtonWidgetClass { Name "Fire" Color 0.16 0.23 0.28 1 Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 172 OffsetTop 747 SizeX 152 OffsetRight -324 SizeY 42 OffsetBottom -789 }
+ { TextWidgetClass { Name "LabelFire" Text "Launch at target" "Font Size" 17 Color 1 1 1 1 "Ignore Cursor" 1 Slot ButtonWidgetSlot { HorizontalAlign 3 VerticalAlign 3 Padding 6 8 6 6 } } }
+ }
+TextWidgetClass { Name "Help" Wrap 1 Text "Click: add/select | Drag: move | Right drag: pan | Wheel: zoom | M / Esc: return to sensor" "Font Size" 15 Color 0.7 0.8 0.85 1
+Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 12 OffsetTop 806 SizeX 316 OffsetRight -328 SizeY 80 OffsetBottom -886 } }
+   }
+  }
+ }
+}

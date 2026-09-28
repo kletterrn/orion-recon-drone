@@ -1,0 +1,442 @@
+[
+  {
+    "frame": 1,
+    "door": "ORION_NOSE_DOOR_SHELL_-1",
+    "obstacle": "ORION_FUSELAGE",
+    "triangle_pairs": 124,
+    "intersection_points": 248,
+    "max_distance_from_hinge_axis_m": 0.09543864019644635,
+    "point_bounds": [
+      [
+        -0.33360040187835693,
+        -0.24449998140335083
+      ],
+      [
+        0.01600000075995922,
+        0.691659152507782
+      ],
+      [
+        -0.3757200837135315,
+        -0.3598862588405609
+      ]
+    ]
+  },
+  {
+    "frame": 1,
+    "door": "ORION_NOSE_DOOR_SHELL_1",
+    "obstacle": "ORION_FUSELAGE",
+    "triangle_pairs": 168,
+    "intersection_points": 336,
+    "max_distance_from_hinge_axis_m": 0.09544214759538606,
+    "point_bounds": [
+      [
+        0.24449998140335083,
+        0.33360397815704346
+      ],
+      [
+        0.01600000075995922,
+        0.6916629076004028
+      ],
+      [
+        -0.37572014331817627,
+        -0.3598862588405609
+      ]
+    ]
+  },
+  {
+    "frame": 1,
+    "door": "ORION_MAIN_L_DOOR_SHELL_1",
+    "obstacle": "ORION_FUSELAGE",
+    "triangle_pairs": 216,
+    "intersection_points": 432,
+    "max_distance_from_hinge_axis_m": 0.09151161478014887,
+    "point_bounds": [
+      [
+        -0.3993511199951172,
+        -0.3345714509487152
+      ],
+      [
+        -1.4931755065917969,
+        -0.5260000228881836
+      ],
+      [
+        -0.32839518785476685,
+        -0.27224966883659363
+      ]
+    ]
+  },
+  {
+    "frame": 1,
+    "door": "ORION_MAIN_L_DOOR_SHELL_1",
+    "obstacle": "ORION_MAIN_L_BAY_SIDE_-1",
+    "triangle_pairs": 108,
+    "intersection_points": 216,
+    "max_distance_from_hinge_axis_m": 0.041564569866585625,
+    "point_bounds": [
+      [
+        -0.3360000252723694,
+        -0.3345714509487152
+      ],
+      [
+        -1.9522687196731567,
+        -0.5260000228881836
+      ],
+      [
+        -0.34984710812568665,
+        -0.29082638025283813
+      ]
+    ]
+  },
+  {
+    "frame": 1,
+    "door": "ORION_MAIN_R_DOOR_SHELL_-1",
+    "obstacle": "ORION_FUSELAGE",
+    "triangle_pairs": 166,
+    "intersection_points": 332,
+    "max_distance_from_hinge_axis_m": 0.09151184063409545,
+    "point_bounds": [
+      [
+        0.33457151055336,
+        0.39935141801834106
+      ],
+      [
+        -1.493176817893982,
+        -0.5260000228881836
+      ],
+      [
+        -0.328395277261734,
+        -0.27224966883659363
+      ]
+    ]
+  },
+  {
+    "frame": 1,
+    "door": "ORION_MAIN_R_DOOR_SHELL_-1",
+    "obstacle": "ORION_MAIN_R_BAY_SIDE_1",
+    "triangle_pairs": 106,
+    "intersection_points": 212,
+    "max_distance_from_hinge_axis_m": 0.04156451088622804,
+    "point_bounds": [
+      [
+        0.33457151055336,
+        0.335999995470047
+      ],
+      [
+        -1.9522666931152344,
+        -0.5260000228881836
+      ],
+      [
+        -0.34984707832336426,
+        -0.2908264398574829
+      ]
+    ]
+  },
+  {
+    "frame": 60,
+    "door": "ORION_NOSE_DOOR_SHELL_-1",
+    "obstacle": "ORION_FUSELAGE",
+    "triangle_pairs": 124,
+    "intersection_points": 248,
+    "max_distance_from_hinge_axis_m": 0.09543864019644635,
+    "point_bounds": [
+      [
+        -0.33360040187835693,
+        -0.24449998140335083
+      ],
+      [
+        0.01600000075995922,
+        0.691659152507782
+      ],
+      [
+        -0.3757200837135315,
+        -0.3598862588405609
+      ]
+    ]
+  },
+  {
+    "frame": 60,
+    "door": "ORION_NOSE_DOOR_SHELL_1",
+    "obstacle": "ORION_FUSELAGE",
+    "triangle_pairs": 168,
+    "intersection_points": 336,
+    "max_distance_from_hinge_axis_m": 0.09544214759538606,
+    "point_bounds": [
+      [
+        0.24449998140335083,
+        0.33360397815704346
+      ],
+      [
+        0.01600000075995922,
+        0.6916629076004028
+      ],
+      [
+        -0.37572014331817627,
+        -0.3598862588405609
+      ]
+    ]
+  },
+  {
+    "frame": 60,
+    "door": "ORION_MAIN_L_DOOR_SHELL_1",
+    "obstacle": "ORION_FUSELAGE",
+    "triangle_pairs": 216,
+    "intersection_points": 432,
+    "max_distance_from_hinge_axis_m": 0.09151161478014887,
+    "point_bounds": [
+      [
+        -0.3993511199951172,
+        -0.3345714509487152
+      ],
+      [
+        -1.4931755065917969,
+        -0.5260000228881836
+      ],
+      [
+        -0.32839518785476685,
+        -0.27224966883659363
+      ]
+    ]
+  },
+  {
+    "frame": 60,
+    "door": "ORION_MAIN_L_DOOR_SHELL_1",
+    "obstacle": "ORION_MAIN_L_BAY_SIDE_-1",
+    "triangle_pairs": 108,
+    "intersection_points": 216,
+    "max_distance_from_hinge_axis_m": 0.041564569866585625,
+    "point_bounds": [
+      [
+        -0.3360000252723694,
+        -0.3345714509487152
+      ],
+      [
+        -1.9522687196731567,
+        -0.5260000228881836
+      ],
+      [
+        -0.34984710812568665,
+        -0.29082638025283813
+      ]
+    ]
+  },
+  {
+    "frame": 60,
+    "door": "ORION_MAIN_R_DOOR_SHELL_-1",
+    "obstacle": "ORION_FUSELAGE",
+    "triangle_pairs": 166,
+    "intersection_points": 332,
+    "max_distance_from_hinge_axis_m": 0.09151184063409545,
+    "point_bounds": [
+      [
+        0.33457151055336,
+        0.39935141801834106
+      ],
+      [
+        -1.493176817893982,
+        -0.5260000228881836
+      ],
+      [
+        -0.328395277261734,
+        -0.27224966883659363
+      ]
+    ]
+  },
+  {
+    "frame": 60,
+    "door": "ORION_MAIN_R_DOOR_SHELL_-1",
+    "obstacle": "ORION_MAIN_R_BAY_SIDE_1",
+    "triangle_pairs": 106,
+    "intersection_points": 212,
+    "max_distance_from_hinge_axis_m": 0.04156451088622804,
+    "point_bounds": [
+      [
+        0.33457151055336,
+        0.335999995470047
+      ],
+      [
+        -1.9522666931152344,
+        -0.5260000228881836
+      ],
+      [
+        -0.34984707832336426,
+        -0.2908264398574829
+      ]
+    ]
+  },
+  {
+    "frame": 105,
+    "door": "ORION_NOSE_DOOR_SHELL_-1",
+    "obstacle": "ORION_FUSELAGE",
+    "triangle_pairs": 96,
+    "intersection_points": 192,
+    "max_distance_from_hinge_axis_m": 0.028609055262848158,
+    "point_bounds": [
+      [
+        -0.26845186948776245,
+        -0.2472618818283081
+      ],
+      [
+        0.01600000075995922,
+        0.5005160570144653
+      ],
+      [
+        -0.3826882243156433,
+        -0.37601974606513977
+      ]
+    ]
+  },
+  {
+    "frame": 105,
+    "door": "ORION_NOSE_DOOR_SHELL_1",
+    "obstacle": "ORION_FUSELAGE",
+    "triangle_pairs": 104,
+    "intersection_points": 208,
+    "max_distance_from_hinge_axis_m": 0.028610559049838037,
+    "point_bounds": [
+      [
+        0.24726156890392303,
+        0.2684532403945923
+      ],
+      [
+        0.01599999889731407,
+        0.5005168914794922
+      ],
+      [
+        -0.38268858194351196,
+        -0.37601980566978455
+      ]
+    ]
+  },
+  {
+    "frame": 105,
+    "door": "ORION_MAIN_L_DOOR_SHELL_1",
+    "obstacle": "ORION_FUSELAGE",
+    "triangle_pairs": 160,
+    "intersection_points": 320,
+    "max_distance_from_hinge_axis_m": 0.0552169527972145,
+    "point_bounds": [
+      [
+        -0.3834545314311981,
+        -0.338934987783432
+      ],
+      [
+        -1.3556175231933594,
+        -0.5260000228881836
+      ],
+      [
+        -0.3297957479953766,
+        -0.3180398941040039
+      ]
+    ]
+  },
+  {
+    "frame": 105,
+    "door": "ORION_MAIN_L_DOOR_SHELL_1",
+    "obstacle": "ORION_MAIN_L_BAY_SIDE_-1",
+    "triangle_pairs": 92,
+    "intersection_points": 184,
+    "max_distance_from_hinge_axis_m": 0.018482412186684196,
+    "point_bounds": [
+      [
+        -0.335999995470047,
+        -0.33000001311302185
+      ],
+      [
+        -1.9324692487716675,
+        -1.442821741104126
+      ],
+      [
+        -0.3499999940395355,
+        -0.33242067694664
+      ]
+    ]
+  },
+  {
+    "frame": 105,
+    "door": "ORION_MAIN_R_DOOR_SHELL_-1",
+    "obstacle": "ORION_FUSELAGE",
+    "triangle_pairs": 134,
+    "intersection_points": 268,
+    "max_distance_from_hinge_axis_m": 0.05521710452212804,
+    "point_bounds": [
+      [
+        0.33893483877182007,
+        0.38345468044281006
+      ],
+      [
+        -1.3556323051452637,
+        -0.5260000228881836
+      ],
+      [
+        -0.3297959268093109,
+        -0.3180398643016815
+      ]
+    ]
+  },
+  {
+    "frame": 105,
+    "door": "ORION_MAIN_R_DOOR_SHELL_-1",
+    "obstacle": "ORION_MAIN_R_BAY_SIDE_1",
+    "triangle_pairs": 88,
+    "intersection_points": 176,
+    "max_distance_from_hinge_axis_m": 0.018482412186684196,
+    "point_bounds": [
+      [
+        0.33000001311302185,
+        0.335999995470047
+      ],
+      [
+        -1.9324705600738525,
+        -1.442821741104126
+      ],
+      [
+        -0.3499999940395355,
+        -0.33242061734199524
+      ]
+    ]
+  },
+  {
+    "frame": 115,
+    "door": "ORION_MAIN_L_DOOR_SHELL_1",
+    "obstacle": "ORION_MAIN_L_BAY_SIDE_-1",
+    "triangle_pairs": 72,
+    "intersection_points": 144,
+    "max_distance_from_hinge_axis_m": 0.018482412186684196,
+    "point_bounds": [
+      [
+        -0.335999995470047,
+        -0.33000001311302185
+      ],
+      [
+        -1.5162010192871094,
+        -1.1898608207702637
+      ],
+      [
+        -0.3499999940395355,
+        -0.33842065930366516
+      ]
+    ]
+  },
+  {
+    "frame": 115,
+    "door": "ORION_MAIN_R_DOOR_SHELL_-1",
+    "obstacle": "ORION_MAIN_R_BAY_SIDE_1",
+    "triangle_pairs": 72,
+    "intersection_points": 144,
+    "max_distance_from_hinge_axis_m": 0.018482412186684196,
+    "point_bounds": [
+      [
+        0.33000001311302185,
+        0.335999995470047
+      ],
+      [
+        -1.5162010192871094,
+        -1.1898608207702637
+      ],
+      [
+        -0.3499999940395355,
+        -0.33842065930366516
+      ]
+    ]
+  }
+]

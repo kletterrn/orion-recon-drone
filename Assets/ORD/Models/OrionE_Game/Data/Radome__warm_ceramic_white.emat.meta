@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3EA498830ECA5A18}Assets/ORD/Models/OrionE_Game/Data/Radome__warm_ceramic_white.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

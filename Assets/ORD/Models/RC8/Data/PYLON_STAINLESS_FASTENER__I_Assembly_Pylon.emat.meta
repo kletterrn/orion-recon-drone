@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4D06C04BEF3BDD12}Assets/ORD/Models/RC8/Data/PYLON_STAINLESS_FASTENER__I_Assembly_Pylon.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

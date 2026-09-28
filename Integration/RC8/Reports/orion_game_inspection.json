@@ -1,0 +1,22 @@
+{
+  "asset": "Orion",
+  "lod_triangles": [
+    199993,
+    79994,
+    29990,
+    8046
+  ],
+  "bones": 45,
+  "bone_weight_errors": [],
+  "materials": [
+    "RC8_Assembly_Pylon",
+    "RC8_Orion_Airframe",
+    "RC8_Orion_Equipment",
+    "RC8_Orion_Gear_Bays",
+    "RC8_Orion_Sensor",
+    "RC8_Orion_Tail_Rear",
+    "RC8_Orion_Wing_L",
+    "RC8_Orion_Wing_R"
+  ],
+  "render": "C:\\Users\\david\\Desktop\\RECON DRONES\\Integration\\RC8\\Previews\\Orion_Game_LOD0_Review.png"
+}

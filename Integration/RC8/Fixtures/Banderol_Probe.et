@@ -1,0 +1,5 @@
+GenericEntity {
+ components {
+  MeshObject { Object "{B84F5EBBB009A23F}Assets/ORD/Models/RC8/ORD_Banderol_RC8_Probe.xob" }
+ }
+}

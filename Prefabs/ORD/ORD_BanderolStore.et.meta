@@ -1,0 +1,7 @@
+MetaFileClass {
+ Name "{641FAD527420C378}Prefabs/ORD/ORD_BanderolStore.et"
+ Configurations {
+  EntityTemplateResourceClass PC {}
+  EntityTemplateResourceClass HEADLESS : PC {}
+ }
+}

@@ -1,0 +1,20 @@
+MetaFileClass {
+ Name "{4F59F93973970CE2}Assets/ORD/Models/RC8/Textures/Orion_Airframe_BCR.edds"
+ Configurations {
+  TIFFResourceClass PC {
+   SourceFile "Orion_Airframe_BCR.tif"
+   Conversion ColorHQCompression
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass PS5 : PC {
+  }
+ }
+}

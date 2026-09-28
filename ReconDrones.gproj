@@ -1,0 +1,12 @@
+GameProject {
+ ID "ReconDrones"
+ GUID "9B5D39DA127A49B5"
+ TITLE "Orion-E Reconnaissance Drone"
+ Dependencies {
+  "58D0FB3206B6F859" "69A8A34027DA65C5" "69623A037A721B91"
+ }
+ Configurations {
+  GameProjectConfig PC {}
+  GameProjectConfig HEADLESS {}
+ }
+}

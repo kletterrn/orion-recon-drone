@@ -1,0 +1,39 @@
+{
+  "enteredGame": true,
+  "scriptErrors": [],
+  "observations": [
+    "21:01:09.619   SCRIPT       : ORD_TEST_CAPTURE matrix=0 sensor=0 rain=0 fog=0 hour=5.8839",
+    "21:01:13.621   SCRIPT       : ORD_TEST_CAPTURE matrix=1 sensor=1 rain=0 fog=0 hour=5.88501",
+    "21:01:17.636   SCRIPT       : ORD_TEST_CAPTURE matrix=2 sensor=2 rain=0 fog=0 hour=5.88613",
+    "21:01:21.620   SCRIPT       : ORD_TEST_CAPTURE matrix=3 sensor=0 rain=0 fog=0 hour=12.0011",
+    "21:01:25.620   SCRIPT       : ORD_TEST_CAPTURE matrix=4 sensor=1 rain=0 fog=0 hour=12.0022",
+    "21:01:29.619   SCRIPT       : ORD_TEST_CAPTURE matrix=5 sensor=2 rain=0 fog=0 hour=12.0033",
+    "21:01:33.621   SCRIPT       : ORD_TEST_CAPTURE matrix=6 sensor=0 rain=0 fog=0 hour=0.00108823",
+    "21:01:37.636   SCRIPT       : ORD_TEST_CAPTURE matrix=7 sensor=1 rain=0 fog=0 hour=0.00220374",
+    "21:01:41.619   SCRIPT       : ORD_TEST_CAPTURE matrix=8 sensor=2 rain=0 fog=0 hour=0.00331033",
+    "21:01:45.620   SCRIPT       : ORD_TEST_CAPTURE matrix=9 sensor=0 rain=0.683187 fog=0 hour=5.8839",
+    "21:01:49.620   SCRIPT       : ORD_TEST_CAPTURE matrix=10 sensor=1 rain=0.683187 fog=0 hour=5.88501",
+    "21:01:53.635   SCRIPT       : ORD_TEST_CAPTURE matrix=11 sensor=2 rain=0.683187 fog=0 hour=5.88613",
+    "21:01:57.620   SCRIPT       : ORD_TEST_CAPTURE matrix=12 sensor=0 rain=0.85612 fog=0 hour=12.0011",
+    "21:02:01.620   SCRIPT       : ORD_TEST_CAPTURE matrix=13 sensor=1 rain=0.856121 fog=0 hour=12.0022",
+    "21:02:05.619   SCRIPT       : ORD_TEST_CAPTURE matrix=14 sensor=2 rain=0.85612 fog=0 hour=12.0033",
+    "21:02:09.639   SCRIPT       : ORD_TEST_CAPTURE matrix=15 sensor=0 rain=0.85612 fog=0 hour=0.00109255",
+    "21:02:13.619   SCRIPT       : ORD_TEST_CAPTURE matrix=16 sensor=1 rain=0.85612 fog=0 hour=0.00219926",
+    "21:02:17.620   SCRIPT       : ORD_TEST_CAPTURE matrix=17 sensor=2 rain=0.85612 fog=0 hour=0.00331036",
+    "21:02:21.619   SCRIPT       : ORD_TEST_CAPTURE matrix=18 sensor=0 rain=0 fog=0.8 hour=5.8839",
+    "21:02:25.623   SCRIPT       : ORD_TEST_CAPTURE matrix=19 sensor=1 rain=0 fog=0.8 hour=5.88501",
+    "21:02:29.643   SCRIPT       : ORD_TEST_CAPTURE matrix=20 sensor=2 rain=0 fog=0.8 hour=5.88612",
+    "21:02:33.643   SCRIPT       : ORD_TEST_CAPTURE matrix=21 sensor=0 rain=0 fog=0.8 hour=12.0011",
+    "21:02:37.627   SCRIPT       : ORD_TEST_CAPTURE matrix=22 sensor=1 rain=0 fog=0.8 hour=12.0022",
+    "21:02:41.627   SCRIPT       : ORD_TEST_CAPTURE matrix=23 sensor=2 rain=0 fog=0.8 hour=12.0033",
+    "21:02:45.631   SCRIPT       : ORD_TEST_CAPTURE matrix=24 sensor=0 rain=0 fog=0.8 hour=0.0010834",
+    "21:02:49.620   SCRIPT       : ORD_TEST_CAPTURE matrix=25 sensor=1 rain=0 fog=0.8 hour=0.00219456",
+    "21:02:53.626   SCRIPT       : ORD_TEST_DONE thermal-matrix"
+  ],
+  "fpsLimit": 60,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "durationSeconds": 155
+}

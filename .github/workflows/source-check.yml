@@ -6,7 +6,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          lfs: true
+          lfs: false
+      - name: Identify required LFS objects
+        id: lfs
+        shell: bash
+        run: echo "key=$(git lfs ls-files -l | sha256sum | cut -d ' ' -f 1)" >> "$GITHUB_OUTPUT"
+      - uses: actions/cache@v4
+        with:
+          path: .git/lfs
+          key: orion-lfs-${{ steps.lfs.outputs.key }}
+          restore-keys: orion-lfs-
+      - run: git lfs pull
       - uses: actions/setup-python@v5
         with:
           python-version: '3.13'

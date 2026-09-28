@@ -74,6 +74,7 @@ class ORD_AircraftComponent : ScriptComponent
  [RplProp()] protected vector m_vHome;
  [RplProp()] protected vector m_vOrbit;
  protected ref array<vector> m_aRoute = {};
+ protected int m_LastDesignationSequence=-1;
  protected float m_ConnectionGrace;
  protected float m_fHeartbeat, m_fInputTime, m_fLastObserved, m_fClock, m_fNextLog = 5, m_fNextReplication, m_fNextGroupScan;
  protected float m_fLastLaunch = -100;
@@ -285,7 +286,7 @@ class ORD_AircraftComponent : ScriptComponent
    if (m_iOperator != 0 || !terminal || !terminal.FindComponent(ORD_TerminalComponent)) return;
    m_iOperator = id; m_Terminal = terminal;
    if (!ValidLink(id)) { m_iOperator = 0; m_Terminal = null; return; }
-   m_iOpticsSequence=-1; m_fOpticsTime=-100; m_fHeartbeat = m_fClock; m_ConnectionGrace=m_fClock+15; m_fInputTime = m_fClock; Replication.BumpMe(); return;
+   m_iOpticsSequence=-1; m_LastDesignationSequence=-1; m_fOpticsTime=-100; m_fHeartbeat = m_fClock; m_ConnectionGrace=m_fClock+15; m_fInputTime = m_fClock; Replication.BumpMe(); return;
   }
   if (id != m_iOperator || id <= 0) return;
   if (command == ORD_Command.RELEASE) { LoseLink(); return; }
@@ -356,9 +357,22 @@ class ORD_AircraftComponent : ScriptComponent
  }
  void Optics(int id, vector direction, float zoom, float aspect, int channel, int sequence, bool designate)
  {
-  if(!Replication.IsServer() || !ValidLink(id) || !m_bSensorMode || sequence<=m_iOpticsSequence)return;
+  if(!Replication.IsServer() || !ValidLink(id) || !m_bSensorMode)return;
   if(!(zoom>=1 && zoom<=40 && aspect>=0.5 && aspect<=4 && channel>=0 && channel<=2))return;
   float length=direction.Length(); if(!(length>0.99 && length<1.01))return;
+  if(designate)
+  {
+   if(sequence<=m_LastDesignationSequence)return;
+   m_LastDesignationSequence=sequence;
+   // Reliable clicks can arrive behind newer unreliable pose packets.
+   if(sequence<=m_iOpticsSequence)
+   {
+    vector latest=m_vSensorDirection; float latestTime=m_fSensorSampleTime;
+    Aim(id,direction,true); m_vSensorDirection=latest; m_fSensorSampleTime=latestTime;
+    Replication.BumpMe(); return;
+   }
+  }
+  else if(sequence<=m_iOpticsSequence)return;
   m_iOpticsSequence=sequence; m_fOpticsTime=m_fClock; m_fSensorZoom=zoom; m_fSensorAspect=aspect; m_iSensorChannel=channel;
   Aim(id,direction,designate);
  }

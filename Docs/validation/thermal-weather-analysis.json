@@ -1,0 +1,161 @@
+{
+  "roi": [
+    300,
+    240,
+    1620,
+    850
+  ],
+  "captures": 27,
+  "scenes": [
+    {
+      "weather": "clear",
+      "time": "dawn",
+      "white": {
+        "mean": 88.241,
+        "stddev": 9.695,
+        "clippedPercent": 0.042
+      },
+      "black": {
+        "mean": 241.907,
+        "stddev": 5.816,
+        "clippedPercent": 0.042
+      },
+      "oppositePolarityCorrelation": -0.2142,
+      "oppositePolarityCorrelationWithoutHUD": -0.9766
+    },
+    {
+      "weather": "clear",
+      "time": "noon",
+      "white": {
+        "mean": 174.041,
+        "stddev": 7.982,
+        "clippedPercent": 0.042
+      },
+      "black": {
+        "mean": 196.691,
+        "stddev": 7.151,
+        "clippedPercent": 0.042
+      },
+      "oppositePolarityCorrelation": -0.3707,
+      "oppositePolarityCorrelationWithoutHUD": -0.9881
+    },
+    {
+      "weather": "clear",
+      "time": "night",
+      "white": {
+        "mean": 118.654,
+        "stddev": 10.223,
+        "clippedPercent": 0.042
+      },
+      "black": {
+        "mean": 231.036,
+        "stddev": 6.545,
+        "clippedPercent": 0.042
+      },
+      "oppositePolarityCorrelation": -0.3947,
+      "oppositePolarityCorrelationWithoutHUD": -0.9885
+    },
+    {
+      "weather": "rain",
+      "time": "dawn",
+      "white": {
+        "mean": 87.091,
+        "stddev": 9.268,
+        "clippedPercent": 0.042
+      },
+      "black": {
+        "mean": 242.244,
+        "stddev": 5.761,
+        "clippedPercent": 0.042
+      },
+      "oppositePolarityCorrelation": -0.1841,
+      "oppositePolarityCorrelationWithoutHUD": -0.9746
+    },
+    {
+      "weather": "rain",
+      "time": "noon",
+      "white": {
+        "mean": 138.25,
+        "stddev": 5.35,
+        "clippedPercent": 0.042
+      },
+      "black": {
+        "mean": 220.668,
+        "stddev": 5.272,
+        "clippedPercent": 0.042
+      },
+      "oppositePolarityCorrelation": 0.2949,
+      "oppositePolarityCorrelationWithoutHUD": -0.8136
+    },
+    {
+      "weather": "rain",
+      "time": "night",
+      "white": {
+        "mean": 118.699,
+        "stddev": 10.318,
+        "clippedPercent": 0.042
+      },
+      "black": {
+        "mean": 231.018,
+        "stddev": 6.572,
+        "clippedPercent": 0.042
+      },
+      "oppositePolarityCorrelation": -0.4016,
+      "oppositePolarityCorrelationWithoutHUD": -0.9884
+    },
+    {
+      "weather": "fog",
+      "time": "dawn",
+      "white": {
+        "mean": 87.96,
+        "stddev": 9.623,
+        "clippedPercent": 0.042
+      },
+      "black": {
+        "mean": 241.983,
+        "stddev": 5.811,
+        "clippedPercent": 0.042
+      },
+      "oppositePolarityCorrelation": -0.2104,
+      "oppositePolarityCorrelationWithoutHUD": -0.9756
+    },
+    {
+      "weather": "fog",
+      "time": "noon",
+      "white": {
+        "mean": 173.769,
+        "stddev": 8.184,
+        "clippedPercent": 0.042
+      },
+      "black": {
+        "mean": 196.856,
+        "stddev": 7.281,
+        "clippedPercent": 0.042
+      },
+      "oppositePolarityCorrelation": -0.3953,
+      "oppositePolarityCorrelationWithoutHUD": -0.9863
+    },
+    {
+      "weather": "fog",
+      "time": "night",
+      "white": {
+        "mean": 118.632,
+        "stddev": 10.219,
+        "clippedPercent": 0.042
+      },
+      "black": {
+        "mean": 231.046,
+        "stddev": 6.542,
+        "clippedPercent": 0.042
+      },
+      "oppositePolarityCorrelation": -0.3942,
+      "oppositePolarityCorrelationWithoutHUD": -0.9884
+    }
+  ],
+  "excludedHudRectangle": [
+    890,
+    420,
+    1090,
+    610
+  ]
+}

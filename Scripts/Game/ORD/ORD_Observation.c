@@ -2,7 +2,7 @@
 class ORD_ObservationEvidence
 {
  float GenericSeconds, ClassSeconds;
- float LastSample = -1, InvalidSince = -1, LastEligible = -100;
+ float LastSample = -1, InvalidSince = -1, ClassInvalidSince = -1, LastEligible = -100;
  bool Visible, Acquired, Classified;
 
  void Sample(float now, bool eligible, bool classEligible, bool person, float quality = 1)
@@ -24,8 +24,22 @@ class ORD_ObservationEvidence
   }
   InvalidSince = -1; LastEligible = now;
   GenericSeconds += dt * Math.Clamp(quality, 0.25, 1);
-  if (classEligible) ClassSeconds += dt * Math.Clamp(quality, 0.25, 1);
-  else { ClassSeconds = 0; Classified = false; }
+  if(classEligible)
+  {
+   float classDt=dt;
+   if(ClassInvalidSince>=0)
+   {
+    if(now-ClassInvalidSince>0.2) ClassSeconds=0;
+    classDt=0;
+   }
+   ClassInvalidSince=-1;
+   ClassSeconds+=classDt*Math.Clamp(quality,0.25,1);
+  }
+  else
+  {
+   if(ClassInvalidSince<0) ClassInvalidSince=now;
+   if(now-ClassInvalidSince>0.2) { ClassSeconds=0; Classified=false; }
+  }
   Acquired = GenericSeconds >= 2;
   float duration = 4;
   if (person) duration = 6;
@@ -120,6 +134,8 @@ class ORD_ObservationPolicy
   }
   float viewTan = Math.Tan(30 * Math.DEG2RAD) / zoom;
   if (x1 < -viewTan || x0 > viewTan || y1 < -viewTan / aspect || y0 > viewTan / aspect) return false;
+  x0=Math.Max(x0,-viewTan); x1=Math.Min(x1,viewTan);
+  y0=Math.Max(y0,-viewTan/aspect); y1=Math.Min(y1,viewTan/aspect);
   float resolution = 1920;
   if (channel != 0) resolution = 640;
   float focal = resolution * 0.5 * Math.Min(zoom, 20) / Math.Tan(30 * Math.DEG2RAD);

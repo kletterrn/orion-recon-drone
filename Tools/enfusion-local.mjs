@@ -1,8 +1,8 @@
 // Invoke the installed Enfusion MCP tools with freshly loaded machine paths.
-import {pathToFileURL} from 'node:url';
+import {pathToFileURL, fileURLToPath} from 'node:url';
 import {readdirSync, existsSync, openSync, readSync, closeSync} from 'node:fs';
 import {inflateSync} from 'node:zlib';
-const root = process.env.ENFUSION_MCP_PACKAGE || 'C:/Users/david/AppData/Local/npm-cache/_npx/be402e1c82700767/node_modules/enfusion-mcp';
+const root = process.env.ENFUSION_MCP_PACKAGE || fileURLToPath(new URL('./node_modules/enfusion-mcp',import.meta.url));
 const {loadConfig} = await import(pathToFileURL(root + '/dist/config.js'));
 const config = loadConfig();
 // MCP currently scans only addons/*.pak; current Reforger nests these in data/.

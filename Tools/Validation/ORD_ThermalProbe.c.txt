@@ -1,0 +1,40 @@
+// Controlled rendered scene. Scripted fixture, not physical-input acceptance.
+modded class ORD_TerminalComponent
+{
+ protected int m_ThermalPhase;
+ override void EOnFrame(IEntity owner,float timeSlice)
+ {
+  super.EOnFrame(owner,timeSlice);
+  if(!m_bActive || !m_Drone || m_bPilot) return;
+  IEntity aircraft=m_Drone.GetOwner();
+  aircraft.SetOrigin("4770 240 11240"); aircraft.SetAngles(vector.Zero);
+  aircraft.GetPhysics().SetVelocity(vector.Zero); aircraft.GetPhysics().SetAngularVelocity(vector.Zero);
+  m_fYaw=0; m_fPitch=-20; m_fZoom=3;
+  if(m_ThermalPhase==0 && m_fFeedTime>5)
+  {
+   EntitySpawnParams spawn=new EntitySpawnParams(); spawn.TransformMode=ETransformMode.WORLD; Math3D.MatrixIdentity4(spawn.Transform);
+   spawn.Transform[3]=Vector(4770,owner.GetWorld().GetSurfaceY(4770,11840)+1,11840);
+   GetGame().SpawnEntityPrefab(Resource.Load("Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et"),owner.GetWorld(),spawn);
+   m_ThermalPhase++;
+  }
+  if(m_ThermalPhase==1 && m_fFeedTime>10) { System.MakeScreenshot("$profile:THERMAL_EO.bmp"); m_iSensor=1; m_ThermalPhase++; }
+  if(m_ThermalPhase==2 && m_fFeedTime>15)
+  {
+   System.MakeScreenshot("$profile:THERMAL_WH.bmp");
+   if(m_iAppliedSensor==1) Print("ORD_TEST_PASS thermal_white_activation"); else Print("ORD_TEST_FAIL thermal_white_activation");
+   m_iSensor=2; m_ThermalPhase++;
+  }
+  if(m_ThermalPhase==3 && m_fFeedTime>20)
+  {
+   System.MakeScreenshot("$profile:THERMAL_BH.bmp");
+   if(m_iAppliedSensor==2) Print("ORD_TEST_PASS thermal_black_activation"); else Print("ORD_TEST_FAIL thermal_black_activation");
+   m_iSensor=0; m_ThermalPhase++;
+  }
+  if(m_ThermalPhase==4 && m_fFeedTime>25)
+  {
+   System.MakeScreenshot("$profile:THERMAL_EXIT.bmp");
+   if(m_iAppliedSensor==0) Print("ORD_TEST_PASS thermal_daylight_return"); else Print("ORD_TEST_FAIL thermal_daylight_return");
+   m_ThermalPhase++;
+  }
+ }
+}

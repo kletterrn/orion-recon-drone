@@ -35,6 +35,14 @@ modded class ORD_TerminalComponent
   for(int j=0;j<=50;j++)zoom.Sample(j*0.1,true,false,false);
   zoom.Sample(5.1,true,true,false);
   CheckObservation("size-gate-cannot-inherit-classification",zoom.Acquired && !zoom.Classified);
+  ORD_ObservationEvidence brief=new ORD_ObservationEvidence();
+  for(int k=0;k<=10;k++) brief.Sample(k*0.1,true,true,false);
+  float before=brief.GenericSeconds;
+  brief.Sample(1.05,false,false,false); brief.Sample(1.15,true,true,false);
+  CheckObservation("brief-interruption-pauses",Math.AbsFloat(brief.GenericSeconds-before)<0.001);
+  brief.Sample(1.2,true,false,false); float prior=brief.ClassSeconds;
+  brief.Sample(1.3,true,true,false);
+  CheckObservation("brief-classification-gap-pauses",Math.AbsFloat(brief.ClassSeconds-prior)<0.001);
   Print("ORD_TEST_DONE observation-policy");
  }
 }

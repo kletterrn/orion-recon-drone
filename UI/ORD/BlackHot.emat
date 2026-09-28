@@ -1,7 +1,7 @@
 ThermalImagingEffect {
- TempConversionTex "{4614B73CA118C4DE}Assets/Thermal/Textures/thermal_WH_BH_5contrast_low.edds"
+ TempConversionTex "{C0BF6B2A8C504748}Assets/Thermal/Textures/thermal_WH_BH_1contrast_high.edds"
  TemperatureConversionMethod CustomMinMax
- TempConversionTexRowIndex 28
+ TempConversionTexRowIndex 4
  TemperatureRangeMin -40
  TemperatureRangeMax 50
  TemperatureDisplayMin 4

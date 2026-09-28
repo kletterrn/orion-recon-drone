@@ -41,6 +41,7 @@ result={'enteredGame':'Entered online game state.' in content,
         'observations':[x for x in content.splitlines() if 'ORD_TEST_' in x],
         'fpsLimit':a.fps,'resolution':[a.width,a.height],'durationSeconds':a.seconds}
 (build/'game-results.json').write_text(json.dumps(result,indent=2))
+(profile/'game-results.json').write_text(json.dumps(result,indent=2))
 print(json.dumps(result,indent=2))
 if not result['enteredGame'] or result['scriptErrors'] or 'ORD_TEST_FAIL' in content: raise SystemExit(1)
 

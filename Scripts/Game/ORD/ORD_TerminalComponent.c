@@ -14,7 +14,7 @@ class ORD_TerminalComponent : ScriptComponent
  protected static ORD_TerminalComponent s_RemoteSession;
  [Attribute("0")] protected bool m_LocalSession;
  protected int m_ClaimRequest;
- protected bool m_FarObserver;
+ protected bool m_FarObserver, m_DeleteScheduled;
  [Attribute("20000")] protected float m_fSearchRadius;
  [Attribute("0")] protected bool m_bDiagnostics;
  [Attribute("", UIWidgets.ResourceNamePicker, "Operator HUD", "layout")] protected ResourceName m_rHUD;
@@ -249,7 +249,7 @@ class ORD_TerminalComponent : ScriptComponent
   m_Reticle = null; m_ReticleVertical = null; m_TrackBox = null; m_CenterStatus = null;
   m_BottomLeft = null; m_BottomCenter = null; m_BottomRight = null; m_ControlHint = null; m_MapStatus = null; m_MapCursor = null;
   if(s_RemoteSession==this) s_RemoteSession=null;
-  if(m_LocalSession && (m_bActive || m_bPending)) GetGame().GetCallqueue().CallLater(DeleteSession,1,false);
+  if(m_LocalSession && !m_DeleteScheduled) { m_DeleteScheduled=true; GetGame().GetCallqueue().CallLater(DeleteSession,1,false); }
   m_bActive = false; m_bPending = false; m_bMap = false; m_bAutoRequested = false; m_bUnlockPending = false; m_iAppliedSensor = -1; m_Keys.Clear();
  }
  protected void DeleteSession() { if(GetOwner()) SCR_EntityHelper.DeleteEntityAndChildren(GetOwner()); }

@@ -1,34 +1,7 @@
 // Test-stage bootstrap only. Real character, real ownership gateway and terminal.
-// Holds the aircraft at an elevated pose to isolate optical geometry. This is not flight acceptance.
+// Does not override ValidLink, Grounded, aircraft physics or weapon validation.
 modded class ORD_TerminalComponent
 {
- protected float m_ErrorSquared, m_ErrorPeak; protected int m_ErrorCount; protected bool m_Result; protected int m_TestZoom;
- override void UpdateOpticalPose(float timeSlice = 0.016667)
- {
-  super.UpdateOpticalPose(timeSlice);
-  if(!m_bActive || m_bPilot || !m_Drone || !m_Camera || m_Result) return;
-  if(m_RC5Age>12 && !m_Drone.Designated()) m_QueueDesignation=true;
-  if(m_RC5Age>14+m_TestZoom*12 && m_Drone.PointLocked() && !m_GimbalLimited)
-  {
-   vector offset=m_Drone.Target()-m_Camera.GetOrigin();
-   float depth=vector.Dot(offset,m_Camera.GetTransformAxis(2));
-   float x=vector.Dot(offset,m_Camera.GetTransformAxis(0));
-   float y=vector.Dot(offset,m_Camera.GetTransformAxis(1));
-   float pixels=Math.Sqrt(x*x+y*y)/Math.Max(depth,0.001)*960/Math.Tan(ORD_ObservationPolicy.HorizontalFOV(m_fZoom)*Math.DEG2RAD*0.5);
-   m_ErrorSquared+=pixels*pixels; m_ErrorPeak=Math.Max(m_ErrorPeak,pixels); m_ErrorCount++;
-   if(m_RC5Age>24+m_TestZoom*12)
-   {
-    float rms=Math.Sqrt(m_ErrorSquared/Math.Max(m_ErrorCount,1));
-    string status="ORD_TEST_FAIL"; if(rms<=2 && m_ErrorPeak<=5) status="ORD_TEST_PASS";
-    Print(string.Format("%1 stationary_point_lock rms=%2 peak=%3 samples=%4 zoom=%5",status,rms,m_ErrorPeak,m_ErrorCount,m_fZoom));
-    m_ErrorSquared=0; m_ErrorPeak=0; m_ErrorCount=0; m_TestZoom++;
-    if(m_TestZoom==1) m_fZoom=5;
-    if(m_TestZoom==2) m_fZoom=20;
-    if(m_TestZoom==3) m_fZoom=40;
-    if(m_TestZoom==4) m_Result=true;
-   }
-  }
- }
  protected float m_RC5Age, m_RC5Log;
  protected int m_RC5Phase;
  protected bool m_RC5ZoomUp, m_RC5ZoomDown;
@@ -40,11 +13,6 @@ modded class ORD_TerminalComponent
   {
    string actionName=fixtureInput.GetActionName(actionIndex);
    if(actionName.StartsWith("ORD_")) fixtureInput.SetActionValue(actionName,0);
-  }
-  if(m_bActive && m_Drone)
-  {
-   IEntity aircraft=m_Drone.GetOwner(); aircraft.SetOrigin("4770 240 11240"); aircraft.SetAngles(vector.Zero);
-   aircraft.GetPhysics().SetVelocity(vector.Zero); aircraft.GetPhysics().SetAngularVelocity(vector.Zero);
   }
   super.EOnFrame(owner, timeSlice);
   if (!Replication.IsServer() || owner.GetName() != "ORD_Terminal") return;

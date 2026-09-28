@@ -60,8 +60,8 @@ class ORD_ThermalController
    }
    m_Material.SetParam("FogRelStart",0.75-degradation*0.25);
    m_Material.SetParam("FogRelEnd",0.95-degradation*0.1);
-   m_Material.SetParam("TemperatureDisplayMin",Math.Lerp(-10,10,day));
-   m_Material.SetParam("TemperatureDisplayMax",Math.Lerp(45,65,day));
+   m_Material.SetParam("TemperatureDisplayMin",Math.Lerp(4,8,day));
+   m_Material.SetParam("TemperatureDisplayMax",Math.Lerp(26,32,day));
   }
   return channel;
  }

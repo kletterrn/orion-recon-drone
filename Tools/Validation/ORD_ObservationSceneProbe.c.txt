@@ -1,0 +1,60 @@
+// Native entities and native collision traces. Test-only staged source.
+modded class ORD_TerminalComponent
+{
+ protected IEntity m_TestVehicle, m_TestWall;
+ protected ORD_AircraftComponent m_TestAircraft;
+ protected float m_SceneAge;
+ protected int m_ScenePhase;
+ protected vector m_TestDirection, m_TestOrigin, m_TestPoint;
+ protected void SceneCheck(string name,bool passed) { if(passed) Print("ORD_TEST_PASS "+name); else Print("ORD_TEST_FAIL "+name); }
+ override void EOnFrame(IEntity owner,float timeSlice)
+ {
+  super.EOnFrame(owner,timeSlice);
+  if(!Replication.IsServer() || owner.GetName()!="ORD_Terminal")return;
+  m_SceneAge+=timeSlice;
+  if(m_ScenePhase==0 && m_SceneAge>8 && ORD_AircraftComponent.Aircraft.Count()>0)
+  {
+   m_TestAircraft=ORD_AircraftComponent.Aircraft[0];
+   EntitySpawnParams spawn=new EntitySpawnParams(); spawn.TransformMode=ETransformMode.WORLD; Math3D.MatrixIdentity4(spawn.Transform);
+   spawn.Transform[3]=Vector(4770,owner.GetWorld().GetSurfaceY(4770,11840)+0.1,11840);
+   m_TestVehicle=GetGame().SpawnEntityPrefab(Resource.Load("Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et"),owner.GetWorld(),spawn);
+   m_ScenePhase++;
+  }
+  if(!m_TestAircraft || !m_TestVehicle)return;
+  IEntity aircraft=m_TestAircraft.GetOwner(); aircraft.SetOrigin("4770 240 11240"); aircraft.SetAngles(vector.Zero);
+  aircraft.GetPhysics().SetVelocity(vector.Zero); aircraft.GetPhysics().SetAngularVelocity(vector.Zero);
+  if(m_ScenePhase==1 && m_SceneAge>12)
+  {
+   m_TestPoint=ORD_ObservationPolicy.Point(m_TestVehicle);
+   m_TestDirection=vector.Direction(aircraft.GetOrigin(),m_TestPoint).Normalized();
+   m_TestOrigin=ORD_CameraMounts.SensorOrigin(aircraft,m_TestDirection);
+   m_TestDirection=vector.Direction(m_TestOrigin,m_TestPoint).Normalized();
+   bool classified; SceneCheck("native-visible-vehicle",ORD_ObservationPolicy.Observe(aircraft,m_TestVehicle,m_TestDirection,20,1.77778,1,5000,classified) && classified);
+   float a,b,c,d;
+   bool p=ORD_ObservationPolicy.Measure(m_TestVehicle,m_TestOrigin,m_TestDirection,20,1.77778,1,a,b);
+   bool q=ORD_ObservationPolicy.Measure(m_TestVehicle,m_TestOrigin,m_TestDirection,40,1.77778,1,c,d);
+   SceneCheck("digital-zoom-adds-no-geometric-detail",p && q && Math.AbsFloat(a-c)<0.001 && Math.AbsFloat(b-d)<0.001);
+   EntitySpawnParams spawn=new EntitySpawnParams(); spawn.TransformMode=ETransformMode.WORLD; Math3D.MatrixIdentity4(spawn.Transform);
+   spawn.Transform[3]=m_TestOrigin+(m_TestPoint-m_TestOrigin)*0.99-Vector(0,1,0);
+   m_TestWall=GetGame().SpawnEntityPrefab(Resource.Load("Prefabs/Structures/Walls/Concrete/ConcreteWall_01/ConcreteWall_01_6m_A.et"),owner.GetWorld(),spawn);
+   if(m_TestWall)
+   {
+    vector low,high; m_TestWall.GetWorldBounds(low,high);
+    if(high[2]-low[2]>high[0]-low[0]) m_TestWall.SetAngles("0 90 0");
+    m_TestWall.GetWorldBounds(low,high);
+    m_TestWall.SetOrigin(m_TestWall.GetOrigin()+m_TestOrigin+(m_TestPoint-m_TestOrigin)*0.99-(low+high)*0.5);
+    Print(string.Format("ORD_TEST_MEASURE wall_bounds=%1/%2",low,high));
+   }
+   m_ScenePhase++;
+  }
+  if(m_ScenePhase==2 && m_SceneAge>14)
+  {
+   TraceParam trace=new TraceParam(); trace.Start=m_TestOrigin; trace.End=m_TestPoint; trace.Flags=TraceFlags.WORLD|TraceFlags.ENTS; trace.Exclude=aircraft;
+   float fraction=owner.GetWorld().TraceMove(trace,null);
+   Print(string.Format("ORD_TEST_MEASURE wall_fraction=%1 hit=%2",fraction,trace.TraceEnt));
+   SceneCheck("wall-in-final-two-percent",m_TestWall && fraction>0.98 && fraction<1 && trace.TraceEnt==m_TestWall);
+   SceneCheck("near-target-wall-blocks-observation",!ORD_ObservationPolicy.Visible(aircraft,m_TestOrigin,m_TestPoint,m_TestVehicle));
+   Print("ORD_TEST_DONE native-observation-scene"); m_ScenePhase++;
+  }
+ }
+}

@@ -28,3 +28,5 @@ Machine: Windows, AMD Ryzen 9 7950X3D, NVIDIA RTX 4090. Engine 1.8.0.13; depende
 5. Rebuild from the tagged source with recorded dependency hashes, verify packed bytes, and promote only after every required acceptance gate passes.
 
 Optional, outside this release: engine warm-up/cooling, extra palettes, manual gain, controller support, target-signature packs and cosmetic detailing.
+
+The additional native AutomaticHistogramEq comparison also clipped broad runway/vegetation regions in both polarities and was rejected. The delivered profile remains CustomMinMax; low-contrast dawn is an unresolved acceptance failure.

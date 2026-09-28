@@ -1,0 +1,5 @@
+GenericEntity {
+ components {
+  ORD_TerminalComponent { m_LocalSession 1 m_rHUD "{293643CC7BC53C2E}UI/ORD/Operator.layout" m_rWhite "{0F64AF6905D4EB4C}UI/ORD/WhiteHot.emat" m_rBlack "{1D6BAE8108BE137F}UI/ORD/BlackHot.emat" }
+ }
+}

@@ -1,6 +1,72 @@
 // Commands travel on the sender-owned player controller. Never trust a supplied player id.
 modded class SCR_PlayerController
 {
+ protected ORD_AircraftComponent m_ORDClaimed;
+ protected int m_ORDClaimRequest, m_ORDClaimResponse;
+ protected RplId m_ORDClaimId = RplId.Invalid();
+ int ORD_ClaimResponse() { return m_ORDClaimResponse; }
+ RplId ORD_ClaimId() { return m_ORDClaimId; }
+ int ORD_RequestAircraft(IEntity terminal)
+ {
+  m_ORDClaimRequest++; m_ORDClaimId=RplId.Invalid();
+  Rpc(ORD_ClaimRPC,ORD_Id(terminal),m_ORDClaimRequest); return m_ORDClaimRequest;
+ }
+ void ORD_CancelAircraft(int request) { Rpc(ORD_CancelClaimRPC,request); }
+ [RplRpc(RplChannel.Reliable,RplRcver.Server)]
+ protected void ORD_ClaimRPC(RplId terminalId,int request)
+ {
+  if(!Replication.IsServer() || request<=m_ORDClaimResponse) return;
+  m_ORDClaimResponse=request;
+  IEntity terminal=ORD_Entity(terminalId);
+  IEntity character=GetControlledEntity();
+  ORD_AircraftComponent selected;
+  if(terminal && character && terminal.FindComponent(ORD_TerminalComponent) && vector.Distance(character.GetOrigin(),terminal.GetOrigin())<=4 && !m_ORDClaimed)
+  {
+   float nearest=20000;
+   foreach(ORD_AircraftComponent aircraft:ORD_AircraftComponent.Aircraft)
+   {
+    if(!aircraft || aircraft.Operator()!=0 || aircraft.Destroyed()) continue;
+    float distance=vector.Distance(terminal.GetOrigin(),aircraft.GetOwner().GetOrigin());
+    if(distance<nearest) { nearest=distance; selected=aircraft; }
+   }
+   if(selected)
+   {
+    selected.Command(GetPlayerId(),ORD_Command.CLAIM,terminal);
+    if(selected.Operator()!=GetPlayerId()) selected=null;
+   }
+  }
+  RplId result=RplId.Invalid();
+  if(selected)
+  {
+   m_ORDClaimed=selected; result=ORD_Id(selected.GetOwner());
+   ObserversSystem observers=ObserversSystem.Cast(GetGame().GetWorld().FindSystem(ObserversSystem));
+   if(observers) observers.InsertObserverMP(GetRplIdentity(),0,0,selected.GetOwner());
+  }
+  Rpc(ORD_ClaimReplyRPC,result,request);
+ }
+ [RplRpc(RplChannel.Reliable,RplRcver.Owner)]
+ protected void ORD_ClaimReplyRPC(RplId aircraft,int request)
+ {
+  if(request!=m_ORDClaimRequest) return;
+  m_ORDClaimResponse=request; m_ORDClaimId=aircraft;
+ }
+ [RplRpc(RplChannel.Reliable,RplRcver.Server)]
+ protected void ORD_CancelClaimRPC(int request)
+ {
+  if(request!=m_ORDClaimResponse) return;
+  if(m_ORDClaimed) m_ORDClaimed.Command(GetPlayerId(),ORD_Command.RELEASE,null);
+  ORD_RestoreObserver();
+ }
+ void ORD_RestoreObserver()
+ {
+  if(!Replication.IsServer() || !m_ORDClaimed) return;
+  m_ORDClaimed=null;
+  ObserversSystem observers=ObserversSystem.Cast(GetGame().GetWorld().FindSystem(ObserversSystem));
+  if(!observers) return;
+  IEntity character=GetControlledEntity();
+  if(character) observers.InsertObserverMP(GetRplIdentity(),0,0,character);
+  else observers.RemoveObserverMP(GetRplIdentity());
+ }
  protected string m_sORDFeedback;
  protected int m_iORDMissionResponse, m_iORDAcceptedRevision;
  protected int m_iORDMissionRequest, m_iORDResponseRequest;

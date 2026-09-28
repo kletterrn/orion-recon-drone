@@ -66,7 +66,7 @@ class ORD_AircraftVisuals : ScriptGameComponent
   vector direction="0 0 1";
   if(m_Aircraft.SensorMode())
   {
-   direction=owner.CoordToLocal(owner.GetOrigin()+m_Aircraft.SensorDirection());
+   direction=LocalDirection(m_Aircraft.SensorDirection());
   }
   AimLocal(direction);
   bool moving=m_fGear>0.0001 && m_fGear<0.9999;
@@ -81,6 +81,11 @@ class ORD_AircraftVisuals : ScriptGameComponent
   if(steering)ORD_RC8Rig.RotateAround(p,p[3],"0 1 0",m_fYaw*24*(1-m_fGear));
   m_Rig.Apply(name,p);
  }
+ protected vector LocalDirection(vector direction)
+ {
+  vector matrix[4]; GetOwner().GetTransform(matrix);
+  return Vector(vector.Dot(direction,matrix[0]),vector.Dot(direction,matrix[1]),vector.Dot(direction,matrix[2]));
+ }
  protected void AimLocal(vector direction)
  {
   float yaw=Math.Clamp(Math.Atan2(direction[0],direction[2])*Math.RAD2DEG,-120,120);
@@ -94,7 +99,7 @@ class ORD_AircraftVisuals : ScriptGameComponent
  {
   if(!m_Rig)return;
   vector d=Vector(Math.Sin(worldYaw*Math.DEG2RAD)*Math.Cos(worldPitch*Math.DEG2RAD),Math.Sin(worldPitch*Math.DEG2RAD),Math.Cos(worldYaw*Math.DEG2RAD)*Math.Cos(worldPitch*Math.DEG2RAD));
-  AimLocal(GetOwner().CoordToLocal(GetOwner().GetOrigin()+d));
+  AimLocal(LocalDirection(d));
  }
 }
 

@@ -271,7 +271,7 @@ class ORD_SensorHUD
   }
   m_Geometry.SetDrawCommands(m_Draw);
  }
- void Update(ORD_AircraftComponent drone, SCR_CameraBase camera, int sensor, bool missingInput, bool limited = false)
+ void Update(ORD_AircraftComponent drone, SCR_CameraBase camera, int sensor, bool missingInput, bool limited = false, bool thermalFallback = false)
  {
   if (!m_Text || !camera) return;
   Dimensions(); m_TextDraw.Clear();
@@ -293,6 +293,7 @@ class ORD_SensorHUD
   string mode = "EO";
   if (sensor == 1) mode = "IR WH";
   if (sensor == 2) mode = "IR BH";
+  if(thermalFallback) mode="EO FALLBACK";
   Text(m_TextDraw, m_Width - 270*s, 62*s, mode);
   // Sensor orientation is world-stabilized by the existing terminal basis.
   string stability="STAB ON"; if(limited) stability="GIMBAL LIMIT";

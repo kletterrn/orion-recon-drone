@@ -72,6 +72,7 @@ class ORD_AircraftComponent : ScriptComponent
  [RplProp()] protected vector m_vHome;
  [RplProp()] protected vector m_vOrbit;
  protected ref array<vector> m_aRoute = {};
+ protected float m_ConnectionGrace;
  protected float m_fHeartbeat, m_fInputTime, m_fLastObserved, m_fClock, m_fNextLog = 5, m_fNextReplication, m_fNextGroupScan;
  protected float m_fLastLaunch = -100;
  protected float m_fAltitudeTrim, m_fThrottleTrim = 0.6;
@@ -102,6 +103,7 @@ class ORD_AircraftComponent : ScriptComponent
  }
  override void OnDelete(IEntity owner)
  {
+  if(Replication.IsServer()) RestoreOperatorObserver();
   if (Replication.IsServer())
   {
    if (m_StoreLeft) SCR_EntityHelper.DeleteEntityAndChildren(m_StoreLeft);
@@ -281,12 +283,12 @@ class ORD_AircraftComponent : ScriptComponent
    if (m_iOperator != 0 || !terminal || !terminal.FindComponent(ORD_TerminalComponent)) return;
    m_iOperator = id; m_Terminal = terminal;
    if (!ValidLink(id)) { m_iOperator = 0; m_Terminal = null; return; }
-   m_iOpticsSequence=-1; m_fOpticsTime=-100; m_fHeartbeat = m_fClock; m_fInputTime = m_fClock; Replication.BumpMe(); return;
+   m_iOpticsSequence=-1; m_fOpticsTime=-100; m_fHeartbeat = m_fClock; m_ConnectionGrace=m_fClock+15; m_fInputTime = m_fClock; Replication.BumpMe(); return;
   }
   if (id != m_iOperator || id <= 0) return;
   if (command == ORD_Command.RELEASE) { LoseLink(); return; }
   if (!ValidLink(id)) { LoseLink(); return; }
-  m_fHeartbeat = m_fClock;
+  m_fHeartbeat = m_fClock; m_ConnectionGrace=0;
   switch (command)
   {
    case ORD_Command.SENSOR: m_bSensorMode = true; if (!m_bAuto) Hold(); break;
@@ -442,8 +444,15 @@ class ORD_AircraftComponent : ScriptComponent
   if (Grounded()) { Hold(); return; }
   m_bPatrol = false; m_bAuto = true; m_bReturnHome = true; m_vOrbit = m_vHome;
  }
+ protected void RestoreOperatorObserver()
+ {
+  if(m_iOperator<=0) return;
+  SCR_PlayerController controller=SCR_PlayerController.Cast(GetGame().GetPlayerManager().GetPlayerController(m_iOperator));
+  if(controller) controller.ORD_RestoreObserver();
+ }
  protected void LoseLink()
  {
+  RestoreOperatorObserver();
   m_iOperator = 0; m_Terminal = null; m_bArmed = false; m_iFireStatus = ORD_FireStatus.SAFED; ClearContact();
   ReturnHome(); m_bSensorMode = m_bAuto; Replication.BumpMe();
  }
@@ -586,7 +595,7 @@ class ORD_AircraftComponent : ScriptComponent
    else m_fNextReplication = m_fClock + 5;
    Replication.BumpMe();
   }
-  if (m_iOperator != 0 && (!ValidLink(m_iOperator) || m_fClock - m_fHeartbeat > 3)) LoseLink();
+  if (m_iOperator != 0 && (!ValidLink(m_iOperator) || (m_fClock - m_fHeartbeat > 3 && m_fClock>m_ConnectionGrace))) LoseLink();
   UpdateTrack();
   if (m_iContactState == ORD_ContactState.LOST && m_fClock - m_fLastObserved > 7) { ClearContact(); Replication.BumpMe(); }
   if (!m_bAuto && m_fClock - m_fInputTime > 0.5) Hold();

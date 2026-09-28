@@ -14,15 +14,25 @@
     "maxPlayers": 8,
     "visible": false,
     "gameProperties": {
-      "serverMaxViewDistance": 1600,
+      "serverMaxViewDistance": 5000,
       "serverMinGrassDistance": 50,
       "fastValidation": true,
-      "battlEye": false
+      "battlEye": false,
+      "networkViewDistance": 5000
     },
     "mods": [
-      { "modId": "9B5D39DA127A49B5", "name": "Orion-E Reconnaissance Drone" },
-      { "modId": "69A8A34027DA65C5", "name": "Propeller Flight Core" },
-      { "modId": "69623A037A721B91", "name": "ThermalPostProcessAssets" }
+      {
+        "modId": "9B5D39DA127A49B5",
+        "name": "Orion-E Reconnaissance Drone"
+      },
+      {
+        "modId": "69A8A34027DA65C5",
+        "name": "Propeller Flight Core"
+      },
+      {
+        "modId": "69623A037A721B91",
+        "name": "ThermalPostProcessAssets"
+      }
     ]
   }
 }

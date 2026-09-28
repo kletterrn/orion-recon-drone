@@ -11,6 +11,10 @@ class ORD_OperateAction : ScriptedUserAction
 class ORD_TerminalComponentClass : ScriptComponentClass {}
 class ORD_TerminalComponent : ScriptComponent
 {
+ protected static ORD_TerminalComponent s_RemoteSession;
+ [Attribute("0")] protected bool m_LocalSession;
+ protected int m_ClaimRequest;
+ protected bool m_FarObserver;
  [Attribute("20000")] protected float m_fSearchRadius;
  [Attribute("0")] protected bool m_bDiagnostics;
  [Attribute("", UIWidgets.ResourceNamePicker, "Operator HUD", "layout")] protected ResourceName m_rHUD;
@@ -21,6 +25,8 @@ class ORD_TerminalComponent : ScriptComponent
  protected SCR_CameraBase m_Camera;
  protected Widget m_HUD;
  protected ref ORD_SensorHUD m_SensorHUD;
+ protected ref ORD_ThermalController m_Thermal;
+ protected float m_ThermalErrorUntil;
  protected TextWidget m_TopLeft, m_HeadingTape, m_TopRight, m_PitchValue, m_ZoomReadout;
  protected TextWidget m_Reticle, m_ReticleVertical, m_TrackBox, m_CenterStatus;
  protected TextWidget m_BottomLeft, m_BottomCenter, m_BottomRight, m_ControlHint;
@@ -75,7 +81,16 @@ class ORD_TerminalComponent : ScriptComponent
  override void OnDelete(IEntity owner) { if (m_bActive || m_bPending) Close(); super.OnDelete(owner); }
  void Open()
  {
+  if (s_RemoteSession) { s_RemoteSession.Close(); return; }
   if (m_bActive || m_bPending) { Close(); return; }
+  if(!Replication.IsServer() && !m_LocalSession)
+  {
+   IEntity session=GetGame().SpawnEntityPrefab(Resource.Load("Prefabs/ORD/ORD_OperatorSession.et"),GetOwner().GetWorld());
+   if(!session) return;
+   s_RemoteSession=ORD_TerminalComponent.Cast(session.FindComponent(ORD_TerminalComponent));
+   if(s_RemoteSession) s_RemoteSession.BeginRemote(GetOwner());
+   return;
+  }
   SCR_PlayerController player = SCR_PlayerController.Cast(GetGame().GetPlayerController());
   if (!player) return;
   float nearest = m_fSearchRadius;
@@ -88,6 +103,16 @@ class ORD_TerminalComponent : ScriptComponent
   if (!m_Drone) return;
   m_bPending = true; m_fPendingTime = 0;
   player.ORD_Send(m_Drone.GetOwner(), ORD_Command.CLAIM, GetOwner());
+ }
+ void BeginRemote(IEntity terminal)
+ {
+  SCR_PlayerController player=SCR_PlayerController.Cast(GetGame().GetPlayerController());
+  if(!player) { Close(); return; }
+  m_bPending=true; m_fPendingTime=0;
+  m_ClaimRequest=player.ORD_RequestAircraft(terminal);
+  m_HUD=GetGame().GetWorkspace().CreateWidgets(m_rHUD);
+  m_CenterStatus=HudText("CenterStatus");
+  if(m_CenterStatus) m_CenterStatus.SetText("CONNECTING TO AIRCRAFT...");
  }
  protected bool Pressed(InputManager input, string action)
  {
@@ -111,6 +136,7 @@ class ORD_TerminalComponent : ScriptComponent
   if (!game || !game.GetCameraManager() || !game.GetCameraManager().SetCamera(m_Camera)) return false;
   m_HUD = GetGame().GetWorkspace().CreateWidgets(m_rHUD);
   if (!m_HUD) { game.GetCameraManager().SetPreviousCamera(); return false; }
+  m_Thermal = new ORD_ThermalController();
   m_SensorHUD = new ORD_SensorHUD();
   if (!m_SensorHUD.Open()) { game.GetCameraManager().SetPreviousCamera(); return false; }
   m_TopLeft = HudText("TopLeft"); m_HeadingTape = HudText("HeadingTape"); m_TopRight = HudText("TopRight");
@@ -186,6 +212,8 @@ class ORD_TerminalComponent : ScriptComponent
  void Close()
  {
   CloseMissionMap();
+  if(m_Thermal) m_Thermal.Clear();
+  m_Thermal=null;
   ResetZoomInput();
   if(m_OperatorFeed)m_OperatorFeed.SetOperatorFeed(false);
   m_OperatorFeed=null;
@@ -193,12 +221,13 @@ class ORD_TerminalComponent : ScriptComponent
   ChimeraGame game = ChimeraGame.Cast(GetGame());
   SCR_PlayerController player;
   if (game) player = SCR_PlayerController.Cast(game.GetPlayerController());
+  if(player && m_LocalSession) player.ORD_CancelAircraft(m_ClaimRequest);
+  if(m_FarObserver && game) { ObserversSystem observers=ObserversSystem.Cast(game.GetWorld().FindSystem(ObserversSystem)); if(observers) observers.DelFarObserver(); m_FarObserver=false; }
   if (player && m_Drone && m_Drone.GetOwner()) player.ORD_Send(m_Drone.GetOwner(), ORD_Command.RELEASE);
   if (m_bActive)
   {
    World world;
    if (GetOwner()) world = GetOwner().GetWorld();
-   if (world) world.SetCameraPostProcessEffect(world.GetCurrentCameraId(), 11, PostProcessEffectType.ThermalImaging, string.Empty);
    if (game && game.GetCameraManager()) game.GetCameraManager().SetPreviousCamera();
   }
   if (m_Camera && m_Camera.GetWorld()) SCR_EntityHelper.DeleteEntityAndChildren(m_Camera);
@@ -219,8 +248,11 @@ class ORD_TerminalComponent : ScriptComponent
   m_TopLeft = null; m_HeadingTape = null; m_TopRight = null; m_PitchValue = null; m_ZoomReadout = null;
   m_Reticle = null; m_ReticleVertical = null; m_TrackBox = null; m_CenterStatus = null;
   m_BottomLeft = null; m_BottomCenter = null; m_BottomRight = null; m_ControlHint = null; m_MapStatus = null; m_MapCursor = null;
+  if(s_RemoteSession==this) s_RemoteSession=null;
+  if(m_LocalSession && (m_bActive || m_bPending)) GetGame().GetCallqueue().CallLater(DeleteSession,1,false);
   m_bActive = false; m_bPending = false; m_bMap = false; m_bAutoRequested = false; m_bUnlockPending = false; m_iAppliedSensor = -1; m_Keys.Clear();
  }
+ protected void DeleteSession() { if(GetOwner()) SCR_EntityHelper.DeleteEntityAndChildren(GetOwner()); }
  override void EOnFrame(IEntity owner, float timeSlice)
  {
   if (m_bDiagnostics && !m_bInputProbeDone)
@@ -235,15 +267,25 @@ class ORD_TerminalComponent : ScriptComponent
   }
   if (!m_bPending && !m_bActive) return;
   SCR_PlayerController player = SCR_PlayerController.Cast(GetGame().GetPlayerController());
-  if (!player || !m_Drone) { Close(); return; }
+  if (!player) { Close(); return; }
   if (m_bPending)
   {
    m_fPendingTime += timeSlice;
-   if (m_Drone.Operator() == player.GetPlayerId()) { m_bPending = false; if (!Start()) Close(); }
-   else if (m_fPendingTime > 3) Close();
+   if(m_LocalSession && player.ORD_ClaimResponse()==m_ClaimRequest)
+   {
+    IEntity resolved=SCR_PlayerController.ORD_Entity(player.ORD_ClaimId());
+    if(resolved) m_Drone=ORD_AircraftComponent.Cast(resolved.FindComponent(ORD_AircraftComponent));
+   }
+   if (m_Drone && m_Drone.Operator() == player.GetPlayerId())
+   {
+    m_bPending = false; if(m_HUD) m_HUD.RemoveFromHierarchy(); m_HUD=null;
+    if (!Start()) Close();
+   }
+   else if (m_fPendingTime > 15) Close();
    return;
   }
-  if (m_Drone.Operator() != player.GetPlayerId() || m_Drone.Destroyed()) { Close(); return; }
+  if (!m_Drone || m_Drone.Operator() != player.GetPlayerId() || m_Drone.Destroyed()) { Close(); return; }
+  if(m_Character && (player.GetControlledEntity()!=m_Character.GetOwner() || m_Character.IsDead())) { Close(); return; }
   m_fFeedTime += timeSlice;
   bool wasPilot = m_bPilot;
   m_bPilot = !m_Drone.SensorMode();
@@ -296,6 +338,11 @@ class ORD_TerminalComponent : ScriptComponent
   if (m_bPilot && Pressed(input, "ORD_SpeedDown")) player.ORD_Send(drone, ORD_Command.SPEED_DOWN);
   if (Pressed(input, "ORD_RadiusUp")) player.ORD_Send(drone, ORD_Command.RADIUS_UP);
   if (Pressed(input, "ORD_RadiusDown")) player.ORD_Send(drone, ORD_Command.RADIUS_DOWN);
+  if((m_bMap || m_bPilot) && m_FarObserver)
+  {
+   ObserversSystem observers=ObserversSystem.Cast(GetGame().GetWorld().FindSystem(ObserversSystem));
+   if(observers) observers.DelFarObserver(); m_FarObserver=false;
+  }
   if (m_bMap)
   {
    if (m_HUD) m_HUD.SetVisible(false);
@@ -369,15 +416,8 @@ class ORD_TerminalComponent : ScriptComponent
   }
   int desiredEffect = 0;
   if (!m_bPilot && !m_bMap) desiredEffect = m_iSensor;
-  if (desiredEffect != m_iAppliedSensor)
-  {
-   ResourceName effect = string.Empty;
-   if (desiredEffect == 1) effect = m_rWhite;
-   if (desiredEffect == 2) effect = m_rBlack;
-   if (desiredEffect != 0 && effect == string.Empty) { desiredEffect = 0; m_iSensor = 0; }
-   owner.GetWorld().SetCameraPostProcessEffect(owner.GetWorld().GetCurrentCameraId(), 11, PostProcessEffectType.ThermalImaging, effect);
-   m_iAppliedSensor = desiredEffect;
-  }
+  if(m_Thermal) m_iAppliedSensor=m_Thermal.Update(owner.GetWorld(),m_Camera.GetCameraIndex(),desiredEffect,m_rWhite,m_rBlack,m_fZoom);
+  if(m_Thermal && m_Thermal.Fallback) { m_iSensor=0; m_ThermalErrorUntil=m_fFeedTime+5; }
   float width, height; GetGame().GetWorkspace().GetScreenSize(width, height);
   float horizontalFOV = 60;
   if (m_bMap) horizontalFOV = 60 / m_fMapZoom;
@@ -468,6 +508,16 @@ class ORD_TerminalComponent : ScriptComponent
   SCR_PlayerController player=SCR_PlayerController.Cast(GetGame().GetPlayerController());
   if(player)
   {
+   ObserversSystem observers=ObserversSystem.Cast(GetGame().GetWorld().FindSystem(ObserversSystem));
+   if(observers && player.GetControlledEntity())
+   {
+    float limit=GetGame().GetMaximumViewDistance();
+    float serverLimit=GetGame().GetViewDistanceServerLimit();
+    if(serverLimit>0) limit=Math.Min(limit,serverLimit);
+    float range=Math.Clamp(5000,GetGame().GetMinimumViewDistance(),limit);
+    m_Camera.SetFarPlane(range);
+    observers.AddFarObserver(player.GetControlledEntity(),drone,pose[3],aim,range,timeSlice); m_FarObserver=true;
+   }
    float width,height; GetGame().GetWorkspace().GetScreenSize(width,height);
    if(m_QueueOptics || m_QueueDesignation) player.ORD_Optics(drone,aim,m_fZoom,width/Math.Max(height,1),m_iSensor,++m_OpticsSequence,m_QueueDesignation);
    if(m_QueueFire) player.ORD_Weapon(drone,m_iWeaponMode,aim);
@@ -630,7 +680,7 @@ class ORD_TerminalComponent : ScriptComponent
  {
   if (!m_bPilot)
   {
-   if (m_SensorHUD) m_SensorHUD.Update(m_Drone, m_Camera, m_iAppliedSensor, m_bInputMissing, m_GimbalLimited);
+   if (m_SensorHUD) m_SensorHUD.Update(m_Drone, m_Camera, m_iAppliedSensor, m_bInputMissing, m_GimbalLimited, m_fFeedTime<m_ThermalErrorUntil);
    return;
   }
   if (!m_TopLeft) return;

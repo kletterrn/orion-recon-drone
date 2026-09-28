@@ -35,6 +35,14 @@ modded class ORD_TerminalComponent
    Print(string.Format("ORD_TEST_CAPTURE matrix=%1 sensor=%2 rain=%3 fog=%4 hour=%5",m_CaptureStep,m_iAppliedSensor,weather.GetRainIntensity(),weather.GetFogAmount(),weather.GetTimeOfTheDay()));
   }
   m_CaptureStep=step;
+  // Let the screenshot finish before changing weather for the next case.
+  GetGame().GetCallqueue().CallLater(ConfigureMatrix,100,false,step);
+ }
+ protected void ConfigureMatrix(int step)
+ {
+  ChimeraWorld world=GetOwner().GetWorld();
+  TimeAndWeatherManagerEntity weather=world.GetTimeAndWeatherManager();
+  if(!weather) return;
   int scene=step/3, mode=step%3;
   int sky=scene/3, timeOfDay=scene%3;
   if(mode==0)

@@ -27,6 +27,10 @@ class ORD_TerminalComponent : ScriptComponent
  protected TextWidget m_MapStatus, m_MapCursor;
  protected bool m_bPending, m_bActive, m_bPilot = true, m_bMap, m_bInputMissing, m_bAutoRequested, m_bBoxesEnabled = true, m_bUnlockPending;
  protected int m_iLastInputTick;
+ protected float m_ResolvedYaw, m_ResolvedPitch, m_YawVelocity, m_PitchVelocity;
+ protected bool m_PoseReady, m_GimbalLimited, m_QueueDesignation, m_QueueFire, m_QueueOptics;
+ protected float m_ObservationStamp = -1, m_ObservationAge, m_ObservationInterval = 0.1;
+ protected vector m_PreviousObservation, m_CurrentObservation;
  protected int m_iWeaponMode = ORD_TargetMode.SENSOR_POINT;
  protected float m_fPendingTime, m_fHeartbeat, m_fSend, m_fThrottle, m_fYaw, m_fPitch = -20, m_fZoom = 1, m_fMapZoom = 1, m_fFeedTime, m_fAutoRequestTime;
  protected int m_iSensor, m_iAppliedSensor = -1;
@@ -304,42 +308,25 @@ class ORD_TerminalComponent : ScriptComponent
   else if (m_bPilot) m_fThrottle = Math.Clamp(m_fThrottle + (input.GetActionValue("ORD_ThrottleUp") - input.GetActionValue("ORD_ThrottleDown")) * timeSlice * 0.3, 0, 1);
   else
   {
-   float mouseX = Math.Clamp(input.GetActionValue("ORD_MouseYaw"), -40, 40);
-   float mouseY = Math.Clamp(input.GetActionValue("ORD_MousePitch"), -40, 40);
+   float mouseX = input.GetActionValue("ORD_MouseYaw");
+   float mouseY = input.GetActionValue("ORD_MousePitch");
    // Relative movement is a delta, never a held rotation command.
    input.ResetAction("ORD_MouseYaw"); input.ResetAction("ORD_MousePitch");
-   if (Math.AbsFloat(mouseX) <= 0.4) mouseX = 0;
-   if (Math.AbsFloat(mouseY) <= 0.4) mouseY = 0;
+   if (Math.AbsFloat(mouseX) <= 0.001) mouseX = 0;
+   if (Math.AbsFloat(mouseY) <= 0.001) mouseY = 0;
    // Screen-direction controls: right increases bearing; up raises elevation.
    float panX = Math.AbsFloat(input.GetActionValue("ORD_CamRight")) - Math.AbsFloat(input.GetActionValue("ORD_CamLeft"));
    float panY = Math.AbsFloat(input.GetActionValue("ORD_CamUp")) - Math.AbsFloat(input.GetActionValue("ORD_CamDown"));
    if (Math.AbsFloat(panX) <= 0.1) panX = 0;
    if (Math.AbsFloat(panY) <= 0.1) panY = 0;
-   bool manualAim = Math.AbsFloat(mouseX) > 0.4 || Math.AbsFloat(mouseY) > 0.4 || Math.AbsFloat(panX) > 0.1 || Math.AbsFloat(panY) > 0.1;
+   bool manualAim = Math.AbsFloat(mouseX) > 0.001 || Math.AbsFloat(mouseY) > 0.001 || Math.AbsFloat(panX) > 0.1 || Math.AbsFloat(panY) > 0.1;
    if (!m_Drone.Designated()) m_bUnlockPending = false;
    bool locked = m_Drone.PointLocked() || m_Drone.Tracking() || m_Drone.ContactState() == ORD_ContactState.LOST;
-   if (locked && manualAim && !m_bUnlockPending) { player.ORD_Send(drone, ORD_Command.CLEAR_TRACK); m_bUnlockPending = true; }
+   if (locked && manualAim && !m_bUnlockPending) { m_fYaw=m_ResolvedYaw; m_fPitch=m_ResolvedPitch; player.ORD_Send(drone, ORD_Command.CLEAR_TRACK); m_bUnlockPending = true; }
    if (m_bUnlockPending) locked = false;
-   if (locked)
+   if (!locked)
    {
-    vector look = m_Drone.Target() - ORD_CameraMounts.SensorOrigin(drone,ORD_CameraMounts.Forward(m_fYaw,m_fPitch));
-    float horizontal = Math.Sqrt(look[0] * look[0] + look[2] * look[2]);
-    if (m_Drone.ContactState() == ORD_ContactState.GROUP && m_Drone.GroupSpan() > 1)
-    {
-     float requiredHalfAngle = Math.Atan2(m_Drone.GroupSpan() * 1.4, look.Length()) * Math.RAD2DEG;
-     if (requiredHalfAngle > 0.1) m_fZoom = Math.Min(m_fZoom, Math.Clamp(30 / requiredHalfAngle, 1, 20));
-    }
-    float desiredYaw = Math.Atan2(look[0], look[2]) * Math.RAD2DEG;
-    float yawError = desiredYaw - m_fYaw;
-    while (yawError > 180) yawError -= 360;
-    while (yawError < -180) yawError += 360;
-    m_fYaw += Math.Clamp(yawError, -timeSlice * 60, timeSlice * 60);
-    float desiredPitch = Math.Atan2(look[1], horizontal) * Math.RAD2DEG;
-    m_fPitch = Math.Clamp(m_fPitch + Math.Clamp(desiredPitch - m_fPitch, -timeSlice * 45, timeSlice * 45), -89, 75);
-   }
-   else
-   {
-    float aimScale = 1 / Math.Sqrt(m_fZoom);
+    float aimScale = 1 / m_fZoom;
     m_fYaw += (mouseX * 0.12 + panX * timeSlice * 55) * aimScale;
     m_fPitch = Math.Clamp(m_fPitch - mouseY * 0.12 * aimScale + panY * timeSlice * 55 * aimScale, -89, 75);
    }
@@ -353,7 +340,7 @@ class ORD_TerminalComponent : ScriptComponent
    if (Pressed(input, "ORD_Designate"))
    {
     if (m_Drone.Designated()) { player.ORD_Send(drone, ORD_Command.CLEAR_TRACK); m_bUnlockPending = true; }
-    else player.ORD_LockPoint(drone, m_Camera.GetTransformAxis(2));
+    else m_QueueDesignation = true;
    }
    if (Pressed(input, "ORD_Boxes")) m_bBoxesEnabled = !m_bBoxesEnabled;
    if (Pressed(input, "ORD_Track"))
@@ -375,12 +362,11 @@ class ORD_TerminalComponent : ScriptComponent
    }
    if (Pressed(input, "ORD_Fire"))
    {
-    player.ORD_Weapon(drone, m_iWeaponMode, m_Camera.GetTransformAxis(2));
+    m_QueueFire = true;
    }
    if (Pressed(input, "ORD_QueuePoint")) player.ORD_Send(drone, ORD_Command.QUEUE_POINT);
    if (Pressed(input, "ORD_Loiter")) player.ORD_Send(drone, ORD_Command.LOITER);
   }
-  UpdateOpticalPose();
   int desiredEffect = 0;
   if (!m_bPilot && !m_bMap) desiredEffect = m_iSensor;
   if (desiredEffect != m_iAppliedSensor)
@@ -409,7 +395,7 @@ class ORD_TerminalComponent : ScriptComponent
   if (m_fSend >= 0.1)
   {
    m_fSend = 0;
-   if (!m_bPilot) player.ORD_Optics(drone,m_Camera.GetTransformAxis(2),m_fZoom,aspect,m_iSensor,++m_OpticsSequence);
+   if (!m_bPilot) m_QueueOptics = true;
    float pitchInput = input.GetActionValue("ORD_Pitch");
    float rollInput = input.GetActionValue("ORD_Roll");
    float yawInput = input.GetActionValue("ORD_Yaw");
@@ -421,35 +407,72 @@ class ORD_TerminalComponent : ScriptComponent
    UpdateHUD(drone);
   }
  }
- // Called again by the camera POSTFRAME after aircraft physics has advanced.
- void UpdateOpticalPose()
+ // Resolve once after physics. Aircraft-motion compensation is never damped.
+ void UpdateOpticalPose(float timeSlice = 0.016667)
  {
   if (!m_bActive || !m_Drone || !m_Camera || m_bMap) return;
-  IEntity drone = m_Drone.GetOwner();
-  if (m_bMap) { m_Camera.SetOrigin(m_vMapCenter + Vector(0, 1000, 0)); m_Camera.SetAngles(Vector(-90, 0, 0)); }
+  IEntity drone=m_Drone.GetOwner();
+  if(m_bPilot)
+  {
+   vector pilot[4]; drone.GetTransform(pilot); pilot[3]=ORD_CameraMounts.PilotOrigin(drone);
+   m_Camera.SetTransform(pilot); m_PoseReady=false; return;
+  }
+  if(!m_PoseReady) { m_ResolvedYaw=m_fYaw; m_ResolvedPitch=m_fPitch; m_PoseReady=true; }
+  bool locked=m_Drone.Designated() && !m_bUnlockPending;
+  vector requested;
+  if(locked)
+  {
+   vector target=m_Drone.Target();
+   // Interpolate only fresh observed positions; freeze immediately on loss.
+   if(m_Drone.Tracking() && m_Drone.ContactState()!=ORD_ContactState.TEMP_LOSS)
+   {
+    float stamp=m_Drone.ObservedTime();
+    if(stamp!=m_ObservationStamp)
+    {
+     m_PreviousObservation=m_CurrentObservation;
+     if(m_ObservationStamp<0) m_PreviousObservation=target;
+     m_ObservationInterval=Math.Clamp(stamp-m_ObservationStamp,0.05,0.2);
+     m_CurrentObservation=target; m_ObservationStamp=stamp; m_ObservationAge=0;
+    }
+    m_ObservationAge+=timeSlice;
+    target=m_PreviousObservation+(m_CurrentObservation-m_PreviousObservation)*Math.Clamp(m_ObservationAge/m_ObservationInterval,0,1);
+   }
+   else m_ObservationStamp=-1;
+   requested=ORD_CameraMounts.Forward(m_ResolvedYaw,m_ResolvedPitch);
+   // Articulating the gimbal moves the lens. Bounded correction uses that origin.
+   for(int iteration=0;iteration<2;iteration++)
+    requested=vector.Direction(ORD_CameraMounts.SensorOrigin(drone,ORD_CameraMounts.Constrain(drone,requested)),target).Normalized();
+  }
   else
   {
-   // Flight view is at the pictured optical unit; sensor view follows its lens.
-   if (m_bPilot)
-   {
-    vector pilotTransform[4]; drone.GetTransform(pilotTransform);
-    pilotTransform[3] = ORD_CameraMounts.PilotOrigin(drone);
-    m_Camera.SetTransform(pilotTransform);
-   }
-   else
-   {
-    vector aimDirection=ORD_CameraMounts.Constrain(drone,ORD_CameraMounts.Forward(m_fYaw,m_fPitch));
-    m_fYaw = Math.Atan2(aimDirection[0],aimDirection[2])*Math.RAD2DEG;
-    m_fPitch = Math.Asin(Math.Clamp(aimDirection[1],-1,1))*Math.RAD2DEG;
-    m_Camera.SetOrigin(ORD_CameraMounts.SensorOrigin(drone,aimDirection));
-    vector sensorTransform[4];
-    sensorTransform[2]=aimDirection; sensorTransform[0]=Vector(Math.Cos(m_fYaw*Math.DEG2RAD),0,-Math.Sin(m_fYaw*Math.DEG2RAD));
-    sensorTransform[1]=Vector(-Math.Sin(m_fYaw*Math.DEG2RAD)*Math.Sin(m_fPitch*Math.DEG2RAD),Math.Cos(m_fPitch*Math.DEG2RAD),-Math.Cos(m_fYaw*Math.DEG2RAD)*Math.Sin(m_fPitch*Math.DEG2RAD)); sensorTransform[3]=m_Camera.GetOrigin();
-    m_Camera.SetTransform(sensorTransform);
-    ORD_AircraftVisuals visuals = ORD_AircraftVisuals.Cast(drone.FindComponent(ORD_AircraftVisuals));
-    if (visuals) visuals.SensorAim(m_fYaw, m_fPitch);
-   }
+   m_ObservationStamp=-1;
+   float error=m_fYaw-m_ResolvedYaw;
+   while(error>180) error-=360;
+   while(error< -180) error+=360;
+   float blend=1-Math.Pow(2.718281828,-Math.Max(timeSlice,0)/0.022);
+   m_YawVelocity=error*blend/Math.Max(timeSlice,0.001);
+   m_PitchVelocity=(m_fPitch-m_ResolvedPitch)*blend/Math.Max(timeSlice,0.001);
+   m_ResolvedYaw+=error*blend; m_ResolvedPitch+=(m_fPitch-m_ResolvedPitch)*blend;
+   requested=ORD_CameraMounts.Forward(m_ResolvedYaw,m_ResolvedPitch);
   }
+  vector aim=ORD_CameraMounts.Constrain(drone,requested);
+  m_GimbalLimited=vector.Dot(aim,requested)<0.999999;
+  m_ResolvedYaw=Math.Atan2(aim[0],aim[2])*Math.RAD2DEG;
+  m_ResolvedPitch=Math.Asin(Math.Clamp(aim[1],-1,1))*Math.RAD2DEG;
+  vector pose[4]; pose[2]=aim;
+  pose[0]=Vector(Math.Cos(m_ResolvedYaw*Math.DEG2RAD),0,-Math.Sin(m_ResolvedYaw*Math.DEG2RAD));
+  pose[1]=Vector(-Math.Sin(m_ResolvedYaw*Math.DEG2RAD)*Math.Sin(m_ResolvedPitch*Math.DEG2RAD),Math.Cos(m_ResolvedPitch*Math.DEG2RAD),-Math.Cos(m_ResolvedYaw*Math.DEG2RAD)*Math.Sin(m_ResolvedPitch*Math.DEG2RAD));
+  pose[3]=ORD_CameraMounts.SensorOrigin(drone,aim); m_Camera.SetTransform(pose);
+  ORD_AircraftVisuals visuals=ORD_AircraftVisuals.Cast(drone.FindComponent(ORD_AircraftVisuals));
+  if(visuals) visuals.SensorAim(m_ResolvedYaw,m_ResolvedPitch);
+  SCR_PlayerController player=SCR_PlayerController.Cast(GetGame().GetPlayerController());
+  if(player)
+  {
+   float width,height; GetGame().GetWorkspace().GetScreenSize(width,height);
+   if(m_QueueOptics || m_QueueDesignation) player.ORD_Optics(drone,aim,m_fZoom,width/Math.Max(height,1),m_iSensor,++m_OpticsSequence,m_QueueDesignation);
+   if(m_QueueFire) player.ORD_Weapon(drone,m_iWeaponMode,aim);
+  }
+  m_QueueDesignation=false; m_QueueFire=false; m_QueueOptics=false;
  }
  void ProjectOpticalContacts()
  {
@@ -458,6 +481,7 @@ class ORD_TerminalComponent : ScriptComponent
  }
  protected void ResetZoomInput()
  {
+  m_PoseReady=false; m_YawVelocity=0; m_PitchVelocity=0; m_QueueDesignation=false; m_QueueFire=false; m_QueueOptics=false; m_ObservationStamp=-1;
   InputManager input = GetGame().GetInputManager();
   input.ResetAction("ORD_MouseYaw"); input.ResetAction("ORD_MousePitch");
   input.ResetAction("ORD_CamLeft"); input.ResetAction("ORD_CamRight");
@@ -606,7 +630,7 @@ class ORD_TerminalComponent : ScriptComponent
  {
   if (!m_bPilot)
   {
-   if (m_SensorHUD) m_SensorHUD.Update(m_Drone, m_Camera, m_iAppliedSensor, m_bInputMissing);
+   if (m_SensorHUD) m_SensorHUD.Update(m_Drone, m_Camera, m_iAppliedSensor, m_bInputMissing, m_GimbalLimited);
    return;
   }
   if (!m_TopLeft) return;
@@ -733,6 +757,7 @@ class ORD_SensorZoom
   return Math.Clamp(zoom*Math.Pow(2.7182818,keys*Math.Clamp(dt,0,0.1)*2.5+wheel*0.35),1,40);
  }
 }
+
 
 
 

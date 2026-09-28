@@ -67,7 +67,6 @@ class ORD_AircraftVisuals : ScriptGameComponent
   if(m_Aircraft.SensorMode())
   {
    direction=owner.CoordToLocal(owner.GetOrigin()+m_Aircraft.SensorDirection());
-   if(m_Aircraft.Designated()) direction=owner.CoordToLocal(m_Aircraft.Target())-Vector(0,-0.73,2.05);
   }
   AimLocal(direction);
   bool moving=m_fGear>0.0001 && m_fGear<0.9999;

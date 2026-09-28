@@ -16,7 +16,7 @@ class ORD_OpticalCamera : SCR_CameraBase
  override protected void EOnPostFrame(IEntity owner, float timeSlice)
  {
   if (!m_Terminal) return;
-  m_Terminal.UpdateOpticalPose();
+  m_Terminal.UpdateOpticalPose(timeSlice);
   ApplyTransform(timeSlice);
   m_Terminal.ProjectOpticalContacts();
  }

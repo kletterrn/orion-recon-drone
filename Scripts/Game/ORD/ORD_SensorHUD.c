@@ -41,7 +41,7 @@ class ORD_SensorHUD
  string SelectedId() { return m_Selected; }
  bool HasObservation() { return m_Observed; }
  vector Observation() { return m_Observation; }
- void ClearContacts() { m_Visible.Clear(); m_ContactCount = 0; }
+ void ClearContacts() { m_Classified.Clear(); m_Visible.Clear(); m_ContactCount = 0; }
  void BeginScan() { m_Visible.Clear(); m_Classified.Clear(); }
  void AddContact(IEntity entity, bool classified = false) { if (entity && m_Visible.Count() < 48) { m_Visible.Insert(entity); if(classified) m_Classified.Insert(entity); } }
 
@@ -271,7 +271,7 @@ class ORD_SensorHUD
   }
   m_Geometry.SetDrawCommands(m_Draw);
  }
- void Update(ORD_AircraftComponent drone, SCR_CameraBase camera, int sensor, bool missingInput)
+ void Update(ORD_AircraftComponent drone, SCR_CameraBase camera, int sensor, bool missingInput, bool limited = false)
  {
   if (!m_Text || !camera) return;
   Dimensions(); m_TextDraw.Clear();
@@ -295,7 +295,8 @@ class ORD_SensorHUD
   if (sensor == 2) mode = "IR BH";
   Text(m_TextDraw, m_Width - 270*s, 62*s, mode);
   // Sensor orientation is world-stabilized by the existing terminal basis.
-  Text(m_TextDraw, m_Width - 270*s, 98*s, "STAB ON");
+  string stability="STAB ON"; if(limited) stability="GIMBAL LIMIT";
+  Text(m_TextDraw, m_Width - 270*s, 98*s, stability);
   string link = "LINK --";
   PlayerController player = GetGame().GetPlayerController();
   if (player && drone.Operator() == player.GetPlayerId() && !drone.Destroyed()) link = "LINK OK";

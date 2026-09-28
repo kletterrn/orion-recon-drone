@@ -1,0 +1,13 @@
+{
+  "enteredGame": true,
+  "scriptErrors": [],
+  "observations": [
+    "20:29:25.867   SCRIPT       : ORD_TEST_PASS stationary_point_lock rms=0.37858 peak=0.939225 samples=601 zoom=1"
+  ],
+  "fpsLimit": 60,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "durationSeconds": 50
+}

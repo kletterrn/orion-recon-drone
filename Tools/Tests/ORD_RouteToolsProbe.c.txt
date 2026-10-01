@@ -1,0 +1,74 @@
+class ORD_RouteToolsHarness : ORD_MissionMap
+{
+ void Seed()
+ {
+  m_Points.Clear(); m_Points.Insert("100 25 200"); m_Points.Insert("300 25 400"); m_Points.Insert("500 25 200");
+  m_Altitude = 450; m_Speed = 40; m_Radius = 450; m_Selected = 0; m_Dirty = false;
+  m_Undo.Clear(); m_Redo.Clear();
+ }
+ void Reverse() { ReverseDraft(); }
+ void Undo() { UndoEdit(); }
+ void Redo() { RedoEdit(); }
+ void ChangeAltitude(float value) { RecordEdit(); m_Altitude = value; m_Dirty = true; }
+ int UndoCount() { return m_Undo.Count(); }
+ int RedoCount() { return m_Redo.Count(); }
+ ORD_RouteDraft Snapshot() { return CaptureDraft(); }
+ void Restore(ORD_RouteDraft draft) { RestoreDraft(draft); }
+}
+modded class ORD_TerminalComponent
+{
+ override void OnPostInit(IEntity owner)
+ {
+  super.OnPostInit(owner);
+  if (owner.GetName() == "ORD_Terminal") GetGame().GetCallqueue().CallLater(RouteToolsTests, 4000, false);
+ }
+ protected void CheckRouteTool(string name, bool passed)
+ {
+  if (passed) Print("ORD_TEST_PASS tools-" + name);
+  else Print("ORD_TEST_FAIL tools-" + name);
+ }
+ protected void RouteToolsTests()
+ {
+  ORD_RouteToolsHarness planner = new ORD_RouteToolsHarness(); planner.Seed();
+  ORD_RouteDraft original = planner.Snapshot(); planner.Reverse(); ORD_RouteDraft reversed = planner.Snapshot();
+  CheckRouteTool("reverse-order-selection", reversed.Points[0] == original.Points[2] && reversed.Selected == 2 && reversed.Dirty);
+  planner.Undo(); ORD_RouteDraft undone = planner.Snapshot();
+  CheckRouteTool("undo-restores-clean-state", undone.Points[0] == original.Points[0] && undone.Selected == 0 && !undone.Dirty);
+  planner.Redo(); CheckRouteTool("redo-restores-edit", planner.Snapshot().Points[0] == reversed.Points[0]);
+  planner.Undo(); planner.ChangeAltitude(650);
+  CheckRouteTool("new-edit-clears-redo", planner.RedoCount() == 0);
+  planner.Undo(); CheckRouteTool("undo-settings", planner.Snapshot().Altitude == 450);
+  planner.Seed(); for (int i = 0; i < 30; i++) planner.ChangeAltitude(500 + i);
+  CheckRouteTool("history-bounded", planner.UndoCount() == 20);
+  bool chronological=true;
+  for(int history=0;history<20;history++)
+  {
+   planner.Undo();
+   if(planner.Snapshot().Altitude!=528-history)chronological=false;
+  }
+  CheckRouteTool("bounded-history-preserves-order",chronological && planner.UndoCount()==0);
+  original.Points[0] = "999 0 999";
+  CheckRouteTool("snapshots-independent", planner.Snapshot().Points[0] == "100 25 200");
+  planner.Seed(); ORD_RouteDraft saved = planner.Snapshot();
+  CheckRouteTool("save-profile", saved.Save(1));
+  string error; ORD_RouteDraft loaded = ORD_RouteDraft.Load(1, GetGame().GetWorldFile(), error);
+  CheckRouteTool("load-roundtrip", loaded && loaded.Points.Count() == 3 && loaded.Points[1] == saved.Points[1] && loaded.Altitude == 450 && loaded.Speed == 40 && loaded.Radius == 450 && loaded.Dirty);
+  ORD_RouteDraft wrongWorld = ORD_RouteDraft.Load(1, "another-world", error);
+  CheckRouteTool("reject-different-world", !wrongWorld && error == "Saved route belongs to another world");
+  CheckRouteTool("reject-invalid-slot", !saved.Save(0) && ORD_RouteDraft.SlotPath(4) == "");
+  saved.Speed = 500; CheckRouteTool("reject-invalid-settings", !saved.Valid() && !saved.Save(1)); saved.Speed = 40;
+  ORD_RouteDraft retained = ORD_RouteDraft.Load(1, GetGame().GetWorldFile(), error);
+  CheckRouteTool("failed-save-preserves-slot", retained && retained.Speed == 40);
+  saved.Points.Clear(); CheckRouteTool("reject-empty", !saved.Valid());
+  for (int j = 0; j < 9; j++) saved.Points.Insert("100 0 100");
+  CheckRouteTool("reject-too-many-points", !saved.Valid());
+  saved.Points.Clear(); saved.Points.Insert("20000000 0 100");
+  CheckRouteTool("reject-invalid-coordinate", !saved.Valid());
+  JsonSaveContext malformed = new JsonSaveContext(); malformed.WriteValue("version", 99); malformed.SaveToFile(ORD_RouteDraft.SlotPath(2));
+  CheckRouteTool("reject-future-version", !ORD_RouteDraft.Load(2, GetGame().GetWorldFile(), error));
+  JsonSaveContext incomplete = new JsonSaveContext(); incomplete.WriteValue("version", 1); incomplete.SaveToFile(ORD_RouteDraft.SlotPath(2));
+  CheckRouteTool("reject-missing-fields", !ORD_RouteDraft.Load(2, GetGame().GetWorldFile(), error));
+  CheckRouteTool("empty-slot", !ORD_RouteDraft.Load(3, GetGame().GetWorldFile(), error));
+  Print("ORD_TEST_DONE route-tools");
+ }
+}

@@ -1,0 +1,89 @@
+// Test-stage bootstrap only. Real character, real ownership gateway and terminal.
+// Does not override ValidLink, Grounded, aircraft physics or weapon validation.
+modded class ORD_TerminalComponent
+{
+ protected float m_RC5Age, m_RC5Log;
+ protected int m_RC5Phase;
+ protected bool m_RC5ZoomUp, m_RC5ZoomDown;
+ protected void ProbeInput(InputManager input,float dt) {}
+ override void EOnFrame(IEntity owner, float timeSlice)
+ {
+  // Isolate scripted checks from input sent to the foreground application.
+  InputManager fixtureInput=GetGame().GetInputManager();
+  for(int actionIndex=0;actionIndex<fixtureInput.GetActionCount();actionIndex++)
+  {
+   string actionName=fixtureInput.GetActionName(actionIndex);
+   if(actionName.StartsWith("ORD_")) fixtureInput.SetActionValue(actionName,0);
+  }
+  ProbeInput(fixtureInput,timeSlice);
+  super.EOnFrame(owner, timeSlice);
+  if (!Replication.IsServer() || owner.GetName() != "ORD_Terminal") return;
+  m_RC5Age += timeSlice;
+  if(m_RC5Phase>0 && SCR_EditorManagerEntity.IsOpenedInstance()) SCR_EditorManagerEntity.CloseInstance();
+  SCR_PlayerController player = SCR_PlayerController.Cast(GetGame().GetPlayerController());
+  if(player && m_RC5Phase>0 && player.GetControlledEntity())
+  {
+   IEntity operatorCharacter=player.GetControlledEntity();
+   vector station=owner.GetOrigin()+Vector(1,0,0); station[1]=owner.GetWorld().GetSurfaceY(station[0],station[2])+0.15;
+   operatorCharacter.SetOrigin(station);
+   CharacterControllerComponent operatorControls=CharacterControllerComponent.Cast(operatorCharacter.FindComponent(CharacterControllerComponent));
+   if(operatorControls) { operatorControls.SetDisableMovementControls(true); operatorControls.SetDisableWeaponControls(true); }
+  }
+  if (m_RC5Age-m_RC5Log > 5)
+  {
+   m_RC5Log=m_RC5Age;
+   int id; if(player) id=player.GetPlayerId();
+   Print(string.Format("ORD_RC5_BOOT phase=%1 active=%2 pending=%3 player=%4 terminal=%5 aircraft=%6",m_RC5Phase,m_bActive,m_bPending,id,owner.GetOrigin(),ORD_AircraftComponent.Aircraft.Count()));
+  }
+  if (!player || player.GetPlayerId() <= 0 || m_RC5Age < 6) return;
+  if (m_RC5Phase == 0)
+  {
+   EntitySpawnParams spawn = new EntitySpawnParams(); spawn.TransformMode = ETransformMode.WORLD;
+   Math3D.MatrixIdentity4(spawn.Transform); spawn.Transform[3] = owner.GetOrigin()+Vector(1,0,0);
+   spawn.Transform[3][1] = owner.GetWorld().GetSurfaceY(spawn.Transform[3][0],spawn.Transform[3][2])+0.15;
+   IEntity character = GetGame().SpawnEntityPrefab(Resource.Load("Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"),owner.GetWorld(),spawn);
+   if(character)
+   {
+    CharacterControllerComponent controls=CharacterControllerComponent.Cast(character.FindComponent(CharacterControllerComponent));
+    if(controls) { controls.SetDisableMovementControls(true); controls.SetDisableWeaponControls(true); }
+    player.SetInitialMainEntity(character);
+   }
+   SCR_EditorManagerEntity.CloseInstance();
+   Print(string.Format("ORD_RC5_OPERATOR character=%1 controlled=%2",character,player.GetControlledEntity()));
+   m_RC5Phase = 1; return;
+  }
+  if (m_RC5Phase == 1 && m_RC5Age > 9)
+  {
+   m_RC5Phase = 2; Open();
+   Print(string.Format("ORD_RC5_CLAIM terminalId=%1 controlled=%2 manager=%3",SCR_PlayerController.ORD_Id(owner),player.GetControlledEntity(),GetGame().GetPlayerManager().GetPlayerControlledEntity(player.GetPlayerId())));
+   foreach(ORD_AircraftComponent item : ORD_AircraftComponent.Aircraft) Print(string.Format("ORD_RC5_AIRCRAFT name=%1 pos=%2 id=%3 operator=%4 dead=%5",item.GetOwner().GetName(),item.GetOwner().GetOrigin(),SCR_PlayerController.ORD_Id(item.GetOwner()),item.Operator(),item.Destroyed()));
+  }
+  if (m_bActive && m_RC5Phase == 2) { m_RC5Phase = 3; player.ORD_Send(m_Drone.GetOwner(),ORD_Command.SENSOR); }
+  if (m_bActive && m_RC5Age-m_RC5Log > 2)
+  {
+   m_RC5Log=m_RC5Age;
+   Print(string.Format("ORD_RC5_INPUT zoom=%1 yaw=%2 pitch=%3 map=%4 pilot=%5",m_fZoom,m_fYaw,m_fPitch,m_bMap,m_bPilot));
+  }
+ }
+}
+modded class ORD_AircraftComponent
+{
+ override bool ValidLink(int id)
+ {
+  bool result=super.ValidLink(id);
+  if(!result && id==m_iOperator && id>0)
+  {
+   IEntity character=GetGame().GetPlayerManager().GetPlayerControlledEntity(id);
+   FactionAffiliationComponent faction; if(character) faction=FactionAffiliationComponent.Cast(character.FindComponent(FactionAffiliationComponent));
+   string key; if(faction && faction.GetAffiliatedFaction()) key=faction.GetAffiliatedFaction().GetFactionKey();
+   Print(string.Format("ORD_RC5_LINK rejected id=%1 terminal=%2 character=%3 faction=%4 expected=%5",id,m_Terminal,character,key,m_sFaction));
+  }
+  return result;
+ }
+}
+
+
+
+
+
+

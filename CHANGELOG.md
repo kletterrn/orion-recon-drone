@@ -1,3 +1,24 @@
+# Unreleased — sensor-linked reconnaissance (2026-09-29)
+
+- Connect map clicks and saved observations to the sensor, with a session flight trail, camera direction and estimated four-corner footprint.
+- Add bounded faction reconnaissance cards: fixed last-observed coordinates, server simulation time, operator note and estimated category; add a report-only map action at terminals.
+- Add optional experimental EO/IR compositing and wide video orientation with a zoom rectangle; retain a schematic inset as the default.
+- Keep thumbnails deferred pending sensor capture and transport testing. See Docs/RECON_SUITE.md for usage and validation boundaries.
+
+# Unreleased — saved routes and editing tools (2026-09-29)
+
+- Add three persistent local route slots with world/settings validation and explicit overwrite confirmation.
+- Add bounded undo/redo for route and flight-setting drafts, route reversal, and aircraft/home map centering without changing zoom.
+- Keep loaded presets as unapplied drafts and block edits while server acceptance is pending.
+- Retain the previous circuit estimates and waypoint click/drag improvements. See Docs/ROUTE_TOOLS.md for validation and remaining limits.
+
+# Unreleased — mission planning improvements
+
+- Show draft circuit distance and estimated time at planned speed, including the return leg and explicit estimate limits.
+- Preserve waypoint coordinates on selection and small mouse movement; commit edits only after a deliberate drag.
+- Separate the live waypoint indicator from draft state and warn when a newer server route exists.
+- Record follow-up priorities in Docs/IMPROVEMENTS.md. RC9 gameplay and multiplayer acceptance remain incomplete.
+
 # 1.0.0-rc8 — 2026-09-28
 
 - Integrate the approved Orion and 4.4 m VisualFit Banderol meshes as native skinned model resources, with four LODs, collision proxies, attachment helpers and converted materials.
@@ -70,3 +91,12 @@
 Earlier development work added the camera overlay, zoom/pan bindings, point and entity tracking, group tracking, contact brackets, and the missile prototype. Those features were compiled and packaged previously, but most remain unverified in interactive play.
 
 
+
+### Operator polish development pass (2026-09-29)
+
+- Compact editable sensor HUD, clear aircraft/camera units, current-binding hints and explicit last-observed states.
+- Preserve map drafts, selection, notes and view; fix ordered waypoint deletion and undo-history eviction.
+- Consume shortcuts during text/menu focus, retain camera pose across focus changes, clamp gimbal requests, and acknowledge mode requests separately from confirmation.
+- Correlate transient feedback by session, reject stale-faction reports, and avoid dropping unrelated remote commands inside the duplicate throttle window.
+- Correct default flight pitch to W/up and S/down after native signed-axis verification. Autopilot/flight laws unchanged.
+- Native captures, frame-time samples, camera response and lifecycle fixtures recorded in Docs/POLISH_PASS.md. Development candidate; multiplayer, sustained flight and thermal contrast gates remain open.

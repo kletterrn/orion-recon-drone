@@ -31,15 +31,15 @@ FrameWidgetClass {
    Slot FrameWidgetSlot { Anchor 0.5 1 0.5 1 OffsetLeft -170 OffsetTop -160 SizeX 340 OffsetRight -170 SizeY 32 OffsetBottom 128 }
   }
   TextWidgetClass {
-   Name "SideLeft" Color 1 1 1 0.55 "Font Size" 17 Text "|\n|\n+\n|\n|\n+\n|\n|\n+\n|\n|" Wrap 1
+   Name "SideLeft" Color 1 1 1 0.55 "Font Size" 17 Text "" Wrap 1
    Slot FrameWidgetSlot { Anchor 0 0.5 0 0.5 OffsetLeft 23 OffsetTop -164 SizeX 22 OffsetRight -45 SizeY 335 OffsetBottom -171 }
   }
   TextWidgetClass {
-   Name "SideRight" Color 1 1 1 0.08 "Font Size" 17 Text "|\n|\n+\n|\n|\n+\n|\n|\n+\n|\n|" Wrap 1
+   Name "SideRight" Color 1 1 1 0.08 "Font Size" 17 Text "" Wrap 1
    Slot FrameWidgetSlot { Anchor 1 0.5 1 0.5 OffsetLeft -43 OffsetTop -164 SizeX 22 OffsetRight 21 SizeY 335 OffsetBottom -171 }
   }
   TextWidgetClass {
-   Name "PitchLadder" Color 1 1 1 0.76 "Font Size" 16 Text "+60 --\n\n+30 --\n\n  0 --\n\n-30 --\n\n-60 --" Wrap 1
+   Name "PitchLadder" Color 1 1 1 0.76 "Font Size" 16 Text "" Wrap 1
    Slot FrameWidgetSlot { Anchor 0 0.5 0 0.5 OffsetLeft 50 OffsetTop -142 SizeX 115 OffsetRight -165 SizeY 285 OffsetBottom -143 }
   }
   TextWidgetClass {
@@ -51,7 +51,7 @@ FrameWidgetClass {
    Slot FrameWidgetSlot { Anchor 0.5 0.5 0.5 0.5 OffsetLeft -47 OffsetTop -16 SizeX 110 OffsetRight -63 SizeY 34 OffsetBottom -18 }
   }
   TextWidgetClass {
-   Name "ReticleVertical" Color 1 1 1 0.82 "Font Size" 16 Text "|\n\n\n|" Wrap 1
+   Name "ReticleVertical" Color 1 1 1 0.82 "Font Size" 16 Text "" Wrap 1
    Slot FrameWidgetSlot { Anchor 0.5 0.5 0.5 0.5 OffsetLeft -2 OffsetTop -57 SizeX 14 OffsetRight -12 SizeY 113 OffsetBottom -56 }
   }
   TextWidgetClass {

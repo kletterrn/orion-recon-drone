@@ -1,0 +1,50 @@
+[
+  {
+    "path": "Configs/System/chimeraInputCommon.conf",
+    "sha256": "856a7356a2868be4fae2746fcc0270686b85eeb585bef5e5427be0cb035cc372"
+  },
+  {
+    "path": "Configs/System/keyBindingMenu.conf",
+    "sha256": "155edd1b8b169b0db9632d1c1a40302b618448997d5165a66a2bc3247ad10075"
+  },
+  {
+    "path": "Scripts/Game/ORD/ORD_AircraftComponent.c",
+    "sha256": "ec9e537df26da49f41aa8f0f6bf98d9a9cc034b95964cc8f154fb15e3474244f"
+  },
+  {
+    "path": "Scripts/Game/ORD/ORD_Gateway.c",
+    "sha256": "051a361f3d950f330e40fc85219204d303edfb8118d5c820a81b5dce29dfe562"
+  },
+  {
+    "path": "Scripts/Game/ORD/ORD_MissionMap.c",
+    "sha256": "6a3886524648f4176952f1a9726cfdd69e92ea2584c9dc22dea85097cac9c1fd"
+  },
+  {
+    "path": "Scripts/Game/ORD/ORD_ReconPane.c",
+    "sha256": "c0509c2bceff55b7e5676027ef5a248ac92132470eeea2f2f586d74377fcfa42"
+  },
+  {
+    "path": "Scripts/Game/ORD/ORD_ReconReports.c",
+    "sha256": "e5d99714198a5d66a084e4b889aaf2f2696d7cf1863e6eb0f691f632c40bfdde"
+  },
+  {
+    "path": "Scripts/Game/ORD/ORD_SensorDisplay.c",
+    "sha256": "4ab1159f8b57546e4936faf0050abb95b04dfb897b185ca866ff4f32d28d3fc6"
+  },
+  {
+    "path": "Scripts/Game/ORD/ORD_SensorHUD.c",
+    "sha256": "dfb101c02fee073c3e3e0d99eed42c3ff47980970b5e6ecb3f21f05d3dc6e143"
+  },
+  {
+    "path": "Scripts/Game/ORD/ORD_TerminalComponent.c",
+    "sha256": "6ad02020116d24746f5e775a645415a461ad5c1acc07353f4dca7bf781b2ff10"
+  },
+  {
+    "path": "UI/ORD/Operator.layout",
+    "sha256": "f094faaed0c9d342410d4da5d250be60ed14fc0c11e8563caf643bf75561e669"
+  },
+  {
+    "path": "UI/ORD/Sensor.layout",
+    "sha256": "599239df1af183e339eee8bc707ec4c9955d2fdffbad8770c060091c1e5cd588"
+  }
+]

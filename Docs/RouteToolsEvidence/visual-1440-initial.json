@@ -1,0 +1,25 @@
+{
+  "enteredGame": true,
+  "scriptErrors": [],
+  "observations": [
+    "00:25:35.443   SCRIPT       : ORD_TEST_PASS visual-save-button",
+    "00:25:35.443   SCRIPT       : ORD_TEST_PASS visual-reverse-button",
+    "00:25:35.444   SCRIPT       : ORD_TEST_PASS visual-overwrite-confirmation",
+    "00:25:35.444   SCRIPT       : ORD_TEST_PASS visual-confirmed-overwrite",
+    "00:25:35.444   SCRIPT       : ORD_TEST_PASS visual-undo-button",
+    "00:25:35.444   SCRIPT       : ORD_TEST_PASS visual-load-is-draft",
+    "00:25:35.444   SCRIPT       : ORD_TEST_PASS visual-undo-load",
+    "00:25:35.444   SCRIPT       : ORD_TEST_PASS visual-redo-load",
+    "00:25:35.444   SCRIPT       : ORD_TEST_PASS visual-pending-blocks-edit",
+    "00:25:35.444   SCRIPT       : ORD_TEST_PASS visual-slot-cycle",
+    "00:25:35.444   SCRIPT       : ORD_TEST_PASS visual-failed-load-preserves-draft",
+    "00:25:35.444   SCRIPT       : ORD_TEST_PASS visual-no-live-mission-change",
+    "00:25:41.473   SCRIPT       : ORD_TEST_DONE planner-visual"
+  ],
+  "fpsLimit": 60,
+  "resolution": [
+    2560,
+    1440
+  ],
+  "durationSeconds": 55
+}

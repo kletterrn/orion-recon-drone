@@ -1,0 +1,33 @@
+{
+  "enteredGame": true,
+  "scriptErrors": [],
+  "observations": [
+    "16:11:52.813   SCRIPT       : ORD_TEST_LATENCY noticeToCanvasMs=10",
+    "16:11:52.813   SCRIPT       : ORD_TEST_PASS polish-notice-next-frame-under-50ms",
+    "16:11:53.801   SCRIPT       : ORD_TEST_LATENCY cameraActionToPostFrameMs=1",
+    "16:11:53.801   SCRIPT       : ORD_TEST_PASS polish-camera-action-feedback-under-50ms",
+    "16:11:55.093   SCRIPT       : ORD_TEST_CAMERA zoom=20 heldSeconds=1.00001 expectedYaw=2.75001 actualYaw=2.75001",
+    "16:11:55.093   SCRIPT       : ORD_TEST_PASS polish-digital-pan-time-scaled",
+    "16:11:55.102   SCRIPT       : ORD_TEST_PASS polish-stale-gap-consumes-held-mode",
+    "16:11:56.243   SCRIPT       : ORD_TEST_PASS polish-gimbal-request-bounded",
+    "16:11:56.443   SCRIPT       : ORD_TEST_PASS polish-reverse-leaves-stop",
+    "16:11:57.800   SCRIPT       : ORD_TEST_PASS polish-focus-reset-preserves-camera",
+    "16:11:57.800   SCRIPT       : ORD_TEST_PASS polish-mode-request-awaits-presentation-confirmation",
+    "16:11:57.800   SCRIPT       : ORD_TEST_PASS polish-mode-accepted-from-aircraft-state",
+    "16:11:58.796   SCRIPT       : ORD_TEST_PASS polish-sensor-mode-recovers",
+    "16:11:59.800   SCRIPT       : ORD_TEST_PASS polish-unconfirmed-mode-times-out",
+    "16:12:00.794   SCRIPT       : ORD_TEST_PASS polish-closed-resources",
+    "16:12:01.801   SCRIPT       : ORD_TEST_PASS polish-reopen-single-camera",
+    "16:12:03.793   SCRIPT       : ORD_TEST_PASS polish-closed-resources",
+    "16:12:04.793   SCRIPT       : ORD_TEST_PASS polish-reopen-single-camera",
+    "16:12:06.802   SCRIPT       : ORD_TEST_PASS polish-closed-resources",
+    "16:12:07.801   SCRIPT       : ORD_TEST_PASS polish-reopen-single-camera",
+    "16:12:07.807   SCRIPT       : ORD_TEST_DONE polish-camera"
+  ],
+  "fpsLimit": 120,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "durationSeconds": 60
+}

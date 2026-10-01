@@ -1,0 +1,38 @@
+{
+  "enteredGame": true,
+  "scriptErrors": [],
+  "observations": [
+    "21:43:03.089 SCRIPT       : ORD_TEST_PASS planner-empty",
+    "21:43:03.089 SCRIPT       : ORD_TEST_PASS planner-single",
+    "21:43:03.089 SCRIPT       : ORD_TEST_PASS planner-two-points-return-leg",
+    "21:43:03.089 SCRIPT       : ORD_TEST_PASS planner-horizontal-closed-triangle",
+    "21:43:03.089 SCRIPT       : ORD_TEST_PASS planner-time-at-planned-speed",
+    "21:43:03.089 SCRIPT       : ORD_TEST_PASS planner-minute-format",
+    "21:43:03.089 SCRIPT       : ORD_TEST_PASS planner-invalid-speed",
+    "21:43:03.089 SCRIPT       : ORD_TEST_PASS planner-coincident",
+    "21:43:03.089 SCRIPT       : ORD_TEST_PASS planner-selection-does-not-move-or-dirty",
+    "21:43:03.089 SCRIPT       : ORD_TEST_PASS planner-small-hand-jitter-preserves-point",
+    "21:43:03.089 SCRIPT       : ORD_TEST_PASS planner-drag-commits-release-position",
+    "21:43:03.089 SCRIPT       : ORD_TEST_PASS planner-drag-remains-active-after-return",
+    "21:43:03.089 SCRIPT       : ORD_TEST_DONE mission-planner",
+    "21:43:03.089 SCRIPT       : ORD_TEST_PASS planner-empty",
+    "21:43:03.089 SCRIPT       : ORD_TEST_PASS planner-single",
+    "21:43:03.089 SCRIPT       : ORD_TEST_PASS planner-two-points-return-leg",
+    "21:43:03.089 SCRIPT       : ORD_TEST_PASS planner-horizontal-closed-triangle",
+    "21:43:03.089 SCRIPT       : ORD_TEST_PASS planner-time-at-planned-speed",
+    "21:43:03.089 SCRIPT       : ORD_TEST_PASS planner-minute-format",
+    "21:43:03.089 SCRIPT       : ORD_TEST_PASS planner-invalid-speed",
+    "21:43:03.089 SCRIPT       : ORD_TEST_PASS planner-coincident",
+    "21:43:03.089 SCRIPT       : ORD_TEST_PASS planner-selection-does-not-move-or-dirty",
+    "21:43:03.089 SCRIPT       : ORD_TEST_PASS planner-small-hand-jitter-preserves-point",
+    "21:43:03.089 SCRIPT       : ORD_TEST_PASS planner-drag-commits-release-position",
+    "21:43:03.089 SCRIPT       : ORD_TEST_PASS planner-drag-remains-active-after-return",
+    "21:43:03.089 SCRIPT       : ORD_TEST_DONE mission-planner"
+  ],
+  "fpsLimit": 60,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "durationSeconds": 25
+}

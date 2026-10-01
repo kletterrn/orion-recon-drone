@@ -68,6 +68,13 @@ modded class SCR_PlayerController
   else observers.RemoveObserverMP(GetRplIdentity());
  }
  protected string m_sORDFeedback;
+ protected int m_ORDFeedbackTick, m_ORDPresentationSession;
+ void ORD_NewPresentationSession()
+ {
+  m_ORDPresentationSession++; m_sORDFeedback="";
+  // Invalidate replies belonging to an earlier map/control session.
+  m_iORDMissionRequest++;
+ }
  protected int m_iORDMissionResponse, m_iORDAcceptedRevision;
  protected int m_iORDMissionRequest, m_iORDResponseRequest;
  int ORD_MissionRequest() { return m_iORDMissionRequest; }
@@ -79,8 +86,9 @@ modded class SCR_PlayerController
  [RplRpc(RplChannel.Reliable, RplRcver.Owner)]
  protected void ORD_MissionReplyRPC(bool accepted, int revision, string message, int request)
  {
+  if(request!=m_iORDMissionRequest)return;
   m_iORDMissionResponse++; m_bORDMissionAccepted = accepted;
-  m_iORDAcceptedRevision = revision; m_sORDFeedback = message;
+  m_iORDAcceptedRevision = revision; ORD_FeedbackRPC(message,m_ORDPresentationSession);
   m_iORDResponseRequest = request;
  }
  protected void ORD_MissionReply(bool accepted, int revision, string message, int request)
@@ -89,13 +97,24 @@ modded class SCR_PlayerController
   else Rpc(ORD_MissionReplyRPC, accepted, revision, message, request);
  }
  string ORD_Feedback() { return m_sORDFeedback; }
- protected void ORD_Reply(string message)
+ string ORD_RecentFeedback()
  {
-  if (this == GetGame().GetPlayerController()) ORD_FeedbackRPC(message);
-  else Rpc(ORD_FeedbackRPC, message);
+  if(System.GetTickCount()-m_ORDFeedbackTick>5000)return "";
+  return m_sORDFeedback;
+ }
+ protected void ORD_Reply(string message,int session)
+ {
+  if (this == GetGame().GetPlayerController()) ORD_FeedbackRPC(message,session);
+  else Rpc(ORD_FeedbackRPC,message,session);
  }
  [RplRpc(RplChannel.Reliable, RplRcver.Owner)]
- protected void ORD_FeedbackRPC(string message) { m_sORDFeedback = message; }
+ protected void ORD_FeedbackRPC(string message,int session)
+ {
+  if(session!=m_ORDPresentationSession) { return; }
+  m_sORDFeedback=message;
+  m_ORDFeedbackTick=System.GetTickCount();
+ }
+ protected ref map<int,float> m_ORDCommandTimes = new map<int,float>();
  protected float m_fORDLastInput = -1000, m_fORDLastCommand = -1000, m_fORDLastAim = -1000, m_fORDLastFire = -1000;
  protected float m_fORDLastLock = -1000;
  static RplId ORD_Id(IEntity entity)
@@ -165,8 +184,8 @@ modded class SCR_PlayerController
  void ORD_MapPoint(IEntity drone, vector point, bool orbit, float radius = -1)
  {
   if (this != SCR_PlayerController.Cast(GetGame().GetPlayerController())) return;
-  if (Replication.IsServer()) { ORD_AircraftComponent aircraft = ORD_Local(drone); if (aircraft) { aircraft.MapPoint(GetPlayerId(), point, orbit, radius); ORD_Reply(aircraft.MissionStatus()); } }
-  else Rpc(ORD_MapRPC, ORD_Id(drone), point, orbit, radius);
+  if (Replication.IsServer()) { ORD_AircraftComponent aircraft = ORD_Local(drone); if (aircraft) { aircraft.MapPoint(GetPlayerId(), point, orbit, radius); ORD_Reply(aircraft.MissionStatus(),m_ORDPresentationSession); } }
+  else Rpc(ORD_MapRPC, ORD_Id(drone), point, orbit, radius,m_ORDPresentationSession);
  }
  void ORD_ApplyMission(IEntity drone, array<vector> points, float altitude, float speed, float radius, int revision)
  {
@@ -193,19 +212,19 @@ modded class SCR_PlayerController
  void ORD_Weapon(IEntity drone, int mode, vector point)
  {
   if (this != SCR_PlayerController.Cast(GetGame().GetPlayerController())) return;
-  if (Replication.IsServer()) { ORD_AircraftComponent aircraft = ORD_Local(drone); if (aircraft) { aircraft.WeaponRequest(GetPlayerId(),mode,point); ORD_Reply(aircraft.WeaponStatusText()); } }
-  else Rpc(ORD_WeaponRPC, ORD_Id(drone), mode, point);
+  if (Replication.IsServer()) { ORD_AircraftComponent aircraft = ORD_Local(drone); if (aircraft) { aircraft.WeaponRequest(GetPlayerId(),mode,point); ORD_Reply(aircraft.WeaponStatusText(),m_ORDPresentationSession); } }
+  else Rpc(ORD_WeaponRPC, ORD_Id(drone), mode, point,m_ORDPresentationSession);
  }
  [RplRpc(RplChannel.Reliable, RplRcver.Server)]
- protected void ORD_WeaponRPC(RplId id, int mode, vector point)
+ protected void ORD_WeaponRPC(RplId id, int mode, vector point,int session)
  {
   ORD_AircraftComponent aircraft = ORD_Find(id);
-  if (!aircraft || !aircraft.ValidLink(GetPlayerId())) { ORD_Reply("Launch rejected: you do not control this aircraft"); return; }
+  if (!aircraft || !aircraft.ValidLink(GetPlayerId())) { ORD_Reply("Launch rejected: you do not control this aircraft",session); return; }
   float now = GetGame().GetWorld().GetWorldTime();
   if (now - m_fORDLastFire < 100) return;
   m_fORDLastFire = now;
   aircraft.WeaponRequest(GetPlayerId(), mode, point);
-  ORD_Reply(aircraft.WeaponStatusText());
+  ORD_Reply(aircraft.WeaponStatusText(),session);
  }
  protected ORD_AircraftComponent ORD_Find(RplId id)
  {
@@ -225,12 +244,12 @@ modded class SCR_PlayerController
  protected void ORD_CommandRPC(RplId id, int command, RplId terminal)
  {
   ORD_AircraftComponent aircraft = ORD_Find(id);
-  if (!aircraft) return;
+  if (!aircraft || command<ORD_Command.CLAIM || command>ORD_Command.RESUME_ROUTE) return;
   float now = GetGame().GetWorld().GetWorldTime();
   if (command != ORD_Command.RELEASE && command != ORD_Command.HEARTBEAT && command != ORD_Command.CLEAR_TRACK)
   {
-   if (now - m_fORDLastCommand < 100) return;
-   m_fORDLastCommand = now;
+   if (m_ORDCommandTimes.Contains(command) && now - m_ORDCommandTimes.Get(command) < 100) return;
+   m_ORDCommandTimes.Set(command,now);
   }
   aircraft.Command(GetPlayerId(), command, ORD_Entity(terminal));
  }
@@ -275,11 +294,11 @@ modded class SCR_PlayerController
   aircraft.FireAt(GetPlayerId(), direction);
  }
  [RplRpc(RplChannel.Reliable, RplRcver.Server)]
- protected void ORD_MapRPC(RplId id, vector point, bool orbit, float radius)
+ protected void ORD_MapRPC(RplId id, vector point, bool orbit, float radius,int session)
  {
   ORD_AircraftComponent aircraft = ORD_Find(id);
-  if (!aircraft || !aircraft.ValidLink(GetPlayerId())) { ORD_Reply("Loiter rejected: you do not control this aircraft"); return; }
-  aircraft.MapPoint(GetPlayerId(), point, orbit, radius); ORD_Reply(aircraft.MissionStatus());
+  if (!aircraft || !aircraft.ValidLink(GetPlayerId())) { ORD_Reply("Loiter rejected: you do not control this aircraft",session); return; }
+  aircraft.MapPoint(GetPlayerId(), point, orbit, radius); ORD_Reply(aircraft.MissionStatus(),session);
  }
 }
 

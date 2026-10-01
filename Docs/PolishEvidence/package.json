@@ -1,0 +1,9 @@
+{
+  "archive": "C:\\Users\\david\\Desktop\\RECON DRONES\\ReleaseCandidates\\Orion-E-rc9-operator-polish-dev-packed.zip",
+  "bytes": 94365922,
+  "sha256": "61a9ba50242d35d2669f15465233e3400b67808c6ce578e35e0a02a4de82afaf",
+  "build": "C:\\Users\\david\\Desktop\\OrionV2Builds\\polish-release-checked",
+  "runtimeFilesChangedThisPass": 12,
+  "testFixturesInPackage": false,
+  "published": false
+}

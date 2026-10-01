@@ -1,0 +1,36 @@
+FrameWidgetClass { Name "ReconOverlay" "Ignore Cursor" 1 "Z Order" 1010
+ Slot FrameWidgetSlot { Anchor 0 0 1 1 OffsetLeft 0 OffsetTop 0 OffsetRight 0 OffsetBottom 0 }
+ {
+  CanvasWidgetClass { Name "ReconDrawing" "Ignore Cursor" 1 Slot FrameWidgetSlot { Anchor 0 0 1 1 OffsetLeft 0 OffsetTop 0 OffsetRight 0 OffsetBottom 0 }
+   FontProperties { FontProperties { Font "{3E7733BAC8C831F6}UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.fnt" } }
+  }
+  FrameWidgetClass { Name "ReconPanel" "Ignore Cursor" 0
+   Slot FrameWidgetSlot { Anchor 1 0 1 0 OffsetLeft -432 OffsetTop 476 OffsetRight 20 OffsetBottom -1024 }
+   {
+    ImageWidgetClass { Name "ReconBG" "Ignore Cursor" 1 Color 0.02 0.035 0.045 0.96 Slot FrameWidgetSlot { Anchor 0 0 1 1 OffsetLeft 0 OffsetTop 0 OffsetRight 0 OffsetBottom 0 } }
+    TextWidgetClass { Name "ReconCard" "Ignore Cursor" 1 Wrap 1 "Font Size" 17 Color 1 1 1 1 Text "FACTION RECON" Slot FrameWidgetSlot { Anchor 0 0 1 0 OffsetLeft 12 OffsetTop 12 OffsetRight 12 OffsetBottom -180 } }
+    ImageWidgetClass { Name "NoteBG" "Ignore Cursor" 1 Color 0.08 0.13 0.17 1 Slot FrameWidgetSlot { Anchor 0 0 1 0 OffsetLeft 12 OffsetTop 278 OffsetRight 12 OffsetBottom -312 } }
+    EditBoxWidgetClass { Name "ReconNote" "Font Size" 17 Color 1 1 1 1 Slot FrameWidgetSlot { Anchor 0 0 1 0 OffsetLeft 12 OffsetTop 278 OffsetRight 12 OffsetBottom -312 } }
+    TextWidgetClass { Name "ReconState" "Ignore Cursor" 1 Wrap 1 "Font Size" 15 Color 0.6 0.9 0.85 1 Slot FrameWidgetSlot { Anchor 0 0 1 0 OffsetLeft 12 OffsetTop 464 OffsetRight 12 OffsetBottom -540 } }
+    ButtonWidgetClass { Name "ReconPrevious" Color 0.16 0.23 0.28 1 Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 12 OffsetTop 190 SizeX 190 OffsetRight -202 SizeY 38 OffsetBottom -228 }
+     { TextWidgetClass { Name "LabelReconPrevious" Text "Previous" "Font Size" 16 Color 1 1 1 1 "Ignore Cursor" 1 Slot ButtonWidgetSlot { HorizontalAlign 3 VerticalAlign 3 Padding 6 7 6 5 } } } }
+    ButtonWidgetClass { Name "ReconNext" Color 0.16 0.23 0.28 1 Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 210 OffsetTop 190 SizeX 190 OffsetRight -400 SizeY 38 OffsetBottom -228 }
+     { TextWidgetClass { Name "LabelReconNext" Text "Next" "Font Size" 16 Color 1 1 1 1 "Ignore Cursor" 1 Slot ButtonWidgetSlot { HorizontalAlign 3 VerticalAlign 3 Padding 6 7 6 5 } } } }
+    ButtonWidgetClass { Name "ReconLook" Color 0.16 0.23 0.28 1 Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 12 OffsetTop 234 SizeX 190 OffsetRight -202 SizeY 38 OffsetBottom -272 }
+     { TextWidgetClass { Name "LabelReconLook" Text "Show observation" "Font Size" 16 Color 1 1 1 1 "Ignore Cursor" 1 Slot ButtonWidgetSlot { HorizontalAlign 3 VerticalAlign 3 Padding 6 7 6 5 } } } }
+    ButtonWidgetClass { Name "ReconRefresh" Color 0.16 0.23 0.28 1 Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 210 OffsetTop 234 SizeX 190 OffsetRight -400 SizeY 38 OffsetBottom -272 }
+     { TextWidgetClass { Name "LabelReconRefresh" Text "Refresh reports" "Font Size" 16 Color 1 1 1 1 "Ignore Cursor" 1 Slot ButtonWidgetSlot { HorizontalAlign 3 VerticalAlign 3 Padding 6 7 6 5 } } } }
+    ButtonWidgetClass { Name "ReconAim" Color 0.16 0.23 0.28 1 Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 12 OffsetTop 322 SizeX 190 OffsetRight -202 SizeY 38 OffsetBottom -360 }
+     { TextWidgetClass { Name "LabelReconAim" Text "Point sensor: off" "Font Size" 16 Color 1 1 1 1 "Ignore Cursor" 1 Slot ButtonWidgetSlot { HorizontalAlign 3 VerticalAlign 3 Padding 6 7 6 5 } } } }
+    ButtonWidgetClass { Name "ReconCategory" Color 0.16 0.23 0.28 1 Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 210 OffsetTop 322 SizeX 190 OffsetRight -400 SizeY 38 OffsetBottom -360 }
+     { TextWidgetClass { Name "LabelReconCategory" Text "Unclassified" "Font Size" 16 Color 1 1 1 1 "Ignore Cursor" 1 Slot ButtonWidgetSlot { HorizontalAlign 3 VerticalAlign 3 Padding 6 7 6 5 } } } }
+    ButtonWidgetClass { Name "ReconSave" Color 0.16 0.23 0.28 1 Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 12 OffsetTop 366 SizeX 190 OffsetRight -202 SizeY 38 OffsetBottom -404 }
+     { TextWidgetClass { Name "LabelReconSave" Text "Save current sighting" "Font Size" 16 Color 1 1 1 1 "Ignore Cursor" 1 Slot ButtonWidgetSlot { HorizontalAlign 3 VerticalAlign 3 Padding 6 7 6 5 } } } }
+    ButtonWidgetClass { Name "ReconBlend" Color 0.16 0.23 0.28 1 Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 210 OffsetTop 366 SizeX 190 OffsetRight -400 SizeY 38 OffsetBottom -404 }
+     { TextWidgetClass { Name "LabelReconBlend" Text "Blend: off" "Font Size" 16 Color 1 1 1 1 "Ignore Cursor" 1 Slot ButtonWidgetSlot { HorizontalAlign 3 VerticalAlign 3 Padding 6 7 6 5 } } } }
+    ButtonWidgetClass { Name "ReconInset" Color 0.16 0.23 0.28 1 Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 12 OffsetTop 410 SizeX 190 OffsetRight -202 SizeY 38 OffsetBottom -448 }
+     { TextWidgetClass { Name "LabelReconInset" Text "Inset: map" "Font Size" 16 Color 1 1 1 1 "Ignore Cursor" 1 Slot ButtonWidgetSlot { HorizontalAlign 3 VerticalAlign 3 Padding 6 7 6 5 } } } }
+   }
+  }
+ }
+}

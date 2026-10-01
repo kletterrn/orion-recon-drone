@@ -1,0 +1,146 @@
+// Native action-manager and post-physics camera checks, not physical HID latency.
+// Pair with ORD_RC7OperatorProbe only. Never include in release.
+modded class ORD_TerminalComponent
+{
+ protected float m_PCClock, m_PCInputSeconds, m_PCStartYaw, m_PCReverseYaw;
+ protected int m_PCPhase, m_PCInputTick=-1, m_PCNoticeTick=-1, m_PCCycles;
+ protected vector m_PCPosition, m_PCPoint;
+ protected CameraBase m_PCOriginalCamera;
+ protected bool m_PCStarted, m_PCFinished, m_PCStaleGap, m_PCPilotCaptured;
+ protected void PCCheck(string name,bool passed)
+ {
+  if(passed)Print("ORD_TEST_PASS polish-"+name);
+  else Print("ORD_TEST_FAIL polish-"+name);
+ }
+ override protected void ProbeInput(InputManager input,float dt)
+ {
+  if(!m_bActive || !m_PCStarted)return;
+  if(m_PCStaleGap)input.SetActionValue("ORD_Mode",1);
+  if(m_PCClock>=1 && m_PCClock<2)
+  {
+   input.SetActionValue("ORD_CamRight",1); m_PCInputSeconds+=dt;
+   if(m_PCInputTick<0) { m_PCInputTick=System.GetTickCount(); m_PCStartYaw=m_ResolvedYaw; }
+  }
+  if(m_PCClock>=3 && m_PCClock<3.5)input.SetActionValue("ORD_CamRight",1);
+  if(m_PCClock>=3.5 && m_PCClock<3.6)input.SetActionValue("ORD_CamLeft",1);
+ }
+ override void ProjectOpticalContacts()
+ {
+  super.ProjectOpticalContacts();
+  if(m_PCInputTick>=0 && m_PCPhase==1 && Math.AbsFloat(m_ResolvedYaw-m_PCStartYaw)>0.0001)
+  {
+   int latency=System.GetTickCount()-m_PCInputTick;
+   Print(string.Format("ORD_TEST_LATENCY cameraActionToPostFrameMs=%1",latency));
+   PCCheck("camera-action-feedback-under-50ms",latency<=50); m_PCPhase=2;
+  }
+  if(m_PCNoticeTick>=0 && m_SensorHUD && m_SensorHUD.PCNoticeVisible())
+  {
+   int noticeLatency=System.GetTickCount()-m_PCNoticeTick;
+   Print(string.Format("ORD_TEST_LATENCY noticeToCanvasMs=%1",noticeLatency));
+   PCCheck("notice-next-frame-under-50ms",noticeLatency<=50); m_PCNoticeTick=-1;
+  }
+ }
+ override void EOnFrame(IEntity owner,float timeSlice)
+ {
+  super.EOnFrame(owner,timeSlice);
+  float dt=timeSlice;
+  if(owner.GetName()!="ORD_Terminal" || m_PCFinished)return;
+  if(!m_PCStarted && !m_bActive)return;
+  m_PCClock+=dt;
+  if(!m_PCStarted)
+  {
+   m_PCStarted=true; m_PCPhase=1; m_PCOriginalCamera=m_PreviousCamera;
+   Print(string.Format("ORD_TEST_CAMERA original=%1",m_PCOriginalCamera));
+   m_PCPosition=m_Drone.GetOwner().GetOrigin()+"0 350 0";
+   m_PCPoint=m_PCPosition+"150 -350 150";
+   m_PCPoint[1]=owner.GetWorld().GetSurfaceY(m_PCPoint[0],m_PCPoint[2]);
+   m_fZoom=20; m_fYaw=0; m_fPitch=-30; m_PoseReady=false; m_ReconFocus=false;
+   Notice("LOCAL FEEDBACK CHECK"); m_PCNoticeTick=System.GetTickCount();
+  }
+  if(m_bActive && m_Drone)
+  {
+   vector pose[4]; Math3D.MatrixIdentity4(pose); pose[3]=m_PCPosition;
+   m_Drone.GetOwner().SetTransform(pose);
+   m_Drone.GetOwner().GetPhysics().SetVelocity(vector.Zero);
+   m_Drone.GetOwner().GetPhysics().SetAngularVelocity(vector.Zero);
+  }
+  if(m_PCStaleGap) { PCCheck("stale-gap-consumes-held-mode",m_Drone.SensorMode()); m_PCStaleGap=false; }
+  if(m_PCPhase==2 && m_PCClock>=2.3)
+  {
+   float expected=55*m_PCInputSeconds/20;
+   Print(string.Format("ORD_TEST_CAMERA zoom=20 heldSeconds=%1 expectedYaw=%2 actualYaw=%3",m_PCInputSeconds,expected,m_ResolvedYaw-m_PCStartYaw));
+   PCCheck("digital-pan-time-scaled",Math.AbsFloat(m_ResolvedYaw-m_PCStartYaw-expected)<0.08);
+   m_fYaw=119; m_fPitch=0; m_fZoom=1; m_PoseReady=false; m_PCPhase=3;
+   m_iLastInputTick=System.GetTickCount()-1000; m_PCStaleGap=true;
+  }
+  if(m_PCPhase==3 && m_PCClock>=3.45)
+  {
+   PCCheck("gimbal-request-bounded",m_fYaw<=120.01);
+   System.MakeScreenshot("$profile:PolishLimit.bmp"); m_PCReverseYaw=m_ResolvedYaw; m_PCPhase=4;
+  }
+  if(m_PCPhase==4 && m_PCClock>=3.65)
+  {
+   PCCheck("reverse-leaves-stop",m_ResolvedYaw<m_PCReverseYaw-1);
+   PointSensorAt(m_PCPoint); m_fZoom=40; m_PCPhase=5;
+  }
+  if(m_PCPhase==5 && m_PCClock>=5)
+  {
+   System.MakeScreenshot("$profile:PolishHighZoom.bmp");
+   vector before=m_Camera.GetTransformAxis(2); ResetZoomInput(); UpdateOpticalPose(dt);
+   PCCheck("focus-reset-preserves-camera",vector.Dot(before,m_Camera.GetTransformAxis(2))>0.999999);
+   RequestMode(false); RequestMode(false);
+   PCCheck("mode-request-awaits-presentation-confirmation",m_ModeRequest==0);
+   UpdateModeRequest(0);
+   PCCheck("mode-accepted-from-aircraft-state",m_ModeRequest<0 && !m_Drone.SensorMode());
+   m_PCPhase=6;
+  }
+  if(m_PCPhase==6 && m_PCClock>=5.6 && !m_PCPilotCaptured)
+  {
+   System.MakeScreenshot("$profile:PolishPilot.bmp");
+   PCCheck("pilot-hides-sensor-display",m_Display.PCHidden());
+   PCCheck("pitch-bindings-match-intent",ORD_SensorHUD.Binding("ORD_Pitch","positive")=="W" && ORD_SensorHUD.Binding("ORD_Pitch","negative")=="S");
+   RequestMode(true); m_PCPilotCaptured=true;
+  }
+  if(m_PCPhase==6 && m_PCClock>=6)
+  {
+   PCCheck("sensor-mode-recovers",m_Drone.SensorMode() && !m_bPilot);
+   m_iSensor=2; m_PCPhase=7;
+  }
+  if(m_PCPhase==7 && m_PCClock>=7)
+  {
+   System.MakeScreenshot("$profile:PolishBlackHot.bmp"); m_iSensor=0;
+   m_ModeRequest=0; m_ModeRequestAge=3.1; UpdateModeRequest(0);
+   PCCheck("unconfirmed-mode-times-out",m_ModeRequest<0 && m_Notice.Contains("UNCONFIRMED"));
+   Close(); m_PCPhase=8;
+  }
+  if(m_PCPhase==8 && m_PCClock>=8+m_PCCycles*3)
+  {
+   PCCheck("original-camera-restored",ChimeraGame.Cast(GetGame()).GetCameraManager().CurrentCamera()==m_PCOriginalCamera);
+   PCCheck("closed-resources",!m_bActive && !m_Camera && !m_HUD && !m_Display && !m_SensorHUD && !m_MissionMap);
+   Open(); m_PCPhase=9;
+  }
+  if(m_PCPhase==9 && m_PCClock>=9+m_PCCycles*3)
+  {
+   PCCheck("reopen-single-camera",m_bActive && m_Camera && m_SensorHUD && m_aContactWidgets.Count()==9);
+   Close(); m_PCCycles++; m_PCPhase=8;
+   if(m_PCCycles>=3)
+   {
+    m_PCPhase=10;
+   }
+  }
+  if(m_PCPhase==10 && m_PCClock>=16)
+  {
+   System.MakeScreenshot("$profile:PolishDisconnected.bmp");
+   m_PCFinished=true; Print("ORD_TEST_DONE polish-camera");
+  }
+ }
+}
+modded class ORD_SensorHUD
+{
+ bool PCNoticeVisible() { return m_LastPresentation.Contains("LOCAL FEEDBACK CHECK"); }
+}
+
+modded class ORD_SensorDisplay
+{
+ bool PCHidden() { return m_Root && !m_Root.IsVisible(); }
+}

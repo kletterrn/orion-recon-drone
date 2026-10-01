@@ -13,7 +13,7 @@ GenericEntity {
   ORD_TerminalComponent { m_rHUD "{293643CC7BC53C2E}UI/ORD/Operator.layout" m_rWhite "{0F64AF6905D4EB4C}UI/ORD/WhiteHot.emat" m_rBlack "{1D6BAE8108BE137F}UI/ORD/BlackHot.emat" }
   ActionsManagerComponent {
    ActionContexts { UserActionContext { ContextName "ORD_terminal" Position PointInfo { Offset 0 1 0 } Radius 2.5 Height 2.5 } }
-   additionalActions { ORD_OperateAction { ParentContextList { "ORD_terminal" } UIInfo SCR_ActionUIInfo { Name "Operate Orion UAV" } } }
+   additionalActions { ORD_ReviewReportsAction { ParentContextList { "ORD_terminal" } UIInfo SCR_ActionUIInfo { Name "Review faction reconnaissance" } } ORD_OperateAction { ParentContextList { "ORD_terminal" } UIInfo SCR_ActionUIInfo { Name "Operate Orion UAV" } } }
   }
   SCR_EditableEntityComponent {}
  }

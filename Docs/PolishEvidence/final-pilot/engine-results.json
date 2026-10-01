@@ -1,0 +1,39 @@
+{
+  "enteredGame": true,
+  "scriptErrors": [],
+  "observations": [
+    "16:31:27.458   SCRIPT       : ORD_TEST_CAMERA original=PlayerCamera<0x000001C5F5400260> @\"ENTITY:6917529027641082392\" ('PlayerCamera', PlayerCamera) at <4799.074219 29.566738 11240.058594> @\"{2DF95AB3CCDF4FA5}Prefabs/Characters/Core/DefaultPlayerCamera.et\"",
+    "16:31:27.481   SCRIPT       : ORD_TEST_LATENCY noticeToCanvasMs=22",
+    "16:31:27.481   SCRIPT       : ORD_TEST_PASS polish-notice-next-frame-under-50ms",
+    "16:31:28.476   SCRIPT       : ORD_TEST_LATENCY cameraActionToPostFrameMs=1",
+    "16:31:28.476   SCRIPT       : ORD_TEST_PASS polish-camera-action-feedback-under-50ms",
+    "16:31:29.761   SCRIPT       : ORD_TEST_CAMERA zoom=20 heldSeconds=0.996897 expectedYaw=2.74147 actualYaw=2.74147",
+    "16:31:29.761   SCRIPT       : ORD_TEST_PASS polish-digital-pan-time-scaled",
+    "16:31:29.775   SCRIPT       : ORD_TEST_PASS polish-stale-gap-consumes-held-mode",
+    "16:31:30.907   SCRIPT       : ORD_TEST_PASS polish-gimbal-request-bounded",
+    "16:31:31.107   SCRIPT       : ORD_TEST_PASS polish-reverse-leaves-stop",
+    "16:31:32.467   SCRIPT       : ORD_TEST_PASS polish-focus-reset-preserves-camera",
+    "16:31:32.467   SCRIPT       : ORD_TEST_PASS polish-mode-request-awaits-presentation-confirmation",
+    "16:31:32.467   SCRIPT       : ORD_TEST_PASS polish-mode-accepted-from-aircraft-state",
+    "16:31:33.064   SCRIPT       : ORD_TEST_PASS polish-pilot-hides-sensor-display",
+    "16:31:33.064   SCRIPT       : ORD_TEST_PASS polish-pitch-bindings-match-intent",
+    "16:31:33.457   SCRIPT       : ORD_TEST_PASS polish-sensor-mode-recovers",
+    "16:31:34.464   SCRIPT       : ORD_TEST_PASS polish-unconfirmed-mode-times-out",
+    "16:31:35.457   SCRIPT       : ORD_TEST_PASS polish-original-camera-restored",
+    "16:31:35.457   SCRIPT       : ORD_TEST_PASS polish-closed-resources",
+    "16:31:36.461   SCRIPT       : ORD_TEST_PASS polish-reopen-single-camera",
+    "16:31:38.457   SCRIPT       : ORD_TEST_PASS polish-original-camera-restored",
+    "16:31:38.457   SCRIPT       : ORD_TEST_PASS polish-closed-resources",
+    "16:31:39.457   SCRIPT       : ORD_TEST_PASS polish-reopen-single-camera",
+    "16:31:41.457   SCRIPT       : ORD_TEST_PASS polish-original-camera-restored",
+    "16:31:41.457   SCRIPT       : ORD_TEST_PASS polish-closed-resources",
+    "16:31:42.460   SCRIPT       : ORD_TEST_PASS polish-reopen-single-camera",
+    "16:31:43.464   SCRIPT       : ORD_TEST_DONE polish-camera"
+  ],
+  "fpsLimit": 60,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "durationSeconds": 60
+}

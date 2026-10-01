@@ -1,0 +1,120 @@
+{
+  "camera_bindings_restore": {
+    "status": "PASS",
+    "source": "C:\\Users\\david\\Desktop\\RECON DRONES\\Docs\\PolishEvidence\\final-pilot\\engine-results.json",
+    "fpsLimit": 60,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "durationSeconds": 60,
+    "distinctAssertions": 16,
+    "checks": [
+      "polish-camera-action-feedback-under-50ms",
+      "polish-closed-resources",
+      "polish-digital-pan-time-scaled",
+      "polish-focus-reset-preserves-camera",
+      "polish-gimbal-request-bounded",
+      "polish-mode-accepted-from-aircraft-state",
+      "polish-mode-request-awaits-presentation-confirmation",
+      "polish-notice-next-frame-under-50ms",
+      "polish-original-camera-restored",
+      "polish-pilot-hides-sensor-display",
+      "polish-pitch-bindings-match-intent",
+      "polish-reopen-single-camera",
+      "polish-reverse-leaves-stop",
+      "polish-sensor-mode-recovers",
+      "polish-stale-gap-consumes-held-mode",
+      "polish-unconfirmed-mode-times-out"
+    ],
+    "scriptErrors": []
+  },
+  "map_held_escape_recovery": {
+    "status": "PASS",
+    "source": "C:\\Users\\david\\Desktop\\RECON DRONES\\Docs\\PolishEvidence\\final-recovery\\engine-results.json",
+    "fpsLimit": 60,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "durationSeconds": 75,
+    "distinctAssertions": 35,
+    "checks": [
+      "polish-current-feedback",
+      "polish-feedback-expires",
+      "polish-stale-session-rejected",
+      "recon-authoritative-save",
+      "recon-card-recalls-frozen-point",
+      "recon-current-faction-reply-accepted",
+      "recon-faction-filter-roundtrip",
+      "recon-fixed-point-focus-persists",
+      "recon-four-corner-footprint",
+      "recon-fresh-shortcut-after-release",
+      "recon-frozen-coordinate",
+      "recon-held-shortcut-not-replayed-after-note",
+      "recon-map-click-aims",
+      "recon-map-draft-note-selection-preserved",
+      "recon-native-map-close-restores-camera",
+      "recon-newest-sixteen",
+      "recon-no-faction-no-reports",
+      "recon-note-edit-focus",
+      "recon-operator-resources-released",
+      "recon-prior-player-controls-restored",
+      "recon-reader-closes",
+      "recon-reader-opens-without-control",
+      "recon-reject-invalid-category",
+      "recon-reject-unaffiliated",
+      "recon-same-faction-cache-preserved",
+      "recon-save-near-optical-hit",
+      "recon-save-rate-limited",
+      "recon-saved-position-still-frozen",
+      "recon-sensor-map-opens",
+      "recon-server-rejects-invalid-ray",
+      "recon-server-rejects-sky",
+      "recon-sky-clears-footprint",
+      "recon-stale-faction-reply-rejected",
+      "recon-trail-recorded",
+      "recon-typing-blocks-map-hotkey"
+    ],
+    "scriptErrors": []
+  },
+  "clean_package_startup": {
+    "status": "PASS",
+    "source": "C:\\Users\\david\\Desktop\\OrionV2Builds\\polish-release-checked\\game-60-1920x1080\\game-results.json",
+    "fpsLimit": 60,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "durationSeconds": 50,
+    "distinctAssertions": 0,
+    "checks": [],
+    "scriptErrors": []
+  },
+  "source_manifest": {
+    "status": "PASS",
+    "resources": 390,
+    "build": "C:\\Users\\david\\Desktop\\OrionV2Builds\\polish-release-checked"
+  },
+  "archive": {
+    "status": "PASS",
+    "archive": "C:\\Users\\david\\Desktop\\RECON DRONES\\ReleaseCandidates\\Orion-E-rc9-operator-polish-dev-packed.zip",
+    "bytes": 94365922,
+    "sha256": "61a9ba50242d35d2669f15465233e3400b67808c6ce578e35e0a02a4de82afaf",
+    "build": "C:\\Users\\david\\Desktop\\OrionV2Builds\\polish-release-checked",
+    "runtimeFilesChangedThisPass": 12,
+    "testFixturesInPackage": false,
+    "published": false
+  },
+  "diff_whitespace": {
+    "status": "PASS"
+  },
+  "release_acceptance": {
+    "status": "BLOCKED",
+    "conditions": [
+      "Independent dedicated operator/viewer unavailable",
+      "Existing black-hot dawn contrast failure",
+      "Sustained Overwatch, physical input, death/disconnect and endurance not run"
+    ]
+  }
+}

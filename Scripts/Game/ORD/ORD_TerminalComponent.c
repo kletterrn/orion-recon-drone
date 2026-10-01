@@ -14,6 +14,42 @@ class ORD_TerminalComponent : ScriptComponent
  protected static ORD_TerminalComponent s_RemoteSession;
  [Attribute("0")] protected bool m_LocalSession;
  protected int m_ClaimRequest;
+ protected bool m_InputSuspended, m_ManualLimited;
+ protected int m_ModeRequest = -1;
+ protected float m_ModeRequestAge;
+ protected string m_Notice, m_PilotHints, m_ModeHint;
+ protected float m_PilotBindingTime;
+ protected float m_NoticeUntil;
+ protected int m_NoticeColor = 0xFFB4D1CB;
+ protected void Notice(string message, int color = 0xFFB4D1CB)
+ {
+  m_Notice=message; m_NoticeUntil=m_fFeedTime+3; m_NoticeColor=color;
+ }
+ protected void RequestMode(bool sensor)
+ {
+  if(m_ModeRequest>=0 || !m_Drone)return;
+  m_ModeRequest=0; if(sensor)m_ModeRequest=1;
+  m_ModeRequestAge=0;
+  SCR_PlayerController player=SCR_PlayerController.Cast(GetGame().GetPlayerController());
+  if(sensor)player.ORD_Send(m_Drone.GetOwner(),ORD_Command.SENSOR);
+  else player.ORD_Send(m_Drone.GetOwner(),ORD_Command.PILOT);
+ }
+ protected void UpdateModeRequest(float dt)
+ {
+  if(m_ModeRequest<0)return;
+  m_ModeRequestAge+=dt;
+  if(m_Drone.SensorMode()==(m_ModeRequest==1))
+  {
+   if(m_ModeRequest==1)Notice("SENSOR CONTROL ACCEPTED");
+   else Notice("FLIGHT CONTROL ACCEPTED");
+   m_ModeRequest=-1;
+  }
+  else if(m_ModeRequestAge>3) { Notice("MODE UNCONFIRMED - TRY AGAIN",0xFFE5BE78); m_ModeRequest=-1; }
+ }
+ protected void ConsumeButtons(InputManager input)
+ {
+  for(int i=0;i<m_Keys.Count();i++) { string action=m_Keys.GetKey(i); m_Keys.Set(action,input.GetActionValue(action)>0.5); }
+ }
  protected bool m_FarObserver, m_DeleteScheduled, m_Deleting;
  [Attribute("20000")] protected float m_fSearchRadius;
  [Attribute("0")] protected bool m_bDiagnostics;
@@ -23,9 +59,51 @@ class ORD_TerminalComponent : ScriptComponent
  protected ORD_AircraftComponent m_Drone;
  protected ORD_AudioPresentation m_OperatorFeed;
  protected SCR_CameraBase m_Camera;
+ protected CameraBase m_PreviousCamera;
  protected Widget m_HUD;
  protected ref ORD_SensorHUD m_SensorHUD;
  protected ref ORD_ThermalController m_Thermal;
+ protected ref ORD_SensorDisplay m_Display;
+ protected ref array<vector> m_ReconArea = {}, m_ReconPath = {};
+ protected float m_ReconAge, m_ReconTrailAge;
+ protected bool m_ReconFocus;
+ protected vector m_ReconFocusPoint;
+ ORD_AircraftComponent ReconAircraft() { return m_Drone; }
+ array<vector> ReconFootprint() { return m_ReconArea; }
+ array<vector> ReconTrail() { return m_ReconPath; }
+ void SensorPose(out vector pose[4]) { if(m_Camera)m_Camera.GetTransform(pose); else Math3D.MatrixIdentity4(pose); }
+ void PointSensorAt(vector point)
+ {
+  if(!m_Drone || !m_Camera)return;
+  if(!m_Drone.ValidMapPoint(point))return;
+  SCR_PlayerController player=SCR_PlayerController.Cast(GetGame().GetPlayerController());
+  if(player)player.ORD_Send(m_Drone.GetOwner(),ORD_Command.CLEAR_TRACK);
+  m_bUnlockPending=true; m_ReconFocus=true; m_ReconFocusPoint=point;
+ }
+ void SaveSighting(string note,int category)
+ {
+  SCR_PlayerController player=SCR_PlayerController.Cast(GetGame().GetPlayerController());
+  if(player && m_Drone && m_Camera)player.ORD_SaveReport(m_Drone.GetOwner(),m_Camera.GetTransformAxis(2),note,category);
+ }
+ protected int OpticalChannel()
+ {
+  if(m_iSensor==3)return 1;
+  return m_iSensor;
+ }
+ void ToggleBlend() { if(m_iSensor==3)m_iSensor=0; else m_iSensor=3; }
+ string BlendLabel()
+ {
+  if(m_iSensor==3)return "Blend: EXPERIMENTAL";
+  return "Blend: off";
+ }
+ void CycleInset() { if(m_Display)m_Display.InsetMode=(m_Display.InsetMode+1)%3; }
+ string InsetLabel()
+ {
+  if(!m_Display || m_Display.InsetMode==0)return "Inset: off";
+  if(m_Display.InsetMode==2 && m_iSensor==3)return "Inset: map (blend)";
+  if(m_Display.InsetMode==2)return "Inset: video (EXP)";
+  return "Inset: map";
+ }
  protected float m_ThermalErrorUntil;
  protected TextWidget m_TopLeft, m_HeadingTape, m_TopRight, m_PitchValue, m_ZoomReadout;
  protected TextWidget m_Reticle, m_ReticleVertical, m_TrackBox, m_CenterStatus;
@@ -118,6 +196,7 @@ class ORD_TerminalComponent : ScriptComponent
  {
   bool down = input.GetActionValue(action) > 0.5;
   bool previous = m_Keys.Get(action); m_Keys.Set(action, down);
+  if(m_bMap && m_MissionMap && m_MissionMap.EditingNote())return false;
   return down && !previous;
  }
  protected TextWidget HudText(string name)
@@ -129,16 +208,19 @@ class ORD_TerminalComponent : ScriptComponent
  }
  protected bool Start()
  {
+  ChimeraGame game = ChimeraGame.Cast(GetGame());
+  if(!game || !game.GetCameraManager())return false;
+  m_PreviousCamera=game.GetCameraManager().CurrentCamera();
   m_Camera = SCR_CameraBase.Cast(GetGame().SpawnEntity(ORD_OpticalCamera, GetOwner().GetWorld()));
   if (!m_Camera) return false;
   ORD_OpticalCamera.Cast(m_Camera).Bind(this);
-  ChimeraGame game = ChimeraGame.Cast(GetGame());
-  if (!game || !game.GetCameraManager() || !game.GetCameraManager().SetCamera(m_Camera)) return false;
+  if (!game.GetCameraManager().SetCamera(m_Camera)) return false;
   m_HUD = GetGame().GetWorkspace().CreateWidgets(m_rHUD);
-  if (!m_HUD) { game.GetCameraManager().SetPreviousCamera(); return false; }
+  if (!m_HUD) { RestorePlayerCamera(); return false; }
   m_Thermal = new ORD_ThermalController();
+  m_Display = new ORD_SensorDisplay(); m_Display.Open();
   m_SensorHUD = new ORD_SensorHUD();
-  if (!m_SensorHUD.Open()) { game.GetCameraManager().SetPreviousCamera(); return false; }
+  if (!m_SensorHUD.Open()) { RestorePlayerCamera(); return false; }
   m_TopLeft = HudText("TopLeft"); m_HeadingTape = HudText("HeadingTape"); m_TopRight = HudText("TopRight");
   m_ZoomReadout = HudText("ZoomReadout");
   m_PitchValue = HudText("PitchValue"); m_Reticle = HudText("Reticle"); m_ReticleVertical = HudText("ReticleVertical");
@@ -160,6 +242,7 @@ class ORD_TerminalComponent : ScriptComponent
    marker.SetVisible(false);
    m_aMapWidgets.Insert(marker);
   }
+  SCR_PlayerController.Cast(GetGame().GetPlayerController()).ORD_NewPresentationSession();
   m_bActive = true; m_bPilot = !m_Drone.SensorMode(); m_fYaw = m_Drone.Heading();
   AudioSystem.PlaySound("{68077215888B092C}Sounds/ORD/ORD_LinkOpen.wav");
   InputManager input = game.GetInputManager();
@@ -186,6 +269,14 @@ class ORD_TerminalComponent : ScriptComponent
    m_Character.SetDisableMovementControls(true);
    m_Character.SetDisableWeaponControls(true);
   }
+  m_Keys.Clear();
+  for(int keyIndex=0;keyIndex<input.GetActionCount();keyIndex++)
+  {
+   string actionName=input.GetActionName(keyIndex);
+   if(actionName.StartsWith("ORD_"))m_Keys.Set(actionName,input.GetActionValue(actionName)>0.5);
+  }
+  m_PoseReady=false; m_InputSuspended=false; m_ModeRequest=-1;
+  m_Notice=""; m_NoticeUntil=0; m_PilotHints=""; m_PilotBindingTime=0;
   ResetZoomInput(); m_fZoom = 1; m_fPitch = -20; m_iWeaponMode = ORD_TargetMode.SENSOR_POINT;
   m_fThrottle = 0; m_fHeartbeat = 0; m_fSend = 0; m_fFeedTime = 0; m_fContactScan = 0; m_iSensor = 0; m_iAppliedSensor = -1; m_bMap = false; m_fMapZoom = 1; m_bMapOrbit = false; m_aMapPoints.Clear(); m_bAutoRequested = false; m_bBoxesEnabled = true; m_bUnlockPending = false;
   return true;
@@ -209,9 +300,32 @@ class ORD_TerminalComponent : ScriptComponent
   }
   if(m_OperatorFeed)m_OperatorFeed.SetOperatorFeed(true);
  }
+ // SetPreviousCamera cycles the registered list; it is not camera history.
+ protected void RestorePlayerCamera()
+ {
+  ChimeraGame game=ChimeraGame.Cast(GetGame());
+  if(!game || !game.GetCameraManager()) { m_PreviousCamera=null; return; }
+  CameraManager manager=game.GetCameraManager();
+  if(m_Camera && manager.CurrentCamera()==m_Camera)
+  {
+   bool restored;
+   if(m_PreviousCamera && m_PreviousCamera!=m_Camera)restored=manager.SetCamera(m_PreviousCamera);
+   if(!restored)
+   {
+    array<CameraBase> cameras={}; manager.GetCamerasList(cameras);
+    foreach(CameraBase candidate : cameras)
+    {
+     if(PlayerCamera.Cast(candidate) && manager.SetCamera(candidate)) { restored=true; break; }
+    }
+   }
+   if(!restored)manager.SetPreviousCamera();
+  }
+  m_PreviousCamera=null;
+ }
  void Close()
  {
-  CloseMissionMap();
+  CloseMissionMap(); m_MissionMap=null; m_PoseReady=false; m_ModeRequest=-1;
+  if(m_Display)m_Display.Close(); m_Display=null; m_ReconArea.Clear(); m_ReconPath.Clear(); m_ReconFocus=false;
   if(m_Thermal) m_Thermal.Clear();
   m_Thermal=null;
   ResetZoomInput();
@@ -221,15 +335,11 @@ class ORD_TerminalComponent : ScriptComponent
   ChimeraGame game = ChimeraGame.Cast(GetGame());
   SCR_PlayerController player;
   if (game) player = SCR_PlayerController.Cast(game.GetPlayerController());
+  if(player && m_bActive)player.ORD_NewPresentationSession();
   if(player && m_LocalSession) player.ORD_CancelAircraft(m_ClaimRequest);
   if(m_FarObserver && game && game.GetWorld()) { ObserversSystem observers=ObserversSystem.Cast(game.GetWorld().FindSystem(ObserversSystem)); if(observers) observers.DelFarObserver(); m_FarObserver=false; }
   if (player && m_Drone && m_Drone.GetOwner()) player.ORD_Send(m_Drone.GetOwner(), ORD_Command.RELEASE);
-  if (m_bActive)
-  {
-   World world;
-   if (GetOwner()) world = GetOwner().GetWorld();
-   if (game && game.GetCameraManager()) game.GetCameraManager().SetPreviousCamera();
-  }
+  RestorePlayerCamera();
   if (m_Camera && m_Camera.GetWorld()) SCR_EntityHelper.DeleteEntityAndChildren(m_Camera);
   if (m_Character)
   {
@@ -289,11 +399,34 @@ class ORD_TerminalComponent : ScriptComponent
   m_fFeedTime += timeSlice;
   bool wasPilot = m_bPilot;
   m_bPilot = !m_Drone.SensorMode();
-  if (wasPilot != m_bPilot) ResetZoomInput();
-  UpdateEngineAudio();
+  if (wasPilot != m_bPilot)
+  {
+   ResetZoomInput();
+   if(m_bPilot && m_Display)m_Display.Hide();
+  }
+  UpdateEngineAudio(); UpdateModeRequest(timeSlice);
   InputManager input = GetGame().GetInputManager();
+  IEntity drone = m_Drone.GetOwner();
+  m_fHeartbeat += timeSlice;
+  if (m_fHeartbeat >= 1) { m_fHeartbeat = 0; player.ORD_Send(drone, ORD_Command.HEARTBEAT); }
+  // Native Escape can close MapMenu independently of our ORD_Map binding.
+  // Release our map state before evaluating ownership of any other menu.
+  if(m_bMap && m_MissionMap && !m_MissionMap.IsOpen() && !GetGame().GetMenuManager().GetTopMenu())
+  {
+   input.ActivateContext("ORD_OperatorContext");
+   CloseMissionMap(); ConsumeButtons(input); m_iLastInputTick=System.GetTickCount(); return;
+  }
+  bool blockedMenu=GetGame().GetMenuManager().GetTopMenu()!=null;
+  if(m_bMap && m_MissionMap)blockedMenu=!m_MissionMap.OwnsTopMenu();
+  if(blockedMenu)
+  {
+   ConsumeButtons(input); ResetZoomInput();
+   if(!m_InputSuspended && m_bPilot && !m_Drone.Automatic())player.ORD_Controls(drone,0,0,0,m_fThrottle,0);
+   m_iLastInputTick=System.GetTickCount(); m_InputSuspended=true; return;
+  }
+  if(m_InputSuspended) { ConsumeButtons(input); ResetZoomInput(); m_InputSuspended=false; }
   int inputTick = System.GetTickCount();
-  if (m_iLastInputTick > 0 && inputTick - m_iLastInputTick > 250) { ResetZoomInput(); m_Keys.Clear(); }
+  if (m_iLastInputTick > 0 && inputTick - m_iLastInputTick > 250) { ResetZoomInput(); ConsumeButtons(input); }
   m_iLastInputTick = inputTick;
   bool operatorContext = input.ActivateContext("ORD_OperatorContext");
   bool modeContext;
@@ -307,14 +440,10 @@ class ORD_TerminalComponent : ScriptComponent
   }
   if (!m_bMap) { input.ActivateAction("ORD_MouseYaw"); input.ActivateAction("ORD_MousePitch"); }
   if (Pressed(input, "ORD_Exit")) { if (m_bMap) CloseMissionMap(); else Close(); return; }
-  IEntity drone = m_Drone.GetOwner();
-  m_fHeartbeat += timeSlice;
-  if (m_fHeartbeat >= 1) { m_fHeartbeat = 0; player.ORD_Send(drone, ORD_Command.HEARTBEAT); }
   if (Pressed(input, "ORD_Mode"))
   {
    CloseMissionMap(); ResetZoomInput();
-   if (m_bPilot) player.ORD_Send(drone, ORD_Command.SENSOR);
-   else player.ORD_Send(drone, ORD_Command.PILOT);
+   RequestMode(m_bPilot);
   }
   if (Pressed(input, "ORD_Map"))
   {
@@ -322,9 +451,9 @@ class ORD_TerminalComponent : ScriptComponent
    if (m_bMap) CloseMissionMap();
    else
    {
-    m_MissionMap = new ORD_MissionMap();
-    m_bMap = m_MissionMap.Open(m_Drone);
-    if (m_bMap) player.ORD_Send(drone, ORD_Command.SENSOR);
+    if(!m_MissionMap)m_MissionMap = new ORD_MissionMap();
+    m_bMap = m_MissionMap.Open(m_Drone,this);
+    if (m_bMap) RequestMode(true);
    }
   }
   if (Pressed(input, "ORD_Service")) player.ORD_Send(drone, ORD_Command.SERVICE);
@@ -343,8 +472,12 @@ class ORD_TerminalComponent : ScriptComponent
    ObserversSystem observers=ObserversSystem.Cast(GetGame().GetWorld().FindSystem(ObserversSystem));
    if(observers) observers.DelFarObserver(); m_FarObserver=false;
   }
+  m_ManualLimited=false;
   if (m_bMap)
   {
+   ConsumeButtons(input);
+   if(m_Display)m_Display.Hide();
+   m_fSend+=timeSlice; if(m_fSend>=0.1) { m_fSend=0; m_QueueOptics=true; }
    if (m_HUD) m_HUD.SetVisible(false);
    if (m_SensorHUD) m_SensorHUD.SetVisible(false);
    if (m_MissionMap && m_MissionMap.IsOpen()) m_MissionMap.Update(timeSlice);
@@ -371,33 +504,45 @@ class ORD_TerminalComponent : ScriptComponent
    bool locked = m_Drone.PointLocked() || m_Drone.Tracking() || m_Drone.ContactState() == ORD_ContactState.LOST;
    if (locked && manualAim && !m_bUnlockPending) { m_fYaw=m_ResolvedYaw; m_fPitch=m_ResolvedPitch; player.ORD_Send(drone, ORD_Command.CLEAR_TRACK); m_bUnlockPending = true; }
    if (m_bUnlockPending) locked = false;
-   if (!locked)
+   if (!locked && manualAim)
    {
+    if(m_ReconFocus) { m_fYaw=m_ResolvedYaw; m_fPitch=m_ResolvedPitch; }
+    m_ReconFocus=false;
     float aimScale = 1 / m_fZoom;
     m_fYaw += (mouseX * 0.12 + panX * timeSlice * 55) * aimScale;
     m_fPitch = Math.Clamp(m_fPitch - mouseY * 0.12 * aimScale + panY * timeSlice * 55 * aimScale, -89, 75);
+    // Clamp the requested pose too: pushing against a stop must not accumulate
+    // invisible input that has to be unwound before reversing direction.
+    vector requestedAim=ORD_CameraMounts.Forward(m_fYaw,m_fPitch);
+    vector bounded=ORD_CameraMounts.Constrain(drone,requestedAim);
+    m_ManualLimited=vector.Dot(bounded,requestedAim)<0.999999;
+    m_fYaw=Math.Atan2(bounded[0],bounded[2])*Math.RAD2DEG;
+    m_fPitch=Math.Asin(Math.Clamp(bounded[1],-1,1))*Math.RAD2DEG;
    }
    if (m_fYaw > 180) m_fYaw -= 360; if (m_fYaw < -180) m_fYaw += 360;
    m_fZoom = ORD_SensorZoom.Step(m_fZoom,input.GetActionValue("ORD_ZoomIn"),input.GetActionValue("ORD_ZoomOut"),input.GetActionValue("ORD_ZoomWheelIn"),input.GetActionValue("ORD_ZoomWheelOut"),timeSlice);
    input.ResetAction("ORD_ZoomWheelIn"); input.ResetAction("ORD_ZoomWheelOut");
    if (Pressed(input, "ORD_Thermal"))
    {
-    m_iSensor = (m_iSensor + 1) % 3;
+    m_iSensor = (m_iSensor + 1) % 4; Notice("SENSOR CHANNEL CHANGED");
    }
    if (Pressed(input, "ORD_Designate"))
    {
+    m_ReconFocus=false;
     if (m_Drone.Designated()) { player.ORD_Send(drone, ORD_Command.CLEAR_TRACK); m_bUnlockPending = true; }
     else m_QueueDesignation = true;
    }
-   if (Pressed(input, "ORD_Boxes")) m_bBoxesEnabled = !m_bBoxesEnabled;
+   if (Pressed(input, "ORD_Boxes")) { m_bBoxesEnabled = !m_bBoxesEnabled; if(m_bBoxesEnabled)Notice("CONTACT LABELS ON"); else Notice("CONTACT LABELS OFF"); }
    if (Pressed(input, "ORD_Track"))
    {
+    m_ReconFocus=false;
     if (m_Drone.Tracking()) { player.ORD_Send(drone, ORD_Command.CLEAR_TRACK); m_bUnlockPending = true; }
     else player.ORD_Send(drone, ORD_Command.TRACK);
    }
-   if (Pressed(input, "ORD_Group")) player.ORD_Send(drone, ORD_Command.GROUP_TRACK);
+   if (Pressed(input, "ORD_Group")) { m_ReconFocus=false; player.ORD_Send(drone, ORD_Command.GROUP_TRACK); }
    if (Pressed(input, "ORD_Recenter"))
    {
+    m_ReconFocus=false;
     player.ORD_Send(drone, ORD_Command.CLEAR_TRACK); m_bUnlockPending = true;
     m_fYaw = m_Drone.Heading(); m_fPitch = -20;
    }
@@ -416,8 +561,10 @@ class ORD_TerminalComponent : ScriptComponent
   }
   int desiredEffect = 0;
   if (!m_bPilot && !m_bMap) desiredEffect = m_iSensor;
+  if(desiredEffect==3)desiredEffect=1;
   if(m_Thermal) m_iAppliedSensor=m_Thermal.Update(owner.GetWorld(),m_Camera.GetCameraIndex(),desiredEffect,m_rWhite,m_rBlack,m_fZoom);
   if(m_Thermal && m_Thermal.Fallback) { m_iSensor=0; m_ThermalErrorUntil=m_fFeedTime+5; }
+  if(m_iSensor==3 && m_iAppliedSensor==1)m_iAppliedSensor=3;
   float width, height; GetGame().GetWorkspace().GetScreenSize(width, height);
   float horizontalFOV = 60;
   if (m_bMap) horizontalFOV = 60 / m_fMapZoom;
@@ -450,21 +597,26 @@ class ORD_TerminalComponent : ScriptComponent
  // Resolve once after physics. Aircraft-motion compensation is never damped.
  void UpdateOpticalPose(float timeSlice = 0.016667)
  {
-  if (!m_bActive || !m_Drone || !m_Camera || m_bMap) return;
+  if (!m_bActive || !m_Drone || !m_Camera) return;
   IEntity drone=m_Drone.GetOwner();
+  m_ReconTrailAge+=timeSlice;
+  if(m_ReconTrailAge>=1)
+  {
+   m_ReconTrailAge=0; if(m_ReconPath.Count()>=120)m_ReconPath.RemoveOrdered(0); m_ReconPath.Insert(drone.GetOrigin());
+  }
   if(m_bPilot)
   {
    vector pilot[4]; drone.GetTransform(pilot); pilot[3]=ORD_CameraMounts.PilotOrigin(drone);
    m_Camera.SetTransform(pilot); m_PoseReady=false; return;
   }
   if(!m_PoseReady) { m_ResolvedYaw=m_fYaw; m_ResolvedPitch=m_fPitch; m_PoseReady=true; }
-  bool locked=m_Drone.Designated() && !m_bUnlockPending;
+  bool locked=m_ReconFocus || (m_Drone.Designated() && !m_bUnlockPending);
   vector requested;
   if(locked)
   {
-   vector target=m_Drone.Target();
+   vector target=m_Drone.Target(); if(m_ReconFocus)target=m_ReconFocusPoint;
    // Interpolate only fresh observed positions; freeze immediately on loss.
-   if(m_Drone.Tracking() && m_Drone.ContactState()!=ORD_ContactState.TEMP_LOSS)
+   if(!m_ReconFocus && m_Drone.Tracking() && m_Drone.ContactState()!=ORD_ContactState.TEMP_LOSS)
    {
     float stamp=m_Drone.ObservedTime();
     if(stamp!=m_ObservationStamp)
@@ -496,7 +648,7 @@ class ORD_TerminalComponent : ScriptComponent
    requested=ORD_CameraMounts.Forward(m_ResolvedYaw,m_ResolvedPitch);
   }
   vector aim=ORD_CameraMounts.Constrain(drone,requested);
-  m_GimbalLimited=vector.Dot(aim,requested)<0.999999;
+  m_GimbalLimited=m_ManualLimited || vector.Dot(aim,requested)<0.999999;
   m_ResolvedYaw=Math.Atan2(aim[0],aim[2])*Math.RAD2DEG;
   m_ResolvedPitch=Math.Asin(Math.Clamp(aim[1],-1,1))*Math.RAD2DEG;
   vector pose[4]; pose[2]=aim;
@@ -509,7 +661,7 @@ class ORD_TerminalComponent : ScriptComponent
   if(player)
   {
    ObserversSystem observers=ObserversSystem.Cast(GetGame().GetWorld().FindSystem(ObserversSystem));
-   if(observers && player.GetControlledEntity())
+   if(observers && player.GetControlledEntity() && !m_bMap)
    {
     float limit=GetGame().GetMaximumViewDistance();
     float serverLimit=GetGame().GetViewDistanceServerLimit();
@@ -519,19 +671,35 @@ class ORD_TerminalComponent : ScriptComponent
     observers.AddFarObserver(player.GetControlledEntity(),drone,pose[3],aim,range,timeSlice); m_FarObserver=true;
    }
    float width,height; GetGame().GetWorkspace().GetScreenSize(width,height);
-   if(m_QueueOptics || m_QueueDesignation) player.ORD_Optics(drone,aim,m_fZoom,width/Math.Max(height,1),m_iSensor,++m_OpticsSequence,m_QueueDesignation);
+   if(m_QueueOptics || m_QueueDesignation) player.ORD_Optics(drone,aim,m_fZoom,width/Math.Max(height,1),OpticalChannel(),++m_OpticsSequence,m_QueueDesignation);
    if(m_QueueFire) player.ORD_Weapon(drone,m_iWeaponMode,aim);
+  }
+  m_ReconAge+=timeSlice;
+  if(m_ReconAge>=0.25)
+  {
+   m_ReconAge=0; float sw,sh; GetGame().GetWorkspace().GetScreenSize(sw,sh);
+   ORD_SensorGeometry.Footprint(drone,pose,ORD_ObservationPolicy.HorizontalFOV(m_fZoom),sw/Math.Max(sh,1),m_Drone.SensorRange(),m_ReconArea);
   }
   m_QueueDesignation=false; m_QueueFire=false; m_QueueOptics=false;
  }
  void ProjectOpticalContacts()
  {
+  if(m_bActive && m_bPilot && m_ControlHint && m_ModeRequest>=0)m_ControlHint.SetText("MODE REQUESTED - AWAITING AIRCRAFT");
+  if(m_Display && m_Drone && m_Camera)m_Display.Update(m_Drone.GetOwner(),m_Camera,m_fZoom,m_iSensor==3,m_bActive && !m_bPilot && !m_bMap,m_ReconArea);
   if (m_bActive && m_Drone && m_Camera && !m_bPilot && !m_bMap && m_SensorHUD)
+  {
    m_SensorHUD.Project(m_Drone, m_Camera, m_bBoxesEnabled);
+   string message;
+   int color=m_NoticeColor;
+   if(m_fFeedTime<m_NoticeUntil)message=m_Notice;
+   if(m_ModeRequest>=0) { message="MODE REQUESTED - AWAITING AIRCRAFT"; color=0xFFE5BE78; }
+   if(m_InputSuspended) { message="CAMERA INPUT PAUSED - MENU OPEN"; color=0xFFE5BE78; }
+   m_SensorHUD.Present(message,color,m_Drone.ContactState(),m_ReconFocus);
+  }
  }
  protected void ResetZoomInput()
  {
-  m_PoseReady=false; m_YawVelocity=0; m_PitchVelocity=0; m_QueueDesignation=false; m_QueueFire=false; m_QueueOptics=false; m_ObservationStamp=-1;
+  m_YawVelocity=0; m_PitchVelocity=0; m_QueueDesignation=false; m_QueueFire=false; m_QueueOptics=false; m_ObservationStamp=-1;
   if(!GetGame()) return;
   InputManager input = GetGame().GetInputManager();
   if(!input) return;
@@ -544,7 +712,7 @@ class ORD_TerminalComponent : ScriptComponent
  protected void CloseMissionMap()
  {
   if (m_MissionMap) m_MissionMap.Close();
-  m_MissionMap = null; m_bMap = false; ResetZoomInput();
+  m_bMap = false; ResetZoomInput();
  }
  protected void UpdateMapMarkers()
  {
@@ -598,7 +766,7 @@ class ORD_TerminalComponent : ScriptComponent
   float distance = offset.Length();
   if (distance <= 1 || distance > m_Drone.SensorRange()) return true;
   float shortSide, longSide;
-  if (!ORD_ObservationPolicy.Measure(entity,m_vContactOrigin,m_vContactForward,m_fZoom,m_ContactAspect,m_iSensor,shortSide,longSide)) return true;
+  if (!ORD_ObservationPolicy.Measure(entity,m_vContactOrigin,m_vContactForward,m_fZoom,m_ContactAspect,OpticalChannel(),shortSide,longSide)) return true;
   if (shortSide < 2 || longSide < 4) return true;
   float score = (1-vector.Dot(offset/distance,m_vContactForward))*100 + distance/m_Drone.SensorRange();
   if (entity == m_Drone.HUDTrackedEntity()) score = -1;
@@ -653,7 +821,7 @@ class ORD_TerminalComponent : ScriptComponent
   world.QueryEntitiesBySphere(m_vContactOrigin,m_Drone.SensorRange(),CollectContact,null,EQueryEntitiesFlags.DYNAMIC);
   int count=m_aContactCandidates.Count();
   int budget=Math.Min(count,48);
-  float quality=ORD_ObservationPolicy.Quality(world,m_iSensor);
+  float quality=ORD_ObservationPolicy.Quality(world,OpticalChannel());
   for(int i=0;i<budget;i++)
   {
    int index=i;
@@ -661,7 +829,7 @@ class ORD_TerminalComponent : ScriptComponent
    IEntity candidate=m_aContactCandidates[index];
    ORD_LocalObservation observation=LocalObservation(candidate,now);
    bool classified;
-   bool eligible=ORD_ObservationPolicy.Observe(m_Drone.GetOwner(),candidate,m_vContactForward,m_fZoom,aspect,m_iSensor,m_Drone.SensorRange(),classified);
+   bool eligible=ORD_ObservationPolicy.Observe(m_Drone.GetOwner(),candidate,m_vContactForward,m_fZoom,aspect,OpticalChannel(),m_Drone.SensorRange(),classified);
    observation.Evidence.Sample(now,eligible,classified,ChimeraCharacter.Cast(candidate)!=null,quality);
   }
   m_ContactCursor+=40;
@@ -682,10 +850,15 @@ class ORD_TerminalComponent : ScriptComponent
  {
   if (!m_bPilot)
   {
-   if (m_SensorHUD) m_SensorHUD.Update(m_Drone, m_Camera, m_iAppliedSensor, m_bInputMissing, m_GimbalLimited, m_fFeedTime<m_ThermalErrorUntil);
+   if (m_SensorHUD) m_SensorHUD.Update(m_Drone, m_Camera, m_iAppliedSensor, m_bInputMissing, m_GimbalLimited, m_fFeedTime<m_ThermalErrorUntil,m_ReconFocus);
    return;
   }
   if (!m_TopLeft) return;
+  if(m_PilotHints=="" || m_fFeedTime>=m_PilotBindingTime)
+  {
+   m_PilotBindingTime=m_fFeedTime+1; m_ModeHint=ORD_SensorHUD.Binding("ORD_Mode");
+   m_PilotHints=ORD_SensorHUD.Binding("ORD_Exit")+" EXIT   "+m_ModeHint+" SENSOR   "+ORD_SensorHUD.Binding("ORD_Map")+" MAP   "+ORD_SensorHUD.Binding("ORD_Engine")+" ENGINE   "+ORD_SensorHUD.Binding("ORD_Pitch","positive")+" UP / "+ORD_SensorHUD.Binding("ORD_Pitch","negative")+" DOWN";
+  }
   vector position = drone.GetOrigin();
   float agl = position[1] - drone.GetWorld().GetSurfaceY(position[0], position[2]);
   float heading = m_Drone.Heading();
@@ -719,7 +892,7 @@ class ORD_TerminalComponent : ScriptComponent
   {
    m_ZoomReadout.SetVisible(true);
    if (m_bMap) m_ZoomReadout.SetText(string.Format("MAP  %1X", Math.Round(shownZoom * 10) / 10));
-   else if (m_bPilot) m_ZoomReadout.SetText("FLIGHT CAM  /  H FOR SENSOR ZOOM");
+   else if (m_bPilot) m_ZoomReadout.SetText("FLIGHT CAMERA  /  "+m_ModeHint+" SENSOR");
    else m_ZoomReadout.SetText(string.Format("SENSOR  %1X / 40X", Math.Round(shownZoom * 10) / 10));
   }
   string weaponState = "SAFE";
@@ -727,7 +900,7 @@ class ORD_TerminalComponent : ScriptComponent
   string fireState = "READY";
   switch (m_Drone.FireStatus())
   {
-   case ORD_FireStatus.SAFED: fireState = "SAFE - V TO ARM"; break;
+   case ORD_FireStatus.SAFED: fireState = "SAFE"; break;
    case ORD_FireStatus.EMPTY: fireState = "NO STORES"; break;
    case ORD_FireStatus.NO_SENSOR: fireState = "SENSOR REQUIRED"; break;
    case ORD_FireStatus.GROUND: fireState = "AIRBORNE REQUIRED"; break;
@@ -779,7 +952,7 @@ class ORD_TerminalComponent : ScriptComponent
   }
   if (m_BottomCenter) m_BottomCenter.SetText(string.Format("RNG %1 M\n%2\n|-------|--------|--------|--------|", range, scale));
   string targeting = "SENSOR POINT"; if (m_iWeaponMode == ORD_TargetMode.VEHICLE) targeting = "TRACKED VEHICLE";
-  if (m_BottomRight) m_BottomRight.SetText(string.Format("GRID %1\nSLANT RNG %2 M\nSET AGL %3 M\nSET SPD %4 KM/H\nY TARGET: %5", grid, range, Math.Round(m_Drone.TargetAltitude()), Math.Round(m_Drone.TargetSpeed() * 3.6), targeting));
+  if (m_BottomRight) m_BottomRight.SetText(string.Format("GRID %1\nSLANT RNG %2 M\nSET AGL %3 M\nSET SPD %4 KM/H\nTARGET: %5", grid, range, Math.Round(m_Drone.TargetAltitude()), Math.Round(m_Drone.TargetSpeed() * 3.6), targeting));
   if (m_MapStatus && m_bMap)
   {
    vector mapDistance = m_vMapCenter - position; mapDistance[1] = 0;
@@ -789,7 +962,7 @@ class ORD_TerminalComponent : ScriptComponent
   }
   if (m_ControlHint)
   {
-   string controls = "ESC EXIT   H SENSOR   M MAP   I ENGINE   R RTB   S UP / W DOWN   A/D BANK   SHIFT/Z POWER";
+   string controls = m_PilotHints;
    if (!m_bPilot) controls = "M MAP | LOOK MOUSE/ARROWS | +/- ZOOM | TAB POINT | T TRACK | B BOXES | Y TARGET MODE | V ARM | F FIRE";
    if (m_bMap) controls = "ESC EXIT   M SENSOR   MOUSE/ARROWS PAN   WHEEL ZOOM   ENTER WP   P LOITER   J ROUTE   C CLEAR";
    if (m_bInputMissing) controls = "INPUT ACTIONS MISSING - RELOAD ADDON IN WORKBENCH";

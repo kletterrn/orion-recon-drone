@@ -1,0 +1,53 @@
+// Native-engine checks in an isolated fixture package only.
+class ORD_MissionPlannerHarness : ORD_MissionMap
+{
+ void SelectExisting()
+ {
+  m_Points.Clear(); m_Points.Insert("100 25 200");
+  m_Drag = 0; m_DragStart = "112 200 0"; m_DragMoved = false; m_DragRecorded = false; m_Dirty = false;
+ }
+ override protected vector MousePoint(int x, int y) { return Vector(x, 0, y); }
+ vector Point() { return m_Points[0]; }
+ bool Dirty() { return m_Dirty; }
+ void Move(int x, int y) { UpdateDrag(x, y); }
+}
+
+modded class ORD_TerminalComponent
+{
+ override void OnPostInit(IEntity owner)
+ {
+  super.OnPostInit(owner);
+  GetGame().GetCallqueue().CallLater(MissionPlannerTests, 3000, false);
+ }
+ protected void CheckPlanner(string name, bool passed)
+ {
+  if (passed) Print("ORD_TEST_PASS planner-" + name);
+  else Print("ORD_TEST_FAIL planner-" + name);
+ }
+ protected void MissionPlannerTests()
+ {
+  ref array<vector> points = {};
+  CheckPlanner("empty", ORD_MissionMap.CircuitDistance(points) == 0 && ORD_MissionMap.CircuitEstimate(points, 50) == "Circuit estimate: --");
+  points.Insert("0 0 0");
+  CheckPlanner("single", ORD_MissionMap.CircuitEstimate(points, 50) == "Circuit estimate: --");
+  points.Insert("300 50 0");
+  CheckPlanner("two-points-return-leg", Math.AbsFloat(ORD_MissionMap.CircuitDistance(points) - 600) < 0.01);
+  points.Insert("300 150 400");
+  CheckPlanner("horizontal-closed-triangle", Math.AbsFloat(ORD_MissionMap.CircuitDistance(points) - 1200) < 0.01);
+  CheckPlanner("time-at-planned-speed", ORD_MissionMap.CircuitEstimate(points, 40) == "Circuit 1.2 km | est. 0:30");
+  CheckPlanner("minute-format", ORD_MissionMap.CircuitEstimate(points, 10) == "Circuit 1.2 km | est. 2:00");
+  CheckPlanner("invalid-speed", ORD_MissionMap.CircuitEstimate(points, 0) == "Circuit estimate: --");
+  points.Clear(); points.Insert("100 0 100"); points.Insert("100 900 100");
+  CheckPlanner("coincident", ORD_MissionMap.CircuitEstimate(points, 50) == "Circuit estimate: --");
+  ORD_MissionPlannerHarness planner = new ORD_MissionPlannerHarness();
+  planner.SelectExisting(); planner.OnMouseButtonUp(null, 112, 200, 0);
+  CheckPlanner("selection-does-not-move-or-dirty", planner.Point() == "100 25 200" && !planner.Dirty());
+  planner.SelectExisting(); planner.Move(114, 202); planner.OnMouseButtonUp(null, 114, 202, 0);
+  CheckPlanner("small-hand-jitter-preserves-point", planner.Point() == "100 25 200" && !planner.Dirty());
+  planner.SelectExisting(); planner.Move(120, 200); planner.OnMouseButtonUp(null, 130, 205, 0);
+  CheckPlanner("drag-commits-release-position", planner.Point() == "130 0 205" && planner.Dirty());
+  planner.SelectExisting(); planner.Move(120, 200); planner.Move(112, 200); planner.OnMouseButtonUp(null, 112, 200, 0);
+  CheckPlanner("drag-remains-active-after-return", planner.Point() == "112 0 200" && planner.Dirty());
+  Print("ORD_TEST_DONE mission-planner");
+ }
+}

@@ -1,0 +1,13 @@
+{
+  "enteredGame": true,
+  "scriptErrors": [],
+  "observations": [
+    "21:44:14.101   SCRIPT       : ORD_TEST_DONE planner-visual"
+  ],
+  "fpsLimit": 60,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "durationSeconds": 40
+}

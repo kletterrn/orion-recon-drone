@@ -120,7 +120,7 @@ class ORD_AircraftComponent : ScriptComponent
  {
   if (m_bReturnHome) return "RETURN HOME";
   if (m_bPatrol) return "ROUTE";
-  if (m_bAuto) return "LOITER / HOLD";
+  if (m_bAuto) return "OVERWATCH";
   return "MANUAL";
  }
  string MissionStatus() { return m_sMissionStatus; }

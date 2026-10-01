@@ -1,0 +1,19 @@
+FrameWidgetClass {
+ Name "SensorDisplay" "Ignore Cursor" 1 "Z Order" 0
+ Slot FrameWidgetSlot { Anchor 0 0 1 1 OffsetLeft 0 OffsetTop 0 OffsetRight 0 OffsetBottom 0 }
+ {
+  ImageWidgetClass { Name "ThermalWeight" "Ignore Cursor" 1 Color 0 0 0 0.45 Slot FrameWidgetSlot { Anchor 0 0 1 1 OffsetLeft 0 OffsetTop 0 OffsetRight 0 OffsetBottom 0 } }
+  RenderTargetWidgetClass { Name "EOBlend" "Ignore Cursor" 1
+   Slot FrameWidgetSlot { Anchor 0 0 1 1 OffsetLeft 0 OffsetTop 0 OffsetRight 0 OffsetBottom 0 }
+  }
+  FrameWidgetClass { Name "OrientationInset" "Ignore Cursor" 1
+   Slot FrameWidgetSlot { Anchor 0 0 0 0 OffsetLeft 60 OffsetTop 420 SizeX 360 OffsetRight -420 SizeY 228 OffsetBottom -648 }
+   {
+    ImageWidgetClass { Name "InsetBG" "Ignore Cursor" 1 Color 0.025 0.04 0.05 0.95 Slot FrameWidgetSlot { Anchor 0 0 1 1 OffsetLeft 0 OffsetTop 0 OffsetRight 0 OffsetBottom 0 } }
+    RenderTargetWidgetClass { Name "WideVideo" "Ignore Cursor" 1 Slot FrameWidgetSlot { Anchor 0 0 1 1 OffsetLeft 4 OffsetTop 4 OffsetRight 4 OffsetBottom 26 } }
+    CanvasWidgetClass { Name "OrientationDraw" "Ignore Cursor" 1 Slot FrameWidgetSlot { Anchor 0 0 1 1 OffsetLeft 4 OffsetTop 4 OffsetRight 4 OffsetBottom 26 } }
+    TextWidgetClass { Name "OrientationLabel" "Ignore Cursor" 1 "Font Size" 14 Color 1 1 1 1 Slot FrameWidgetSlot { Anchor 0 1 1 1 OffsetLeft 6 OffsetTop -23 OffsetRight 6 OffsetBottom 2 } }
+   }
+  }
+ }
+}

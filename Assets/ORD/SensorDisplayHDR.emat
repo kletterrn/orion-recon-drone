@@ -1,0 +1,11 @@
+HDREffect {
+ TargetBrightness 0.18
+ SpeedDarkToBright 20
+ SpeedBrightToDark 20
+ ToneMapping Linear
+ HDR 0
+ BloomIntensity 0
+ DesaturationWeights 0.299 0.587 0.114 0
+ Vignette 0
+ LensDistort 0
+}

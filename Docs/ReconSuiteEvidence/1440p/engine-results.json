@@ -1,0 +1,41 @@
+{
+  "enteredGame": true,
+  "scriptErrors": [],
+  "observations": [
+    "15:02:04.918   SCRIPT       : ORD_TEST_PASS recon-frozen-coordinate",
+    "15:02:04.918   SCRIPT       : ORD_TEST_PASS recon-faction-filter-roundtrip",
+    "15:02:04.918   SCRIPT       : ORD_TEST_PASS recon-no-faction-no-reports",
+    "15:02:04.918   SCRIPT       : ORD_TEST_PASS recon-newest-sixteen",
+    "15:02:04.918   SCRIPT       : ORD_TEST_PASS recon-reject-invalid-category",
+    "15:02:04.918   SCRIPT       : ORD_TEST_PASS recon-reject-unaffiliated",
+    "15:02:07.910   SCRIPT       : ORD_TEST_PASS recon-fixed-point-focus-persists",
+    "15:02:07.910   SCRIPT       : ORD_TEST_PASS recon-four-corner-footprint",
+    "15:02:07.910   SCRIPT       : ORD_TEST_PASS recon-sky-clears-footprint",
+    "15:02:07.910   SCRIPT       : ORD_TEST_PASS recon-save-rate-limited",
+    "15:02:10.109   SCRIPT       : ORD_TEST_PASS recon-authoritative-save",
+    "15:02:10.109   SCRIPT       : ORD_TEST_PASS recon-save-near-optical-hit",
+    "15:02:10.109   SCRIPT       : ORD_TEST_PASS recon-server-rejects-sky",
+    "15:02:10.109   SCRIPT       : ORD_TEST_PASS recon-server-rejects-invalid-ray",
+    "15:02:10.112   SCRIPT       : ORD_TEST_PASS recon-sensor-map-opens",
+    "15:02:10.112   SCRIPT       : ORD_TEST_PASS recon-note-edit-focus",
+    "15:02:10.112   SCRIPT       : ORD_TEST_PASS recon-typing-blocks-map-hotkey",
+    "15:02:10.112   SCRIPT       : ORD_TEST_PASS recon-map-click-aims",
+    "15:02:12.910   SCRIPT       : ORD_TEST_PASS recon-card-recalls-frozen-point",
+    "15:02:12.910   SCRIPT       : ORD_TEST_PASS recon-trail-recorded",
+    "15:02:18.909   SCRIPT       : ORD_TEST_PERF EO frames=949 seconds=4.00363",
+    "15:02:22.909   SCRIPT       : ORD_TEST_PERF IR frames=928 seconds=3.99981",
+    "15:02:26.910   SCRIPT       : ORD_TEST_PERF BLEND frames=933 seconds=4.00013",
+    "15:02:30.909   SCRIPT       : ORD_TEST_PERF EO_WIDE frames=942 seconds=4.00023",
+    "15:02:33.921   SCRIPT       : ORD_TEST_PASS recon-saved-position-still-frozen",
+    "15:02:33.921   SCRIPT       : ORD_TEST_DONE recon-suite",
+    "15:02:37.416 SCRIPT       : ORD_TEST_PASS recon-reader-opens-without-control",
+    "15:02:37.433 SCRIPT       : ORD_TEST_PASS recon-reader-closes",
+    "15:02:37.433 SCRIPT       : ORD_TEST_DONE recon-reader"
+  ],
+  "fpsLimit": 240,
+  "resolution": [
+    2560,
+    1440
+  ],
+  "durationSeconds": 80
+}

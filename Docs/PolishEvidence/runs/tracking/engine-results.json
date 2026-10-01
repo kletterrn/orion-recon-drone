@@ -1,0 +1,22 @@
+{
+  "enteredGame": true,
+  "scriptErrors": [],
+  "observations": [
+    "16:12:51.216   SCRIPT       : ORD_TEST_PASS tracking-scene-contact-present",
+    "16:12:54.198   SCRIPT       : ORD_TEST_PASS tracking-optical-entity-designation",
+    "16:12:59.198   SCRIPT       : ORD_TEST_PASS tracking-entity-acquired",
+    "16:12:59.198   SCRIPT       : ORD_TEST_PASS tracking-contact-overlay-visible",
+    "16:12:59.698   SCRIPT       : ORD_TEST_PASS tracking-obscured-freezes-last-position",
+    "16:13:01.698   SCRIPT       : ORD_TEST_PASS tracking-lost-stays-frozen",
+    "16:13:01.698   SCRIPT       : ORD_TEST_PASS tracking-no-live-lost-overlay",
+    "16:13:05.701   SCRIPT       : ORD_TEST_PASS tracking-visible-contact-reacquired",
+    "16:13:05.701   SCRIPT       : ORD_TEST_PASS tracking-cancel-clears-state",
+    "16:13:05.702   SCRIPT       : ORD_TEST_DONE tracking-polish"
+  ],
+  "fpsLimit": 60,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "durationSeconds": 60
+}

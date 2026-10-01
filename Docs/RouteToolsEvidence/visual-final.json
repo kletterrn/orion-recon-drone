@@ -1,0 +1,27 @@
+{
+  "enteredGame": true,
+  "scriptErrors": [],
+  "observations": [
+    "00:33:38.405   SCRIPT       : ORD_TEST_PASS visual-save-button",
+    "00:33:38.405   SCRIPT       : ORD_TEST_PASS visual-reverse-button",
+    "00:33:38.405   SCRIPT       : ORD_TEST_PASS visual-overwrite-confirmation",
+    "00:33:38.405   SCRIPT       : ORD_TEST_PASS visual-confirmed-overwrite",
+    "00:33:38.405   SCRIPT       : ORD_TEST_PASS visual-undo-button",
+    "00:33:38.405   SCRIPT       : ORD_TEST_PASS visual-load-is-draft",
+    "00:33:38.405   SCRIPT       : ORD_TEST_PASS visual-undo-load",
+    "00:33:38.405   SCRIPT       : ORD_TEST_PASS visual-redo-load",
+    "00:33:38.405   SCRIPT       : ORD_TEST_PASS visual-pending-blocks-edit",
+    "00:33:38.405   SCRIPT       : ORD_TEST_PASS visual-slot-cycle",
+    "00:33:38.405   SCRIPT       : ORD_TEST_PASS visual-failed-load-preserves-draft",
+    "00:33:38.405   SCRIPT       : ORD_TEST_PASS visual-no-live-mission-change",
+    "00:33:44.402   SCRIPT       : ORD_TEST_PASS visual-center-aircraft",
+    "00:33:44.402   SCRIPT       : ORD_TEST_CENTER error=4.26809 zoom=0.12",
+    "00:33:44.411   SCRIPT       : ORD_TEST_DONE planner-visual"
+  ],
+  "fpsLimit": 60,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "durationSeconds": 55
+}

@@ -1,0 +1,11 @@
+{
+  "enteredGame": true,
+  "scriptErrors": [],
+  "observations": [],
+  "fpsLimit": 60,
+  "resolution": [
+    1280,
+    720
+  ],
+  "durationSeconds": 55
+}

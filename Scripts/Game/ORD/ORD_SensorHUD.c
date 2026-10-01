@@ -9,7 +9,18 @@ class ORD_HUDContact
 class ORD_SensorHUD
 {
  protected Widget m_Root;
- protected CanvasWidget m_Text, m_Geometry;
+ // Reference-space tokens: 20 px data, 18 px hints, 8 px spacing multiples.
+ static const int INK = 0xFFF0F2ED;
+ static const int ACCENT = 0xFFB4D1CB;
+ static const int CAUTION = 0xFFE5BE78;
+ static const int CRITICAL = 0xFFFF9A8F;
+ protected CanvasWidget m_Text, m_Geometry, m_Presentation;
+ protected ref array<ref CanvasWidgetCommand> m_PresentationDraw = {};
+ protected string m_LastPresentation;
+ protected int m_LastPresentationColor;
+ protected float m_LastPresentationWidth, m_LastPresentationHeight, m_BindingRefresh;
+ protected string m_MapHint, m_LockHint, m_TrackHint, m_ChannelHint;
+ protected ref array<vector> m_LabelPositions = {};
  protected ref array<ref CanvasWidgetCommand> m_TextDraw = {};
  protected ref array<ref CanvasWidgetCommand> m_Draw = {};
  protected ref array<ref ORD_HUDContact> m_Registry = {};
@@ -27,13 +38,14 @@ class ORD_SensorHUD
   if (!m_Root) return false;
   m_Text = CanvasWidget.Cast(m_Root.FindAnyWidget("Telemetry"));
   m_Geometry = CanvasWidget.Cast(m_Root.FindAnyWidget("Symbology"));
+  m_Presentation=CanvasWidget.Cast(m_Root.FindAnyWidget("Presentation"));
   SetVisible(false);
   return m_Text && m_Geometry;
  }
  void Close()
  {
   if (m_Root) m_Root.RemoveFromHierarchy();
-  m_Root = null; m_Text = null; m_Geometry = null;
+  m_Root = null; m_Text = null; m_Geometry = null; m_Presentation=null; m_PresentationDraw.Clear();
   m_Registry.Clear(); m_Visible.Clear(); m_TextDraw.Clear(); m_Draw.Clear();
  }
  void SetVisible(bool visible) { if (m_Root) m_Root.SetVisible(visible); }
@@ -93,7 +105,7 @@ class ORD_SensorHUD
  }
  // Fixed character advance gives a monospaced display using the shipped font.
  // Each glyph is native editable canvas text; no baked artwork or extra font dependency.
- protected void Text(array<ref CanvasWidgetCommand> commands, float x, float y, string value, float size = 24, int color = 0xFFF0F2ED)
+ protected void Text(array<ref CanvasWidgetCommand> commands, float x, float y, string value, float size = 20, int color = 0xFFF0F2ED)
  {
   float advance = size * 0.60 * m_Scale;
   for (int i = 0; i < value.Length(); i++)
@@ -138,9 +150,9 @@ class ORD_SensorHUD
    commands.Insert(text);
   }
  }
- protected void CenterText(array<ref CanvasWidgetCommand> commands, float y, string value, float size = 24)
+ protected void CenterText(array<ref CanvasWidgetCommand> commands, float y, string value, float size = 20, int color = 0xFFF0F2ED)
  {
-  Text(commands, (m_Width - value.Length() * size * 0.60 * m_Scale) * 0.5, y, value, size);
+  Text(commands, (m_Width - value.Length() * size * 0.60 * m_Scale) * 0.5, y, value, size, color);
  }
  protected void Line(float x1, float y1, float x2, float y2, float width = 1.5, int color = 0xFFF0F2ED)
  {
@@ -187,7 +199,7 @@ class ORD_SensorHUD
    if ((i & 2) != 0) corner[1] = high[1];
    if ((i & 4) != 0) corner[2] = high[2];
    if (vector.Dot(corner - camera.GetOrigin(), camera.GetTransformAxis(2)) <= 0.1) return false;
-   vector screen = GetGame().GetWorkspace().ProjWorldToScreen(corner, entity.GetWorld(), entity.GetWorld().GetCurrentCameraId());
+   vector screen = GetGame().GetWorkspace().ProjWorldToScreen(corner, entity.GetWorld(), camera.GetCameraIndex());
    // World projection is DPI-unscaled UI space; convert exactly once for canvas.
    screen[0] = GetGame().GetWorkspace().DPIScale(screen[0]);
    screen[1] = GetGame().GetWorkspace().DPIScale(screen[1]);
@@ -218,7 +230,7 @@ class ORD_SensorHUD
  void Project(ORD_AircraftComponent drone, SCR_CameraBase camera, bool boxes)
  {
   if (!m_Geometry || !camera) return;
-  Dimensions(); m_Draw.Clear(); m_ContactCount = 0;
+  Dimensions(); m_Draw.Clear(); m_LabelPositions.Clear(); m_ContactCount = 0;
   float s = m_Scale, cx = m_Width * 0.5, cy = m_Height * 0.5;
   Line(cx - 28*s, cy, cx - 5*s, cy); Line(cx + 5*s, cy, cx + 28*s, cy);
   Line(cx, cy - 28*s, cx, cy - 5*s); Line(cx, cy + 5*s, cx, cy + 28*s);
@@ -233,13 +245,12 @@ class ORD_SensorHUD
    if (bearing % 10 == 0)
    {
     length = 28*s;
-    Text(m_Draw, x - 20*s, 59*s, Azimuth(bearing), 23);
+    Text(m_Draw, x - 18*s, 48*s, Azimuth(bearing), 18);
    }
-   Line(x, 122*s, x, 122*s - length);
+   Line(x, 104*s, x, 104*s - length);
   }
-  Line(cx, 137*s, cx - 11*s, 158*s); Line(cx - 11*s,158*s,cx + 11*s,158*s); Line(cx + 11*s,158*s,cx,137*s);
-  Line(cx - 240*s,m_Height - 119*s,cx - 139*s,m_Height - 119*s,1);
-  Line(cx + 139*s,m_Height - 119*s,cx + 240*s,m_Height - 119*s,1);
+  Line(cx,112*s,cx-6*s,121*s); Line(cx-6*s,121*s,cx+6*s,121*s); Line(cx+6*s,121*s,cx,112*s);
+
   IEntity selected = drone.HUDTrackedEntity();
   m_Selected = "--";
   if (selected) m_Selected = ContactId(selected, drone.GetOwner().GetWorld().GetWorldTime() * 0.001, selected);
@@ -265,13 +276,50 @@ class ORD_SensorHUD
     Bracket(low, high, confirmed);
     float labelX = Math.Clamp(high[0] + 9*s, 12*s, m_Width - label.Length() * 13.2*s - 12*s);
     float labelY = Math.Clamp(low[1] - 27*s, 12*s, m_Height - 32*s);
-    Text(m_Draw, labelX, labelY, label, 22);
+    // Brackets remain current; omit secondary labels when their bands overlap.
+    bool labelClear=true;
+    foreach(vector occupied:m_LabelPositions)
+     if(Math.AbsFloat(occupied[1]-labelY)<24*s && Math.AbsFloat(occupied[0]-labelX)<240*s)labelClear=false;
+    if(labelClear) { Text(m_Draw,labelX,labelY,label,18); m_LabelPositions.Insert(Vector(labelX,labelY,0)); }
     m_ContactCount++;
    }
   }
   m_Geometry.SetDrawCommands(m_Draw);
  }
- void Update(ORD_AircraftComponent drone, SCR_CameraBase camera, int sensor, bool missingInput, bool limited = false, bool thermalFallback = false)
+ static string Binding(string action,string preset="")
+ {
+  ref array<string> keys={}; ref array<BaseContainer> filters={};
+  if(!GetGame().GetInputManager().GetActionKeybinding(action,keys,filters,EInputDeviceType.KEYBOARD,preset))return "UNBOUND";
+  // Complex/multi-key bindings need the native keybind UI; never invent a key.
+  if(keys.Count()!=1)return "SETTINGS";
+  string key=keys[0]; key.Replace("keyboard:",""); key.Replace("KC_","");
+  if(key.Length()>10)return "SETTINGS";
+  return key;
+ }
+ void Present(string message,int color,int contactState,bool mapFocus)
+ {
+  if(!m_Presentation)return;
+  Dimensions();
+  float now=System.GetTickCount()*0.001;
+  if(now>=m_BindingRefresh)
+  {
+   m_BindingRefresh=now+1;
+   m_MapHint=Binding("ORD_Map"); m_LockHint=Binding("ORD_Designate");
+   m_TrackHint=Binding("ORD_Track"); m_ChannelHint=Binding("ORD_Thermal");
+  }
+  string action="LOCK POINT";
+  if(contactState!=ORD_ContactState.NONE)action="CLEAR LOCK";
+  string hint=m_LockHint+" "+action+"    "+m_MapHint+" MAP / REPORTS    "+m_ChannelHint+" SENSOR";
+  if(contactState==ORD_ContactState.POINT)hint=m_TrackHint+" TRACK ENTITY    "+hint;
+  string signature=message+"|"+hint;
+  if(signature==m_LastPresentation && color==m_LastPresentationColor && m_Width==m_LastPresentationWidth && m_Height==m_LastPresentationHeight)return;
+  m_LastPresentation=signature; m_LastPresentationColor=color; m_LastPresentationWidth=m_Width; m_LastPresentationHeight=m_Height;
+  m_PresentationDraw.Clear();
+  if(message!="")CenterText(m_PresentationDraw,m_Height-88*m_Scale,message,18,color);
+  CenterText(m_PresentationDraw,m_Height-48*m_Scale,hint,18);
+  m_Presentation.SetDrawCommands(m_PresentationDraw);
+ }
+ void Update(ORD_AircraftComponent drone, SCR_CameraBase camera, int sensor, bool missingInput, bool limited = false, bool thermalFallback = false, bool mapFocus = false)
  {
   if (!m_Text || !camera) return;
   Dimensions(); m_TextDraw.Clear();
@@ -281,29 +329,28 @@ class ORD_SensorHUD
   float azimuth = Bearing(direction), elevation = Math.Asin(Math.Clamp(direction[1], -1, 1)) * Math.RAD2DEG;
   float pixelWidth, pixelHeight; GetGame().GetWorkspace().GetScreenSize(pixelWidth,pixelHeight);
   float hfov = 2 * Math.Atan2(Math.Tan(camera.GetVerticalFOV() * Math.DEG2RAD * 0.5) * pixelWidth / Math.Max(pixelHeight, 1), 1) * Math.RAD2DEG;
-  string identifier = aircraft.GetName();
-  if (identifier.IsEmpty()) identifier = "UAV";
-  // Scenario entity name is authoritative when no callsign provider exists.
-  if (identifier.Length() > 23) identifier = identifier.Substring(0, 23);
-  Text(m_TextDraw, 68*s, 62*s, "ORION / " + identifier);
+  Text(m_TextDraw,48*s,44*s,"ORION-E  /  SENSOR OPERATOR",20,ACCENT);
   string flight = drone.FlightModeText();
   if (drone.Automatic() && !drone.ReturningHome() && !drone.FlyingRoute()) flight = "OVERWATCH";
-  Text(m_TextDraw, 68*s, 98*s, "FLIGHT " + flight);
-  CenterText(m_TextDraw, 168*s, "LOS AZ " + Azimuth(azimuth) + "~G", 22);
+  Text(m_TextDraw,48*s,76*s,"FLIGHT  " + flight);
+  CenterText(m_TextDraw,136*s,"CAM BRG " + Azimuth(azimuth) + "~G",18);
   string mode = "EO";
   if (sensor == 1) mode = "IR WH";
   if (sensor == 2) mode = "IR BH";
+  if (sensor == 3) mode = "EO/IR EXP";
   if(thermalFallback) mode="EO FALLBACK";
-  Text(m_TextDraw, m_Width - 270*s, 62*s, mode);
+  Text(m_TextDraw, m_Width - 300*s, 44*s, mode);
   // Sensor orientation is world-stabilized by the existing terminal basis.
+  float zoom=Math.Tan(30*Math.DEG2RAD)/Math.Max(0.0001,Math.Tan(hfov*Math.DEG2RAD*0.5));
+  Text(m_TextDraw,m_Width-300*s,108*s,"ZOOM "+Column(Decimal(zoom),5)+"x",18);
   string stability="STAB ON"; if(limited) stability="GIMBAL LIMIT";
-  Text(m_TextDraw, m_Width - 270*s, 98*s, stability);
+  int stabilityColor=INK; if(limited)stabilityColor=CAUTION;
+  Text(m_TextDraw,m_Width-300*s,76*s,stability,20,stabilityColor);
   string link = "LINK --";
   PlayerController player = GetGame().GetPlayerController();
   if (player && drone.Operator() == player.GetPlayerId() && !drone.Destroyed()) link = "LINK OK";
-  Text(m_TextDraw, m_Width - 270*s, 134*s, link);
-  int seconds = world.GetWorldTime() * 0.001;
-  Text(m_TextDraw, m_Width - 270*s, 170*s, "SIM " + Pad(seconds / 3600) + ":" + Pad((seconds / 60) % 60) + ":" + Pad(seconds % 60));
+  Text(m_TextDraw,48*s,108*s,link,18);
+
   string speed = "--";
   Physics physics = aircraft.GetPhysics();
   if (physics)
@@ -311,10 +358,10 @@ class ORD_SensorHUD
    vector velocity = physics.GetVelocity(); velocity[1] = 0;
    speed = Math.Round(velocity.Length() * 3.6).ToString();
   }
-  Text(m_TextDraw,68*s,280*s,"GS   " + Column(speed,5) + " km/h");
-  Text(m_TextDraw,68*s,316*s,"HDG  " + Column(Azimuth(Bearing(aircraft.GetTransformAxis(2))),5) + "~G");
-  Text(m_TextDraw,68*s,352*s,"ALT  " + Column(Math.Round(position[1] - world.GetOceanBaseHeight()).ToString(),5) + " m ASL");
-  Text(m_TextDraw,68*s,388*s,"AGL  " + Column(Math.Round(position[1] - world.GetSurfaceY(position[0],position[2])).ToString(),5) + " m");
+  Text(m_TextDraw,48*s,224*s,"GS   " + Column(speed,5) + " km/h");
+  Text(m_TextDraw,48*s,256*s,"HDG  " + Column(Azimuth(Bearing(aircraft.GetTransformAxis(2))),5) + "~G");
+  Text(m_TextDraw,48*s,288*s,"ALT  " + Column(Math.Round(position[1] - world.GetOceanBaseHeight()).ToString(),5) + " m ASL");
+  Text(m_TextDraw,48*s,320*s,"AGL  " + Column(Math.Round(position[1] - world.GetSurfaceY(position[0],position[2])).ToString(),5) + " m");
   // Observation is ALWAYS the present optical axis hit, not a stale designated coordinate.
   TraceParam trace = new TraceParam(); trace.Start = camera.GetOrigin();
   trace.End = trace.Start + direction * drone.SensorRange();
@@ -328,8 +375,8 @@ class ORD_SensorHUD
    m_Observation = trace.Start + (trace.End - trace.Start) * fraction;
    observation = Grid(m_Observation); range = Decimal(vector.Distance(trace.Start,m_Observation) / 1000,2) + " km";
   }
-  Text(m_TextDraw,68*s,m_Height - 134*s,"UAV GRID " + Grid(position));
-  Text(m_TextDraw,68*s,m_Height - 98*s,"OBS GRID " + observation);
+  Text(m_TextDraw,48*s,m_Height - 160*s,"UAV GRID " + Grid(position));
+  Text(m_TextDraw,48*s,m_Height - 128*s,"OBS GRID " + observation);
   string track = "FREE";
   switch (drone.ContactState())
   {
@@ -337,19 +384,22 @@ class ORD_SensorHUD
    case ORD_ContactState.ACQUIRING: track = "ACQUIRING"; break;
    case ORD_ContactState.ENTITY: track = "ENTITY TRACK"; break;
    case ORD_ContactState.GROUP: track = "GROUP TRACK"; break;
-   case ORD_ContactState.TEMP_LOSS: track = "COASTING"; break;
-   case ORD_ContactState.LOST: track = "TRACK LOST"; break;
+   case ORD_ContactState.TEMP_LOSS: track = "OBSCURED / LAST OBSERVED"; break;
+   case ORD_ContactState.LOST: track = "LOST / LAST OBSERVED"; break;
   }
-  CenterText(m_TextDraw,m_Height - 134*s,track,22);
+  if(mapFocus)track="MAP POINT";
+  int trackColor=INK;
+  if(drone.ContactState()==ORD_ContactState.TEMP_LOSS || drone.ContactState()==ORD_ContactState.LOST)trackColor=CAUTION;
+  CenterText(m_TextDraw,m_Height-160*s,track,20,trackColor);
   string selectedId = m_Selected;
   if (drone.ContactState() == ORD_ContactState.NONE || drone.ContactState() == ORD_ContactState.POINT) selectedId = "--";
-  CenterText(m_TextDraw,m_Height - 98*s,selectedId + " | CONTACTS " + Pad(m_ContactCount),22);
-  float right = m_Width - 315*s;
-  Text(m_TextDraw,right,m_Height - 206*s,"AZ      " + Column(Azimuth(azimuth),5) + "~G");
-  Text(m_TextDraw,right,m_Height - 170*s,"EL      " + Column(Decimal(elevation),5) + "~");
-  Text(m_TextDraw,right,m_Height - 134*s,"HFOV    " + Column(Decimal(hfov),5) + "~");
-  Text(m_TextDraw,right,m_Height - 98*s,"GEO RNG " + range);
-  if (missingInput) CenterText(m_TextDraw,m_Height - 40*s,"INPUTS UNAVAILABLE - RESTART WITH ADDON",16);
+  if(m_ContactCount>0 || selectedId!="--")CenterText(m_TextDraw,m_Height-128*s,selectedId+" | CONTACTS "+Pad(m_ContactCount),18);
+  float right = m_Width - 300*s;
+  Text(m_TextDraw,right,m_Height - 224*s,"CAM BRG " + Column(Azimuth(azimuth),5) + "~G");
+  Text(m_TextDraw,right,m_Height - 192*s,"CAM EL  " + Column(Decimal(elevation),5) + "~");
+  Text(m_TextDraw,right,m_Height - 160*s,"HFOV    " + Column(Decimal(hfov),5) + "~");
+  Text(m_TextDraw,right,m_Height - 128*s,"GEO RNG " + range);
+  if (missingInput) CenterText(m_TextDraw,m_Height - 224*s,"INPUTS UNAVAILABLE - RESTART WITH ADDON",18,CAUTION);
   m_Text.SetDrawCommands(m_TextDraw);
  }
 }

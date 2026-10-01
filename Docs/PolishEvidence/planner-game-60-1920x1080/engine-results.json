@@ -1,0 +1,29 @@
+{
+  "enteredGame": true,
+  "scriptErrors": [],
+  "observations": [
+    "16:15:10.871   SCRIPT       : ORD_TEST_PASS visual-save-button",
+    "16:15:10.871   SCRIPT       : ORD_TEST_PASS visual-reverse-button",
+    "16:15:10.871   SCRIPT       : ORD_TEST_PASS visual-overwrite-confirmation",
+    "16:15:10.871   SCRIPT       : ORD_TEST_PASS visual-confirmed-overwrite",
+    "16:15:10.871   SCRIPT       : ORD_TEST_PASS visual-undo-button",
+    "16:15:10.872   SCRIPT       : ORD_TEST_PASS visual-load-is-draft",
+    "16:15:10.872   SCRIPT       : ORD_TEST_PASS visual-undo-load",
+    "16:15:10.872   SCRIPT       : ORD_TEST_PASS visual-redo-load",
+    "16:15:10.872   SCRIPT       : ORD_TEST_PASS visual-pending-blocks-edit",
+    "16:15:10.872   SCRIPT       : ORD_TEST_PASS visual-slot-cycle",
+    "16:15:10.872   SCRIPT       : ORD_TEST_PASS visual-failed-load-preserves-draft",
+    "16:15:10.872   SCRIPT       : ORD_TEST_PASS visual-no-live-mission-change",
+    "16:15:10.872   SCRIPT       : ORD_TEST_PASS visual-delete-preserves-route-order",
+    "16:15:10.872   SCRIPT       : ORD_TEST_PASS visual-undo-delete-restores-route",
+    "16:15:16.869   SCRIPT       : ORD_TEST_PASS visual-center-aircraft",
+    "16:15:16.869   SCRIPT       : ORD_TEST_CENTER error=4.26809 zoom=0.12",
+    "16:15:16.875   SCRIPT       : ORD_TEST_DONE planner-visual"
+  ],
+  "fpsLimit": 60,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "durationSeconds": 55
+}

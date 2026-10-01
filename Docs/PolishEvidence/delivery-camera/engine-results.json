@@ -1,0 +1,34 @@
+{
+  "enteredGame": true,
+  "scriptErrors": [],
+  "observations": [
+    "16:17:18.145   SCRIPT       : ORD_TEST_LATENCY noticeToCanvasMs=12",
+    "16:17:18.145   SCRIPT       : ORD_TEST_PASS polish-notice-next-frame-under-50ms",
+    "16:17:19.141   SCRIPT       : ORD_TEST_LATENCY cameraActionToPostFrameMs=1",
+    "16:17:19.141   SCRIPT       : ORD_TEST_PASS polish-camera-action-feedback-under-50ms",
+    "16:17:20.407   SCRIPT       : ORD_TEST_CAMERA zoom=20 heldSeconds=0.980396 expectedYaw=2.69609 actualYaw=2.69609",
+    "16:17:20.407   SCRIPT       : ORD_TEST_PASS polish-digital-pan-time-scaled",
+    "16:17:20.424   SCRIPT       : ORD_TEST_PASS polish-stale-gap-consumes-held-mode",
+    "16:17:21.557   SCRIPT       : ORD_TEST_PASS polish-gimbal-request-bounded",
+    "16:17:21.757   SCRIPT       : ORD_TEST_PASS polish-reverse-leaves-stop",
+    "16:17:23.131   SCRIPT       : ORD_TEST_PASS polish-focus-reset-preserves-camera",
+    "16:17:23.131   SCRIPT       : ORD_TEST_PASS polish-mode-request-awaits-presentation-confirmation",
+    "16:17:23.131   SCRIPT       : ORD_TEST_PASS polish-mode-accepted-from-aircraft-state",
+    "16:17:23.731   SCRIPT       : ORD_TEST_PASS polish-pitch-bindings-match-intent",
+    "16:17:24.107   SCRIPT       : ORD_TEST_PASS polish-sensor-mode-recovers",
+    "16:17:25.115   SCRIPT       : ORD_TEST_PASS polish-unconfirmed-mode-times-out",
+    "16:17:26.124   SCRIPT       : ORD_TEST_PASS polish-closed-resources",
+    "16:17:27.110   SCRIPT       : ORD_TEST_PASS polish-reopen-single-camera",
+    "16:17:29.107   SCRIPT       : ORD_TEST_PASS polish-closed-resources",
+    "16:17:30.107   SCRIPT       : ORD_TEST_PASS polish-reopen-single-camera",
+    "16:17:32.124   SCRIPT       : ORD_TEST_PASS polish-closed-resources",
+    "16:17:33.107   SCRIPT       : ORD_TEST_PASS polish-reopen-single-camera",
+    "16:17:33.114   SCRIPT       : ORD_TEST_DONE polish-camera"
+  ],
+  "fpsLimit": 60,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "durationSeconds": 60
+}

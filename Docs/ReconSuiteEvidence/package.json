@@ -1,0 +1,8 @@
+{
+  "archive": "Orion-E-rc9-recon-suite-dev-packed.zip",
+  "bytes": 94363626,
+  "sha256": "c03e6d1032f60aee428568245317948d16b8360d9c0824d003182c731586b28b",
+  "zipIntegrity": true,
+  "runtimeResourceMatches": 206,
+  "fixtureSourcesIncluded": false
+}

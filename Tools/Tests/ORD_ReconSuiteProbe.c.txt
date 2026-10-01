@@ -1,0 +1,238 @@
+// Isolated engine fixture. Requires RC7 operator bootstrap. Never release.
+modded class SCR_PlayerController
+{
+ void ReconDeliverReports(string data,string factionKey) { ORD_ReportListReply(data,factionKey); }
+}
+modded class ORD_MissionMap
+{
+ bool ReconNoteFocus()
+ {
+  return m_Recon.ProbeNoteFocus();
+ }
+ bool PolishSeedDraft()
+ {
+  m_Points.Clear(); m_Points.Insert("100 0 100"); m_Points.Insert("200 0 200");
+  m_Selected=1; m_Dirty=true; m_Altitude=650;
+  return m_Recon.ProbeNoteFocus();
+ }
+ void PolishNativeClose() { GetGame().GetMenuManager().CloseMenu(m_Menu); }
+ bool PolishPreserved() { return m_Points.Count()==2 && m_Selected==1 && m_Dirty && m_Altitude==650 && m_Recon.PolishNotePreserved(); }
+ void ReconClick(vector position)
+ {
+  vector screen=Screen(position); m_Recon.AimMode=true;
+  OnMouseButtonDown(m_Canvas,screen[0],screen[1],0);
+ }
+}
+modded class ORD_TerminalComponent
+{
+ protected float m_ReconTestAge;
+ protected int m_ReconTestPhase;
+ protected bool m_NativeRecoveryChecked;
+ protected vector m_ReconTestAircraft, m_ReconTestTarget, m_ReconSaved;
+ protected int m_ReconFrames;
+ protected float m_ReconFrameSeconds;
+ protected ref array<float> m_ReconFrameTimes = {};
+ protected void ReconPerf(string name)
+ {
+  m_ReconFrameTimes.Sort();
+  int count=m_ReconFrameTimes.Count();
+  if(count>0) Print(string.Format("ORD_TEST_FRAME %1 n=%2 p50ms=%3 p95ms=%4 maxms=%5",name,count,m_ReconFrameTimes[count/2],m_ReconFrameTimes[Math.Floor((count-1)*0.95)],m_ReconFrameTimes[count-1]));
+  m_ReconFrameTimes.Clear();
+ }
+ protected void ReconCheck(string name,bool passed)
+ {
+  if(passed)Print("ORD_TEST_PASS recon-"+name);
+  else Print("ORD_TEST_FAIL recon-"+name);
+ }
+ protected void ReconDataTests()
+ {
+  ORD_ReconReports.Cards.Clear();
+  vector position="100 20 200";
+  ORD_ReconCard first=ORD_ReconReports.Add(position,12,"Seen near road",1,"Test operator","USSR");
+  position="900 20 900";
+  ReconCheck("frozen-coordinate",first.Position=="100 20 200" && first.Observed==12);
+  ORD_ReconReports.Add(position,15,"Other faction",2,"Other","US");
+  ref array<ref ORD_ReconCard> result={};
+  ORD_ReconReports.Decode(ORD_ReconReports.Snapshot("USSR"),result);
+  ReconCheck("faction-filter-roundtrip",result.Count()==1 && result[0].Note=="Seen near road" && result[0].Position==first.Position && result[0].Category==1);
+  ORD_ReconReports.Decode(ORD_ReconReports.Snapshot(""),result);
+  ReconCheck("no-faction-no-reports",result.Count()==0);
+  SCR_PlayerController reportPlayer=SCR_PlayerController.Cast(GetGame().GetPlayerController());
+  reportPlayer.ReconDeliverReports(ORD_ReconReports.Snapshot("USSR"),"USSR");
+  ReconCheck("current-faction-reply-accepted",reportPlayer.ORD_Reports.Count()==1 && reportPlayer.ORD_Reports[0].Note=="Seen near road");
+  reportPlayer.ReconDeliverReports(ORD_ReconReports.Snapshot("US"),"US");
+  ReconCheck("stale-faction-reply-rejected",reportPlayer.ORD_Reports.Count()==1 && reportPlayer.ORD_Reports[0].Note=="Seen near road");
+  reportPlayer.ORD_SyncReportFaction();
+  ReconCheck("same-faction-cache-preserved",reportPlayer.ORD_Reports.Count()==1);
+  reportPlayer.ORD_Reports.Clear();
+  for(int i=0;i<20;i++)ORD_ReconReports.Add(position,20+i,"Bounded",0,"Test","USSR");
+  ORD_ReconReports.Decode(ORD_ReconReports.Snapshot("USSR"),result);
+  ReconCheck("newest-sixteen",result.Count()==16 && result[0].Observed==24 && result[15].Observed==39);
+  ReconCheck("reject-invalid-category",!ORD_ReconReports.Add(position,0,"",9,"Test","USSR"));
+  ReconCheck("reject-unaffiliated",!ORD_ReconReports.Add(position,0,"",0,"Test",""));
+  ORD_ReconReports.Cards.Clear();
+ }
+ override protected void ProbeInput(InputManager input,float dt)
+ {
+  if(m_ReconTestPhase==5 && m_ReconTestAge<10.5)input.SetActionValue("ORD_Exit",1);
+ }
+ override void EOnFrame(IEntity owner,float timeSlice)
+ {
+  super.EOnFrame(owner,timeSlice);
+  if(!m_bActive || !m_Drone || !m_Camera)return;
+  m_ReconTestAge+=timeSlice;
+  SCR_PlayerController player=SCR_PlayerController.Cast(GetGame().GetPlayerController());
+  if(m_ReconTestPhase==0)
+  {
+   ReconDataTests(); m_ReconTestAircraft=m_Drone.GetOwner().GetOrigin()+"0 350 0";
+   m_ReconTestTarget=m_Drone.GetOwner().GetOrigin()+"250 0 250";
+   m_ReconTestTarget[1]=owner.GetWorld().GetSurfaceY(m_ReconTestTarget[0],m_ReconTestTarget[2]);
+   m_fZoom=8; PointSensorAt(m_ReconTestTarget); m_ReconTestPhase=1;
+  }
+  // A stationary airborne fixture isolates rendering and geometry from flight.
+  vector fixedPose[4]; Math3D.MatrixIdentity4(fixedPose); fixedPose[3]=m_ReconTestAircraft;
+  m_Drone.GetOwner().SetTransform(fixedPose);
+  if(m_Drone.GetOwner().GetPhysics()) { m_Drone.GetOwner().GetPhysics().SetVelocity(vector.Zero); m_Drone.GetOwner().GetPhysics().SetAngularVelocity(vector.Zero); }
+  if(m_ReconTestPhase==1 && m_ReconTestAge>3)
+  {
+   ReconCheck("fixed-point-focus-persists",m_ReconFocus);
+   ReconCheck("four-corner-footprint",m_ReconArea.Count()==4);
+   ref array<vector> sky={}; vector skyPose[4]; Math3D.MatrixIdentity4(skyPose); skyPose[3]=m_ReconTestAircraft; skyPose[2]="0 1 0"; skyPose[1]="0 0 1";
+   ReconCheck("sky-clears-footprint",!ORD_SensorGeometry.Footprint(m_Drone.GetOwner(),skyPose,10,1.7778,5000,sky) && sky.Count()==0);
+   SaveSighting("Vehicle estimate near the runway. Position stays LAST OBSERVED.",1);
+   SaveSighting("Duplicate",1);
+   ReconCheck("save-rate-limited",player.ORD_Reports.Count()==1);
+   m_ReconTestPhase=2;
+  }
+  if(m_ReconTestPhase==2 && m_ReconTestAge>5.2)
+  {
+   ReconCheck("authoritative-save",player.ORD_Reports.Count()==1);
+   if(player.ORD_Reports.Count()>0) { m_ReconSaved=player.ORD_Reports[0].Position; ReconCheck("save-near-optical-hit",vector.Distance(m_ReconSaved,m_ReconTestTarget)<10); }
+   player.ORD_SaveReport(m_Drone.GetOwner(),"0 1 0","Sky",1);
+   ReconCheck("server-rejects-sky",player.ORD_Reports.Count()==1 && player.ORD_Feedback().Contains("No observed surface"));
+   player.ORD_SaveReport(m_Drone.GetOwner(),"0 0 0","Bad ray",1);
+   ReconCheck("server-rejects-invalid-ray",player.ORD_Reports.Count()==1 && player.ORD_Feedback()=="Invalid report");
+   m_MissionMap=new ORD_MissionMap(); m_bMap=m_MissionMap.Open(m_Drone,this);
+   ReconCheck("sensor-map-opens",m_bMap);
+   ReconCheck("note-edit-focus",m_MissionMap.ReconNoteFocus());
+   InputManager actions=GetGame().GetInputManager(); actions.SetActionValue("ORD_Map",1);
+   ReconCheck("typing-blocks-map-hotkey",!Pressed(actions,"ORD_Map"));
+   GetGame().GetWorkspace().SetFocusedWidget(null);
+   ReconCheck("held-shortcut-not-replayed-after-note",!Pressed(actions,"ORD_Map"));
+   actions.SetActionValue("ORD_Map",0); Pressed(actions,"ORD_Map");
+   actions.SetActionValue("ORD_Map",1);
+   ReconCheck("fresh-shortcut-after-release",Pressed(actions,"ORD_Map"));
+   actions.SetActionValue("ORD_Map",0); Pressed(actions,"ORD_Map");
+   m_MissionMap.ReconClick(m_ReconTestTarget+"100 0 0");
+   ReconCheck("map-click-aims",m_ReconFocus && vector.Distance(m_ReconFocusPoint,m_ReconTestTarget)>50);
+   m_ReconTestPhase=3;
+  }
+  if(m_ReconTestPhase==3 && m_ReconTestAge>8)
+  {
+   m_MissionMap.ReconClick(m_ReconSaved);
+   ReconCheck("card-recalls-frozen-point",vector.Distance(m_ReconFocusPoint,m_ReconSaved)<1);
+   ReconCheck("trail-recorded",m_ReconPath.Count()>=5);
+   m_MissionMap.PolishSeedDraft(); CloseMissionMap();
+
+   player.PolishFeedbackChecks();
+   m_ReconTestPhase=4;
+  }
+  // Native MapMenu releases its HUD registration on the following update.
+  if(m_ReconTestPhase==4 && !m_bMap && m_ReconTestAge>8.3)
+  {
+   m_bMap=m_MissionMap.Open(m_Drone,this);
+   ReconCheck("map-draft-note-selection-preserved",m_bMap && m_MissionMap.PolishPreserved());
+  }
+  if(m_ReconTestPhase==4 && m_ReconTestAge>10)
+  {
+   System.MakeScreenshot("$profile:ReconMap.bmp"); m_MissionMap.PolishNativeClose(); m_Display.InsetMode=0; m_iSensor=0;
+   m_ReconTestPhase=5; m_ReconFrames=0; m_ReconFrameSeconds=0;
+  }
+  if(m_ReconTestPhase>=5 && m_ReconTestPhase<=8) { m_ReconFrames++; m_ReconFrameSeconds+=timeSlice; m_ReconFrameTimes.Insert(timeSlice*1000); }
+  if(m_ReconTestPhase==5 && m_ReconTestAge>10.3 && !m_NativeRecoveryChecked)
+  {
+   ReconCheck("native-map-close-restores-camera",!m_bMap && m_MissionMap!=null && m_HUD!=null); m_NativeRecoveryChecked=true;
+  }
+  if(m_ReconTestPhase==5 && m_ReconTestAge>14)
+  {
+   ReconPerf("EO"); Print(string.Format("ORD_TEST_PERF EO frames=%1 seconds=%2",m_ReconFrames,m_ReconFrameSeconds));
+   System.MakeScreenshot("$profile:ReconEO.bmp"); m_iSensor=1; m_ReconTestPhase=6; m_ReconFrames=0; m_ReconFrameSeconds=0;
+  }
+  if(m_ReconTestPhase==6 && m_ReconTestAge>18)
+  {
+   ReconPerf("IR"); Print(string.Format("ORD_TEST_PERF IR frames=%1 seconds=%2",m_ReconFrames,m_ReconFrameSeconds));
+   System.MakeScreenshot("$profile:ReconIR.bmp"); m_iSensor=3; m_Display.InsetMode=2; m_ReconTestPhase=7; m_ReconFrames=0; m_ReconFrameSeconds=0;
+  }
+  if(m_ReconTestPhase==7 && m_ReconTestAge>22)
+  {
+   ReconPerf("BLEND"); Print(string.Format("ORD_TEST_PERF BLEND frames=%1 seconds=%2",m_ReconFrames,m_ReconFrameSeconds));
+   System.MakeScreenshot("$profile:ReconBlend.bmp"); m_iSensor=0; m_Display.InsetMode=2; m_ReconTestPhase=8; m_ReconFrames=0; m_ReconFrameSeconds=0;
+  }
+  if(m_ReconTestPhase==8 && m_ReconTestAge>26)
+  {
+   ReconPerf("EO_WIDE"); Print(string.Format("ORD_TEST_PERF EO_WIDE frames=%1 seconds=%2",m_ReconFrames,m_ReconFrameSeconds));
+   System.MakeScreenshot("$profile:ReconWide.bmp"); m_Display.InsetMode=1; m_iSensor=0; m_ReconTestPhase=9;
+  }
+  if(m_ReconTestPhase==9 && m_ReconTestAge>29)
+  {
+   System.MakeScreenshot("$profile:ReconSchematic.bmp");
+   ReconCheck("saved-position-still-frozen",player.ORD_Reports.Count()==1 && player.ORD_Reports[0].Position==m_ReconSaved);
+   Print("ORD_TEST_DONE recon-suite"); m_ReconTestPhase=10;
+   GetGame().GetCallqueue().CallLater(ORD_ReconViewerProbe.OpenViewer,1000,false);
+   CharacterControllerComponent savedControls=m_Character;
+   bool movement=m_bPreviousMovement, weapons=m_bPreviousWeapons;
+   Close();
+   ReconCheck("operator-resources-released",!m_Camera && !m_HUD && !m_SensorHUD && !m_Display && !m_Thermal && !m_Character && !m_MissionMap && m_aContactWidgets.IsEmpty());
+   ReconCheck("prior-player-controls-restored",savedControls.GetDisableMovementControls()==movement && savedControls.GetDisableWeaponControls()==weapons);
+  }
+ }
+}
+
+class ORD_ReconViewerProbe
+{
+ static void OpenViewer()
+ {
+  ORD_ReportViewer.Open();
+  GetGame().GetCallqueue().CallLater(ORD_ReportViewer.CheckReader,2500,false);
+ }
+}
+modded class ORD_ReportViewer
+{
+ static void CheckReader()
+ {
+  if(s_Active && s_Active.m_Pane && SCR_MapEntity.GetMapInstance().IsOpen())
+  {
+   Print("ORD_TEST_PASS recon-reader-opens-without-control");
+   System.MakeScreenshot("$profile:ReconReader.bmp");
+   s_Active.Close();
+   if(!s_Active)Print("ORD_TEST_PASS recon-reader-closes");
+  }
+  else Print("ORD_TEST_FAIL recon-reader-opens-without-control");
+  Print("ORD_TEST_DONE recon-reader");
+ }
+}
+
+modded class ORD_ReconPane
+{
+ bool PolishNotePreserved() { return m_Note.GetText()=="Operator note: last seen near the road"; }
+ bool ProbeNoteFocus()
+ {
+  m_Note.SetText("Operator note: last seen near the road");
+  GetGame().GetWorkspace().SetFocusedWidget(m_Note);
+  return EditingNote() && m_Note.GetText().Contains("last seen");
+ }
+}
+
+modded class SCR_PlayerController
+{
+ void PolishFeedbackChecks()
+ {
+  int oldSession=m_ORDPresentationSession;
+  ORD_FeedbackRPC("Fresh",oldSession);
+  if(ORD_RecentFeedback()=="Fresh")Print("ORD_TEST_PASS polish-current-feedback"); else Print("ORD_TEST_FAIL polish-current-feedback");
+  m_ORDFeedbackTick=System.GetTickCount()-5001;
+  if(ORD_RecentFeedback()=="")Print("ORD_TEST_PASS polish-feedback-expires"); else Print("ORD_TEST_FAIL polish-feedback-expires");
+  ORD_NewPresentationSession(); ORD_FeedbackRPC("Stale",oldSession);
+  if(ORD_Feedback()=="")Print("ORD_TEST_PASS polish-stale-session-rejected"); else Print("ORD_TEST_FAIL polish-stale-session-rejected");
+ }
+}

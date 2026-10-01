@@ -1,0 +1,88 @@
+{
+  "profile": "C:\\Users\\david\\Desktop\\OrionV2Builds\\polish-final-test\\game-120-3840x2160",
+  "images": {
+    "ReconEO": {
+      "resolution": [
+        3840,
+        2160
+      ],
+      "central_mean_luminance": 97.81989297431025,
+      "central_mean_channel_span": 31.90250802244492
+    },
+    "ReconIR": {
+      "resolution": [
+        3840,
+        2160
+      ],
+      "central_mean_luminance": 140.82853764423967,
+      "central_mean_channel_span": 0.54901579390832
+    },
+    "ReconBlend": {
+      "resolution": [
+        3840,
+        2160
+      ],
+      "central_mean_luminance": 113.74371261421153,
+      "central_mean_channel_span": 2.538179218730392
+    },
+    "ReconWide": {
+      "resolution": [
+        3840,
+        2160
+      ],
+      "central_mean_luminance": 69.79222644508584,
+      "central_mean_channel_span": 16.869948100607733
+    },
+    "ReconSchematic": {
+      "resolution": [
+        3840,
+        2160
+      ],
+      "central_mean_luminance": 73.97889439653885,
+      "central_mean_channel_span": 19.04141150212438
+    },
+    "ReconMap": {
+      "resolution": [
+        3840,
+        2160
+      ],
+      "central_mean_luminance": 166.31613213579294,
+      "central_mean_channel_span": 55.9211357810007
+    },
+    "ReconReader": {
+      "resolution": [
+        3840,
+        2160
+      ],
+      "central_mean_luminance": 166.27695690886384,
+      "central_mean_channel_span": 55.92791766013517
+    }
+  },
+  "performance": {
+    "EO": {
+      "frames": 480,
+      "seconds": 4.00753,
+      "average_fps": 119.77452445770837,
+      "average_frame_ms": 8.349020833333334
+    },
+    "IR": {
+      "frames": 473,
+      "seconds": 4.00813,
+      "average_fps": 118.01014438154449,
+      "average_frame_ms": 8.473847780126851
+    },
+    "BLEND": {
+      "frames": 476,
+      "seconds": 3.99199,
+      "average_fps": 119.23877564823559,
+      "average_frame_ms": 8.386533613445378
+    },
+    "EO_WIDE": {
+      "frames": 478,
+      "seconds": 3.99996,
+      "average_fps": 119.50119501195012,
+      "average_frame_ms": 8.368117154811715
+    }
+  },
+  "note": "Four-second sequential scene samples include screenshot/transition overhead; configured FPS cap applies. Not isolated GPU timings or a sustained gameplay benchmark. Channel spans distinguish captured color contribution, not thermal calibration."
+}

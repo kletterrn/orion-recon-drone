@@ -1,0 +1,104 @@
+// Isolated rendered check; requires the existing RC7 operator bootstrap fixture.
+// No native map input listeners in this fixture: pan/zoom must come only from
+// the planner buttons under test, not live input or synthetic action resets.
+[BaseContainerProps()]
+modded class SCR_MapCursorModule
+{
+ override protected void InitInputs()
+ {
+  super.InitInputs();
+  m_InputManager.RemoveActionListener("MapPanDrag", EActionTrigger.PRESSED, OnInputPanDrag);
+  m_InputManager.RemoveActionListener("MapPanH", EActionTrigger.PRESSED, OnInputPanH);
+  m_InputManager.RemoveActionListener("MapPanV", EActionTrigger.PRESSED, OnInputPanV);
+  m_InputManager.RemoveActionListener("MapPanHGamepad", EActionTrigger.VALUE, OnInputPanHGamepad);
+  m_InputManager.RemoveActionListener("MapPanVGamepad", EActionTrigger.VALUE, OnInputPanVGamepad);
+  m_InputManager.RemoveActionListener("MapGamepadCursorX", EActionTrigger.VALUE, OnInputGamepadCursorH);
+  m_InputManager.RemoveActionListener("MapGamepadCursorY", EActionTrigger.VALUE, OnInputGamepadCursorV);
+  m_InputManager.RemoveActionListener("MapZoomIn", EActionTrigger.VALUE, OnInputZoomIn);
+  m_InputManager.RemoveActionListener("MapZoomOut", EActionTrigger.VALUE, OnInputZoomOut);
+  m_InputManager.RemoveActionListener("MapWheelUp", EActionTrigger.PRESSED, OnInputZoomWheelUp);
+  m_InputManager.RemoveActionListener("MapWheelDown", EActionTrigger.PRESSED, OnInputZoomWheelDown);
+ }
+}
+modded class ORD_MissionMap
+{
+ void PlannerVisualDraft()
+ {
+  vector origin = m_Drone.GetOwner().GetOrigin(); origin[1] = 0;
+  m_Points.Clear(); m_Points.Insert(origin + "300 0 0");
+  m_Points.Insert(origin + "600 0 0"); m_Points.Insert(origin + "600 0 400");
+  m_Speed = 40; m_Dirty = true;
+ }
+ protected void VisualCheck(string name, bool passed)
+ {
+  if (passed) Print("ORD_TEST_PASS visual-" + name);
+  else Print("ORD_TEST_FAIL visual-" + name);
+ }
+ protected void ClickTool(string name) { OnClick(m_Root.FindAnyWidget(name), 0, 0, 0); }
+ void PlannerVisualTools()
+ {
+  int revision = m_Drone.MissionRevision(); int liveCount = m_Drone.RouteCount();
+  vector first = m_Points[0]; vector last = m_Points[2];
+  ClickTool("SaveDraft"); string error;
+  ORD_RouteDraft initial = ORD_RouteDraft.Load(1, GetGame().GetWorldFile(), error);
+  VisualCheck("save-button", initial && initial.Points[0] == first);
+  ClickTool("Reverse"); VisualCheck("reverse-button", m_Points[0] == last);
+  ClickTool("SaveDraft");
+  ORD_RouteDraft guarded = ORD_RouteDraft.Load(1, GetGame().GetWorldFile(), error);
+  VisualCheck("overwrite-confirmation", m_ConfirmSlot == 1 && guarded && guarded.Points[0] == first);
+  ClickTool("SaveDraft");
+  ORD_RouteDraft replaced = ORD_RouteDraft.Load(1, GetGame().GetWorldFile(), error);
+  VisualCheck("confirmed-overwrite", replaced && replaced.Points[0] == last);
+  ClickTool("Undo"); VisualCheck("undo-button", m_Points[0] == first);
+  ClickTool("LoadDraft"); VisualCheck("load-is-draft", m_Points[0] == last && m_Dirty);
+  ClickTool("Undo"); VisualCheck("undo-load", m_Points[0] == first);
+  ClickTool("Redo"); VisualCheck("redo-load", m_Points[0] == last);
+  m_Pending = true; ClickTool("Reverse");
+  VisualCheck("pending-blocks-edit", m_Points[0] == last); m_Pending = false;
+  ClickTool("Slot"); VisualCheck("slot-cycle", m_SaveSlot == 2);
+  ClickTool("LoadDraft"); VisualCheck("failed-load-preserves-draft", m_Points[0] == last);
+  VisualCheck("no-live-mission-change", m_Drone.MissionRevision() == revision && m_Drone.RouteCount() == liveCount);
+  vector middle=m_Points[1]; vector third=m_Points[2]; vector fourth=m_Points[2]+"200 0 100";
+  m_Points.Insert(fourth); m_Selected=1; ClickTool("Delete");
+  VisualCheck("delete-preserves-route-order",m_Points.Count()==3 && m_Points[0]==last && m_Points[1]==third && m_Points[2]==fourth);
+  ClickTool("Undo");
+  VisualCheck("undo-delete-restores-route",m_Points.Count()==4 && m_Points[1]==middle && m_Points[2]==third && m_Points[3]==fourth);
+  m_Points.RemoveOrdered(3); m_Selected=-1;
+  m_Message = "Route tools checked - draft ready for review";
+ }
+ void PlannerCenterCheck(bool verify)
+ {
+  if (!verify) { ClickTool("CenterAircraft"); return; }
+  float x, z; m_Map.GetMapCenterWorldPosition(x, z);
+  vector delta = Vector(x, 0, z) - m_Drone.GetOwner().GetOrigin(); delta[1] = 0;
+  VisualCheck("center-aircraft", delta.Length() < 20);
+  Print(string.Format("ORD_TEST_CENTER error=%1 zoom=%2", delta.Length(), m_Map.GetTargetZoomPPU()));
+ }
+}
+modded class ORD_TerminalComponent
+{
+ protected int m_PlannerVisualPhase;
+ protected float m_PlannerVisualAge;
+ override void EOnFrame(IEntity owner, float timeSlice)
+ {
+  super.EOnFrame(owner, timeSlice);
+  if (!m_bActive || !m_Drone) return;
+  m_PlannerVisualAge += timeSlice;
+  if (m_PlannerVisualPhase == 0 && m_PlannerVisualAge > 4)
+  {
+   m_MissionMap = new ORD_MissionMap(); m_bMap = m_MissionMap.Open(m_Drone);
+   if (!m_bMap) { Print("ORD_TEST_FAIL planner-map-open"); m_PlannerVisualPhase = -1; return; }
+   m_MissionMap.PlannerVisualDraft(); m_MissionMap.PlannerVisualTools(); m_PlannerVisualPhase = 1;
+  }
+  if (m_PlannerVisualPhase == 1 && m_PlannerVisualAge > 8)
+  {
+   m_MissionMap.PlannerCenterCheck(false); m_PlannerVisualPhase = 2;
+  }
+  if (m_PlannerVisualPhase == 2 && m_PlannerVisualAge > 10)
+  {
+   m_MissionMap.PlannerCenterCheck(true);
+   System.MakeScreenshot("$profile:PlannerDraft.bmp");
+   Print("ORD_TEST_DONE planner-visual"); m_PlannerVisualPhase = 3;
+  }
+ }
+}

@@ -1,0 +1,138 @@
+// Isolated dynamic-flight fixture. Pair only with ORD_RC7OperatorProbe.c.txt.
+// A single initial pose/velocity seed replaces takeoff. Physics then runs freely.
+// Gateway commands retain real ownership, link validation and aircraft logic.
+// Signed pitch pulses test the gateway/PFC path, not physical keyboard binding.
+modded class ORD_TerminalComponent
+{
+ protected int m_OWPhase;
+ protected float m_OWAge, m_OWLog, m_OWMinAGL=100000, m_OWMaxAGL;
+ protected float m_OWUpRate, m_OWDownRate, m_OWUpTime, m_OWDownTime;
+ protected vector m_OWStart;
+ protected bool m_OWAutoIntact=true, m_OWAirborne=true, m_OWFinished;
+ protected void OWCheck(string name,bool passed)
+ {
+  if(passed)Print("ORD_TEST_PASS overwatch-"+name);
+  else Print("ORD_TEST_FAIL overwatch-"+name);
+ }
+ protected float OWAGL(IEntity aircraft)
+ {
+  vector position=aircraft.GetOrigin();
+  return position[1]-aircraft.GetWorld().GetSurfaceY(position[0],position[2]);
+ }
+ override void EOnFrame(IEntity owner,float timeSlice)
+ {
+  super.EOnFrame(owner,timeSlice);
+  if(!Replication.IsServer() || owner.GetName()!="ORD_Terminal" || m_OWFinished)return;
+  if(!m_bActive || !m_Drone)
+  {
+   if(m_OWPhase>0) { OWCheck("session-survives-flight",false); m_OWFinished=true; Print("ORD_TEST_DONE overwatch-interrupted"); }
+   return;
+  }
+  SCR_PlayerController player=SCR_PlayerController.Cast(GetGame().GetPlayerController());
+  IEntity aircraft=m_Drone.GetOwner(); Physics physics=aircraft.GetPhysics();
+  ORD_FlightController flight=ORD_FlightController.Cast(aircraft.FindComponent(ORD_FlightController));
+  if(!player || !physics || !flight) { OWCheck("fixture-components",false); m_OWFinished=true; return; }
+  m_OWAge+=timeSlice;
+  if(m_OWPhase==0)
+  {
+   vector seed[4]; Math3D.MatrixIdentity4(seed); seed[3]=aircraft.GetOrigin();
+   seed[3][1]=owner.GetWorld().GetSurfaceY(seed[3][0],seed[3][2])+450;
+   aircraft.SetTransform(seed); physics.SetVelocity("0 0 55.56"); physics.SetAngularVelocity(vector.Zero);
+   m_OWStart=seed[3]; m_fThrottle=0.75;
+   if(!m_Drone.EngineOn())player.ORD_Send(aircraft,ORD_Command.ENGINE);
+   Print("ORD_TEST_CONDITION overwatch single seed 450m AGL 55.56m/s forward; live PFC physics; local authority; no pose freeze");
+   m_OWPhase=1;
+  }
+  // Let the native wheel-contact state catch up after the one-time relocation.
+  if(m_OWPhase==1 && m_OWAge>=0.5)
+  {
+   player.ORD_Send(aircraft,ORD_Command.HOLD);
+   OWCheck("hold-accepted-airborne",m_Drone.Automatic() && !m_Drone.Grounded() && m_Drone.EngineOn());
+   m_OWPhase=2;
+  }
+  float agl=OWAGL(aircraft);
+  if(m_OWAge>=0.5 && m_OWAge<12.5)
+  {
+   m_OWMinAGL=Math.Min(m_OWMinAGL,agl); m_OWMaxAGL=Math.Max(m_OWMaxAGL,agl);
+   if(!m_Drone.Automatic())m_OWAutoIntact=false;
+   if(m_Drone.Grounded() || m_Drone.Destroyed())m_OWAirborne=false;
+  }
+  if(m_OWAge-m_OWLog>=1)
+  {
+   m_OWLog=m_OWAge;
+   vector localAngular=aircraft.VectorToLocal(physics.GetAngularVelocity());
+   Print(string.Format("ORD_TEST_FLIGHT t=%1 pos=%2 agl=%3 speed=%4 auto=%5 sensor=%6",m_OWAge,aircraft.GetOrigin(),agl,m_Drone.Speed(),m_Drone.Automatic(),m_Drone.SensorMode()));
+   Print(string.Format("ORD_TEST_AXIS t=%1 forward=%2 localAngular=%3 requestedPitch=%4 pfcPitch=%5 bank=%6",m_OWAge,aircraft.GetTransformAxis(2),localAngular,m_Drone.Pitch,flight.GetPitchInput(),aircraft.GetAngles()[2]));
+  }
+  if(m_OWPhase==2 && m_OWAge>=3)
+  {
+   player.ORD_Send(aircraft,ORD_Command.PILOT);
+   OWCheck("pilot-preserves-auto",m_Drone.Automatic() && !m_Drone.SensorMode()); m_OWPhase=3;
+  }
+  if(m_OWPhase==3 && m_OWAge>=5)
+  {
+   OWCheck("idle-pilot-preserves-auto",m_Drone.Automatic());
+   player.ORD_Send(aircraft,ORD_Command.SENSOR);
+   OWCheck("sensor-preserves-auto",m_Drone.Automatic() && m_Drone.SensorMode()); m_OWPhase=4;
+  }
+  if(m_OWPhase==4 && m_OWAge>=7)
+  {
+   player.ORD_Send(aircraft,ORD_Command.PILOT); m_OWPhase=5;
+  }
+  if(m_OWPhase==5 && m_OWAge>=9)
+  {
+   player.ORD_Send(aircraft,ORD_Command.SENSOR); m_OWPhase=6;
+  }
+  if(m_OWPhase==6 && m_OWAge>=12.5)
+  {
+   vector displacement=aircraft.GetOrigin()-m_OWStart; displacement[1]=0;
+   Print(string.Format("ORD_TEST_OVERWATCH duration=12 displacement=%1 minAGL=%2 maxAGL=%3 speed=%4",displacement.Length(),m_OWMinAGL,m_OWMaxAGL,m_Drone.Speed()));
+   OWCheck("dynamic-displacement",displacement.Length()>100);
+   OWCheck("auto-continuous",m_OWAutoIntact && m_OWAirborne);
+   OWCheck("altitude-envelope",m_OWMinAGL>300 && m_OWMaxAGL<600);
+   player.ORD_Send(aircraft,ORD_Command.PILOT);
+   player.ORD_Controls(aircraft,1,0,0,0.75,0);
+   OWCheck("manual-takeover",!m_Drone.Automatic() && m_Drone.Pitch>0);
+   m_OWPhase=7;
+  }
+  if(m_OWPhase==7 && m_OWAge<16)
+  {
+   player.ORD_Controls(aircraft,1,0,0,0.75,0);
+   if(m_OWAge>=15)
+   {
+    vector upAngular=aircraft.VectorToLocal(physics.GetAngularVelocity());
+    m_OWUpRate-=upAngular[0]*timeSlice; m_OWUpTime+=timeSlice;
+   }
+  }
+  if(m_OWPhase==7 && m_OWAge>=16)
+  {
+   OWCheck("positive-pitch-reaches-pfc",flight.GetPitchInput()>0.6);
+   m_OWPhase=8;
+  }
+  if(m_OWPhase==8 && m_OWAge<20)
+  {
+   player.ORD_Controls(aircraft,-1,0,0,0.75,0);
+   if(m_OWAge>=19)
+   {
+    vector downAngular=aircraft.VectorToLocal(physics.GetAngularVelocity());
+    m_OWDownRate-=downAngular[0]*timeSlice; m_OWDownTime+=timeSlice;
+   }
+  }
+  if(m_OWPhase==8 && m_OWAge>=20)
+  {
+   OWCheck("negative-pitch-reaches-pfc",flight.GetPitchInput()<-0.6);
+   float upRate=m_OWUpRate/Math.Max(m_OWUpTime,0.001); float downRate=m_OWDownRate/Math.Max(m_OWDownTime,0.001);
+   Print(string.Format("ORD_TEST_PITCH positiveNoseUpRate=%1 negativeNoseUpRate=%2 radiansPerSecond; keyboard mapping requires separate config/input check",upRate,downRate));
+   OWCheck("positive-input-nose-up",upRate>0.01);
+   OWCheck("negative-input-nose-down",downRate<-0.01);
+   player.ORD_Send(aircraft,ORD_Command.HOLD);
+   OWCheck("recover-hold",m_Drone.Automatic());
+   player.ORD_Send(aircraft,ORD_Command.SENSOR); m_OWPhase=9;
+  }
+  if(m_OWPhase==9 && m_OWAge>=21)
+  {
+   OWCheck("session-survives-flight",m_bActive && !m_Drone.Destroyed());
+   m_OWFinished=true; Close(); Print("ORD_TEST_DONE overwatch");
+  }
+ }
+}

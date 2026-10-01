@@ -1,0 +1,74 @@
+// Real scene vehicle, optical ray designation and authoritative observation state.
+// Loss is induced by moving the vehicle outside the narrow FOV, not fake state.
+modded class ORD_TerminalComponent
+{
+ protected float m_TPAge;
+ protected int m_TPPhase;
+ protected IEntity m_TPContact;
+ protected vector m_TPAircraft, m_TPOriginal, m_TPLast;
+ protected void TPCheck(string name,bool passed)
+ {
+  if(passed)Print("ORD_TEST_PASS tracking-"+name);
+  else Print("ORD_TEST_FAIL tracking-"+name);
+ }
+ override void EOnFrame(IEntity owner,float timeSlice)
+ {
+  super.EOnFrame(owner,timeSlice);
+  if(!m_bActive || !m_Drone || m_TPPhase>=9)return;
+  m_TPAge+=timeSlice;
+  SCR_PlayerController player=SCR_PlayerController.Cast(GetGame().GetPlayerController());
+  if(m_TPPhase==0)
+  {
+   m_TPContact=owner.GetWorld().FindEntityByName("Cessna1");
+   TPCheck("scene-contact-present",m_TPContact!=null);
+   if(!m_TPContact) { m_TPPhase=9; return; }
+   m_TPOriginal=m_TPContact.GetOrigin(); m_TPAircraft=m_TPOriginal+"-150 350 -150";
+   m_fZoom=8; PointSensorAt(ORD_ObservationPolicy.Point(m_TPContact)); m_TPPhase=1;
+  }
+  vector pose[4]; Math3D.MatrixIdentity4(pose); pose[3]=m_TPAircraft;
+  m_Drone.GetOwner().SetTransform(pose); m_Drone.GetOwner().GetPhysics().SetVelocity(vector.Zero); m_Drone.GetOwner().GetPhysics().SetAngularVelocity(vector.Zero);
+  if(m_TPPhase==1 && m_TPAge>2)
+  {
+   m_QueueDesignation=true; m_TPPhase=2;
+  }
+  if(m_TPPhase==2 && m_TPAge>3)
+  {
+   TPCheck("optical-entity-designation",m_Drone.Designated() && m_Drone.HUDTrackedEntity()==m_TPContact);
+   m_ReconFocus=false; player.ORD_Send(m_Drone.GetOwner(),ORD_Command.TRACK); m_TPPhase=3;
+  }
+  if(m_TPPhase==3 && m_TPAge>8)
+  {
+   TPCheck("entity-acquired",m_Drone.ContactState()==ORD_ContactState.ENTITY);
+   TPCheck("contact-overlay-visible",m_SensorHUD.ContactCount()>0);
+   System.MakeScreenshot("$profile:PolishTrack.bmp");
+   m_TPLast=m_Drone.Target(); m_TPContact.SetOrigin(m_TPOriginal+"200 0 0"); m_TPPhase=4;
+  }
+  if(m_TPPhase==4 && m_TPAge>8.5)
+  {
+   TPCheck("obscured-freezes-last-position",m_Drone.ContactState()==ORD_ContactState.TEMP_LOSS && vector.Distance(m_Drone.Target(),m_TPLast)<0.1);
+   System.MakeScreenshot("$profile:PolishObscured.bmp"); m_TPPhase=5;
+  }
+  if(m_TPPhase==5 && m_TPAge>10.5)
+  {
+   TPCheck("lost-stays-frozen",m_Drone.ContactState()==ORD_ContactState.LOST && vector.Distance(m_Drone.Target(),m_TPLast)<0.1);
+   TPCheck("no-live-lost-overlay",!m_SensorHUD.TPVisible(m_TPContact));
+   System.MakeScreenshot("$profile:PolishLost.bmp"); m_TPPhase=6;
+  }
+  if(m_TPPhase==6 && m_TPAge>11)
+  {
+   m_TPContact.SetOrigin(m_TPOriginal); m_TPContact.GetPhysics().SetVelocity(vector.Zero); m_TPPhase=7;
+  }
+  if(m_TPPhase==7 && m_TPAge>14.5)
+  {
+   TPCheck("visible-contact-reacquired",m_Drone.ContactState()==ORD_ContactState.ENTITY);
+   player.ORD_Send(m_Drone.GetOwner(),ORD_Command.CLEAR_TRACK);
+   TPCheck("cancel-clears-state",m_Drone.ContactState()==ORD_ContactState.NONE && !m_Drone.Designated());
+   m_TPPhase=9; Close(); Print("ORD_TEST_DONE tracking-polish");
+  }
+ }
+}
+
+modded class ORD_SensorHUD
+{
+ bool TPVisible(IEntity entity) { return m_Visible.Contains(entity); }
+}
